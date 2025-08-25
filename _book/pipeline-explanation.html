@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 2 Pipeline Explanation | GDP ETL Documentation</title>
+<meta name="author" content="Jaromír Koflák">
+<meta name="description" content="This page provides comprehensive explanation for the GDP data processing R script.  2.1 Data Processing ETL Pipeline  # Extract get_unsd_gdp_data() %&gt;%  get_taiwan_gdp_data() %&gt;%   # Transform ...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Chapter 2 Pipeline Explanation | GDP ETL Documentation">
+<meta property="og:type" content="book">
+<meta property="og:description" content="This page provides comprehensive explanation for the GDP data processing R script.  2.1 Data Processing ETL Pipeline  # Extract get_unsd_gdp_data() %&gt;%  get_taiwan_gdp_data() %&gt;%   # Transform ...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 2 Pipeline Explanation | GDP ETL Documentation">
+<meta name="twitter:description" content="This page provides comprehensive explanation for the GDP data processing R script.  2.1 Data Processing ETL Pipeline  # Extract get_unsd_gdp_data() %&gt;%  get_taiwan_gdp_data() %&gt;%   # Transform ...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link href="libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="libs/plotly-binding-4.11.0/plotly.js"></script><script src="libs/typedarray-0.1/typedarray.min.js"></script><link href="libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="libs/crosstalk-1.2.1/js/crosstalk.min.js"></script><link href="libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="libs/plotly-main-2.11.1/plotly-latest.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">GDP ETL Documentation</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="usage.html"><span class="header-section-number">1</span> Usage</a></li>
+<li><a class="active" href="pipeline-explanation.html"><span class="header-section-number">2</span> Pipeline Explanation</a></li>
+<li><a class="" href="special-cases.html"><span class="header-section-number">3</span> Special Cases</a></li>
+<li><a class="" href="discrepancies-before-2024.html"><span class="header-section-number">4</span> Discrepancies before 2024</a></li>
+<li><a class="" href="discrepancies-in-2024.html"><span class="header-section-number">5</span> Discrepancies in 2024</a></li>
+<li><a class="" href="missing-values.html"><span class="header-section-number">6</span> Missing Values</a></li>
+<li><a class="" href="added-values.html"><span class="header-section-number">7</span> Added Values</a></li>
+<li><a class="" href="gdp-deflator.html"><span class="header-section-number">8</span> GDP Deflator</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="pipeline-explanation" class="section level1" number="2">
+<h1>
+<span class="header-section-number">2</span> Pipeline Explanation<a class="anchor" aria-label="anchor" href="#pipeline-explanation"><i class="fas fa-link"></i></a>
+</h1>
+<p>This page provides comprehensive explanation for the GDP data processing R script.</p>
+<hr>
+<div id="data-processing-etl-pipeline" class="section level2" number="2.1">
+<h2>
+<span class="header-section-number">2.1</span> Data Processing ETL Pipeline<a class="anchor" aria-label="anchor" href="#data-processing-etl-pipeline"><i class="fas fa-link"></i></a>
+</h2>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span>  <span class="co"># Extract </span></span>
+<span><span class="fu">get_unsd_gdp_data</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">get_taiwan_gdp_data</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  </span>
+<span>  <span class="co"># Transform</span></span>
+<span>  <span class="fu">compute_missing_values</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">estimate_last_year</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">round_values</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">delete_data_out_of_valid_range</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">add_economy_labels</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">compute_aggregate_values</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">add_comments</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  </span>
+<span>  <span class="co"># Load</span></span>
+<span>  <span class="fu">export_to_general_csv</span><span class="op">(</span><span class="st">"gdp_update.csv"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">export_to_usis_csv</span><span class="op">(</span><span class="st">"gdp_update_usis.csv"</span><span class="op">)</span></span></code></pre></div>
+<hr>
+</div>
+<div id="functions" class="section level2" number="2.2">
+<h2>
+<span class="header-section-number">2.2</span> Functions<a class="anchor" aria-label="anchor" href="#functions"><i class="fas fa-link"></i></a>
+</h2>
+<div id="get_unsd_gdp_data" class="section level3 unnumbered">
+<h3>
+<code>get_unsd_gdp_data()</code><a class="anchor" aria-label="anchor" href="#get_unsd_gdp_data"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Downloads GDP data using UNSD API (both constant and current prices).</li>
+<li>Merges, reshapes, and formats the dataset.</li>
+</ul>
+</div>
+<div id="get_taiwan_gdp_datadf" class="section level3 unnumbered">
+<h3>
+<code>get_taiwan_gdp_data(df)</code><a class="anchor" aria-label="anchor" href="#get_taiwan_gdp_datadf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Downloads GDP data from Taiwan NSO (both constant and current prices).</li>
+<li>Rebases the GDP at constant prices from the year 2021 to 2015.</li>
+<li>Calculates TWD to USD exchange rates.
+<ul>
+<li>GDP data at current prices in USD are converted from TWD using annual period-average exchange rates.</li>
+<li>GDP data in constant prices in USD are converted from TWD using the annual period-average exchange rate of the base year (2015) for all years.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="compute_missing_valuesdf" class="section level3 unnumbered">
+<h3>
+<code>compute_missing_values(df)</code><a class="anchor" aria-label="anchor" href="#compute_missing_valuesdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR)</li>
+<li>Described in-depth in chapter <a href="special-cases.html#special-cases">Special Cases</a>.</li>
+</ul>
+</div>
+<div id="estimate_last_year" class="section level3 unnumbered">
+<h3>
+<code>estimate_last_year()</code><a class="anchor" aria-label="anchor" href="#estimate_last_year"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Last year is estimated using growth rates found in <code>GDP growth rates.xlsx</code>.</li>
+</ul>
+</div>
+<div id="round_valuesdf" class="section level3 unnumbered">
+<h3>
+<code>round_values(df)</code><a class="anchor" aria-label="anchor" href="#round_valuesdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Rounds values to the nearest integer using base R <code><a href="https://rdrr.io/r/base/Round.html">round()</a></code> function.</li>
+</ul>
+</div>
+<div id="delete_data_out_of_valid_rangedf" class="section level3 unnumbered">
+<h3>
+<code>delete_data_out_of_valid_range(df)</code><a class="anchor" aria-label="anchor" href="#delete_data_out_of_valid_rangedf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Filters out data points falling outside the valid year range for each country.</li>
+</ul>
+</div>
+<div id="compute_aggregate_valuesdf" class="section level3 unnumbered">
+<h3>
+<code>compute_aggregate_values(df)</code><a class="anchor" aria-label="anchor" href="#compute_aggregate_valuesdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Computes GDP aggregates for groups using hierarchical mappings.</li>
+</ul>
+</div>
+<div id="add_economy_labelsdf" class="section level3 unnumbered">
+<h3>
+<code>add_economy_labels(df)</code><a class="anchor" aria-label="anchor" href="#add_economy_labelsdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Joins human-readable economy labels using economy codes.</li>
+</ul>
+</div>
+<div id="add_commentsdf" class="section level3 unnumbered">
+<h3>
+<code>add_comments(df)</code><a class="anchor" aria-label="anchor" href="#add_commentsdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Adds “CommentEN” and “CommentFR” columns remarking on values which were calculated in <code>compute_missing_values(df)</code>.</li>
+</ul>
+</div>
+<div id="export_to_generic_csvdf-filename" class="section level3 unnumbered">
+<h3>
+<code>export_to_generic_csv(df, filename)</code><a class="anchor" aria-label="anchor" href="#export_to_generic_csvdf-filename"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Saves the dataset to a generic CSV file.</li>
+</ul>
+</div>
+<div id="export_to_usis_csvdf-filename" class="section level3 unnumbered">
+<h3>
+<code>export_to_usis_csv(df, filename)</code><a class="anchor" aria-label="anchor" href="#export_to_usis_csvdf-filename"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Saves the dataset to a CSV file used by USIS for upload to <a href="https://unctadstat.unctad.org/datacentre/dataviewer/US.GDPTotal">UNCTADstat</a>.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="usage.html"><span class="header-section-number">1</span> Usage</a></div>
+<div class="next"><a href="special-cases.html"><span class="header-section-number">3</span> Special Cases</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#pipeline-explanation"><span class="header-section-number">2</span> Pipeline Explanation</a></li>
+<li><a class="nav-link" href="#data-processing-etl-pipeline"><span class="header-section-number">2.1</span> Data Processing ETL Pipeline</a></li>
+<li>
+<a class="nav-link" href="#functions"><span class="header-section-number">2.2</span> Functions</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#get_unsd_gdp_data">get_unsd_gdp_data()</a></li>
+<li><a class="nav-link" href="#get_taiwan_gdp_datadf">get_taiwan_gdp_data(df)</a></li>
+<li><a class="nav-link" href="#compute_missing_valuesdf">compute_missing_values(df)</a></li>
+<li><a class="nav-link" href="#estimate_last_year">estimate_last_year()</a></li>
+<li><a class="nav-link" href="#round_valuesdf">round_values(df)</a></li>
+<li><a class="nav-link" href="#delete_data_out_of_valid_rangedf">delete_data_out_of_valid_range(df)</a></li>
+<li><a class="nav-link" href="#compute_aggregate_valuesdf">compute_aggregate_values(df)</a></li>
+<li><a class="nav-link" href="#add_economy_labelsdf">add_economy_labels(df)</a></li>
+<li><a class="nav-link" href="#add_commentsdf">add_comments(df)</a></li>
+<li><a class="nav-link" href="#export_to_generic_csvdf-filename">export_to_generic_csv(df, filename)</a></li>
+<li><a class="nav-link" href="#export_to_usis_csvdf-filename">export_to_usis_csv(df, filename)</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/02-pipeline.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/02-pipeline.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>GDP ETL Documentation</strong>" was written by Jaromír Koflák. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

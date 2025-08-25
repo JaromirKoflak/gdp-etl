@@ -1,0 +1,1228 @@
+Code,Label,ValidFrom,ValidTo,IsTarget
+0000,"World",1940,2102,False
+0000u,"World n.e.s.",1940,2102,False
+0001,"Individual economies",2102,2102,False
+004,"Afghanistan",1940,2102,True
+008,"Albania",1940,2102,True
+010,"Antarctica",1940,2102,False
+012,"Algeria",1940,2102,True
+016,"American Samoa",1940,2102,True
+020,"Andorra",1940,2102,True
+024,"Angola",1940,2102,True
+028,"Antigua and Barbuda",1940,2102,True
+031,"Azerbaijan",1992,2102,True
+032,"Argentina",1940,2102,True
+036,"Australia",1940,2102,True
+040,"Austria",1940,2102,True
+044,"Bahamas",1940,2102,True
+048,"Bahrain",1940,2102,True
+050,"Bangladesh",1940,2102,True
+051,"Armenia",1992,2102,True
+052,"Barbados",1940,2102,True
+056,"Belgium",1940,2102,True
+060,"Bermuda",1940,2102,True
+064,"Bhutan",1940,2102,True
+068,"Bolivia (Plurinational State of)",1940,2102,True
+070,"Bosnia and Herzegovina",1992,2102,True
+072,"Botswana",1940,2102,True
+074,"Bouvet Island",1940,2102,True
+076,"Brazil",1940,2102,True
+080,"British Antarctic Territory",1940,2102,False
+084,"Belize",1940,2102,True
+086,"British Indian Ocean Territory",1940,2102,True
+090,"Solomon Islands",1940,2102,True
+092,"British Virgin Islands",1940,2102,True
+096,"Brunei Darussalam",1940,2102,True
+100,"Bulgaria",1940,2102,True
+104,"Myanmar",1940,2102,True
+108,"Burundi",1940,2102,True
+112,"Belarus",1992,2102,True
+116,"Cambodia",1940,2102,True
+120,"Cameroon",1940,2102,True
+124,"Canada",1940,2102,True
+132,"Cabo Verde",1940,2102,True
+136,"Cayman Islands",1940,2102,True
+140,"Central African Republic",1940,2102,True
+144,"Sri Lanka",1940,2102,True
+148,"Chad",1940,2102,True
+152,"Chile",1940,2102,True
+156,"China",1940,2102,True
+158,"China, Taiwan Province of",1940,2102,True
+162,"Christmas Island",1940,2102,True
+166,"Cocos (Keeling) Islands",1940,2102,True
+170,"Colombia",1940,2102,True
+174,"Comoros",1940,2102,True
+175,"Mayotte",1940,2102,True
+178,"Congo",1940,2102,True
+180,"Dem. Rep. of the Congo",1940,2102,True
+184,"Cook Islands",1940,2102,True
+188,"Costa Rica",1940,2102,True
+191,"Croatia",1992,2102,True
+192,"Cuba",1940,2102,True
+196,"Cyprus",1940,2102,True
+200,"Czechoslovakia",1940,1992,True
+203,"Czechia",1993,2102,True
+204,"Benin",1940,2102,True
+208,"Denmark",1940,2102,True
+1560,"Developed economies: Asia and Oceania",1940,2102,False
+1460,"Developing economies: Asia and Oceania",1940,2102,False
+212,"Dominica",1940,2102,True
+214,"Dominican Republic",1940,2102,True
+1600,"Developing economies excluding China",1940,2102,False
+1601,"Developing economies excluding LDCs",1940,2102,False
+218,"Ecuador",1940,2102,True
+1610,"LDCs (Least developed countries)",1940,2102,False
+1612,"LDCs: Asia",1940,2102,False
+222,"El Salvador",1940,2102,True
+1620,"LLDCs (Landlocked developing countries)",1940,2102,False
+226,"Equatorial Guinea",1940,2102,True
+230,"Ethiopia (...1991)",1940,1991,True
+231,"Ethiopia",1992,2102,True
+232,"Eritrea",1992,2102,True
+233,"Estonia",1992,2102,True
+234,"Faroe Islands",1940,2102,True
+238,"Falkland Islands (Malvinas)",1940,2102,True
+239,"South Georgia and the South Sandwich Islands",1940,2102,True
+242,"Fiji",1940,2102,True
+246,"Finland",1940,2102,True
+248,"Aland Islands",1940,2102,True
+250,"France",1940,2102,True
+251,"France including French Guiana, Guadeloupe, Martinique, Mayotte, Monaco and Reunion",1940,2102,False
+254,"French Guiana",1940,2102,True
+258,"French Polynesia",1940,2102,True
+260,"French Southern Territories",1940,2102,True
+262,"Djibouti",1940,2102,True
+266,"Gabon",1940,2102,True
+268,"Georgia",1992,2102,True
+270,"Gambia",1940,2102,True
+2711,"BRICS",1940,2102,False
+2711u,"BRICS n.e.s.",1940,2102,False
+275,"State of Palestine",1940,2102,True
+276,"Germany",1990,2102,True
+278,"Democratic Republic of Germany",1940,1989,True
+280,"Federal Republic of Germany",1940,1989,True
+288,"Ghana",1940,2102,True
+292,"Gibraltar",1940,2102,True
+296,"Kiribati",1940,2102,True
+300,"Greece",1940,2102,True
+304,"Greenland",1940,2102,True
+308,"Grenada",1940,2102,True
+312,"Guadeloupe",1940,2102,True
+316,"Guam",1940,2102,True
+320,"Guatemala",1940,2102,True
+324,"Guinea",1940,2102,True
+328,"Guyana",1940,2102,True
+332,"Haiti",1940,2102,True
+334,"Heard Island and McDonald Islands",1940,2102,True
+336,"Holy See",1940,2102,True
+340,"Honduras",1940,2102,True
+344,"China, Hong Kong SAR",1940,2102,True
+348,"Hungary",1940,2102,True
+352,"Iceland",1940,2102,True
+356,"India",1940,2102,True
+360,"Indonesia",2003,2102,True
+364,"Iran (Islamic Republic of)",1940,2102,True
+368,"Iraq",1940,2102,True
+372,"Ireland",1940,2102,True
+376,"Israel",1940,2102,True
+380,"Italy",1940,2102,True
+381,"Italy including San Marino and the Holy See",1940,2102,False
+384,"Cote d'Ivoire",1940,2102,True
+388,"Jamaica",1940,2102,True
+3905,"OECD (Organisation for Economic Cooperation and Development)",1940,2102,False
+3905u,"OECD (Organisation for Economic Cooperation and Development) n.e.s.",1940,2102,False
+3916,"G20 (Group of Twenty)",1940,2102,False
+3916u,"G20 (Group of Twenty) n.e.s.",1940,2102,False
+3919,"G-77 (Group of 77)",1940,2102,False
+3919u,"G-77 (Group of 77) n.e.s.",1940,2102,False
+392,"Japan",1940,2102,True
+396,"Johnston Atoll",1940,1986,False
+398,"Kazakhstan",1992,2102,True
+400,"Jordan",1940,2102,True
+404,"Kenya",1940,2102,True
+408,"Dem. People's Rep. of Korea",1940,2102,True
+410,"Korea, Republic of",1940,2102,True
+412,"Kosovo",2008,2102,True
+414,"Kuwait",1940,2102,True
+417,"Kyrgyzstan",1992,2102,True
+418,"Lao People's Dem. Rep.",1940,2102,True
+422,"Lebanon",1940,2102,True
+426,"Lesotho",1940,2102,True
+428,"Latvia",1992,2102,True
+430,"Liberia",1940,2102,True
+434,"Libya",1940,2102,True
+438,"Liechtenstein",1940,2102,True
+440,"Lithuania",1992,2102,True
+442,"Luxembourg",1940,2102,True
+446,"China, Macao SAR",1940,2102,True
+450,"Madagascar",1940,2102,True
+454,"Malawi",1940,2102,True
+458,"Malaysia",1940,2102,True
+462,"Maldives",1940,2102,True
+466,"Mali",1940,2102,True
+470,"Malta",1940,2102,True
+474,"Martinique",1940,2102,True
+478,"Mauritania",1940,2102,True
+480,"Mauritius",1940,2102,True
+484,"Mexico",1940,2102,True
+488,"Midway Atoll",1940,1986,False
+492,"Monaco",1940,2102,True
+496,"Mongolia",1940,2102,True
+498,"Moldova, Republic of",1992,2102,True
+499,"Montenegro",2008,2102,True
+500,"Montserrat",1940,2102,True
+504,"Morocco",1940,2102,True
+508,"Mozambique",1940,2102,True
+5100,"Africa",1940,2102,False
+5100u,"Africa n.e.s.",1940,2102,False
+512,"Oman",1940,2102,True
+516,"Namibia",1940,2102,True
+520,"Nauru",1940,2102,True
+5200,"Americas",1940,2102,False
+5200u,"Americas n.e.s.",1940,2102,False
+524,"Nepal",1940,2102,True
+528,"Netherlands (Kingdom of the)",1940,2102,True
+530,"Netherlands Antilles",1940,2010,True
+5300,"Asia",1940,2102,False
+5300u,"Asia n.e.s.",1940,2102,False
+532,"Netherlands Antilles and Aruba",1940,2102,False
+533,"Aruba",1940,2102,True
+536,"Neutral zone",1940,2102,False
+540,"New Caledonia",1940,2102,True
+5400,"Europe",1940,2102,False
+5400u,"Europe n.e.s.",1940,2102,False
+548,"Vanuatu",1940,2102,True
+5500,"Oceania",1940,2102,False
+5500u,"Oceania n.e.s.",1940,2102,False
+554,"New Zealand",1940,2102,True
+558,"Nicaragua",1940,2102,True
+562,"Niger",1940,2102,True
+566,"Nigeria",1940,2102,True
+570,"Niue",1940,2102,True
+574,"Norfolk Island",1940,2102,True
+579,"Norway including Svalbard and Jan Mayen Islands",1940,2102,False
+580,"Northern Mariana Islands",1982,2102,True
+581,"United States Minor Outlying Islands",1987,2102,True
+582,"Pacific Islands, Trust Territory",1940,1981,True
+583,"Micronesia (Federated States of)",1982,2102,True
+584,"Marshall Islands",1982,2102,True
+585,"Palau",1982,2102,True
+586,"Pakistan",1940,2102,True
+590,"Panama, excluding Canal Zone",1940,1980,True
+591,"Panama",1981,2102,True
+592,"Panama, Canal Zone",1940,1980,True
+598,"Papua New Guinea",1940,2102,True
+600,"Paraguay",1940,2102,True
+604,"Peru",1940,2102,True
+608,"Philippines",1940,2102,True
+612,"Pitcairn",1940,2102,True
+616,"Poland",1940,2102,True
+620,"Portugal",1940,2102,True
+624,"Guinea-Bissau",1940,2102,True
+626,"Timor-Leste",2003,2102,True
+630,"Puerto Rico",1940,2102,True
+634,"Qatar",1940,2102,True
+638,"Reunion",1940,2102,True
+642,"Romania",1940,2102,True
+643,"Russian Federation",1992,2102,True
+646,"Rwanda",1940,2102,True
+647,"Ryukyu Islands",1940,2102,False
+652,"Saint Barthelemy",1940,2102,True
+654,"Saint Helena",1940,2102,True
+658,"Saint Kitts and Nevis and Anguilla",1940,2102,False
+659,"Saint Kitts and Nevis",1940,2102,True
+660,"Anguilla",1940,2102,True
+662,"Saint Lucia",1940,2102,True
+663,"Saint Martin (French part)",1940,2102,True
+666,"Saint Pierre and Miquelon",1940,2102,True
+670,"Saint Vincent and the Grenadines",1940,2102,True
+674,"San Marino",1940,2102,True
+678,"Sao Tome and Principe",1940,2102,True
+682,"Saudi Arabia",1940,2102,True
+686,"Senegal",1940,2102,True
+688,"Serbia",2008,2102,True
+690,"Seychelles",1940,2102,True
+694,"Sierra Leone",1940,2102,True
+702,"Singapore",1940,2102,True
+703,"Slovakia",1993,2102,True
+704,"Viet Nam",1940,2102,True
+705,"Slovenia",1992,2102,True
+706,"Somalia",1940,2102,True
+710,"South Africa",1940,2102,True
+716,"Zimbabwe",1940,2102,True
+720,"Yemen, Democratic",1940,1989,True
+724,"Spain",1940,2102,True
+732,"Western Sahara",1940,2102,True
+736,"Sudan (...2011)",1940,2011,True
+740,"Suriname",1940,2102,True
+744,"Svalbard and Jan Mayen Islands",1940,2102,True
+748,"Eswatini",1940,2102,True
+752,"Sweden",1940,2102,True
+756,"Switzerland",1940,2102,True
+757,"Switzerland including Liechtenstein",1940,2102,False
+760,"Syrian Arab Republic",1940,2102,True
+762,"Tajikistan",1992,2102,True
+764,"Thailand",1940,2102,True
+768,"Togo",1940,2102,True
+772,"Tokelau",1940,2102,True
+776,"Tonga",1940,2102,True
+780,"Trinidad and Tobago",1940,2102,True
+784,"United Arab Emirates",1940,2102,True
+788,"Tunisia",1940,2102,True
+792,"Turkiye",1940,2102,True
+795,"Turkmenistan",1992,2102,True
+796,"Turks and Caicos Islands",1940,2102,True
+798,"Tuvalu",1940,2102,True
+800,"Uganda",1940,2102,True
+804,"Ukraine",1992,2102,True
+807,"North Macedonia",1992,2102,True
+810,"Union of Soviet Socialist Republics",1940,1991,True
+818,"Egypt",1940,2102,True
+826,"United Kingdom",1940,2102,True
+830,"Channel Islands",1940,2102,False
+831,"Guernsey",1940,2102,True
+832,"Jersey",1940,2102,True
+833,"Isle of Man",1940,2102,True
+834,"United Republic of Tanzania",1940,2102,True
+835,"Tanganyika",1940,2102,False
+836,"Zanzibar and Pemba Island",1940,2102,False
+837,"Bunkers, ship stores",1940,2102,False
+838,"Free zones",1940,2102,False
+839,"Confidential information and differences",1940,2102,False
+840,"United States",1940,2102,True
+841,"United States of America including Puerto Rico",1940,2102,False
+842,"United States of America including Puerto Rico and United States Virgin Islands",1940,2102,False
+849,"United States Miscellaneous Pacific Islands",1940,1986,False
+850,"United States Virgin Islands",1940,2102,True
+854,"Burkina Faso",1940,2102,True
+858,"Uruguay",1940,2102,True
+860,"Uzbekistan",1992,2102,True
+862,"Venezuela (Bolivarian Rep. of)",1940,2102,True
+872,"Wake Island",1940,1986,False
+876,"Wallis and Futuna Islands",1940,2102,True
+882,"Samoa",1940,2102,True
+886,"Yemen, Arab Republic",1940,1989,True
+887,"Yemen",1990,2102,True
+890,"Yugoslavia, Socialist Federal Republic of Yugoslavia",1940,1991,True
+891,"Serbia and Montenegro",1992,2007,True
+894,"Zambia",1940,2102,True
+904,"Morocco including Western Sahara",1940,2102,False
+926,"United Kingdom including Channel Islands and Isle of Man",1940,2102,False
+932,"Bonaire",1940,2102,False
+531,"Curacao",2011,2102,True
+934,"Saba",1940,2102,False
+935,"Sint Eustatius",1940,2102,False
+534,"Sint Maarten (Dutch part)",2011,2102,True
+950,"France excluding French Guiana, Guadeloupe, Martinique, Mayotte, Reunion and including Monaco",1940,2102,False
+951,"France including French Guiana, Guadeloupe, Martinique, Mayotte, Reunion and excluding Monaco",1940,2102,False
+957,"China including Hong Kong, Macao and Taiwan",1940,2102,False
+960,"Indonesia (...2002)",1940,2002,True
+966,"Abu Dhabi (UAE)",1940,2102,False
+967,"Ras Al Khaimah (UAE)",1940,2102,False
+988,"Serbia excluding Kosovo",2008,2102,False
+E14001,"ASIA AND AUSTRALASIA (AGG.) (EIU / AA)",1940,2102,False
+E14002,"ECONOMIES IN TRANSITION (AGG.) (EIU / EO)",1940,2102,False
+E14003,"EU27 (AGG.) (EIU / XE)",1940,2102,False
+E14004,"EURO AREA (AGG.) (EIU / EA)",1940,2102,False
+E14005,"G10 (AGG.) (EIU / GX)",1940,2102,False
+E14006,"G7 (AGG.) (EIU / G7)",1940,2102,False
+E14007,"LATIN AMERICA (AGG.) (EIU / LN)",1940,2102,False
+E14008,"MIDDLE EAST AND NORTH AFRICA (AGG.) (EIU / EN)",1940,2102,False
+E14009,"NAFTA (AGG.) (EIU / NT)",1940,2102,False
+E14010,"NON-OECD (AGG.) (EIU / DV)",1940,2102,False
+E14011,"NORTH AMERICA (AGG.) (EIU / UC)",1940,2102,False
+E14012,"OECD (AGG.) (EIU / OE)",1940,2102,False
+E14013,"SUB-SAHARAN AFRICA (AGG.) (EIU / SS)",1940,2102,False
+E14014,"WESTERN EUROPE (AGG.) (EIU / WE)",1940,2102,False
+E14015,"WORLD (AGG.) (EIU / WO)",1940,2102,False
+E14016,"EU15 (AGG.) (EIU / EU)",1940,2102,False
+E16001,"Africa (FAO / 5100)",1940,2102,False
+E16002,"AFRICA (FAO / 359)",1940,2102,False
+E16003,"AFRICA DEVELOPED (FAO / 340)",1940,2102,False
+E16004,"AFRICA DEVELOPING (FAO / 309)",1940,2102,False
+E16005,"AFRICA SOUTH OF SAHARA (FAO / 390)",1940,2102,False
+E16006,"Americas (FAO / 5200)",1940,2102,False
+E16007,"ANDEAN COMMON MARKET (FAO / 395)",1940,2102,False
+E16008,"ARAB COOPERATION COUNCIL (FAO / 464)",1940,2102,False
+E16009,"ARAB MAGHREB UNION (FAO / 454)",1940,2102,False
+E16010,"Asia (FAO / 5310)",1940,2102,False
+E16011,"ASIA (FAO / 860)",1940,2102,False
+E16012,"ASIA DEVELOPED (FAO / 343)",1940,2102,False
+E16013,"ASIA DEVELOPING (FAO / 847)",1940,2102,False
+E16014,"ASSOC SEASIAN NATIONS (FAO / 412)",1940,2102,False
+E16015,"Australia and New Zealand (FAO / 5501)",1940,2102,False
+E16016,"Belgium-Luxembourg (FAO / 15)",1940,2102,False
+E16017,"Caribbean (FAO / 5206)",1940,2102,False
+E16018,"CARIBBEAN (FAO / 317)",1940,2102,False
+E16019,"CARIBBEAN COMMUNITY SECR (FAO / 394)",1940,2102,False
+E16020,"CEN AMERICA COMMON MKT (FAO / 393)",1940,2102,False
+E16021,"CENTRAFR CUSTOMS ECUNION (FAO / 399)",1940,2102,False
+E16022,"CENTRAL AFRICA (FAO / 312)",1940,2102,False
+E16023,"CENTRAL AMER & CARIBBEAN (FAO / 328)",1940,2102,False
+E16024,"Central America (FAO / 5204)",1940,2102,False
+E16025,"CENTRAL AMERICA (FAO / 316)",1940,2102,False
+E16026,"Central Asia (FAO / 5301)",1940,2102,False
+E16027,"COMM INDEPENDENT STATES (FAO / 474)",1940,2102,False
+E16028,"COUNCIL ARAB ECON UNITY (FAO / 408)",1940,2102,False
+E16029,"DEVELOPED COUNTRIES (FAO / 354)",1940,2102,False
+E16030,"DEVELOPING COUNTRIES (FAO / 855)",1940,2102,False
+E16031,"EAST & SOUTH EAST ASIA (FAO / 324)",1940,2102,False
+E16032,"Eastern Africa (FAO / 5101)",1940,2102,False
+E16033,"EASTERN AFRICA (FAO / 313)",1940,2102,False
+E16034,"Eastern Asia (FAO / 5315)",1940,2102,False
+E16035,"Eastern Europe (FAO / 5401)",1940,2102,False
+E16036,"EASTERN EUROPE (FAO / 334)",1940,2102,False
+E16037,"EC&SOC COMM ASIA&PAC (FAO / 345)",1940,2102,False
+E16038,"ECON COM CENT AFR STATES (FAO / 455)",1940,2102,False
+E16039,"ECON COM GREAT LAKES (FAO / 456)",1940,2102,False
+E16040,"ECON COM WAFRICAN STATES (FAO / 458)",1940,2102,False
+E16041,"ECON COMM LAT AMER & CA (FAO / 439)",1940,2102,False
+E16042,"ECON COMM WEST ASIA (FAO / 440)",1940,2102,False
+E16043,"ECON COMMISSION AFRICA (FAO / 438)",1940,2102,False
+E16044,"ECON COMMISSION EUROPE (FAO / 441)",1940,2102,False
+E16045,"Europe (FAO / 5400)",1940,2102,False
+E16046,"EUROPE (FAO / 361)",1940,2102,False
+E16047,"EUROPE & BALTIC STATES (FAO / 329)",1940,2102,False
+E16048,"EUROPEAN FREE TRADE ASS (FAO / 477)",1940,2102,False
+E16049,"European Union (FAO / 5706)",1940,2102,False
+E16050,"EUROPEAN UNION (12) (FAO / 304)",1940,2102,False
+E16051,"EUROPEAN UNION (15) (FAO / 305)",1940,2102,False
+E16052,"FAO MEMBER NATIONS (FAO / 476)",1940,2102,False
+E16053,"FAR EAST (FAO / 822)",1940,2102,False
+E16054,"GULF COOPERATION COUNCIL (FAO / 465)",1940,2102,False
+E16055,"INDUSTRIALIZED COUNTRIES (FAO / 331)",1940,2102,False
+E16056,"LAND-LOCKED DEVELOPING (FAO / 402)",1940,2102,False
+E16057,"LandLocked developing countries (FAO / 5802)",1940,2102,False
+E16058,"LATAMER INTEGRATION ASS (FAO / 462)",1940,2102,False
+E16059,"LATAMERICAN ECO SYSTEM (FAO / 391)",1940,2102,False
+E16060,"LATIN AMER & CARIBBEAN (FAO / 315)",1940,2102,False
+E16061,"LDC (FAO / 5801)",1940,2102,False
+E16062,"LEAGUE OF ARAB STATES (FAO / 350)",1940,2102,False
+E16063,"LEAST DEVELOPED COUNTRS (FAO / 415)",1940,2102,False
+E16064,"LIAISON OFF NORTHAMERICA (FAO / 442)",1940,2102,False
+E16065,"Low Income Food Deficit Countries (FAO / 5815)",1940,2102,False
+E16066,"LOW-INCOME COUNTRIES (FAO / 426)",1940,2102,False
+E16067,"LOW-INCOME FOOD DEFICIT (FAO / 876)",1940,2102,False
+E16068,"Melanesia (FAO / 5502)",1940,2102,False
+E16069,"Micronesia (FAO / 5503)",1940,2102,False
+E16070,"Middle Africa (FAO / 5102)",1940,2102,False
+E16071,"NEAR EAST (FAO / 319)",1940,2102,False
+E16072,"NEAR EAST IN AFRICA (FAO / 320)",1940,2102,False
+E16073,"NEAR EAST IN ASIA (FAO / 321)",1940,2102,False
+E16074,"Net Food Importing Developing Countries (FAO / 5817)",1940,2102,False
+E16075,"NET FOOD IMPORTING DVNG (FAO / 401)",1940,2102,False
+E16076,"NORTH & CENTRAL AMERICA (FAO / 336)",1940,2102,False
+E16077,"NORTH AM FREE TRADE AGR (FAO / 330)",1940,2102,False
+E16078,"NORTH AMERICA DEVELOPED (FAO / 302)",1940,2102,False
+E16079,"NORTH AMERICA DEVELOPING (FAO / 326)",1940,2102,False
+E16080,"NORTH WESTERN AFRICA (FAO / 310)",1940,2102,False
+E16081,"Northern Africa (FAO / 5103)",1940,2102,False
+E16082,"Northern America (FAO / 5203)",1940,2102,False
+E16083,"Northern Europe (FAO / 5402)",1940,2102,False
+E16084,"Oceania (FAO / 5500)",1940,2102,False
+E16085,"OCEANIA (FAO / 339)",1940,2102,False
+E16086,"OCEANIA DEVELOPED (FAO / 306)",1940,2102,False
+E16087,"OCEANIA DEVELOPING (FAO / 327)",1940,2102,False
+E16088,"ORG ARAB PETROL EXPORT (FAO / 452)",1940,2102,False
+E16089,"ORG EASTERN CARIBBEAN (FAO / 463)",1940,2102,False
+E16090,"ORG ECON COOP & DEVELOP (FAO / 342)",1940,2102,False
+E16091,"ORG ISLAMIC CONFERENCE (FAO / 446)",1940,2102,False
+E16092,"ORG PETROLEUM EXPORTING (FAO / 388)",1940,2102,False
+E16093,"PACIFIC COMMUNITY (FAO / 478)",1940,2102,False
+E16094,"Polynesia (FAO / 5504)",1940,2102,False
+E16095,"REG OFF ASIA & PACIFIC (FAO / 852)",1940,2102,False
+E16096,"REG OFF NEAR EAST (FAO / 353)",1940,2102,False
+E16097,"REG OFFICE AFRICA (FAO / 443)",1940,2102,False
+E16098,"REG OFFICE EUROPE (FAO / 445)",1940,2102,False
+E16099,"REG OFFICE LATAMER & CAR (FAO / 444)",1940,2102,False
+E16100,"S AFR DEVELOPMENT COMMUN (FAO / 461)",1940,2102,False
+E16101,"S ASIAN ASSOC REG COOP (FAO / 437)",1940,2102,False
+E16102,"S PACIFIC BUREAU EC COOP (FAO / 479)",1940,2102,False
+E16103,"Small Island Developing States (FAO / 5803)",1940,2102,False
+E16104,"SMALL ISLAND DVNG STATES (FAO / 378)",1940,2102,False
+E16105,"South America (FAO / 5207)",1940,2102,False
+E16106,"SOUTH AMERICA (FAO / 318)",1940,2102,False
+E16107,"SOUTH ASIA (FAO / 323)",1940,2102,False
+E16108,"South-Eastern Asia (FAO / 5304)",1940,2102,False
+E16109,"Southern Africa (FAO / 5104)",1940,2102,False
+E16110,"SOUTHERN AFRICA (FAO / 314)",1940,2102,False
+E16111,"Southern Asia (FAO / 5303)",1940,2102,False
+E16112,"Southern Europe (FAO / 5403)",1940,2102,False
+E16113,"TRANSITION MARKETS (FAO / 333)",1940,2102,False
+E16114,"Western Africa (FAO / 5105)",1940,2102,False
+E16115,"WESTERN AFRICA (FAO / 311)",1940,2102,False
+E16116,"Western Asia (FAO / 5305)",1940,2102,False
+E16117,"Western Europe (FAO / 5404)",1940,2102,False
+E16118,"WESTERN EUROPE (FAO / 303)",1940,2102,False
+E16119,"World (FAO / 5001)",1940,2102,False
+E16120,"World (FAO / 5002)",1940,2102,False
+E16121,"World (FAO / 5007)",1940,2102,False
+E16122,"WORLD (FAO / 862)",1940,2102,False
+E23001,"ADVANCED ECONOMIES (IMF / 110)",1940,2102,False
+E23002,"AFRICA (IMF / 605)",1940,2102,False
+E23003,"AFRICA (IMF / 607)",1940,2102,False
+E23003u,"AFRICA N.S. (IMF / 799)",1940,2102,False
+E23004,"Africa: Sub-Sahara (IMF / 603)",1940,2102,False
+E23005,"ALL COUNTRIES (IMF / 010)",1940,2102,False
+E23006,"ARAB MONETARY FUND (IMF / 476)",1940,2102,False
+E23007,"ASEAN-5 (IMF / 511)",1940,2102,False
+E23008,"ASIA (IMF / 507)",1940,2102,False
+E23008u,"ASIA N.S. (IMF / 598)",1940,2102,False
+E23009,"BCEAO (IMF / 751)",1940,2102,False
+E23010,"BELGIUM-LUXEMBOURG (IMF / 126)",1940,2102,False
+E23011,"BEL-LUX N.S. (IMF / 127)",1940,2102,False
+E23012,"BIS (IMF / 993)",1940,2102,False
+E23013,"BK.CEN.AFR.STS(BEAC) (IMF / 741)",1940,2102,False
+E23014,"CEMAC (IMF / 758)",1940,2102,False
+E23015,"CEN.BANK WEST AFRICA (IMF / 752)",1940,2102,False
+E23016,"Emerging and Developing Europe (IMF / 903)",1940,2102,False
+E23017,"Commonwealth of Independent States and Mongolia (IMF / 901)",1940,2102,False
+E23018,"DEVELOPING ASIA (IMF / 505)",1940,2102,False
+E23019,"DEVELOPING COUNTRIES (IMF / 202)",1940,2102,False
+E23020,"EAST AFRICA (IMF / 639)",1940,2102,False
+E23021,"ECCB (IMF / 308)",1940,2102,False
+E23022,"ECCU (IMF / 309)",1940,2102,False
+E23023,"EMER.& DEVELOP. ECO. (IMF / 200)",1940,2102,False
+E23024,"EPU/EF (IMF / 994)",1940,2102,False
+E23025,"EURO AREA (IMF / 163)",1940,2102,False
+E23026,"EUROP.MONETARY INST. (IMF / 977)",1940,2102,False
+E23027,"EUROPE (IMF / 170)",1940,2102,False
+E23028,"EUROPE N.S. (IMF / 884)",1940,2102,False
+E23029,"EUROPEAN CENTRAL BK. (IMF / 168)",1940,2102,False
+E23030,"EUROPEAN UNION (IMF / 998)",1940,2102,False
+E23031,"IBRD (IMF / 996)",1940,2102,False
+E23032,"IMF MEMBER COUNTRIES (IMF / 992)",1940,2102,False
+E23033,"INDUS STERL OCEANIA (IMF / 889)",1940,2102,False
+E23034,"INDUSTRIAL COUNTRIES (IMF / 101)",1940,2102,False
+E23035,"INTERNATIONAL ORG (IMF / 091)",1940,2102,False
+E23036,"ISLAMIC DEV. BANK (IMF / 480)",1940,2102,False
+E23037,"Major advanced economies (G7) (IMF / 119)",1940,2102,False
+E23038,"MIDDLE EAST (IMF / 407)",1940,2102,False
+E23038u,"MIDDLE EAST N.S. (IMF / 489)",1940,2102,False
+E23039,"MIDDLE EAST (IMF / 405)",1940,2102,False
+E23040,"Newly industrialized Asian economies (IMF / 203)",1940,2102,False
+E23041,"EXPORT EARN.: NON-FUEL (IMF / 092)",1940,2102,False
+E23042,"NORDIC INVEST. BANK (IMF / 167)",1940,2102,False
+E23043,"EXPORT EARN.: FUEL (IMF / 080)",1940,2102,False
+E23044,"Other advanced economies (Advanced economies excluding G7 and euro area) (IMF / 123)",1940,2102,False
+E23045,"OTHER COUNTRIES (IMF / 810)",1940,2102,False
+E23045u,"OTHER COUNTRIES NIE (IMF / 910)",1940,2102,False
+E23046,"OTHER WESTERN EUROPE (IMF / 883)",1940,2102,False
+E23047,"SACCA (IMF / 198)",1940,2102,False
+E23048,"SACCA EXC.SOUTH AFR. (IMF / 608)",1940,2102,False
+E23049,"SPANISH SAHARA (IMF / 798)",1940,2102,False
+E23050,"SPECIAL CATEGORIES (IMF / 899)",1940,2102,False
+E23051,"U.S.S.R. N.S. (IMF / 930)",1940,2102,False
+E23052,"WAEMU (IMF / 759)",1940,2102,False
+E23053,"WESTERN HEMISPHERE (IMF / 205)",1940,2102,False
+E23054,"WESTERN HEMISPHERE (IMF / 207)",1940,2102,False
+E23054u,"WESTERN HEM. N.S. (IMF / 399)",1940,2102,False
+E23055,"WORLD (IMF / 001)",1940,2102,False
+E23056,"YUGOSLAVIA N.S. (IMF / 966)",1940,2102,False
+E23057,"NON-OIL DEVELOP.CTYS (IMF / 201)",1940,2102,False
+E23058,"APEC (IMF / 050)",1940,2102,False
+E23059,"ALL PARTICIPANTS (IMF / 969)",1940,2102,False
+E23060,"OTHER HOLDERS (IMF / 970)",1940,2102,False
+E23061,"EURO AREA (AGGREG.) (IMF / 995)",1940,2102,False
+E23062,"OIL EXPORTING CTYS (IMF / 999)",1940,2102,False
+E23063,"Mid East and N.Africa (IMF / 406)",1940,2102,False
+E23901u,"COUNTRIES&AREAS,N.S. (IMF / 898)",1940,2102,False
+E23902u,"CZECHOSLOVAKIA N.S. (IMF / 937)",1940,2102,False
+E23903u,"EASTERN EUROPE N.S. (IMF / 978)",1940,2102,False
+E23904u,"OCEANIA N.S. (IMF / 892)",1940,2102,False
+E23905u,"OTH CENT AMERICA NS (IMF / 386)",1940,2102,False
+E23906u,"UNALLOC. BORROWERS (IMF / 897)",1940,2102,False
+E23907u,"SERBIA & MONTENEGRO NS (IMF / 945)",1940,2102,False
+E31001,"AF. D B (OECD / 913)",1940,2102,False
+E31002,"AFRICAN DEV. FUND (OECD / 914)",1940,2102,False
+E31003,"Arab Agencies (OECD / 778)",1940,2102,False
+E31004,"AS. D B (OECD / 915)",1940,2102,False
+E31005,"AS. D B SPECIAL FUNDS (OECD / 916)",1940,2102,False
+E31006u,"Bilateral unallocated (OECD / 9998)",1940,2102,False
+E31007,"CARDB (OECD / 906)",1940,2102,False
+E31008u,"Central Asia, Regional (OECD / 619)",1940,2102,False
+E31009,"COUNCIL OF EUROPE (OECD / 926)",1940,2102,False
+E31010u,"East African Community (OECD / 237)",1940,2102,False
+E31011,"EBRD (OECD / 990)",1940,2102,False
+E31012,"EC (OECD / 918)",1940,2102,False
+E31013,"EIB (OECD / 919)",1940,2102,False
+E31014,"EU15 (OECD / E15)",1940,2102,False
+E31015,"Euro area (OECD / EMU)",1940,2102,False
+E31016,"Euro area (OECD zone methodology) (OECD / EUZ)",1940,2102,False
+E31017,"European Union (OECD / EUU)",1940,2102,False
+E31018u,"Ex-Yugoslavia, Unsp. (OECD / 88)",1940,2102,False
+E31019,"FOUR BIG EUROPEAN (OECD / G4E)",1940,2102,False
+E31020,"GEF (OECD / 811)",1940,2102,False
+E31021,"GFATM (OECD / 1312)",1940,2102,False
+E31022,"IBRD (OECD / 901)",1940,2102,False
+E31023,"IDA (OECD / 905)",1940,2102,False
+E31024,"IDB (OECD / 909)",1940,2102,False
+E31025,"IDB SPECIAL OPER. FUND (OECD / 912)",1940,2102,False
+E31026,"IFAD (OECD / 988)",1940,2102,False
+E31027,"IFC (OECD / 903)",1940,2102,False
+E31028,"IMF (OECD / 907)",1940,2102,False
+E31029,"IMF TRUST FUND (OECD / 956)",1940,2102,False
+E31030u,"Indus Basin (OECD / 650)",1940,2102,False
+E31031,"Least Developed Countries (LLDCS) (OECD / LLDCS)",1940,2102,False
+E31031u,"LDC's Unspecified (OECD / QZA)",1940,2102,False
+E31032,"Low Middle Income (LMICS) (OECD / LMICS)",1940,2102,False
+E31033,"MAJOR FIVE ASIA (OECD / A5M)",1940,2102,False
+E31034,"MAJOR SEVEN (OECD / G7M)",1940,2102,False
+E31035u,"Mekong Delta Project (OECD / 752)",1940,2102,False
+E31036,"Montreal Protocol (OECD / 812)",1940,2102,False
+E31037,"More Advanced Developing Countries (MADCT) (OECD / MADCT)",1940,2102,False
+E31038,"NAFTA (OECD / NAT)",1940,2102,False
+E31039,"Non-OECD (OECD / NOC)",1940,2102,False
+E31040,"NORDIC DEVELOPMENT FUND (OECD / 104)",1940,2102,False
+E31041,"OECD - Europe (OECD / OEU)",1940,2102,False
+E31042,"OECD - Europe excluding high inflation (OECD / OEL)",1940,2102,False
+E31043,"OECD - Total (OECD / OTO)",1940,2102,False
+E31044,"OECD - Total less high inflation (OECD / OTL)",1940,2102,False
+E31045,"OECD + MAJOR SIX NME (OECD / ONM)",1940,2102,False
+E31046,"OECD EASTERN EUROPE (OECD / OEE)",1940,2102,False
+E31047,"Other Low Income (OLICS) (OECD / OLICS)",1940,2102,False
+E31048,"OTHER UN (OECD / 975)",1940,2102,False
+E31049,"SAF & ESAF (OECD / 958)",1940,2102,False
+E31050u,"South Asia, regional (OECD / 679)",1940,2102,False
+E31051,"Special Drawing Right (OECD / SDR)",1940,2102,False
+E31052,"Total, Africa (OECD / QMA)",1940,2102,False
+E31053,"Total, Americas (OECD / QNA)",1940,2102,False
+E31054,"Total, Asia (OECD / QRA)",1940,2102,False
+E31055,"TOTAL, DEVELOPING COUNTRIES (OECD / TOTINC)",1940,2102,False
+E31056,"Total, Europe (OECD / QSA)",1940,2102,False
+E31057,"Total, Far East (OECD / QRB)",1940,2102,False
+E31058,"Total, Middle East (OECD / QRE)",1940,2102,False
+E31059,"Total, N. & C. America (OECD / QNB)",1940,2102,False
+E31060,"Total, North of Sahara (OECD / QMD)",1940,2102,False
+E31061,"Total, Oceania (OECD / QTA)",1940,2102,False
+E31062,"Total, South & Central Asia (OECD / QRD)",1940,2102,False
+E31063,"Total, South America (OECD / QNE)",1940,2102,False
+E31064,"Total, South of Sahara (OECD / QME)",1940,2102,False
+E31065,"UNDP (OECD / 959)",1940,2102,False
+E31066,"UNFPA (OECD / 974)",1940,2102,False
+E31067,"UNHCR (OECD / 967)",1940,2102,False
+E31068,"UNICEF (OECD / 963)",1940,2102,False
+E31069,"UNRWA (OECD / 964)",1940,2102,False
+E31070,"UNTA (OECD / 960)",1940,2102,False
+E31071,"Upper Middle Income (UMICS) (OECD / UMICS)",1940,2102,False
+E31072,"WFP (OECD / 966)",1940,2102,False
+E31073,"WORLD (OECD / WLD)",1940,2102,False
+E31074u,"South and Central Asia, regional (OECD / 9689)",1940,2102,False
+E31075,"TOTAL BY REGION (OECD / TOTREG)",1940,2102,False
+E31076,"Memo: HIPC (OECD / 10030)",1940,2102,False
+E31077,"EU25 (OECD / D3X)",1940,2102,False
+E31079,"Former Federal Republic of Germany (OECD / WGR)",1940,2102,False
+E31080,"Seven major OECD Countries (Canada, France, Germany, Italy, Japan, United Kingdom and United States) (OECD / BIG7)",1940,2102,False
+E31081,"Euro area end 2008 OECD countries (Austria, Belgium, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal and Spain) (OECD / EA12)",1940,2102,False
+E31082,"Euro area as from 1 January 2009 OECD countries (Austria, Belgium, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Slovak Republic) (OECD / EA13)",1940,2102,False
+E31083,"Euro area as from 1 January 2009 OECD countries (Austria, Belgium, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Slovak Republic) (OECD / EURO)",1940,2102,False
+E31084,"Euro area until 1991, with Former Federal Republic of Germany (OECD / EURO_WGR)",1940,2102,False
+E31085,"Total OECD (OECD / OECD)",1940,2102,False
+E31086,"Africa and the Middle East (Africa and the following countries (Middle East): Bahrain, Cyprus, Iran, Iraq, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syrian Arab Republic, United Arab Emirates and Yemen) (OECD / AFM)",1940,2102,False
+E31087,"Dynamic Asian Economies (Chinese Taipei; Hong Kong, China; Indonesia; Malaysia; the Philippines; Singapore and Thailand) (OECD / ANC)",1940,2102,False
+E31088,"Other Asia (non-OECD Asia and Oceania, excluding China, ANCs and the Middle East) (OECD / ASO)",1940,2102,False
+E31089,"Latin America (Central and South America) (OECD / LAT)",1940,2102,False
+E31090,"Central and Eastern Europe (Albania, Bulgaria, Romania, the Newly Independent States of the former Soviet Union, and the Baltic States) (OECD / SEE)",1940,2102,False
+E31091,"Non-OECD countries (OECD / NOECD)",1940,2102,False
+E31092,"OECD COUNTRIES (OECD / Group_OECD)",1940,2102,False
+E31093,"OECD aggregates (OECD / Group_OECD_ZONES)",1940,2102,False
+E31094,"Non-OECD REGIONS (OECD / Group_NOECD)",1940,2102,False
+E31095,"Non-member economies (OECD / Group_NMEC)",1940,2102,False
+E31096,"OECD (former Europe - 19 countries) (OECD / OEF)",1940,2102,False
+E31097,"OECD (former total) (OECD / OTF)",1940,2102,False
+E31098,"European Union (27 countries) (OECD / EU27)",1940,2102,False
+E31099,"Euro area (16 countries) (OECD / EA16)",1940,2102,False
+E31901u,"Africa Unspecified (OECD / 298)",1940,2102,False
+E31902u,"America Unspecified (OECD / 498)",1940,2102,False
+E31903u,"Arab Countries Unsp. (OECD / 984)",1940,2102,False
+E31904u,"Asia Unspecified (OECD / 798)",1940,2102,False
+E31905u,"CEECs Unall. (OECD / 101)",1940,2102,False
+E31906u,"CEECs/NIS Unall. (OECD / 79)",1940,2102,False
+E31907u,"Europe Unallocated (OECD / 89)",1940,2102,False
+E31908u,"Far East Asia Unall. (OECD / 789)",1940,2102,False
+E31909u,"MADCT Unall. (OECD / 105)",1940,2102,False
+E31910u,"Middle East Unall. (OECD / 589)",1940,2102,False
+E31911u,"N.& C. America Unall. (OECD / 389)",1940,2102,False
+E31912u,"NIS Unall. (OECD / 102)",1940,2102,False
+E31913u,"North Of Sahara Unall. (OECD / 189)",1940,2102,False
+E31914u,"Oceania Unallocated (OECD / 889)",1940,2102,False
+E31915u,"Part II Unall. (OECD / 106)",1940,2102,False
+E31916u,"South America Unall. (OECD / 489)",1940,2102,False
+E31917u,"South Asia Unall. (OECD / 689)",1940,2102,False
+E31918u,"South Of Sahara Unall. (OECD / 289)",1940,2102,False
+E31919u,"Unallocated (OECD / UNALL)",1940,2102,False
+E31920u,"West Indies Unall. (OECD / 380)",1940,2102,False
+E34001,"ACP African, Caribbean and Pacific countries, signatories to the Partnership Agreement (Eurostat / 1031)",1940,2102,False
+E34002,"Africa (Eurostat / 5200)",1940,2102,False
+E34003,"America (Eurostat / 5300)",1940,2102,False
+E34004,"APEC Asia Pacific Economic Cooperation (Eurostat / 1420)",1940,2102,False
+E34005,"ASEAN Association of South-East Asian Nations (Eurostat / 1057)",1940,2102,False
+E34006,"Asia (Eurostat / 5400)",1940,2102,False
+E34007,"Australia and New Zealand (Eurostat / 5510)",1940,2102,False
+E34008,"Candidate countries (Eurostat / 1130)",1940,2102,False
+E34009,"CEEC Central and Eastern European countries (Eurostat / 1120)",1940,2102,False
+E34010,"Central America and Caribbean (Eurostat / 5320)",1940,2102,False
+E34011,"CIS Commonwealth of Independent States (Eurostat / 1815)",1940,2102,False
+E34012,"Countries and territories not specified (Eurostat / QU)",1940,2102,False
+E34013,"Countries and territories not specified for commercial or military reasons (Eurostat / QX)",1940,2102,False
+E34014,"Countries and territories not specified for commercial or military reasons in the framework of intra-Community trade (Eurostat / QY)",1940,2102,False
+E34015,"Countries and territories not specified for commercial or military reasons in the framework of trade with third countries (Eurostat / QZ)",1940,2102,False
+E34016,"Countries and territories not specified in the framework of intra-Community trade (Eurostat / QV)",1940,2102,False
+E34017,"Countries and territories not specified within the framework of trade with third countries (Eurostat / QW)",1940,2102,False
+E34018,"DAEs Dynamic Asian economies (Eurostat / 1415)",1940,2102,False
+E34019,"EEA European Economic Area (Eurostat / 1115)",1940,2102,False
+E34020,"EFTA (Eurostat / 1021)",1940,2102,False
+E34021,"Europe (Eurostat / 5100)",1940,2102,False
+E34022,"European Community (Eurostat / EU)",1940,2102,False
+E34023,"European Union (Eurostat / 5110)",1940,2102,False
+E34024,"European Union (15) (Eurostat / 1110)",1940,2102,False
+E34025,"European Union (25) (Eurostat / 1111)",1940,2102,False
+E34026,"European Union (evolutionary) (Eurostat / 1010)",1940,2102,False
+E34027,"Euro-zone (12) (Eurostat / 1113)",1940,2102,False
+E34028,"Euro-zone since 1999 (evolutionary) (Eurostat / 1013)",1940,2102,False
+E34029,"Extra-euro zone since 1999 (evolutionary) (Eurostat / 1014)",1940,2102,False
+E34030,"Extra-european Union (15) (Eurostat / 1811)",1940,2102,False
+E34031,"Extra-european Union (25) (Eurostat / 1812)",1940,2102,False
+E34032,"Extra-european Union (evolutionary) (Eurostat / 1011)",1940,2102,False
+E34033,"Extra-euro-zone (12) (Eurostat / 1813)",1940,2102,False
+E34034,"Latin American countries (Eurostat / 1058)",1940,2102,False
+E34035,"LDC Least Developed Countries (Eurostat / 1430)",1940,2102,False
+E34036,"MEDA (excluding EU) Mediterranean countries in the Euro-Mediterranean Partnership (Eurostat / 1055)",1940,2102,False
+E34037,"Mediterranean basin countries (excluding EU) (Eurostat / 1051)",1940,2102,False
+E34038,"MERCOSUR South American Common Market (Eurostat / 1330)",1940,2102,False
+E34039,"Miscellaneous - countries not determined (Eurostat / 5990)",1940,2102,False
+E34040,"Miscellaneous - countries not specified and countries not determined (Eurostat / 5900)",1940,2102,False
+E34041,"Miscellaneous - countries not specified extra (Eurostat / 5920)",1940,2102,False
+E34042,"Miscellaneous - countries not specified intra (Eurostat / 5910)",1940,2102,False
+E34043,"NAFTA North American Free Trade Agreement (Eurostat / 1310)",1940,2102,False
+E34044,"Near and Middle Eastern countries (Eurostat / 5410)",1940,2102,False
+E34045,"NICs Newly-industrialised Asian countries (Eurostat / 1410)",1940,2102,False
+E34046,"North Africa (Eurostat / 5210)",1940,2102,False
+E34047,"North America (Eurostat / 5310)",1940,2102,False
+E34048,"Oceania and Polar regions (Eurostat / 5500)",1940,2102,False
+E34049,"OECD (excluding EU) Organisation for Economic Cooperation and Development, excluding EU (Eurostat / 1820)",1940,2102,False
+E34050,"OPEC Organisation of Petroleum Exporting Countries (Eurostat / 1053)",1940,2102,False
+E34051,"Other African countries (Eurostat / 5290)",1940,2102,False
+E34052,"Other Asian countries (Eurostat / 5490)",1940,2102,False
+E34053,"Other countries of Oceania and Polar regions (Eurostat / 5590)",1940,2102,False
+E34054,"Other European countries (Eurostat / 5190)",1940,2102,False
+E34055,"SAARC South Asian Association for Regional Cooperation (Eurostat / 1059)",1940,2102,False
+E34056,"South America (Eurostat / 5330)",1940,2102,False
+E34057,"Stores and provisions (Eurostat / QQ)",1940,2102,False
+E34058,"Stores and provisions within the framework of intra-Community trade (Eurostat / QR)",1940,2102,False
+E34059,"Stores and provisions within the framework of trade with third Countries (Eurostat / QS)",1940,2102,False
+E34060,"World (Eurostat / 1000)",1940,2102,False
+E34061,"World (Eurostat / 5000)",1940,2102,False
+E34062,"Euro area 12 (Eurostat / EA12)",1940,2102,False
+E34063,"Euro area 13 (Eurostat / EA13)",1940,2102,False
+E34064,"Euro area 15 (Eurostat / EA15)",1940,2102,False
+E34065,"European Union (27) (Eurostat / EU27)",1940,2102,False
+E34066,"European Community 12 incl. ex-GDR (Eurostat / EU12)",1940,2102,False
+E34067,"Belgium-Luxembourg Economic Union (Eurostat / BLEU)",1940,2102,False
+E34068,"Euro area 15 including Slovakia (Eursostat / EA16)",1940,2102,False
+E48001,"Belgium-Luxembourg (UNSD / 58)",1940,2102,False
+E48002,"EU-27 (UNSD / 97)",1940,2102,False
+E48003,"European Union (15) (UNSD / 1280)",1940,2102,False
+E48004,"European Union (25) (UNSD / 1282)",1940,2102,False
+E48005,"So. African Customs Union (UNSD / 711)",1940,2102,False
+E48006,"Special Categories (UNSD / 839)",1940,2102,False
+E48007,"World (UNSD / 0)",1940,2102,False
+E48008,"Extra-EU-25 (UNSD / 98)",1940,2102,False
+E48009,"Extra-EU-27 (UNSD / 990)",1940,2102,False
+E48901u,"Africa CAMEU region, nes (UNSD / 472)",1940,2102,False
+E48902u,"Areas, nes (UNSD / 899)",1940,2102,False
+E48903u,"CACM, nes (UNSD / 471)",1940,2102,False
+E48904u,"Caribbean, nes (UNSD / 129)",1940,2102,False
+E48905u,"Eastern Europe, nes (UNSD / 221)",1940,2102,False
+E48906u,"Europe EFTA, nes (UNSD / 697)",1940,2102,False
+E48907u,"Europe EU, nes (UNSD / 492)",1940,2102,False
+E48908u,"LAIA, nes (UNSD / 473)",1940,2102,False
+E48909u,"Northern Africa, nes (UNSD / 290)",1940,2102,False
+E48910u,"Oceania, nes (UNSD / 527)",1940,2102,False
+E48911u,"Other Africa, nes (UNSD / 577)",1940,2102,False
+E48912u,"Other Asia, nes (UNSD / 490)",1940,2102,False
+E48913u,"Other Europe, nes (UNSD / 568)",1940,2102,False
+E48914u,"Rest of America, nes (UNSD / 636)",1940,2102,False
+E48915u,"Western Asia, nes (UNSD / 879)",1940,2102,False
+E48916u,"North America and Central America, nes (UNSD / 637)",1940,2102,False
+E51001,"African HIPCs I (WB / AHR)",1940,2102,False
+E51002,"African HIPCs II (WB / AHP)",1940,2102,False
+E51003,"All Africa (WB / AFR)",1940,2102,False
+E51004,"CFA countries (WB / CFA)",1940,2102,False
+E51005,"COMESA (WB / CMS)",1940,2102,False
+E51006,"Cross Border initiative (CBI) (WB / CBI)",1940,2102,False
+E51007,"East Africa (WB / EAC)",1940,2102,False
+E51008,"East and Southern Africa (WB / ESA)",1940,2102,False
+E51009,"East Asia & Pacific (WB / EAP)",1940,2102,False
+E51010,"ECOWAS (WB / EWS)",1940,2102,False
+E51011,"Euro area (WB / EMU)",1940,2102,False
+E51012,"Europe & Central Asia (WB / ECA)",1940,2102,False
+E51013,"Heavily indebted poor countries (HIPC) (WB / HPC)",1940,2102,False
+E51014,"High income (WB / HIC)",1940,2102,False
+E51015,"High income: nonOECD (WB / NOC)",1940,2102,False
+E51016,"High income: OECD (WB / OEC)",1940,2102,False
+E51017,"Latin America & Caribbean (WB / LAC)",1940,2102,False
+E51018,"Least developed countries: UN classification (WB / LDC)",1940,2102,False
+E51019,"Low & middle income (WB / LMY)",1940,2102,False
+E51020,"Low income (WB / LIC)",1940,2102,False
+E51021,"Lower middle income (WB / LMC)",1940,2102,False
+E51022,"Middle East & North Africa (WB / MNA)",1940,2102,False
+E51023,"Middle income (WB / MIC)",1940,2102,False
+E51024,"Non CFA countries (WB / NCF)",1940,2102,False
+E51025,"North Africa (WB / NAF)",1940,2102,False
+E51026,"SADC (WB / SDC)",1940,2102,False
+E51027,"South Asia (WB / SAS)",1940,2102,False
+E51028,"SPA (WB / SPA)",1940,2102,False
+E51029,"SPA CFA (WB / SPC)",1940,2102,False
+E51030,"SPA non CFA (WB / SNC)",1940,2102,False
+E51031,"Sub Saharan Africa excluding South Africa (WB / SXZ)",1940,2102,False
+E51032,"Sub Saharan Africa excluding South Africa and Nigeria (WB / XZN)",1940,2102,False
+E51033,"Sub-Saharan Africa (WB / SSA)",1940,2102,False
+E51034,"UEMOA/BCEAO (WB / UMB)",1940,2102,False
+E51035,"Upper middle income (WB / UMC)",1940,2102,False
+E51036,"West Africa (WB / WAF)",1940,2102,False
+E51037,"World (WB / WLD)",1940,2102,False
+E55001,"ACP (Africa, Caribbean and Pacific Countries) (WTO / ACP)",1940,2102,False
+E55002,"Africa (WTO / AFR)",1940,2102,False
+E55003,"Andean Community (WTO / G23)",1940,2102,False
+E55004,"APEC (Asia-Pacific Economic Cooperation) (WTO / G75)",1940,2102,False
+E55005,"ASEAN (Association of South East Asian Nations) (WTO / G71)",1940,2102,False
+E55006,"Asia (WTO / ASI)",1940,2102,False
+E55007,"Belgium-Luxembourg (WTO / BL)",1940,2102,False
+E55008,"CACM (Central American Common Market) (WTO / CAC)",1940,2102,False
+E55009,"CARICOM (Caribbean Community) (WTO / CAR)",1940,2102,False
+E55010,"CEMAC (Economic and Monetary Community of Central Africa) (WTO / CEM)",1940,2102,False
+E55011,"COMESA (Common Market for Eastern and Southern Africa) (WTO / COM)",1940,2102,False
+E55012,"Commonwealth of Independent States (CIS) (WTO / CIS)",1940,2102,False
+E55013,"ECCAS (Economic Community of Central African States) (WTO / ECC)",1940,2102,False
+E55014,"ECOWAS (Economic Community of West African States) (WTO / ECO)",1940,2102,False
+E55015,"EFTA (European Free Trade Association) (WTO / EF3)",1940,2102,False
+E55016,"Europe (WTO / EUR)",1940,2102,False
+E55017,"European Union (15) (WTO / G32)",1940,2102,False
+E55018,"European Union (25) (WTO / E25)",1940,2102,False
+E55019,"European Union (27) (WTO / E27)",1940,2102,False
+E55020,"GCC (Gulf Co-operation Council) (WTO / GCC)",1940,2102,False
+E55021,"LDC (Least developed countries) (WTO / LDC)",1940,2102,False
+E55022,"MERCOSUR (Southern Common Market) (WTO / G27)",1940,2102,False
+E55023,"Middle East (WTO / MEA)",1940,2102,False
+E55024,"NAFTA (North American Free Trade Agreement) (WTO / G12)",1940,2102,False
+E55025,"North America (WTO / NAX)",1940,2102,False
+E55026,"SADC (Southern African Development Community) (WTO / SAD)",1940,2102,False
+E55027,"SAPTA (South Asian Preferential Trade Agreement) (WTO / G72)",1940,2102,False
+E55028,"South and Central America (WTO / CSC)",1940,2102,False
+E55029,"WAEMU (West African Economic and Monetary Union) (WTO / WAE)",1940,2102,False
+E55030,"WORLD (WTO / WL)",1940,2102,False
+E55031,"EU Extra-trade (WTO / GXT)",1940,2102,False
+E05001,"Euro area (BIS / NBXM)",1940,2102,False
+535,"Bonaire, Sint Eustatius and Saba",2011,2102,True
+680,"Sark",2011,2102,False
+728,"South Sudan",2012,2102,True
+729,"Sudan",2012,2102,True
+937,"Curacao and Sint Maarten",1940,2102,False
+E51038,"Arab World (WB / ARB)",1940,2102,False
+E51039,"Caribbean small States (WB / CSS)",1940,2102,False
+E51040,"East Asia & Pacific (all income levels) (WB / EAS)",1940,2102,False
+E51041,"Europe & Central Asia (all income levels) (WB / ECS)",1940,2102,False
+E51042,"European Union (WB / EUU)",1940,2102,False
+E51043,"Not classified (WB / INX)",1940,2102,False
+E51044,"Latin America & Carribean (all income levels) (WB / LCN)",1940,2102,False
+E51045,"Middle East & North Africa (all income levels) (WB / MEA)",1940,2102,False
+E51046,"North America (WB / NAC)",1940,2102,False
+E51047,"OECD members (WB / OED)",1940,2102,False
+E51048,"Other small States (WB / OSS)",1940,2102,False
+E51049,"Pacific Island small States (WB / PSS)",1940,2102,False
+E51050,"Sub-Saharan Africa (all income levels) (WB / SSF)",1940,2102,False
+E51051,"Small States (WB / SST)",1940,2102,False
+C00001,"Custom code 1",1940,2102,False
+C00001u,"Custom code 1 n.e.s",1940,2102,False
+C00002,"Custom code 2",1940,2102,False
+C00002u,"Custom code 2 n.e.s",1940,2102,False
+C00003,"Custom code 3",1940,2102,False
+C00003u,"Custom code 3 n.e.s",1940,2102,False
+C00004,"Custom code 4",1940,2102,False
+C00004u,"Custom code 4 n.e.s",1940,2102,False
+C00005,"Custom code 5",1940,2102,False
+C00005u,"Custom code 5 n.e.s",1940,2102,False
+C00006,"Custom code 6",1940,2102,False
+C00006u,"Custom code 6 n.e.s",1940,2102,False
+C00007,"Custom code 7",1940,2102,False
+C00007u,"Custom code 7 n.e.s",1940,2102,False
+C00008,"Custom code 8",1940,2102,False
+C00008u,"Custom code 8 n.e.s",1940,2102,False
+C00009,"Custom code 9",1940,2102,False
+C00009u,"Custom code 9 n.e.s",1940,2102,False
+C00010,"Custom code 10",1940,2102,False
+C00010u,"Custom code 10 n.e.s",1940,2102,False
+C00011,"Custom code 11",1940,2102,False
+C00011u,"Custom code 11 n.e.s",1940,2102,False
+C00012,"Custom code 12",1940,2102,False
+C00012u,"Custom code 12 n.e.s",1940,2102,False
+C00013,"Custom code 13",1940,2102,False
+C00013u,"Custom code 13 n.e.s",1940,2102,False
+C00014,"Custom code 14",1940,2102,False
+C00014u,"Custom code 14 n.e.s",1940,2102,False
+C00015,"Custom code 15",1940,2102,False
+C00015u,"Custom code 15 n.e.s",1940,2102,False
+C00016,"Custom code 16",1940,2102,False
+C00016u,"Custom code 16 n.e.s",1940,2102,False
+C00017,"Custom code 17",1940,2102,False
+C00017u,"Custom code 17 n.e.s",1940,2102,False
+C00018,"Custom code 18",1940,2102,False
+C00018u,"Custom code 18 n.e.s",1940,2102,False
+C00019,"Custom code 19",1940,2102,False
+C00019u,"Custom code 19 n.e.s",1940,2102,False
+C00020,"Custom code 20",1940,2102,False
+C00020u,"Custom code 20 n.e.s",1940,2102,False
+E23064,"Middle East, North Africa, and Pakistan (IMF / 440)",1940,2102,False
+E34069,"EU15_EXTRA",1940,2102,False
+E34070,"EU15_INTRA",1940,2102,False
+E34071,"EU25_EXTRA",1940,2102,False
+E34072,"EU25_INTRA",1940,2102,False
+E34073,"EU25_EXTRA",1940,2102,False
+E34074,"EU27_EXTRA",1940,2102,False
+E34075,"EU27_INTRA",1940,2102,False
+E34076,"EU28_EXTRA",1940,2102,False
+E34077,"EU28_INTRA",1940,2102,False
+E55032,"European Union (28) (WTO / E28)",1940,2102,False
+1614,"LDCs: Africa",1940,2102,False
+1615,"LDCs: Islands and Haiti",1940,2102,False
+E34078,"High seas (Eurostat / QP)",1940,2102,False
+E01001,"Serbia and Montenegro, unspecified (WIR)",1940,2102,False
+E01002,"Serbia and Montenegro, excluding Kosovo (WIR)",1940,2102,False
+E01003,"Yugoslavia (former) (WIR)",1940,2102,False
+E01005,"Czechoslovakia (former) (WIR)",1940,2102,False
+E16123,"World (FAO / 5000)",1940,2102,False
+E16124,"Eastern Asia (FAO / 5302)",1940,2102,False
+E51052,"Central Europe and the Baltics (WB / CEB)",1940,2102,False
+E51053,"East Asia and the Pacific (IFC classification) (WB / CEA)",1940,2102,False
+E51054,"Europe and Central Asia (IFC classification) (WB / CEU)",1940,2102,False
+E51055,"Fragile and conflict affected situations (WB / FCS)",1940,2102,False
+E51056,"Latin America and the Caribbean (IFC classification) (WB / CLA)",1940,2102,False
+E51057,"Middle East and North Africa (IFC classification) (WB / CME)",1940,2102,False
+E51058,"South Asia (IFC classification) (WB / CSA)",1940,2102,False
+E51059,"Sub-Saharan Africa (IFC classification) (WB / CAA)",1940,2102,False
+E48010,"EU-28 (UNSD / 97)",1940,2102,False
+E55033,"European Area (18) (WTO / Z18)",1940,2102,False
+E55034,"European Area (19) (WTO / Z19)",1940,2102,False
+E01006,"International organizations",1940,2102,False
+E01007,"CIS (Bilateral FDI)",1940,2102,False
+E01008,"Transition economies (Bilateral FDI)",1940,2102,False
+E01009,"Developed economies (Bilateral FDI)",1940,2102,False
+E01010,"Developing economies (Bilateral FDI)",1940,2102,False
+E01011,"Eastern Europe (UNCTAD - Iron Ore)",1940,2102,False
+E01012,"CIS (UNCTAD - Iron Ore)",1940,2102,False
+E01013,"European Union (UNCTAD - Iron Ore)",1940,2102,False
+E01014,"Other European Union (UNCTAD - Iron Ore)",1940,2102,False
+E01015,"Other Latin America (UNCTAD - Iron Ore)",1940,2102,False
+E01016,"Middle East (UNCTAD - Iron Ore)",1940,2102,False
+E01017,"Other Africa (UNCTAD - Iron Ore)",1940,2102,False
+E01018,"Other America (UNCTAD - Iron Ore)",1940,2102,False
+E01019,"Other Asia (UNCTAD - Iron Ore)",1940,2102,False
+E01020,"Other Europe (UNCTAD - Iron Ore)",1940,2102,False
+E01021,"Other Oceania (UNCTAD - Iron Ore)",1940,2102,False
+E01022,"Serbia and Montenegro (UNCTAD - Iron Ore)",1940,2102,False
+E01023,"Yugoslavia (UNCTAD - Iron Ore)",1940,2102,False
+E01024,"Belgium/Luxembourg (UNCTAD - Iron Ore)",1940,2102,False
+E01025,"Others (UNCTAD - Iron Ore)",1940,2102,False
+E01026,"Area Nes (UNCTAD - Iron Ore)",1940,2102,False
+E01027,"Europe Othr. Nes (UNCTAD - Iron Ore)",1940,2102,False
+E51060,"Early-demographic dividend (WB / EAR)",1940,2102,False
+E51061,"IBRD only (WB / IBD)",1940,2102,False
+E51062,"IDA & IBRD total (WB / IBT)",1940,2102,False
+E51063,"IDA total (WB / IDA)",1940,2102,False
+E51064,"IDA blend (WB / IDB)",1940,2102,False
+E51065,"IDA only (WB / IDX)",1940,2102,False
+E51066,"Late-demographic dividend (WB / LTE)",1940,2102,False
+E51067,"Pre-demographic dividend (WB / PRE)",1940,2102,False
+E51068,"Post-demographic dividend (WB / PST)",1940,2102,False
+E51069,"East Asia & Pacific (IDA & IBRD) (WB / TEA)",1940,2102,False
+E51070,"Europe & Central Asia (IDA & IBRD) (WB / TEC)",1940,2102,False
+E51071,"Latin America & Caribbean (IDA & IBRD) (WB / TLA)",1940,2102,False
+E51072,"Middle East & North Africa (IDA & IBRD) (WB / TMN)",1940,2102,False
+E51073,"South Asia (IDA & IBRD) (WB / TSA)",1940,2102,False
+E51074,"Sub-Saharan Africa (IDA & IBRD) (WB / TSS)",1940,2102,False
+E23065,"1C_EMU (IMF / 1C_EMU)",1940,2102,False
+E23066,"All Countries and Country Groups (IMF / 1C_ALL)",1940,2102,False
+E23067,"All Countries Published (IMF / 1C_All_Countries_Published)",1940,2102,False
+E23068,"All Countries, excluding the IO (IMF / W00)",1940,2102,False
+E23069,"All Country Groups (IMF / 1C_ALLG)",1940,2102,False
+E23070,"All Non-Euro Countries (IMF / 1C_ANEC)",1940,2102,False
+E23071,"All Participants (IMF / 1C_969)",1940,2102,False
+E23072,"Central and eastern Europe (IMF / 1C_904)",1940,2102,False
+E23073,"Central Bank West Africa (IMF / 1C_752)",1940,2102,False
+E23074,"Community of Independent States (CIS) (IMF / R14)",1940,2102,False
+E23075,"Countries Home Portal Presentation (IMF / Countries_Home_Portal_Presentation)",1940,2102,False
+E23076,"Eastern Africa deprecated (IMF / F3)",1940,2102,False
+E23077,"Eastern Caribbean Currency Union (IMF / 5Y)",1940,2102,False
+E23078,"EPU/EF (IMF / 1C_994)",1940,2102,False
+E23079,"National Accounts (NSA) Countries (IMF / 1C_NANSA)",1940,2102,False
+E23080,"National Accounts (SA) Countries (IMF / 1C_NASA)",1940,2102,False
+E23081,"Non SRF countries (IMF / 1C_NSC)",1940,2102,False
+E23082,"SRF (excluding EA) (IMF / 1C_SRF_less_EMU)",1940,2102,False
+E23083,"SRF (including EA) (IMF / 1C_SRF_plus_EMU)",1940,2102,False
+E23084,"SRF Countries (IMF / 1C_SRF)",1940,2102,False
+E34079,"European Union (28) (Eurostat / EU28)",1940,2102,False
+5702,"Northern America and Europe",1940,2102,False
+5703,"Central and Southern Asia",1940,2102,False
+5704,"Eastern and South-Eastern Asia",1940,2102,False
+5705,"Western Asia and Northern Africa",1940,2102,False
+5110,"Northern Africa",1940,2102,False
+5110u,"Northern Africa n.e.s.",1940,2102,False
+5120,"Sub-Saharan Africa",1940,2102,False
+5120u,"Sub-Saharan Africa n.e.s.",1940,2102,False
+5210,"Northern America",1940,2102,False
+5210u,"Northern America n.e.s.",1940,2102,False
+5220,"Latin America and the Caribbean",1940,2102,False
+5220u,"Latin America and the Caribbean n.e.s.",1940,2102,False
+5310,"Central Asia",1940,2102,False
+5310u,"Central Asia n.e.s.",1940,2102,False
+5320,"Southern Asia",1940,2102,False
+5320u,"Southern Asia n.e.s.",1940,2102,False
+5330,"Eastern Asia",1940,2102,False
+5330u,"Eastern Asia n.e.s.",1940,2102,False
+5340,"Western Asia",1940,2102,False
+5340u,"Western Asia n.e.s.",1940,2102,False
+5350,"South-eastern Asia",1940,2102,False
+5350u,"South-eastern Asia n.e.s.",1940,2102,False
+5600,"Asia and Oceania",1940,2102,False
+5600u,"Asia and Oceania n.e.s.",1940,2102,False
+1400,"Developing economies",1940,2102,False
+1500,"Developed economies",1940,2102,False
+5121,"Eastern Africa",1940,2102,False
+5121u,"Eastern Africa n.e.s.",1940,2102,False
+5122,"Middle Africa",1940,2102,False
+5122u,"Middle Africa n.e.s.",1940,2102,False
+5123,"Southern Africa",1940,2102,False
+5123u,"Southern Africa n.e.s.",1940,2102,False
+5124,"Western Africa",1940,2102,False
+5124u,"Western Africa n.e.s.",1940,2102,False
+5221,"Caribbean",1940,2102,False
+5221u,"Caribbean n.e.s.",1940,2102,False
+5222,"Central America",1940,2102,False
+5222u,"Central America n.e.s.",1940,2102,False
+5223,"South America",1940,2102,False
+5223u,"South America n.e.s.",1940,2102,False
+5410,"Eastern Europe",1940,2102,False
+5410u,"Eastern Europe n.e.s.",1940,2102,False
+5420,"Northern Europe",1940,2102,False
+5420u,"Northern Europe n.e.s.",1940,2102,False
+5430,"Southern Europe",1940,2102,False
+5430u,"Southern Europe n.e.s.",1940,2102,False
+5440,"Western Europe",1940,2102,False
+5440u,"Western Europe n.e.s.",1940,2102,False
+E55035,"WTO Observer governments (WTO / A82)",1940,2102,False
+E55036,"Africa, CIS and Middle East (WTO / ACM)",1940,2102,False
+E55037,"Australia and New Zealand (WTO / ANZ)",1940,2102,False
+E55038,"BRIC members (WTO / BRC)",1940,2102,False
+E55039,"Other CIS (CIS11) (WTO / CIO)",1940,2102,False
+E55040,"Developed Asia (WTO / DDA)",1940,2102,False
+E55041,"Developing Asia (WTO / DGA)",1940,2102,False
+E55042,"Developed Economies (WTO / DVD)",1940,2102,False
+E55043,"Developing and Emerging Economies (WTO / DVE)",1940,2102,False
+E55044,"Developing and Emerging Economies, excluding HK RX (WTO / DVH)",1940,2102,False
+E55045,"Asia-Pacific, APEC, excluding Hong Kong re-exports (WTO / G76)",1940,2102,False
+E55046,"G20 Members (WTO / GME)",1940,2102,False
+E55047,"Four East Asian traders, excluding HK RX (WTO / GNI)",1940,2102,False
+E55048,"LDC exporters of agriculture (WTO / LAX)",1940,2102,False
+E55049,"LDC non-fuel mineral exporters (WTO / LFX)",1940,2102,False
+E55050,"LDC exporters of manufactures (WTO / LMX)",1940,2102,False
+E55051,"LDC oil exporters (WTO / LOX)",1940,2102,False
+E55052,"Four East Asian traders (WTO / NI4)",1940,2102,False
+E55053,"Six East Asian traders (WTO / NI6)",1940,2102,False
+E55054,"Six East Asian traders, excluding HK RX (WTO / NIA)",1940,2102,False
+E55055,"Other Africa (WTO / OAF)",1940,2102,False
+E55056,"Other Asia (WTO / OAS)",1940,2102,False
+E55057,"Other south-eastern Europe (WTO / OSE)",1940,2102,False
+E55058,"Other Western Europe (EFTA+WE nes) (WTO / OWE)",1940,2102,False
+E55059,"Pacific Alliance (WTO / PAC)",1940,2102,False
+E55060,"WTO Member Countries (WTO / WTO)",1940,2102,False
+E01030u,"Unspecified Baltic countries (UNCTAD/DIAE)",1940,2102,False
+E01031u,"Unspecified Belgium / Luxembourg (UNCTAD/DIAE)",1940,2102,False
+E01032u,"Unspecified European Union (UNCTAD/DIAE)",1940,2102,False
+E01033,"Other developed Europe (UNCTAD/DIAE)",1940,2102,False
+E01033u,"Other developed Europe n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01034,"Canary Islands (UNCTAD/DIAE)",1940,2102,False
+E01035,"Melilla (UNCTAD/DIAE)",1940,2102,False
+E01036u,"Unspecified Western Europe (UNCTAD/DIAE)",1940,2102,False
+E01037u,"Unspecified Other Western Europe (UNCTAD/DIAE)",1940,2102,False
+E01038,"Other developed countries (UNCTAD/DIAE)",1940,2102,False
+E01038u,"Other Developed countries n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01039,"Other Africa (UNCTAD/DIAE)",1940,2102,False
+E01039u,"Other Africa n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01040,"South and Central America (UNCTAD/DIAE)",1940,2102,False
+E01040u,"South and Central America n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01041,"Virgin Islands (UNCTAD/DIAE)",1940,2102,False
+E01042,"West Indies (UNCTAD/DIAE)",1940,2102,False
+E01043u,"Unspecified Other Latin America and Caribbean (UNCTAD/DIAE)",1940,2102,False
+E01044,"Asia and Oceania (UNCTAD/DIAE)",1940,2102,False
+E01044u,"Asia and Oceania n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01045,"South, East and South-East Asia (UNCTAD/DIAE)",1940,2102,False
+E01045u,"South, East and South-East Asia n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01046,"Caroline Islands (UNCTAD/DIAE)",1940,2102,False
+E01047,"South-East Europe (UNCTAD/DIAE)",1940,2102,False
+E01047u,"South-East Europe n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01048u,"Unspecified Central Asia (UNCTAD/DIAE)",1940,2102,False
+E01049u,"Unspecified Developing Europe (UNCTAD/DIAE)",1940,2102,False
+E01050u,"Unspecified Central and Eastern Europe (UNCTAD/DIAE)",1940,2102,False
+E01051,"International organizations (UNCTAD/DIAE)",1940,2102,False
+E01052,"Equity (UNCTAD/DIAE)",1940,2102,False
+E01053,"Reinvested earnings (UNCTAD/DIAE)",1940,2102,False
+E01054,"Other Capital (UNCTAD/DIAE)",1940,2102,False
+E01055,"Private buying and selling of property (UNCTAD/DIAE)",1940,2102,False
+E01056,"Netherlands Antilles (UNCTAD/DIAE)",1940,2102,False
+E01057u,"World n.e.s (UNCTAD/DIAE)",1940,2102,False
+E01058u,"Developing economies n.e.s (UNCTAD/DIAE)",1940,2102,False
+E01059u,"Developing economies: Africa n.e.s (UNCTAD/DIAE)",1940,2102,False
+E01060u,"Developing economies: America n.e.s (UNCTAD/DIAE)",1940,2102,False
+E01061u,"Developing economies: Asia n.e.s (UNCTAD/DIAE)",1940,2102,False
+E01062u,"Developed economies n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01063u,"Developed economies: Europe n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01064u,"Developing economies: Oceania n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01065u,"Transition economies n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01066u,"Unspecified EU25 (European Union 25) (UNCTAD/DIAE)",1940,2102,False
+E01067u,"Unspecified EU27 (European Union) (UNCTAD/DIAE)",1940,2102,False
+E01068u,"EU28 (European Union) n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01069u,"CIS (Commonwealth of Independent States) n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01070u,"North Africa n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01071u,"Developed economies: America n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01072u,"Caribbean n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01073u,"Central America n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01074u,"South America n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01075u,"West Asia n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01076,"Developing economies: Africa (UNCTAD/DIAE)",1940,2102,False
+E01077,"Developing economies: Asia (UNCTAD/DIAE)",1940,2102,False
+E01078,"Caribbean (UNCTAD/DIAE)",1940,2102,False
+E01079,"Central America (UNCTAD/DIAE)",1940,2102,False
+E01080,"CIS (Commonwealth of Independent States) (UNCTAD/DIAE)",1940,2102,False
+E01081,"Developed economies (UNCTAD/DIAE)",1940,2102,False
+E01082,"Developing economies (UNCTAD/DIAE)",1940,2102,False
+E01083,"Developed economies: Europe (UNCTAD/DIAE)",1940,2102,False
+E01084,"EU28 (European Union) (UNCTAD/DIAE)",1940,2102,False
+E01085,"Developing economies: America (UNCTAD/DIAE)",1940,2102,False
+E01086,"North Africa (UNCTAD/DIAE)",1940,2102,False
+E01088,"Developing economies: Oceania (UNCTAD/DIAE)",1940,2102,False
+E01089,"South America (UNCTAD/DIAE)",1940,2102,False
+E01090,"Transition economies (UNCTAD/DIAE)",1940,2102,False
+E01091,"World (UNCTAD/DIAE)",1940,2102,False
+E01092,"Western Asia (UNCTAD/DIAE)",1940,2102,False
+E01093,"Serbia and Montenegro (UNCTAD/DIAE)",1940,2102,False
+E01094,"Montenegro (UNCTAD/DIAE)",1940,2102,False
+E01096,"Serbia excluding Kosovo (UNCTAD/DIAE)",1940,2102,False
+E01097,"Internationally administered territory of Kosovo (UNCTAD/DIAE)",1940,2102,False
+E01099,"Curacao (UNCTAD/DIAE)",1940,2102,False
+E01100,"Sint Maarten (Dutch part) (UNCTAD/DIAE)",1940,2102,False
+E01101,"Bonaire, Sint Eustatius and Saba (UNCTAD/DIAE)",1940,2102,False
+E01103u,"Developed economies: Asia n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01104u,"Developed economies: Oceania n.e.s. (UNCTAD/DIAE)",1940,2102,False
+E01102,"Developed economies: America (UNCTAD/DIAE)",1940,2102,False
+E01103,"Developed economies: Asia (UNCTAD/DIAE)",1940,2102,False
+E01104,"Developed economies: Oceania (UNCTAD/DIAE)",1940,2102,False
+E01105,"Congo, Democratic Republic of (UNCTAD/DIAE)",1940,2102,False
+E01106,"Zaire (UNCTAD/DIAE)",1940,2102,False
+E01107,"South Sudan (UNCTAD/DIAE)",1940,2102,False
+E01108,"Sudan (UNCTAD/DIAE)",1940,2102,False
+E01109,"Sudan (...2011) (UNCTAD/DIAE)",1940,2102,False
+E01110,"Indonesia (UNCTAD/DIAE)",1940,2102,False
+E01111,"Indonesia (...2002) (UNCTAD/DIAE)",1940,2102,False
+E01112,"Timor-Leste (UNCTAD/DIAE)",1940,2102,False
+E01113,"Socialist Federal Republic of Yugoslavia (UNCTAD/DIAE)",1940,2102,False
+1640,"SIDS (Small island developing States) (UN-OHRLLS)",1940,2102,False
+3412,"European Union (2020 …)",1940,2102,False
+3412u,"European Union (2020 …) n.e.s.",1940,2102,False
+E48011,"ASEAN (Association of South East Asian Nations) (UNSD / 975)",1940,2102,False
+E23085,"MALAYSIA, WEST (IMF / 554)",1940,2102,False
+E23086,"NORTH VIETNAM (IMF / 958)",1940,2102,False
+E23087,"MIDDLE EAST AND CENTRAL ASIA (IMF / 400)",1940,2102,False
+1530,"Developed economies: Asia",1940,2102,False
+1430,"Developing economies: Asia",1940,2102,False
+1550,"Developed economies: Oceania",1940,2102,False
+1450,"Developing economies: Oceania",1940,2102,False
+3380,"Convention on Biological Diversity (CBD)",1940,2102,False
+3380u,"Convention on Biological Diversity (CBD) n.e.s.",1940,2102,False
+3381,"CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora)",1940,2102,False
+3381u,"CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) n.e.s.",1940,2102,False
+3382,"Nagoya Protocol on Access and Benefit Sharing",1940,2102,False
+3382u,"Nagoya Protocol on Access and Benefit Sharing n.e.s.",1940,2102,False
+3383,"LMMC (Like-Minded Megadiverse Countries)",1940,2102,False
+3383u,"LMMC (Like-Minded Megadiverse Countries) n.e.s.",1940,2102,False
+3384,"BioTrade countries",1940,2102,False
+3384u,"BioTrade countries n.e.s.",1940,2102,False
+5900,"Other territories",1940,2102,False
+1400u,"Developing economies n.e.s.",1940,2102,False
+1410,"Developing economies: Africa",1940,2102,False
+1410u,"Developing economies: Africa n.e.s.",1940,2102,False
+1420,"Developing economies: Americas",1940,2102,False
+1420u,"Developing economies: Americas n.e.s.",1940,2102,False
+1430u,"Developing economies: Asia n.e.s.",1940,2102,False
+1450u,"Developing economies: Oceania n.e.s.",1940,2102,False
+1460u,"Developing economies: Asia and Oceania n.e.s.",1940,2102,False
+1500u,"Developed economies n.e.s.",1940,2102,False
+1520,"Developed economies: Americas",1940,2102,False
+1520u,"Developed economies: Americas n.e.s.",1940,2102,False
+1530u,"Developed economies: Asia n.e.s.",1940,2102,False
+1540,"Developed economies: Europe",1940,2102,False
+1540u,"Developed economies: Europe n.e.s.",1940,2102,False
+1550u,"Developed economies: Oceania n.e.s.",1940,2102,False
+1560u,"Developed economies: Asia and Oceania n.e.s.",1940,2102,False
+1600u,"Developing economies excluding China n.e.s.",1940,2102,False
+1601u,"Developing economies excluding LDCs n.e.s.",1940,2102,False
+1610u,"LDCs (Least developed countries) n.e.s.",1940,2102,False
+1612u,"LDCs: Asia n.e.s.",1940,2102,False
+1614u,"LDCs: Africa n.e.s.",1940,2102,False
+1615u,"LDCs: Islands and Haiti n.e.s.",1940,2102,False
+1620u,"LLDCs (Landlocked developing countries) n.e.s.",1940,2102,False
+1640u,"SIDS (Small island developing States) (UN-OHRLLS) n.e.s.",1940,2102,False
+5702u,"Northern America and Europe n.e.s.",1940,2102,False
+5703u,"Central and Southern Asia n.e.s.",1940,2102,False
+5704u,"Eastern and South-Eastern Asia n.e.s.",1940,2102,False
+5705u,"Western Asia and Northern Africa n.e.s.",1940,2102,False
+5706,"Europe, Northern America, Australia and New Zealand",1940,2102,False
+5706u,"Europe, Northern America, Australia and New Zealand n.e.s.",1940,2102,False
+E56001,"South America: northern and eastern seaboards (Seaborne trade)",1940,2102,False
+E56002,"South America: western seaboard (Seaborne trade)",1940,2102,False
+E56003,"Australia and New Zealand (Seaborne trade)",1940,2102,False
+E56004,"Developing Oceania (Seaborne trade)",1940,2102,False
+E56005,"Eastern Asia (Seaborne trade)",1940,2102,False
+E56006,"Western Asia (Seaborne trade)",1940,2102,False
+1641,"SIDS: Atlantic and Indian Ocean",1940,2102,False
+1641u,"SIDS: Atlantic and Indian Ocean n.e.s.",1940,2102,False
+1642,"SIDS: Caribbean",1940,2102,False
+1642u,"SIDS: Caribbean n.e.s.",1940,2102,False
+1643,"SIDS: Pacific",1940,2102,False
+1643u,"SIDS: Pacific n.e.s.",1940,2102,False
+578,"Norway",1940,2102,True
+E34080,"European Union (27_2020) Extra (Eurostat / EXT_EU27_2020)",1940,2102,False
+E34081,"European Union (27_2000) (Eurostat / EU27_2020)",1940,2102,False
+E34082,"IntraEU NotAllocated (Eurostat / INT_EU_NAL)",1940,2102,False
+E34083,"Euro Area 20 (Eurostat / EA20)",1940,2102,False
+E34084,"Extra-trade Euro Area 20 (Eurostat / EXT_EA20)",1940,2102,False
+E55061,"European Union (WTO / EU)",1940,2102,False
+E55062,"Euro Area (WTO / EZ)",1940,2102,False
+E55063,"European Union intra trade (WTO / EU_EU)",1940,2102,False
+E55064,"European Union extra trade (WTO / EU_GEU)",1940,2102,False
+E55065,"Euro Area extra trade (WTO / EU_EZX)",1940,2102,False
+E34085,"EXT_EA",1940,2102,False
+E34086,"EXT_EU",1940,2102,False
+E34087,"INT_EA",1940,2102,False
+E34088,"INT_EA20",1940,2102,False
+E34089,"INT_EU",1940,2102,False
+E34090,"INT_EU27_2020",1940,2102,False
+E34091,"WORLD",1940,2102,False
+1411,"Developing economies: Northern Africa",1940,2102,False
+1411u,"Developing economies: Northern Africa n.e.s.",1940,2102,False
+1412,"Developing economies: Sub-Saharan Africa",1940,2102,False
+1412u,"Developing economies: Sub-Saharan Africa n.e.s.",1940,2102,False
+1431,"Developing economies: Central Asia",1940,2102,False
+1431u,"Developing economies: Central Asia n.e.s.",1940,2102,False
+1432,"Developing economies: Southern Asia",1940,2102,False
+1432u,"Developing economies: Southern Asia n.e.s.",1940,2102,False
+1433,"Developing economies: Eastern Asia",1940,2102,False
+1433u,"Developing economies: Eastern Asia n.e.s.",1940,2102,False
+1434,"Developing economies: Western Asia",1940,2102,False
+1434u,"Developing economies: Western Asia n.e.s.",1940,2102,False
+1435,"Developing economies: South-eastern Asia",1940,2102,False
+1435u,"Developing economies: South-eastern Asia n.e.s.",1940,2102,False
+5510,"Oceania excluding Australia and New Zealand",1940,2102,False
+5510u,"Oceania excluding Australia and New Zealand n.e.s.",1940,2102,False
+5520,"Australia and New Zealand",1940,2102,False
+5520u,"Australia and New Zealand n.e.s.",1940,2102,False

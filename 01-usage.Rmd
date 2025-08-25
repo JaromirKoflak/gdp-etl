@@ -1,0 +1,44 @@
+# Usage
+
+## gdp_etl_pipeline.R
+
+The file contains one function which runs the entire ETL pipeline.
+
+### Working Directory {-}
+The script automatically sets the working directory to the location of the current R script file.
+
+### Directories {-}
+Defines paths for:
+
+- `datadir`: Data input
+- `outputdir`: Output files
+
+### Country Metadata {-}
+Files found in `datadir`.
+
+- `Dim_countries.csv`: Contains economy codes and valid year ranges.
+- `Dim_Countries_Hierarchy_All.csv`: Contains hierarchical grouping for aggregations.
+- `lab_all.csv`: Contains economy codes and labels.
+- `GDP growth rates.xlsx`: Contains growth rates for all economies.
+
+---
+
+## gdp_etl_plots.R
+
+This R script generates comparison plots for all individual economies and groups of economies.
+
+### Working Directory {-}
+The script automatically sets the working directory to the location of the current R script file.
+
+### Directories {-}
+Defines paths for:
+
+- `datadir`: Data input
+- `outputdir`: Output files
+
+### Country Metadata {-}
+Files found in `datadir`.
+
+- `Dim_countries.csv`: Contains economy codes and valid year ranges.
+- `Dim_Countries_Hierarchy_All.csv`: Contains hierarchical grouping for aggregations.
+- `lab_all.csv`: Contains economy codes and labels 

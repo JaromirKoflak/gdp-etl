@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 3 Special Cases | GDP ETL Documentation</title>
+<meta name="author" content="Jaromír Koflák">
+<meta name="description" content="3.1 Taiwan Province of China The UNSD dataset does not contain data for Taiwan. Taiwan data is extracted separately from Taiwan’s National Statistical Office.  3.2 Former economies Three former...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Chapter 3 Special Cases | GDP ETL Documentation">
+<meta property="og:type" content="book">
+<meta property="og:description" content="3.1 Taiwan Province of China The UNSD dataset does not contain data for Taiwan. Taiwan data is extracted separately from Taiwan’s National Statistical Office.  3.2 Former economies Three former...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 3 Special Cases | GDP ETL Documentation">
+<meta name="twitter:description" content="3.1 Taiwan Province of China The UNSD dataset does not contain data for Taiwan. Taiwan data is extracted separately from Taiwan’s National Statistical Office.  3.2 Former economies Three former...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link href="libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="libs/plotly-binding-4.11.0/plotly.js"></script><script src="libs/typedarray-0.1/typedarray.min.js"></script><link href="libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="libs/crosstalk-1.2.1/js/crosstalk.min.js"></script><link href="libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="libs/plotly-main-2.11.1/plotly-latest.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">GDP ETL Documentation</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="usage.html"><span class="header-section-number">1</span> Usage</a></li>
+<li><a class="" href="pipeline-explanation.html"><span class="header-section-number">2</span> Pipeline Explanation</a></li>
+<li><a class="active" href="special-cases.html"><span class="header-section-number">3</span> Special Cases</a></li>
+<li><a class="" href="discrepancies-before-2024.html"><span class="header-section-number">4</span> Discrepancies before 2024</a></li>
+<li><a class="" href="discrepancies-in-2024.html"><span class="header-section-number">5</span> Discrepancies in 2024</a></li>
+<li><a class="" href="missing-values.html"><span class="header-section-number">6</span> Missing Values</a></li>
+<li><a class="" href="added-values.html"><span class="header-section-number">7</span> Added Values</a></li>
+<li><a class="" href="gdp-deflator.html"><span class="header-section-number">8</span> GDP Deflator</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="special-cases" class="section level1" number="3">
+<h1>
+<span class="header-section-number">3</span> Special Cases<a class="anchor" aria-label="anchor" href="#special-cases"><i class="fas fa-link"></i></a>
+</h1>
+<div id="taiwan-province-of-china" class="section level2" number="3.1">
+<h2>
+<span class="header-section-number">3.1</span> Taiwan Province of China<a class="anchor" aria-label="anchor" href="#taiwan-province-of-china"><i class="fas fa-link"></i></a>
+</h2>
+<p>The UNSD dataset does not contain data for Taiwan. Taiwan data is extracted separately from <a href="https://nstatdb.dgbas.gov.tw/dgbasall/webMain.aspx?k=engmain">Taiwan’s National Statistical Office</a>.</p>
+</div>
+<div id="former-economies" class="section level2" number="3.2">
+<h2>
+<span class="header-section-number">3.2</span> Former economies<a class="anchor" aria-label="anchor" href="#former-economies"><i class="fas fa-link"></i></a>
+</h2>
+<p>Three former economies were relabeled.</p>
+<div id="federal-republic-of-germany-1970-1989" class="section level3 unnumbered">
+<h3>Federal Republic of Germany 1970-1989<a class="anchor" aria-label="anchor" href="#federal-republic-of-germany-1970-1989"><i class="fas fa-link"></i></a>
+</h3>
+<p>Federal Republic of Germany 280 &lt;- Germany 276</p>
+</div>
+<div id="indonesia-..2002-1970-2002" class="section level3 unnumbered">
+<h3>Indonesia (..2002) 1970-2002<a class="anchor" aria-label="anchor" href="#indonesia-..2002-1970-2002"><i class="fas fa-link"></i></a>
+</h3>
+<p>Indonesia (..2002) 960 &lt;- Indonesia 360</p>
+</div>
+<div id="panama-excluding-canal-zone-1970-1980" class="section level3 unnumbered">
+<h3>Panama, excluding Canal Zone 1970-1980<a class="anchor" aria-label="anchor" href="#panama-excluding-canal-zone-1970-1980"><i class="fas fa-link"></i></a>
+</h3>
+<p>Panama, excluding Canal Zone 590 &lt;- Panama 591</p>
+</div>
+</div>
+<div id="dissolved-economies" class="section level2" number="3.3">
+<h2>
+<span class="header-section-number">3.3</span> Dissolved Economies<a class="anchor" aria-label="anchor" href="#dissolved-economies"><i class="fas fa-link"></i></a>
+</h2>
+<p>Data for certain dissolved economies had to be calculated by aggregating its descendant economies.</p>
+<p><strong>Example:</strong> Czechoslovakia has split up in 1993 into Czechia and Slovakia. UNCTAD requires data for Czechoslovakia until 1992 and separate data since 1993. UNSD contains Czechoslovakia data until 1989 and separate data since 1990. The ETL script sums Czechia and Slovakia data for the years 1990-1992 and adds a <em>Czechoslovakia</em> label, an economy code <em>200</em> and a comment <em>Czechia 203 + Slovakia 703</em> referring to the origin of the values.</p>
+<p>Below is the full list of special cases.</p>
+<div id="united-republic-of-tanzania-1970-2023" class="section level3 unnumbered">
+<h3>United Republic of Tanzania 1970-2023<a class="anchor" aria-label="anchor" href="#united-republic-of-tanzania-1970-2023"><i class="fas fa-link"></i></a>
+</h3>
+<p>URT 834 &lt;- Tanzania Mainland 835 + Zanzibar 836</p>
+</div>
+<div id="czechoslovakia-former-1990-1992" class="section level3 unnumbered">
+<h3>Czechoslovakia (Former) 1990-1992<a class="anchor" aria-label="anchor" href="#czechoslovakia-former-1990-1992"><i class="fas fa-link"></i></a>
+</h3>
+<p>Czechoslovakia 200 &lt;- Czechia 203 + Slovakia 703</p>
+</div>
+<div id="sudan-former-2011" class="section level3 unnumbered">
+<h3>Sudan (Former) 2011<a class="anchor" aria-label="anchor" href="#sudan-former-2011"><i class="fas fa-link"></i></a>
+</h3>
+<p>Former Sudan 736 &lt;- South Sudan 728 + Sudan 729</p>
+</div>
+<div id="serbia-and-montenegro-1992-1998" class="section level3 unnumbered">
+<h3>Serbia and Montenegro 1992-1998<a class="anchor" aria-label="anchor" href="#serbia-and-montenegro-1992-1998"><i class="fas fa-link"></i></a>
+</h3>
+<p>Serbia and Montenegro 891 &lt;- Serbia 688 + Montenegro 499</p>
+</div>
+<div id="serbia-and-montenegro-1999-2007" class="section level3 unnumbered">
+<h3>Serbia and Montenegro 1999-2007<a class="anchor" aria-label="anchor" href="#serbia-and-montenegro-1999-2007"><i class="fas fa-link"></i></a>
+</h3>
+<p>Serbia and Montenegro 891 &lt;- Serbia 688 + Montenegro 499 + Kosovo 412</p>
+</div>
+<div id="yugoslavia-former-1991" class="section level3 unnumbered">
+<h3>Yugoslavia (Former) 1991<a class="anchor" aria-label="anchor" href="#yugoslavia-former-1991"><i class="fas fa-link"></i></a>
+</h3>
+<p>Yugoslavia 890 &lt;- Serbia 688 + Montenegro 499 + Croatia 191 + North Macedonia 807
++ Slovenia 705 + Bosnia and Herzegovina 070</p>
+</div>
+<div id="ussr-former-1991" class="section level3 unnumbered">
+<h3>USSR (Former) 1991<a class="anchor" aria-label="anchor" href="#ussr-former-1991"><i class="fas fa-link"></i></a>
+</h3>
+<p>USSR 810 &lt;- Russian Federation 643 + Ukraine 804 + Belarus 112 + Uzbekistan 860 + Kazakhstan 398
++ Georgia 268 + Azerbaijan 031 + Lithuania 440 + Moldova 498 + Latvia 428 + Kyrgyzstan 417
++ Tajikistan 762 + Armenia 051 + Turkmenistan 795 + Estonia 233</p>
+</div>
+<div id="pacific-islands-trust-territory-1970-1981" class="section level3 unnumbered">
+<h3>Pacific Islands, Trust Territory 1970-1981<a class="anchor" aria-label="anchor" href="#pacific-islands-trust-territory-1970-1981"><i class="fas fa-link"></i></a>
+</h3>
+<p>Pacific Islands, Trust Territory 582 &lt;- Micronesia 583 + Marshall Islands 584 + Palau 585</p>
+
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="pipeline-explanation.html"><span class="header-section-number">2</span> Pipeline Explanation</a></div>
+<div class="next"><a href="discrepancies-before-2024.html"><span class="header-section-number">4</span> Discrepancies before 2024</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#special-cases"><span class="header-section-number">3</span> Special Cases</a></li>
+<li><a class="nav-link" href="#taiwan-province-of-china"><span class="header-section-number">3.1</span> Taiwan Province of China</a></li>
+<li>
+<a class="nav-link" href="#former-economies"><span class="header-section-number">3.2</span> Former economies</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#federal-republic-of-germany-1970-1989">Federal Republic of Germany 1970-1989</a></li>
+<li><a class="nav-link" href="#indonesia-..2002-1970-2002">Indonesia (..2002) 1970-2002</a></li>
+<li><a class="nav-link" href="#panama-excluding-canal-zone-1970-1980">Panama, excluding Canal Zone 1970-1980</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#dissolved-economies"><span class="header-section-number">3.3</span> Dissolved Economies</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#united-republic-of-tanzania-1970-2023">United Republic of Tanzania 1970-2023</a></li>
+<li><a class="nav-link" href="#czechoslovakia-former-1990-1992">Czechoslovakia (Former) 1990-1992</a></li>
+<li><a class="nav-link" href="#sudan-former-2011">Sudan (Former) 2011</a></li>
+<li><a class="nav-link" href="#serbia-and-montenegro-1992-1998">Serbia and Montenegro 1992-1998</a></li>
+<li><a class="nav-link" href="#serbia-and-montenegro-1999-2007">Serbia and Montenegro 1999-2007</a></li>
+<li><a class="nav-link" href="#yugoslavia-former-1991">Yugoslavia (Former) 1991</a></li>
+<li><a class="nav-link" href="#ussr-former-1991">USSR (Former) 1991</a></li>
+<li><a class="nav-link" href="#pacific-islands-trust-territory-1970-1981">Pacific Islands, Trust Territory 1970-1981</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/03-special-cases.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/03-special-cases.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>GDP ETL Documentation</strong>" was written by Jaromír Koflák. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

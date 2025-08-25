@@ -1,0 +1,1228 @@
+Code,Label
+0000,World
+0000u,World n.e.s.
+0001,Individual economies
+004,Afghanistan
+008,Albania
+010,Antarctica
+012,Algeria
+016,American Samoa
+020,Andorra
+024,Angola
+028,Antigua and Barbuda
+031,Azerbaijan
+032,Argentina
+036,Australia
+040,Austria
+044,Bahamas
+048,Bahrain
+050,Bangladesh
+051,Armenia
+052,Barbados
+056,Belgium
+060,Bermuda
+064,Bhutan
+068,Bolivia (Plurinational State of)
+070,Bosnia and Herzegovina
+072,Botswana
+074,Bouvet Island
+076,Brazil
+080,British Antarctic Territory
+084,Belize
+086,British Indian Ocean Territory
+090,Solomon Islands
+092,British Virgin Islands
+096,Brunei Darussalam
+100,Bulgaria
+104,Myanmar
+108,Burundi
+112,Belarus
+116,Cambodia
+120,Cameroon
+124,Canada
+132,Cabo Verde
+136,Cayman Islands
+140,Central African Republic
+144,Sri Lanka
+148,Chad
+152,Chile
+156,China
+158,"China, Taiwan Province of"
+162,Christmas Island
+166,Cocos (Keeling) Islands
+170,Colombia
+174,Comoros
+175,Mayotte
+178,Congo
+180,Dem. Rep. of the Congo
+184,Cook Islands
+188,Costa Rica
+191,Croatia
+192,Cuba
+196,Cyprus
+200,Czechoslovakia
+203,Czechia
+204,Benin
+208,Denmark
+1560,Developed economies: Asia and Oceania
+1460,Developing economies: Asia and Oceania
+212,Dominica
+214,Dominican Republic
+1600,Developing economies excluding China
+1601,Developing economies excluding LDCs
+218,Ecuador
+1610,LDCs (Least developed countries)
+1612,LDCs: Asia
+222,El Salvador
+1620,LLDCs (Landlocked developing countries)
+226,Equatorial Guinea
+230,Ethiopia (...1991)
+231,Ethiopia
+232,Eritrea
+233,Estonia
+234,Faroe Islands
+238,Falkland Islands (Malvinas)
+239,South Georgia and the South Sandwich Islands
+242,Fiji
+246,Finland
+248,Aland Islands
+250,France
+251,"France including French Guiana, Guadeloupe, Martinique, Mayotte, Monaco and Reunion"
+254,French Guiana
+258,French Polynesia
+260,French Southern Territories
+262,Djibouti
+266,Gabon
+268,Georgia
+270,Gambia
+2711,BRICS
+2711u,BRICS n.e.s.
+275,State of Palestine
+276,Germany
+278,Democratic Republic of Germany
+280,Federal Republic of Germany
+288,Ghana
+292,Gibraltar
+296,Kiribati
+300,Greece
+304,Greenland
+308,Grenada
+312,Guadeloupe
+316,Guam
+320,Guatemala
+324,Guinea
+328,Guyana
+332,Haiti
+334,Heard Island and McDonald Islands
+336,Holy See
+340,Honduras
+344,"China, Hong Kong SAR"
+348,Hungary
+352,Iceland
+356,India
+360,Indonesia
+364,Iran (Islamic Republic of)
+368,Iraq
+372,Ireland
+376,Israel
+380,Italy
+381,Italy including San Marino and the Holy See
+384,Cote d'Ivoire
+388,Jamaica
+3905,OECD (Organisation for Economic Cooperation and Development)
+3905u,OECD (Organisation for Economic Cooperation and Development) n.e.s.
+3916,G20 (Group of Twenty)
+3916u,G20 (Group of Twenty) n.e.s.
+3919,G-77 (Group of 77)
+3919u,G-77 (Group of 77) n.e.s.
+392,Japan
+396,Johnston Atoll
+398,Kazakhstan
+400,Jordan
+404,Kenya
+408,Dem. People's Rep. of Korea
+410,"Korea, Republic of"
+412,Kosovo
+414,Kuwait
+417,Kyrgyzstan
+418,Lao People's Dem. Rep.
+422,Lebanon
+426,Lesotho
+428,Latvia
+430,Liberia
+434,Libya
+438,Liechtenstein
+440,Lithuania
+442,Luxembourg
+446,"China, Macao SAR"
+450,Madagascar
+454,Malawi
+458,Malaysia
+462,Maldives
+466,Mali
+470,Malta
+474,Martinique
+478,Mauritania
+480,Mauritius
+484,Mexico
+488,Midway Atoll
+492,Monaco
+496,Mongolia
+498,"Moldova, Republic of"
+499,Montenegro
+500,Montserrat
+504,Morocco
+508,Mozambique
+5100,Africa
+5100u,Africa n.e.s.
+512,Oman
+516,Namibia
+520,Nauru
+5200,Americas
+5200u,Americas n.e.s.
+524,Nepal
+528,Netherlands (Kingdom of the)
+530,Netherlands Antilles
+5300,Asia
+5300u,Asia n.e.s.
+532,Netherlands Antilles and Aruba
+533,Aruba
+536,Neutral zone
+540,New Caledonia
+5400,Europe
+5400u,Europe n.e.s.
+548,Vanuatu
+5500,Oceania
+5500u,Oceania n.e.s.
+554,New Zealand
+558,Nicaragua
+562,Niger
+566,Nigeria
+570,Niue
+574,Norfolk Island
+579,Norway including Svalbard and Jan Mayen Islands
+580,Northern Mariana Islands
+581,United States Minor Outlying Islands
+582,"Pacific Islands, Trust Territory"
+583,Micronesia (Federated States of)
+584,Marshall Islands
+585,Palau
+586,Pakistan
+590,"Panama, excluding Canal Zone"
+591,Panama
+592,"Panama, Canal Zone"
+598,Papua New Guinea
+600,Paraguay
+604,Peru
+608,Philippines
+612,Pitcairn
+616,Poland
+620,Portugal
+624,Guinea-Bissau
+626,Timor-Leste
+630,Puerto Rico
+634,Qatar
+638,Reunion
+642,Romania
+643,Russian Federation
+646,Rwanda
+647,Ryukyu Islands
+652,Saint Barthelemy
+654,Saint Helena
+658,Saint Kitts and Nevis and Anguilla
+659,Saint Kitts and Nevis
+660,Anguilla
+662,Saint Lucia
+663,Saint Martin (French part)
+666,Saint Pierre and Miquelon
+670,Saint Vincent and the Grenadines
+674,San Marino
+678,Sao Tome and Principe
+682,Saudi Arabia
+686,Senegal
+688,Serbia
+690,Seychelles
+694,Sierra Leone
+702,Singapore
+703,Slovakia
+704,Viet Nam
+705,Slovenia
+706,Somalia
+710,South Africa
+716,Zimbabwe
+720,"Yemen, Democratic"
+724,Spain
+732,Western Sahara
+736,Sudan (...2011)
+740,Suriname
+744,Svalbard and Jan Mayen Islands
+748,Eswatini
+752,Sweden
+756,Switzerland
+757,Switzerland including Liechtenstein
+760,Syrian Arab Republic
+762,Tajikistan
+764,Thailand
+768,Togo
+772,Tokelau
+776,Tonga
+780,Trinidad and Tobago
+784,United Arab Emirates
+788,Tunisia
+792,Turkiye
+795,Turkmenistan
+796,Turks and Caicos Islands
+798,Tuvalu
+800,Uganda
+804,Ukraine
+807,North Macedonia
+810,Union of Soviet Socialist Republics
+818,Egypt
+826,United Kingdom
+830,Channel Islands
+831,Guernsey
+832,Jersey
+833,Isle of Man
+834,United Republic of Tanzania
+835,Tanganyika
+836,Zanzibar and Pemba Island
+837,"Bunkers, ship stores"
+838,Free zones
+839,Confidential information and differences
+840,United States
+841,United States of America including Puerto Rico
+842,United States of America including Puerto Rico and United States Virgin Islands
+849,United States Miscellaneous Pacific Islands
+850,United States Virgin Islands
+854,Burkina Faso
+858,Uruguay
+860,Uzbekistan
+862,Venezuela (Bolivarian Rep. of)
+872,Wake Island
+876,Wallis and Futuna Islands
+882,Samoa
+886,"Yemen, Arab Republic"
+887,Yemen
+890,"Yugoslavia, Socialist Federal Republic of Yugoslavia"
+891,Serbia and Montenegro
+894,Zambia
+904,Morocco including Western Sahara
+926,United Kingdom including Channel Islands and Isle of Man
+932,Bonaire
+531,Curacao
+934,Saba
+935,Sint Eustatius
+534,Sint Maarten (Dutch part)
+950,"France excluding French Guiana, Guadeloupe, Martinique, Mayotte, Reunion and including Monaco"
+951,"France including French Guiana, Guadeloupe, Martinique, Mayotte, Reunion and excluding Monaco"
+957,"China including Hong Kong, Macao and Taiwan"
+960,Indonesia (...2002)
+966,Abu Dhabi (UAE)
+967,Ras Al Khaimah (UAE)
+988,Serbia excluding Kosovo
+E14001,ASIA AND AUSTRALASIA (AGG.) (EIU / AA)
+E14002,ECONOMIES IN TRANSITION (AGG.) (EIU / EO)
+E14003,EU27 (AGG.) (EIU / XE)
+E14004,EURO AREA (AGG.) (EIU / EA)
+E14005,G10 (AGG.) (EIU / GX)
+E14006,G7 (AGG.) (EIU / G7)
+E14007,LATIN AMERICA (AGG.) (EIU / LN)
+E14008,MIDDLE EAST AND NORTH AFRICA (AGG.) (EIU / EN)
+E14009,NAFTA (AGG.) (EIU / NT)
+E14010,NON-OECD (AGG.) (EIU / DV)
+E14011,NORTH AMERICA (AGG.) (EIU / UC)
+E14012,OECD (AGG.) (EIU / OE)
+E14013,SUB-SAHARAN AFRICA (AGG.) (EIU / SS)
+E14014,WESTERN EUROPE (AGG.) (EIU / WE)
+E14015,WORLD (AGG.) (EIU / WO)
+E14016,EU15 (AGG.) (EIU / EU)
+E16001,Africa (FAO / 5100)
+E16002,AFRICA (FAO / 359)
+E16003,AFRICA DEVELOPED (FAO / 340)
+E16004,AFRICA DEVELOPING (FAO / 309)
+E16005,AFRICA SOUTH OF SAHARA (FAO / 390)
+E16006,Americas (FAO / 5200)
+E16007,ANDEAN COMMON MARKET (FAO / 395)
+E16008,ARAB COOPERATION COUNCIL (FAO / 464)
+E16009,ARAB MAGHREB UNION (FAO / 454)
+E16010,Asia (FAO / 5310)
+E16011,ASIA (FAO / 860)
+E16012,ASIA DEVELOPED (FAO / 343)
+E16013,ASIA DEVELOPING (FAO / 847)
+E16014,ASSOC SEASIAN NATIONS (FAO / 412)
+E16015,Australia and New Zealand (FAO / 5501)
+E16016,Belgium-Luxembourg (FAO / 15)
+E16017,Caribbean (FAO / 5206)
+E16018,CARIBBEAN (FAO / 317)
+E16019,CARIBBEAN COMMUNITY SECR (FAO / 394)
+E16020,CEN AMERICA COMMON MKT (FAO / 393)
+E16021,CENTRAFR CUSTOMS ECUNION (FAO / 399)
+E16022,CENTRAL AFRICA (FAO / 312)
+E16023,CENTRAL AMER & CARIBBEAN (FAO / 328)
+E16024,Central America (FAO / 5204)
+E16025,CENTRAL AMERICA (FAO / 316)
+E16026,Central Asia (FAO / 5301)
+E16027,COMM INDEPENDENT STATES (FAO / 474)
+E16028,COUNCIL ARAB ECON UNITY (FAO / 408)
+E16029,DEVELOPED COUNTRIES (FAO / 354)
+E16030,DEVELOPING COUNTRIES (FAO / 855)
+E16031,EAST & SOUTH EAST ASIA (FAO / 324)
+E16032,Eastern Africa (FAO / 5101)
+E16033,EASTERN AFRICA (FAO / 313)
+E16034,Eastern Asia (FAO / 5315)
+E16035,Eastern Europe (FAO / 5401)
+E16036,EASTERN EUROPE (FAO / 334)
+E16037,EC&SOC COMM ASIA&PAC (FAO / 345)
+E16038,ECON COM CENT AFR STATES (FAO / 455)
+E16039,ECON COM GREAT LAKES (FAO / 456)
+E16040,ECON COM WAFRICAN STATES (FAO / 458)
+E16041,ECON COMM LAT AMER & CA (FAO / 439)
+E16042,ECON COMM WEST ASIA (FAO / 440)
+E16043,ECON COMMISSION AFRICA (FAO / 438)
+E16044,ECON COMMISSION EUROPE (FAO / 441)
+E16045,Europe (FAO / 5400)
+E16046,EUROPE (FAO / 361)
+E16047,EUROPE & BALTIC STATES (FAO / 329)
+E16048,EUROPEAN FREE TRADE ASS (FAO / 477)
+E16049,European Union (FAO / 5706)
+E16050,EUROPEAN UNION (12) (FAO / 304)
+E16051,EUROPEAN UNION (15) (FAO / 305)
+E16052,FAO MEMBER NATIONS (FAO / 476)
+E16053,FAR EAST (FAO / 822)
+E16054,GULF COOPERATION COUNCIL (FAO / 465)
+E16055,INDUSTRIALIZED COUNTRIES (FAO / 331)
+E16056,LAND-LOCKED DEVELOPING (FAO / 402)
+E16057,LandLocked developing countries (FAO / 5802)
+E16058,LATAMER INTEGRATION ASS (FAO / 462)
+E16059,LATAMERICAN ECO SYSTEM (FAO / 391)
+E16060,LATIN AMER & CARIBBEAN (FAO / 315)
+E16061,LDC (FAO / 5801)
+E16062,LEAGUE OF ARAB STATES (FAO / 350)
+E16063,LEAST DEVELOPED COUNTRS (FAO / 415)
+E16064,LIAISON OFF NORTHAMERICA (FAO / 442)
+E16065,Low Income Food Deficit Countries (FAO / 5815)
+E16066,LOW-INCOME COUNTRIES (FAO / 426)
+E16067,LOW-INCOME FOOD DEFICIT (FAO / 876)
+E16068,Melanesia (FAO / 5502)
+E16069,Micronesia (FAO / 5503)
+E16070,Middle Africa (FAO / 5102)
+E16071,NEAR EAST (FAO / 319)
+E16072,NEAR EAST IN AFRICA (FAO / 320)
+E16073,NEAR EAST IN ASIA (FAO / 321)
+E16074,Net Food Importing Developing Countries (FAO / 5817)
+E16075,NET FOOD IMPORTING DVNG (FAO / 401)
+E16076,NORTH & CENTRAL AMERICA (FAO / 336)
+E16077,NORTH AM FREE TRADE AGR (FAO / 330)
+E16078,NORTH AMERICA DEVELOPED (FAO / 302)
+E16079,NORTH AMERICA DEVELOPING (FAO / 326)
+E16080,NORTH WESTERN AFRICA (FAO / 310)
+E16081,Northern Africa (FAO / 5103)
+E16082,Northern America (FAO / 5203)
+E16083,Northern Europe (FAO / 5402)
+E16084,Oceania (FAO / 5500)
+E16085,OCEANIA (FAO / 339)
+E16086,OCEANIA DEVELOPED (FAO / 306)
+E16087,OCEANIA DEVELOPING (FAO / 327)
+E16088,ORG ARAB PETROL EXPORT (FAO / 452)
+E16089,ORG EASTERN CARIBBEAN (FAO / 463)
+E16090,ORG ECON COOP & DEVELOP (FAO / 342)
+E16091,ORG ISLAMIC CONFERENCE (FAO / 446)
+E16092,ORG PETROLEUM EXPORTING (FAO / 388)
+E16093,PACIFIC COMMUNITY (FAO / 478)
+E16094,Polynesia (FAO / 5504)
+E16095,REG OFF ASIA & PACIFIC (FAO / 852)
+E16096,REG OFF NEAR EAST (FAO / 353)
+E16097,REG OFFICE AFRICA (FAO / 443)
+E16098,REG OFFICE EUROPE (FAO / 445)
+E16099,REG OFFICE LATAMER & CAR (FAO / 444)
+E16100,S AFR DEVELOPMENT COMMUN (FAO / 461)
+E16101,S ASIAN ASSOC REG COOP (FAO / 437)
+E16102,S PACIFIC BUREAU EC COOP (FAO / 479)
+E16103,Small Island Developing States (FAO / 5803)
+E16104,SMALL ISLAND DVNG STATES (FAO / 378)
+E16105,South America (FAO / 5207)
+E16106,SOUTH AMERICA (FAO / 318)
+E16107,SOUTH ASIA (FAO / 323)
+E16108,South-Eastern Asia (FAO / 5304)
+E16109,Southern Africa (FAO / 5104)
+E16110,SOUTHERN AFRICA (FAO / 314)
+E16111,Southern Asia (FAO / 5303)
+E16112,Southern Europe (FAO / 5403)
+E16113,TRANSITION MARKETS (FAO / 333)
+E16114,Western Africa (FAO / 5105)
+E16115,WESTERN AFRICA (FAO / 311)
+E16116,Western Asia (FAO / 5305)
+E16117,Western Europe (FAO / 5404)
+E16118,WESTERN EUROPE (FAO / 303)
+E16119,World (FAO / 5001)
+E16120,World (FAO / 5002)
+E16121,World (FAO / 5007)
+E16122,WORLD (FAO / 862)
+E23001,ADVANCED ECONOMIES (IMF / 110)
+E23002,AFRICA (IMF / 605)
+E23003,AFRICA (IMF / 607)
+E23003u,AFRICA N.S. (IMF / 799)
+E23004,Africa: Sub-Sahara (IMF / 603)
+E23005,ALL COUNTRIES (IMF / 010)
+E23006,ARAB MONETARY FUND (IMF / 476)
+E23007,ASEAN-5 (IMF / 511)
+E23008,ASIA (IMF / 507)
+E23008u,ASIA N.S. (IMF / 598)
+E23009,BCEAO (IMF / 751)
+E23010,BELGIUM-LUXEMBOURG (IMF / 126)
+E23011,BEL-LUX N.S. (IMF / 127)
+E23012,BIS (IMF / 993)
+E23013,BK.CEN.AFR.STS(BEAC) (IMF / 741)
+E23014,CEMAC (IMF / 758)
+E23015,CEN.BANK WEST AFRICA (IMF / 752)
+E23016,Emerging and Developing Europe (IMF / 903)
+E23017,Commonwealth of Independent States and Mongolia (IMF / 901)
+E23018,DEVELOPING ASIA (IMF / 505)
+E23019,DEVELOPING COUNTRIES (IMF / 202)
+E23020,EAST AFRICA (IMF / 639)
+E23021,ECCB (IMF / 308)
+E23022,ECCU (IMF / 309)
+E23023,EMER.& DEVELOP. ECO. (IMF / 200)
+E23024,EPU/EF (IMF / 994)
+E23025,EURO AREA (IMF / 163)
+E23026,EUROP.MONETARY INST. (IMF / 977)
+E23027,EUROPE (IMF / 170)
+E23028,EUROPE N.S. (IMF / 884)
+E23029,EUROPEAN CENTRAL BK. (IMF / 168)
+E23030,EUROPEAN UNION (IMF / 998)
+E23031,IBRD (IMF / 996)
+E23032,IMF MEMBER COUNTRIES (IMF / 992)
+E23033,INDUS STERL OCEANIA (IMF / 889)
+E23034,INDUSTRIAL COUNTRIES (IMF / 101)
+E23035,INTERNATIONAL ORG (IMF / 091)
+E23036,ISLAMIC DEV. BANK (IMF / 480)
+E23037,Major advanced economies (G7) (IMF / 119)
+E23038,MIDDLE EAST (IMF / 407)
+E23038u,MIDDLE EAST N.S. (IMF / 489)
+E23039,MIDDLE EAST (IMF / 405)
+E23040,Newly industrialized Asian economies (IMF / 203)
+E23041,EXPORT EARN.: NON-FUEL (IMF / 092)
+E23042,NORDIC INVEST. BANK (IMF / 167)
+E23043,EXPORT EARN.: FUEL (IMF / 080)
+E23044,Other advanced economies (Advanced economies excluding G7 and euro area) (IMF / 123)
+E23045,OTHER COUNTRIES (IMF / 810)
+E23045u,OTHER COUNTRIES NIE (IMF / 910)
+E23046,OTHER WESTERN EUROPE (IMF / 883)
+E23047,SACCA (IMF / 198)
+E23048,SACCA EXC.SOUTH AFR. (IMF / 608)
+E23049,SPANISH SAHARA (IMF / 798)
+E23050,SPECIAL CATEGORIES (IMF / 899)
+E23051,U.S.S.R. N.S. (IMF / 930)
+E23052,WAEMU (IMF / 759)
+E23053,WESTERN HEMISPHERE (IMF / 205)
+E23054,WESTERN HEMISPHERE (IMF / 207)
+E23054u,WESTERN HEM. N.S. (IMF / 399)
+E23055,WORLD (IMF / 001)
+E23056,YUGOSLAVIA N.S. (IMF / 966)
+E23057,NON-OIL DEVELOP.CTYS (IMF / 201)
+E23058,APEC (IMF / 050)
+E23059,ALL PARTICIPANTS (IMF / 969)
+E23060,OTHER HOLDERS (IMF / 970)
+E23061,EURO AREA (AGGREG.) (IMF / 995)
+E23062,OIL EXPORTING CTYS (IMF / 999)
+E23063,Mid East and N.Africa (IMF / 406)
+E23901u,"COUNTRIES&AREAS,N.S. (IMF / 898)"
+E23902u,CZECHOSLOVAKIA N.S. (IMF / 937)
+E23903u,EASTERN EUROPE N.S. (IMF / 978)
+E23904u,OCEANIA N.S. (IMF / 892)
+E23905u,OTH CENT AMERICA NS (IMF / 386)
+E23906u,UNALLOC. BORROWERS (IMF / 897)
+E23907u,SERBIA & MONTENEGRO NS (IMF / 945)
+E31001,AF. D B (OECD / 913)
+E31002,AFRICAN DEV. FUND (OECD / 914)
+E31003,Arab Agencies (OECD / 778)
+E31004,AS. D B (OECD / 915)
+E31005,AS. D B SPECIAL FUNDS (OECD / 916)
+E31006u,Bilateral unallocated (OECD / 9998)
+E31007,CARDB (OECD / 906)
+E31008u,"Central Asia, Regional (OECD / 619)"
+E31009,COUNCIL OF EUROPE (OECD / 926)
+E31010u,East African Community (OECD / 237)
+E31011,EBRD (OECD / 990)
+E31012,EC (OECD / 918)
+E31013,EIB (OECD / 919)
+E31014,EU15 (OECD / E15)
+E31015,Euro area (OECD / EMU)
+E31016,Euro area (OECD zone methodology) (OECD / EUZ)
+E31017,European Union (OECD / EUU)
+E31018u,"Ex-Yugoslavia, Unsp. (OECD / 88)"
+E31019,FOUR BIG EUROPEAN (OECD / G4E)
+E31020,GEF (OECD / 811)
+E31021,GFATM (OECD / 1312)
+E31022,IBRD (OECD / 901)
+E31023,IDA (OECD / 905)
+E31024,IDB (OECD / 909)
+E31025,IDB SPECIAL OPER. FUND (OECD / 912)
+E31026,IFAD (OECD / 988)
+E31027,IFC (OECD / 903)
+E31028,IMF (OECD / 907)
+E31029,IMF TRUST FUND (OECD / 956)
+E31030u,Indus Basin (OECD / 650)
+E31031,Least Developed Countries (LLDCS) (OECD / LLDCS)
+E31031u,LDC's Unspecified (OECD / QZA)
+E31032,Low Middle Income (LMICS) (OECD / LMICS)
+E31033,MAJOR FIVE ASIA (OECD / A5M)
+E31034,MAJOR SEVEN (OECD / G7M)
+E31035u,Mekong Delta Project (OECD / 752)
+E31036,Montreal Protocol (OECD / 812)
+E31037,More Advanced Developing Countries (MADCT) (OECD / MADCT)
+E31038,NAFTA (OECD / NAT)
+E31039,Non-OECD (OECD / NOC)
+E31040,NORDIC DEVELOPMENT FUND (OECD / 104)
+E31041,OECD - Europe (OECD / OEU)
+E31042,OECD - Europe excluding high inflation (OECD / OEL)
+E31043,OECD - Total (OECD / OTO)
+E31044,OECD - Total less high inflation (OECD / OTL)
+E31045,OECD + MAJOR SIX NME (OECD / ONM)
+E31046,OECD EASTERN EUROPE (OECD / OEE)
+E31047,Other Low Income (OLICS) (OECD / OLICS)
+E31048,OTHER UN (OECD / 975)
+E31049,SAF & ESAF (OECD / 958)
+E31050u,"South Asia, regional (OECD / 679)"
+E31051,Special Drawing Right (OECD / SDR)
+E31052,"Total, Africa (OECD / QMA)"
+E31053,"Total, Americas (OECD / QNA)"
+E31054,"Total, Asia (OECD / QRA)"
+E31055,"TOTAL, DEVELOPING COUNTRIES (OECD / TOTINC)"
+E31056,"Total, Europe (OECD / QSA)"
+E31057,"Total, Far East (OECD / QRB)"
+E31058,"Total, Middle East (OECD / QRE)"
+E31059,"Total, N. & C. America (OECD / QNB)"
+E31060,"Total, North of Sahara (OECD / QMD)"
+E31061,"Total, Oceania (OECD / QTA)"
+E31062,"Total, South & Central Asia (OECD / QRD)"
+E31063,"Total, South America (OECD / QNE)"
+E31064,"Total, South of Sahara (OECD / QME)"
+E31065,UNDP (OECD / 959)
+E31066,UNFPA (OECD / 974)
+E31067,UNHCR (OECD / 967)
+E31068,UNICEF (OECD / 963)
+E31069,UNRWA (OECD / 964)
+E31070,UNTA (OECD / 960)
+E31071,Upper Middle Income (UMICS) (OECD / UMICS)
+E31072,WFP (OECD / 966)
+E31073,WORLD (OECD / WLD)
+E31074u,"South and Central Asia, regional (OECD / 9689)"
+E31075,TOTAL BY REGION (OECD / TOTREG)
+E31076,Memo: HIPC (OECD / 10030)
+E31077,EU25 (OECD / D3X)
+E31079,Former Federal Republic of Germany (OECD / WGR)
+E31080,"Seven major OECD Countries (Canada, France, Germany, Italy, Japan, United Kingdom and United States) (OECD / BIG7)"
+E31081,"Euro area end 2008 OECD countries (Austria, Belgium, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal and Spain) (OECD / EA12)"
+E31082,"Euro area as from 1 January 2009 OECD countries (Austria, Belgium, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Slovak Republic) (OECD / EA13)"
+E31083,"Euro area as from 1 January 2009 OECD countries (Austria, Belgium, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Slovak Republic) (OECD / EURO)"
+E31084,"Euro area until 1991, with Former Federal Republic of Germany (OECD / EURO_WGR)"
+E31085,Total OECD (OECD / OECD)
+E31086,"Africa and the Middle East (Africa and the following countries (Middle East): Bahrain, Cyprus, Iran, Iraq, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syrian Arab Republic, United Arab Emirates and Yemen) (OECD / AFM)"
+E31087,"Dynamic Asian Economies (Chinese Taipei; Hong Kong, China; Indonesia; Malaysia; the Philippines; Singapore and Thailand) (OECD / ANC)"
+E31088,"Other Asia (non-OECD Asia and Oceania, excluding China, ANCs and the Middle East) (OECD / ASO)"
+E31089,Latin America (Central and South America) (OECD / LAT)
+E31090,"Central and Eastern Europe (Albania, Bulgaria, Romania, the Newly Independent States of the former Soviet Union, and the Baltic States) (OECD / SEE)"
+E31091,Non-OECD countries (OECD / NOECD)
+E31092,OECD COUNTRIES (OECD / Group_OECD)
+E31093,OECD aggregates (OECD / Group_OECD_ZONES)
+E31094,Non-OECD REGIONS (OECD / Group_NOECD)
+E31095,Non-member economies (OECD / Group_NMEC)
+E31096,OECD (former Europe - 19 countries) (OECD / OEF)
+E31097,OECD (former total) (OECD / OTF)
+E31098,European Union (27 countries) (OECD / EU27)
+E31099,Euro area (16 countries) (OECD / EA16)
+E31901u,Africa Unspecified (OECD / 298)
+E31902u,America Unspecified (OECD / 498)
+E31903u,Arab Countries Unsp. (OECD / 984)
+E31904u,Asia Unspecified (OECD / 798)
+E31905u,CEECs Unall. (OECD / 101)
+E31906u,CEECs/NIS Unall. (OECD / 79)
+E31907u,Europe Unallocated (OECD / 89)
+E31908u,Far East Asia Unall. (OECD / 789)
+E31909u,MADCT Unall. (OECD / 105)
+E31910u,Middle East Unall. (OECD / 589)
+E31911u,N.& C. America Unall. (OECD / 389)
+E31912u,NIS Unall. (OECD / 102)
+E31913u,North Of Sahara Unall. (OECD / 189)
+E31914u,Oceania Unallocated (OECD / 889)
+E31915u,Part II Unall. (OECD / 106)
+E31916u,South America Unall. (OECD / 489)
+E31917u,South Asia Unall. (OECD / 689)
+E31918u,South Of Sahara Unall. (OECD / 289)
+E31919u,Unallocated (OECD / UNALL)
+E31920u,West Indies Unall. (OECD / 380)
+E34001,"ACP African, Caribbean and Pacific countries, signatories to the Partnership Agreement (Eurostat / 1031)"
+E34002,Africa (Eurostat / 5200)
+E34003,America (Eurostat / 5300)
+E34004,APEC Asia Pacific Economic Cooperation (Eurostat / 1420)
+E34005,ASEAN Association of South-East Asian Nations (Eurostat / 1057)
+E34006,Asia (Eurostat / 5400)
+E34007,Australia and New Zealand (Eurostat / 5510)
+E34008,Candidate countries (Eurostat / 1130)
+E34009,CEEC Central and Eastern European countries (Eurostat / 1120)
+E34010,Central America and Caribbean (Eurostat / 5320)
+E34011,CIS Commonwealth of Independent States (Eurostat / 1815)
+E34012,Countries and territories not specified (Eurostat / QU)
+E34013,Countries and territories not specified for commercial or military reasons (Eurostat / QX)
+E34014,Countries and territories not specified for commercial or military reasons in the framework of intra-Community trade (Eurostat / QY)
+E34015,Countries and territories not specified for commercial or military reasons in the framework of trade with third countries (Eurostat / QZ)
+E34016,Countries and territories not specified in the framework of intra-Community trade (Eurostat / QV)
+E34017,Countries and territories not specified within the framework of trade with third countries (Eurostat / QW)
+E34018,DAEs Dynamic Asian economies (Eurostat / 1415)
+E34019,EEA European Economic Area (Eurostat / 1115)
+E34020,EFTA (Eurostat / 1021)
+E34021,Europe (Eurostat / 5100)
+E34022,European Community (Eurostat / EU)
+E34023,European Union (Eurostat / 5110)
+E34024,European Union (15) (Eurostat / 1110)
+E34025,European Union (25) (Eurostat / 1111)
+E34026,European Union (evolutionary) (Eurostat / 1010)
+E34027,Euro-zone (12) (Eurostat / 1113)
+E34028,Euro-zone since 1999 (evolutionary) (Eurostat / 1013)
+E34029,Extra-euro zone since 1999 (evolutionary) (Eurostat / 1014)
+E34030,Extra-european Union (15) (Eurostat / 1811)
+E34031,Extra-european Union (25) (Eurostat / 1812)
+E34032,Extra-european Union (evolutionary) (Eurostat / 1011)
+E34033,Extra-euro-zone (12) (Eurostat / 1813)
+E34034,Latin American countries (Eurostat / 1058)
+E34035,LDC Least Developed Countries (Eurostat / 1430)
+E34036,MEDA (excluding EU) Mediterranean countries in the Euro-Mediterranean Partnership (Eurostat / 1055)
+E34037,Mediterranean basin countries (excluding EU) (Eurostat / 1051)
+E34038,MERCOSUR South American Common Market (Eurostat / 1330)
+E34039,Miscellaneous - countries not determined (Eurostat / 5990)
+E34040,Miscellaneous - countries not specified and countries not determined (Eurostat / 5900)
+E34041,Miscellaneous - countries not specified extra (Eurostat / 5920)
+E34042,Miscellaneous - countries not specified intra (Eurostat / 5910)
+E34043,NAFTA North American Free Trade Agreement (Eurostat / 1310)
+E34044,Near and Middle Eastern countries (Eurostat / 5410)
+E34045,NICs Newly-industrialised Asian countries (Eurostat / 1410)
+E34046,North Africa (Eurostat / 5210)
+E34047,North America (Eurostat / 5310)
+E34048,Oceania and Polar regions (Eurostat / 5500)
+E34049,"OECD (excluding EU) Organisation for Economic Cooperation and Development, excluding EU (Eurostat / 1820)"
+E34050,OPEC Organisation of Petroleum Exporting Countries (Eurostat / 1053)
+E34051,Other African countries (Eurostat / 5290)
+E34052,Other Asian countries (Eurostat / 5490)
+E34053,Other countries of Oceania and Polar regions (Eurostat / 5590)
+E34054,Other European countries (Eurostat / 5190)
+E34055,SAARC South Asian Association for Regional Cooperation (Eurostat / 1059)
+E34056,South America (Eurostat / 5330)
+E34057,Stores and provisions (Eurostat / QQ)
+E34058,Stores and provisions within the framework of intra-Community trade (Eurostat / QR)
+E34059,Stores and provisions within the framework of trade with third Countries (Eurostat / QS)
+E34060,World (Eurostat / 1000)
+E34061,World (Eurostat / 5000)
+E34062,Euro area 12 (Eurostat / EA12)
+E34063,Euro area 13 (Eurostat / EA13)
+E34064,Euro area 15 (Eurostat / EA15)
+E34065,European Union (27) (Eurostat / EU27)
+E34066,European Community 12 incl. ex-GDR (Eurostat / EU12)
+E34067,Belgium-Luxembourg Economic Union (Eurostat / BLEU)
+E34068,Euro area 15 including Slovakia (Eursostat / EA16)
+E48001,Belgium-Luxembourg (UNSD / 58)
+E48002,EU-27 (UNSD / 97)
+E48003,European Union (15) (UNSD / 1280)
+E48004,European Union (25) (UNSD / 1282)
+E48005,So. African Customs Union (UNSD / 711)
+E48006,Special Categories (UNSD / 839)
+E48007,World (UNSD / 0)
+E48008,Extra-EU-25 (UNSD / 98)
+E48009,Extra-EU-27 (UNSD / 990)
+E48901u,"Africa CAMEU region, nes (UNSD / 472)"
+E48902u,"Areas, nes (UNSD / 899)"
+E48903u,"CACM, nes (UNSD / 471)"
+E48904u,"Caribbean, nes (UNSD / 129)"
+E48905u,"Eastern Europe, nes (UNSD / 221)"
+E48906u,"Europe EFTA, nes (UNSD / 697)"
+E48907u,"Europe EU, nes (UNSD / 492)"
+E48908u,"LAIA, nes (UNSD / 473)"
+E48909u,"Northern Africa, nes (UNSD / 290)"
+E48910u,"Oceania, nes (UNSD / 527)"
+E48911u,"Other Africa, nes (UNSD / 577)"
+E48912u,"Other Asia, nes (UNSD / 490)"
+E48913u,"Other Europe, nes (UNSD / 568)"
+E48914u,"Rest of America, nes (UNSD / 636)"
+E48915u,"Western Asia, nes (UNSD / 879)"
+E48916u,"North America and Central America, nes (UNSD / 637)"
+E51001,African HIPCs I (WB / AHR)
+E51002,African HIPCs II (WB / AHP)
+E51003,All Africa (WB / AFR)
+E51004,CFA countries (WB / CFA)
+E51005,COMESA (WB / CMS)
+E51006,Cross Border initiative (CBI) (WB / CBI)
+E51007,East Africa (WB / EAC)
+E51008,East and Southern Africa (WB / ESA)
+E51009,East Asia & Pacific (WB / EAP)
+E51010,ECOWAS (WB / EWS)
+E51011,Euro area (WB / EMU)
+E51012,Europe & Central Asia (WB / ECA)
+E51013,Heavily indebted poor countries (HIPC) (WB / HPC)
+E51014,High income (WB / HIC)
+E51015,High income: nonOECD (WB / NOC)
+E51016,High income: OECD (WB / OEC)
+E51017,Latin America & Caribbean (WB / LAC)
+E51018,Least developed countries: UN classification (WB / LDC)
+E51019,Low & middle income (WB / LMY)
+E51020,Low income (WB / LIC)
+E51021,Lower middle income (WB / LMC)
+E51022,Middle East & North Africa (WB / MNA)
+E51023,Middle income (WB / MIC)
+E51024,Non CFA countries (WB / NCF)
+E51025,North Africa (WB / NAF)
+E51026,SADC (WB / SDC)
+E51027,South Asia (WB / SAS)
+E51028,SPA (WB / SPA)
+E51029,SPA CFA (WB / SPC)
+E51030,SPA non CFA (WB / SNC)
+E51031,Sub Saharan Africa excluding South Africa (WB / SXZ)
+E51032,Sub Saharan Africa excluding South Africa and Nigeria (WB / XZN)
+E51033,Sub-Saharan Africa (WB / SSA)
+E51034,UEMOA/BCEAO (WB / UMB)
+E51035,Upper middle income (WB / UMC)
+E51036,West Africa (WB / WAF)
+E51037,World (WB / WLD)
+E55001,"ACP (Africa, Caribbean and Pacific Countries) (WTO / ACP)"
+E55002,Africa (WTO / AFR)
+E55003,Andean Community (WTO / G23)
+E55004,APEC (Asia-Pacific Economic Cooperation) (WTO / G75)
+E55005,ASEAN (Association of South East Asian Nations) (WTO / G71)
+E55006,Asia (WTO / ASI)
+E55007,Belgium-Luxembourg (WTO / BL)
+E55008,CACM (Central American Common Market) (WTO / CAC)
+E55009,CARICOM (Caribbean Community) (WTO / CAR)
+E55010,CEMAC (Economic and Monetary Community of Central Africa) (WTO / CEM)
+E55011,COMESA (Common Market for Eastern and Southern Africa) (WTO / COM)
+E55012,Commonwealth of Independent States (CIS) (WTO / CIS)
+E55013,ECCAS (Economic Community of Central African States) (WTO / ECC)
+E55014,ECOWAS (Economic Community of West African States) (WTO / ECO)
+E55015,EFTA (European Free Trade Association) (WTO / EF3)
+E55016,Europe (WTO / EUR)
+E55017,European Union (15) (WTO / G32)
+E55018,European Union (25) (WTO / E25)
+E55019,European Union (27) (WTO / E27)
+E55020,GCC (Gulf Co-operation Council) (WTO / GCC)
+E55021,LDC (Least developed countries) (WTO / LDC)
+E55022,MERCOSUR (Southern Common Market) (WTO / G27)
+E55023,Middle East (WTO / MEA)
+E55024,NAFTA (North American Free Trade Agreement) (WTO / G12)
+E55025,North America (WTO / NAX)
+E55026,SADC (Southern African Development Community) (WTO / SAD)
+E55027,SAPTA (South Asian Preferential Trade Agreement) (WTO / G72)
+E55028,South and Central America (WTO / CSC)
+E55029,WAEMU (West African Economic and Monetary Union) (WTO / WAE)
+E55030,WORLD (WTO / WL)
+E55031,EU Extra-trade (WTO / GXT)
+E05001,Euro area (BIS / NBXM)
+535,"Bonaire, Sint Eustatius and Saba"
+680,Sark
+728,South Sudan
+729,Sudan
+937,Curacao and Sint Maarten
+E51038,Arab World (WB / ARB)
+E51039,Caribbean small States (WB / CSS)
+E51040,East Asia & Pacific (all income levels) (WB / EAS)
+E51041,Europe & Central Asia (all income levels) (WB / ECS)
+E51042,European Union (WB / EUU)
+E51043,Not classified (WB / INX)
+E51044,Latin America & Carribean (all income levels) (WB / LCN)
+E51045,Middle East & North Africa (all income levels) (WB / MEA)
+E51046,North America (WB / NAC)
+E51047,OECD members (WB / OED)
+E51048,Other small States (WB / OSS)
+E51049,Pacific Island small States (WB / PSS)
+E51050,Sub-Saharan Africa (all income levels) (WB / SSF)
+E51051,Small States (WB / SST)
+C00001,Custom code 1
+C00001u,Custom code 1 n.e.s
+C00002,Custom code 2
+C00002u,Custom code 2 n.e.s
+C00003,Custom code 3
+C00003u,Custom code 3 n.e.s
+C00004,Custom code 4
+C00004u,Custom code 4 n.e.s
+C00005,Custom code 5
+C00005u,Custom code 5 n.e.s
+C00006,Custom code 6
+C00006u,Custom code 6 n.e.s
+C00007,Custom code 7
+C00007u,Custom code 7 n.e.s
+C00008,Custom code 8
+C00008u,Custom code 8 n.e.s
+C00009,Custom code 9
+C00009u,Custom code 9 n.e.s
+C00010,Custom code 10
+C00010u,Custom code 10 n.e.s
+C00011,Custom code 11
+C00011u,Custom code 11 n.e.s
+C00012,Custom code 12
+C00012u,Custom code 12 n.e.s
+C00013,Custom code 13
+C00013u,Custom code 13 n.e.s
+C00014,Custom code 14
+C00014u,Custom code 14 n.e.s
+C00015,Custom code 15
+C00015u,Custom code 15 n.e.s
+C00016,Custom code 16
+C00016u,Custom code 16 n.e.s
+C00017,Custom code 17
+C00017u,Custom code 17 n.e.s
+C00018,Custom code 18
+C00018u,Custom code 18 n.e.s
+C00019,Custom code 19
+C00019u,Custom code 19 n.e.s
+C00020,Custom code 20
+C00020u,Custom code 20 n.e.s
+E23064,"Middle East, North Africa, and Pakistan (IMF / 440)"
+E34069,EU15_EXTRA
+E34070,EU15_INTRA
+E34071,EU25_EXTRA
+E34072,EU25_INTRA
+E34073,EU25_EXTRA
+E34074,EU27_EXTRA
+E34075,EU27_INTRA
+E34076,EU28_EXTRA
+E34077,EU28_INTRA
+E55032,European Union (28) (WTO / E28)
+1614,LDCs: Africa
+1615,LDCs: Islands and Haiti
+E34078,High seas (Eurostat / QP)
+E01001,"Serbia and Montenegro, unspecified (WIR)"
+E01002,"Serbia and Montenegro, excluding Kosovo (WIR)"
+E01003,Yugoslavia (former) (WIR)
+E01005,Czechoslovakia (former) (WIR)
+E16123,World (FAO / 5000)
+E16124,Eastern Asia (FAO / 5302)
+E51052,Central Europe and the Baltics (WB / CEB)
+E51053,East Asia and the Pacific (IFC classification) (WB / CEA)
+E51054,Europe and Central Asia (IFC classification) (WB / CEU)
+E51055,Fragile and conflict affected situations (WB / FCS)
+E51056,Latin America and the Caribbean (IFC classification) (WB / CLA)
+E51057,Middle East and North Africa (IFC classification) (WB / CME)
+E51058,South Asia (IFC classification) (WB / CSA)
+E51059,Sub-Saharan Africa (IFC classification) (WB / CAA)
+E48010,EU-28 (UNSD / 97)
+E55033,European Area (18) (WTO / Z18)
+E55034,European Area (19) (WTO / Z19)
+E01006,International organizations
+E01007,CIS (Bilateral FDI)
+E01008,Transition economies (Bilateral FDI)
+E01009,Developed economies (Bilateral FDI)
+E01010,Developing economies (Bilateral FDI)
+E01011,Eastern Europe (UNCTAD - Iron Ore)
+E01012,CIS (UNCTAD - Iron Ore)
+E01013,European Union (UNCTAD - Iron Ore)
+E01014,Other European Union (UNCTAD - Iron Ore)
+E01015,Other Latin America (UNCTAD - Iron Ore)
+E01016,Middle East (UNCTAD - Iron Ore)
+E01017,Other Africa (UNCTAD - Iron Ore)
+E01018,Other America (UNCTAD - Iron Ore)
+E01019,Other Asia (UNCTAD - Iron Ore)
+E01020,Other Europe (UNCTAD - Iron Ore)
+E01021,Other Oceania (UNCTAD - Iron Ore)
+E01022,Serbia and Montenegro (UNCTAD - Iron Ore)
+E01023,Yugoslavia (UNCTAD - Iron Ore)
+E01024,Belgium/Luxembourg (UNCTAD - Iron Ore)
+E01025,Others (UNCTAD - Iron Ore)
+E01026,Area Nes (UNCTAD - Iron Ore)
+E01027,Europe Othr. Nes (UNCTAD - Iron Ore)
+E51060,Early-demographic dividend (WB / EAR)
+E51061,IBRD only (WB / IBD)
+E51062,IDA & IBRD total (WB / IBT)
+E51063,IDA total (WB / IDA)
+E51064,IDA blend (WB / IDB)
+E51065,IDA only (WB / IDX)
+E51066,Late-demographic dividend (WB / LTE)
+E51067,Pre-demographic dividend (WB / PRE)
+E51068,Post-demographic dividend (WB / PST)
+E51069,East Asia & Pacific (IDA & IBRD) (WB / TEA)
+E51070,Europe & Central Asia (IDA & IBRD) (WB / TEC)
+E51071,Latin America & Caribbean (IDA & IBRD) (WB / TLA)
+E51072,Middle East & North Africa (IDA & IBRD) (WB / TMN)
+E51073,South Asia (IDA & IBRD) (WB / TSA)
+E51074,Sub-Saharan Africa (IDA & IBRD) (WB / TSS)
+E23065,1C_EMU (IMF / 1C_EMU)
+E23066,All Countries and Country Groups (IMF / 1C_ALL)
+E23067,All Countries Published (IMF / 1C_All_Countries_Published)
+E23068,"All Countries, excluding the IO (IMF / W00)"
+E23069,All Country Groups (IMF / 1C_ALLG)
+E23070,All Non-Euro Countries (IMF / 1C_ANEC)
+E23071,All Participants (IMF / 1C_969)
+E23072,Central and eastern Europe (IMF / 1C_904)
+E23073,Central Bank West Africa (IMF / 1C_752)
+E23074,Community of Independent States (CIS) (IMF / R14)
+E23075,Countries Home Portal Presentation (IMF / Countries_Home_Portal_Presentation)
+E23076,Eastern Africa deprecated (IMF / F3)
+E23077,Eastern Caribbean Currency Union (IMF / 5Y)
+E23078,EPU/EF (IMF / 1C_994)
+E23079,National Accounts (NSA) Countries (IMF / 1C_NANSA)
+E23080,National Accounts (SA) Countries (IMF / 1C_NASA)
+E23081,Non SRF countries (IMF / 1C_NSC)
+E23082,SRF (excluding EA) (IMF / 1C_SRF_less_EMU)
+E23083,SRF (including EA) (IMF / 1C_SRF_plus_EMU)
+E23084,SRF Countries (IMF / 1C_SRF)
+E34079,European Union (28) (Eurostat / EU28)
+5702,Northern America and Europe
+5703,Central and Southern Asia
+5704,Eastern and South-Eastern Asia
+5705,Western Asia and Northern Africa
+5110,Northern Africa
+5110u,Northern Africa n.e.s.
+5120,Sub-Saharan Africa
+5120u,Sub-Saharan Africa n.e.s.
+5210,Northern America
+5210u,Northern America n.e.s.
+5220,Latin America and the Caribbean
+5220u,Latin America and the Caribbean n.e.s.
+5310,Central Asia
+5310u,Central Asia n.e.s.
+5320,Southern Asia
+5320u,Southern Asia n.e.s.
+5330,Eastern Asia
+5330u,Eastern Asia n.e.s.
+5340,Western Asia
+5340u,Western Asia n.e.s.
+5350,South-eastern Asia
+5350u,South-eastern Asia n.e.s.
+5600,Asia and Oceania
+5600u,Asia and Oceania n.e.s.
+1400,Developing economies
+1500,Developed economies
+5121,Eastern Africa
+5121u,Eastern Africa n.e.s.
+5122,Middle Africa
+5122u,Middle Africa n.e.s.
+5123,Southern Africa
+5123u,Southern Africa n.e.s.
+5124,Western Africa
+5124u,Western Africa n.e.s.
+5221,Caribbean
+5221u,Caribbean n.e.s.
+5222,Central America
+5222u,Central America n.e.s.
+5223,South America
+5223u,South America n.e.s.
+5410,Eastern Europe
+5410u,Eastern Europe n.e.s.
+5420,Northern Europe
+5420u,Northern Europe n.e.s.
+5430,Southern Europe
+5430u,Southern Europe n.e.s.
+5440,Western Europe
+5440u,Western Europe n.e.s.
+E55035,WTO Observer governments (WTO / A82)
+E55036,"Africa, CIS and Middle East (WTO / ACM)"
+E55037,Australia and New Zealand (WTO / ANZ)
+E55038,BRIC members (WTO / BRC)
+E55039,Other CIS (CIS11) (WTO / CIO)
+E55040,Developed Asia (WTO / DDA)
+E55041,Developing Asia (WTO / DGA)
+E55042,Developed Economies (WTO / DVD)
+E55043,Developing and Emerging Economies (WTO / DVE)
+E55044,"Developing and Emerging Economies, excluding HK RX (WTO / DVH)"
+E55045,"Asia-Pacific, APEC, excluding Hong Kong re-exports (WTO / G76)"
+E55046,G20 Members (WTO / GME)
+E55047,"Four East Asian traders, excluding HK RX (WTO / GNI)"
+E55048,LDC exporters of agriculture (WTO / LAX)
+E55049,LDC non-fuel mineral exporters (WTO / LFX)
+E55050,LDC exporters of manufactures (WTO / LMX)
+E55051,LDC oil exporters (WTO / LOX)
+E55052,Four East Asian traders (WTO / NI4)
+E55053,Six East Asian traders (WTO / NI6)
+E55054,"Six East Asian traders, excluding HK RX (WTO / NIA)"
+E55055,Other Africa (WTO / OAF)
+E55056,Other Asia (WTO / OAS)
+E55057,Other south-eastern Europe (WTO / OSE)
+E55058,Other Western Europe (EFTA+WE nes) (WTO / OWE)
+E55059,Pacific Alliance (WTO / PAC)
+E55060,WTO Member Countries (WTO / WTO)
+E01030u,Unspecified Baltic countries (UNCTAD/DIAE)
+E01031u,Unspecified Belgium / Luxembourg (UNCTAD/DIAE)
+E01032u,Unspecified European Union (UNCTAD/DIAE)
+E01033,Other developed Europe (UNCTAD/DIAE)
+E01033u,Other developed Europe n.e.s. (UNCTAD/DIAE)
+E01034,Canary Islands (UNCTAD/DIAE)
+E01035,Melilla (UNCTAD/DIAE)
+E01036u,Unspecified Western Europe (UNCTAD/DIAE)
+E01037u,Unspecified Other Western Europe (UNCTAD/DIAE)
+E01038,Other developed countries (UNCTAD/DIAE)
+E01038u,Other Developed countries n.e.s. (UNCTAD/DIAE)
+E01039,Other Africa (UNCTAD/DIAE)
+E01039u,Other Africa n.e.s. (UNCTAD/DIAE)
+E01040,South and Central America (UNCTAD/DIAE)
+E01040u,South and Central America n.e.s. (UNCTAD/DIAE)
+E01041,Virgin Islands (UNCTAD/DIAE)
+E01042,West Indies (UNCTAD/DIAE)
+E01043u,Unspecified Other Latin America and Caribbean (UNCTAD/DIAE)
+E01044,Asia and Oceania (UNCTAD/DIAE)
+E01044u,Asia and Oceania n.e.s. (UNCTAD/DIAE)
+E01045,"South, East and South-East Asia (UNCTAD/DIAE)"
+E01045u,"South, East and South-East Asia n.e.s. (UNCTAD/DIAE)"
+E01046,Caroline Islands (UNCTAD/DIAE)
+E01047,South-East Europe (UNCTAD/DIAE)
+E01047u,South-East Europe n.e.s. (UNCTAD/DIAE)
+E01048u,Unspecified Central Asia (UNCTAD/DIAE)
+E01049u,Unspecified Developing Europe (UNCTAD/DIAE)
+E01050u,Unspecified Central and Eastern Europe (UNCTAD/DIAE)
+E01051,International organizations (UNCTAD/DIAE)
+E01052,Equity (UNCTAD/DIAE)
+E01053,Reinvested earnings (UNCTAD/DIAE)
+E01054,Other Capital (UNCTAD/DIAE)
+E01055,Private buying and selling of property (UNCTAD/DIAE)
+E01056,Netherlands Antilles (UNCTAD/DIAE)
+E01057u,World n.e.s (UNCTAD/DIAE)
+E01058u,Developing economies n.e.s (UNCTAD/DIAE)
+E01059u,Developing economies: Africa n.e.s (UNCTAD/DIAE)
+E01060u,Developing economies: America n.e.s (UNCTAD/DIAE)
+E01061u,Developing economies: Asia n.e.s (UNCTAD/DIAE)
+E01062u,Developed economies n.e.s. (UNCTAD/DIAE)
+E01063u,Developed economies: Europe n.e.s. (UNCTAD/DIAE)
+E01064u,Developing economies: Oceania n.e.s. (UNCTAD/DIAE)
+E01065u,Transition economies n.e.s. (UNCTAD/DIAE)
+E01066u,Unspecified EU25 (European Union 25) (UNCTAD/DIAE)
+E01067u,Unspecified EU27 (European Union) (UNCTAD/DIAE)
+E01068u,EU28 (European Union) n.e.s. (UNCTAD/DIAE)
+E01069u,CIS (Commonwealth of Independent States) n.e.s. (UNCTAD/DIAE)
+E01070u,North Africa n.e.s. (UNCTAD/DIAE)
+E01071u,Developed economies: America n.e.s. (UNCTAD/DIAE)
+E01072u,Caribbean n.e.s. (UNCTAD/DIAE)
+E01073u,Central America n.e.s. (UNCTAD/DIAE)
+E01074u,South America n.e.s. (UNCTAD/DIAE)
+E01075u,West Asia n.e.s. (UNCTAD/DIAE)
+E01076,Developing economies: Africa (UNCTAD/DIAE)
+E01077,Developing economies: Asia (UNCTAD/DIAE)
+E01078,Caribbean (UNCTAD/DIAE)
+E01079,Central America (UNCTAD/DIAE)
+E01080,CIS (Commonwealth of Independent States) (UNCTAD/DIAE)
+E01081,Developed economies (UNCTAD/DIAE)
+E01082,Developing economies (UNCTAD/DIAE)
+E01083,Developed economies: Europe (UNCTAD/DIAE)
+E01084,EU28 (European Union) (UNCTAD/DIAE)
+E01085,Developing economies: America (UNCTAD/DIAE)
+E01086,North Africa (UNCTAD/DIAE)
+E01088,Developing economies: Oceania (UNCTAD/DIAE)
+E01089,South America (UNCTAD/DIAE)
+E01090,Transition economies (UNCTAD/DIAE)
+E01091,World (UNCTAD/DIAE)
+E01092,Western Asia (UNCTAD/DIAE)
+E01093,Serbia and Montenegro (UNCTAD/DIAE)
+E01094,Montenegro (UNCTAD/DIAE)
+E01096,Serbia excluding Kosovo (UNCTAD/DIAE)
+E01097,Internationally administered territory of Kosovo (UNCTAD/DIAE)
+E01099,Curacao (UNCTAD/DIAE)
+E01100,Sint Maarten (Dutch part) (UNCTAD/DIAE)
+E01101,"Bonaire, Sint Eustatius and Saba (UNCTAD/DIAE)"
+E01103u,Developed economies: Asia n.e.s. (UNCTAD/DIAE)
+E01104u,Developed economies: Oceania n.e.s. (UNCTAD/DIAE)
+E01102,Developed economies: America (UNCTAD/DIAE)
+E01103,Developed economies: Asia (UNCTAD/DIAE)
+E01104,Developed economies: Oceania (UNCTAD/DIAE)
+E01105,"Congo, Democratic Republic of (UNCTAD/DIAE)"
+E01106,Zaire (UNCTAD/DIAE)
+E01107,South Sudan (UNCTAD/DIAE)
+E01108,Sudan (UNCTAD/DIAE)
+E01109,Sudan (...2011) (UNCTAD/DIAE)
+E01110,Indonesia (UNCTAD/DIAE)
+E01111,Indonesia (...2002) (UNCTAD/DIAE)
+E01112,Timor-Leste (UNCTAD/DIAE)
+E01113,Socialist Federal Republic of Yugoslavia (UNCTAD/DIAE)
+1640,SIDS (Small island developing States) (UN-OHRLLS)
+3412,European Union (2020 …)
+3412u,European Union (2020 …) n.e.s.
+E48011,ASEAN (Association of South East Asian Nations) (UNSD / 975)
+E23085,"MALAYSIA, WEST (IMF / 554)"
+E23086,NORTH VIETNAM (IMF / 958)
+E23087,MIDDLE EAST AND CENTRAL ASIA (IMF / 400)
+1530,Developed economies: Asia
+1430,Developing economies: Asia
+1550,Developed economies: Oceania
+1450,Developing economies: Oceania
+3380,Convention on Biological Diversity (CBD)
+3380u,Convention on Biological Diversity (CBD) n.e.s.
+3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora)
+3381u,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) n.e.s.
+3382,Nagoya Protocol on Access and Benefit Sharing
+3382u,Nagoya Protocol on Access and Benefit Sharing n.e.s.
+3383,LMMC (Like-Minded Megadiverse Countries)
+3383u,LMMC (Like-Minded Megadiverse Countries) n.e.s.
+3384,BioTrade countries
+3384u,BioTrade countries n.e.s.
+5900,Other territories
+1400u,Developing economies n.e.s.
+1410,Developing economies: Africa
+1410u,Developing economies: Africa n.e.s.
+1420,Developing economies: Americas
+1420u,Developing economies: Americas n.e.s.
+1430u,Developing economies: Asia n.e.s.
+1450u,Developing economies: Oceania n.e.s.
+1460u,Developing economies: Asia and Oceania n.e.s.
+1500u,Developed economies n.e.s.
+1520,Developed economies: Americas
+1520u,Developed economies: Americas n.e.s.
+1530u,Developed economies: Asia n.e.s.
+1540,Developed economies: Europe
+1540u,Developed economies: Europe n.e.s.
+1550u,Developed economies: Oceania n.e.s.
+1560u,Developed economies: Asia and Oceania n.e.s.
+1600u,Developing economies excluding China n.e.s.
+1601u,Developing economies excluding LDCs n.e.s.
+1610u,LDCs (Least developed countries) n.e.s.
+1612u,LDCs: Asia n.e.s.
+1614u,LDCs: Africa n.e.s.
+1615u,LDCs: Islands and Haiti n.e.s.
+1620u,LLDCs (Landlocked developing countries) n.e.s.
+1640u,SIDS (Small island developing States) (UN-OHRLLS) n.e.s.
+5702u,Northern America and Europe n.e.s.
+5703u,Central and Southern Asia n.e.s.
+5704u,Eastern and South-Eastern Asia n.e.s.
+5705u,Western Asia and Northern Africa n.e.s.
+5706,"Europe, Northern America, Australia and New Zealand"
+5706u,"Europe, Northern America, Australia and New Zealand n.e.s."
+E56001,South America: northern and eastern seaboards (Seaborne trade)
+E56002,South America: western seaboard (Seaborne trade)
+E56003,Australia and New Zealand (Seaborne trade)
+E56004,Developing Oceania (Seaborne trade)
+E56005,Eastern Asia (Seaborne trade)
+E56006,Western Asia (Seaborne trade)
+1641,SIDS: Atlantic and Indian Ocean
+1641u,SIDS: Atlantic and Indian Ocean n.e.s.
+1642,SIDS: Caribbean
+1642u,SIDS: Caribbean n.e.s.
+1643,SIDS: Pacific
+1643u,SIDS: Pacific n.e.s.
+578,Norway
+E34080,European Union (27_2020) Extra (Eurostat / EXT_EU27_2020)
+E34081,European Union (27_2000) (Eurostat / EU27_2020)
+E34082,IntraEU NotAllocated (Eurostat / INT_EU_NAL)
+E34083,Euro Area 20 (Eurostat / EA20)
+E34084,Extra-trade Euro Area 20 (Eurostat / EXT_EA20)
+E55061,European Union (WTO / EU)
+E55062,Euro Area (WTO / EZ)
+E55063,European Union intra trade (WTO / EU_EU)
+E55064,European Union extra trade (WTO / EU_GEU)
+E55065,Euro Area extra trade (WTO / EU_EZX)
+E34085,EXT_EA
+E34086,EXT_EU
+E34087,INT_EA
+E34088,INT_EA20
+E34089,INT_EU
+E34090,INT_EU27_2020
+E34091,WORLD
+1411,Developing economies: Northern Africa
+1411u,Developing economies: Northern Africa n.e.s.
+1412,Developing economies: Sub-Saharan Africa
+1412u,Developing economies: Sub-Saharan Africa n.e.s.
+1431,Developing economies: Central Asia
+1431u,Developing economies: Central Asia n.e.s.
+1432,Developing economies: Southern Asia
+1432u,Developing economies: Southern Asia n.e.s.
+1433,Developing economies: Eastern Asia
+1433u,Developing economies: Eastern Asia n.e.s.
+1434,Developing economies: Western Asia
+1434u,Developing economies: Western Asia n.e.s.
+1435,Developing economies: South-eastern Asia
+1435u,Developing economies: South-eastern Asia n.e.s.
+5510,Oceania excluding Australia and New Zealand
+5510u,Oceania excluding Australia and New Zealand n.e.s.
+5520,Australia and New Zealand
+5520u,Australia and New Zealand n.e.s.

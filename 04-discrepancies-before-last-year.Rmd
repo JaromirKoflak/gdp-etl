@@ -1,0 +1,126 @@
+
+
+# Discrepancies before `r last_year`
+
+All discrepancies in individual economies from the previous release before the year `r last_year`.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, cache=FALSE}
+
+# Directories
+datadir = file.path(getwd(), "data")
+outputdir = file.path(getwd(), "output")
+
+dfgdp = read_csv(file.path(outputdir, "gdp_update.csv"), show_col_types=F) 
+
+labels = read.csv(file.path(datadir, "lab_all.csv")) %>% 
+  mutate(Label = replace(Label, Code == 498, "Republic of Moldova")) %>% 
+  mutate(Label = replace(Label, Code == 410, "Republic of Korea")) %>% 
+  mutate(Label = replace(Label, Code == 890, "Yugoslavia, Soc. Fed. Rep. of"))
+
+unctaddf = read.csv(file.path(datadir, "US.GDPTotal_20250718_104458.csv")) %>% 
+  left_join(
+    labels, 
+    by = join_by(Economy_Label == Label)) %>%  
+  select(Code, Economy_Label, Year, US_at_constant_prices_2015_Value, US_at_current_prices_Value) %>% 
+  rename(	
+    GDP_at_constant_prices_2015 = US_at_constant_prices_2015_Value,
+    GDP_at_current_prices = US_at_current_prices_Value) %>% 
+  pivot_longer(4:5, names_to = "Variable", values_to = "Value") %>% 
+  full_join(
+    dfgdp,
+    by = join_by(Code == Economy_Code,
+                 Year == Year,
+                 Variable == Variable),
+    suffix = c(".old", ".new")
+  ) 
+
+
+plot_by_economy = function(economy_label) {
+  p = unctaddf %>% 
+    filter(Economy_Label.old == economy_label) %>% 
+    pivot_longer(c(Value.old, Value.new), names_to = "Release", values_to = "Value") %>% 
+    mutate(Release = Release %>% 
+             fct_recode(old = "Value.old", new = "Value.new") %>% 
+             fct_relevel(c("old", "new"))) %>% 
+    ggplot(aes(x=Year, y=Value, linetype=Variable, color=Release)) +
+      geom_line(linewidth=1) +
+      theme_bw() + 
+      labs(title = paste0("<b>", economy_label, "</b>"),
+           x = "",
+           y = "USD") +
+      scale_color_manual(values = c("#FBAF17", "#009EDB")) 
+  return(p)
+}  
+```
+
+```{r, echo=FALSE, cache=FALSE}
+# A function to shorten a list of years
+# Example:
+# [1999, 2000, 2001, 2002, 2005, 2006, 2010] -> 
+# "1999-2002, 2005-2006, 2010"
+shorten_years <- function(years) {
+  # Ensure the years are sorted and unique
+  years <- sort(unique(years))
+  
+  # Identify consecutive runs:
+  # diff(years) != 1 is TRUE whenever a break occurs in the sequence
+  # cumsum(...) assigns a unique group ID to each run of consecutive numbers
+  runs <- split(years, cumsum(c(1, diff(years) != 1)))
+  
+  # Convert each run into a string
+  parts <- sapply(runs, function(run) {
+    if (length(run) >= 2) {
+      # If the run has 2 or more consecutive years, collapse to "start-end"
+      paste0(run[1], "-", run[length(run)])
+    } else {
+      # If the run is only a single year, just return it
+      as.character(run)
+    }
+  })
+  
+  # Combine all parts into a single string separated by commas
+  paste(parts, collapse = ", ")
+}
+
+# Example
+# years <- c(1999, 2000, 2001, 2002, 2005, 2006, 2010)
+# shorten_years(years)
+# 
+# years <- c(1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2010)
+# shorten_years(years)
+```
+
+```{r, echo=FALSE, cache=FALSE, message=FALSE}
+discrepancies = unctaddf %>% 
+  filter(str_length(Code) < 4,
+         Year != 2024,
+         !near(Value.new, Value.old, tol=2)) 
+
+discrepancies %>% 
+  group_by(Code, Variable) %>% 
+  summarise(
+    Label = Economy_Label.old[1],
+    Years = shorten_years(Year)
+  ) %>% 
+  select(Code, Label, Variable, Years) %>% 
+  knitr::kable(booktabs = TRUE)
+
+discrepancies %>% 
+  distinct(Economy_Label.old) %>% 
+  arrange(.[1]) %>% 
+  pull() %>% 
+  map(plot_by_economy) %>% 
+  compact() %>% 
+  map(ggplotly, dynamicTicks = TRUE) %>% 
+  map(layout, title = list(
+                font = list(
+                  size = 22)),
+              legend = list(
+                orientation = "h",
+                title = ""),
+              margin = list(
+                b=110
+              )) %>% 
+  htmltools::tagList() 
+
+```

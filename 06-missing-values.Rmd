@@ -1,0 +1,35 @@
+# Missing Values
+A list of economies with values missing in the new dataset.
+
+```{r, echo=FALSE, cache=TRUE, message=FALSE}
+missing_values = unctaddf %>%
+  filter(str_length(Code) < 4,
+         is.na(Value.new) & !is.na(Value.old)) 
+
+missing_values %>% 
+  group_by(Code, Variable) %>% 
+  summarise(
+    Label = Economy_Label.old[1],
+    Years = shorten_years(Year)
+  ) %>% 
+  select(Code, Label, Variable, Years) %>% 
+  knitr::kable(booktabs = TRUE)
+
+missing_values %>% 
+  distinct(Economy_Label.old) %>% 
+  arrange(.[1]) %>% 
+  pull() %>% 
+  map(plot_by_economy) %>% 
+  compact() %>% 
+  map(ggplotly, dynamicTicks = TRUE) %>% 
+  map(layout, title = list(
+                font = list(
+                  size = 22)),
+              legend = list(
+                orientation = "h",
+                title = ""),
+              margin = list(
+                b=110
+              )) %>% 
+  htmltools::tagList() 
+```

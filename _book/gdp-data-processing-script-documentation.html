@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 2 GDP Data Processing Script Documentation | GDP ETL Documentation</title>
+<meta name="author" content="Jaromír Koflák">
+<meta name="description" content="This document provides comprehensive documentation for the GDP data processing R script.  2.1 Overview This R script performs ETL (Extract, Transform, Load) operations on GDP data sourced from the...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Chapter 2 GDP Data Processing Script Documentation | GDP ETL Documentation">
+<meta property="og:type" content="book">
+<meta property="og:description" content="This document provides comprehensive documentation for the GDP data processing R script.  2.1 Overview This R script performs ETL (Extract, Transform, Load) operations on GDP data sourced from the...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 2 GDP Data Processing Script Documentation | GDP ETL Documentation">
+<meta name="twitter:description" content="This document provides comprehensive documentation for the GDP data processing R script.  2.1 Overview This R script performs ETL (Extract, Transform, Load) operations on GDP data sourced from the...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">GDP ETL Documentation</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="active" href="gdp-data-processing-script-documentation.html"><span class="header-section-number">2</span> GDP Data Processing Script Documentation</a></li>
+<li><a class="" href="special-cases.html"><span class="header-section-number">3</span> Special cases</a></li>
+<li><a class="" href="usage.html"><span class="header-section-number">4</span> Usage</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="gdp-data-processing-script-documentation" class="section level1" number="2">
+<h1>
+<span class="header-section-number">2</span> GDP Data Processing Script Documentation<a class="anchor" aria-label="anchor" href="#gdp-data-processing-script-documentation"><i class="fas fa-link"></i></a>
+</h1>
+<p>This document provides comprehensive documentation for the GDP data processing R script.</p>
+<hr>
+<div id="overview" class="section level2" number="2.1">
+<h2>
+<span class="header-section-number">2.1</span> Overview<a class="anchor" aria-label="anchor" href="#overview"><i class="fas fa-link"></i></a>
+</h2>
+<p>This R script performs ETL (Extract, Transform, Load) operations on GDP data sourced from the UN Statistics Division. It handles preprocessing, correction of inconsistencies, data aggregation for regions/groups, and visualization of GDP trends over time.</p>
+<hr>
+</div>
+<div id="setup" class="section level2" number="2.2">
+<h2>
+<span class="header-section-number">2.2</span> 1. Setup<a class="anchor" aria-label="anchor" href="#setup"><i class="fas fa-link"></i></a>
+</h2>
+<div id="libraries" class="section level3" number="2.2.1">
+<h3>
+<span class="header-section-number">2.2.1</span> Libraries<a class="anchor" aria-label="anchor" href="#libraries"><i class="fas fa-link"></i></a>
+</h3>
+<p>The script uses the following R packages:
+- <code>tidyverse</code>
+- <code>readxl</code>
+- <code>httr</code>
+- <code>gridExtra</code>
+- <code>plotly</code></p>
+</div>
+<div id="working-directory" class="section level3" number="2.2.2">
+<h3>
+<span class="header-section-number">2.2.2</span> Working Directory<a class="anchor" aria-label="anchor" href="#working-directory"><i class="fas fa-link"></i></a>
+</h3>
+<p>The script automatically sets the working directory to the location of the current R script file.</p>
+</div>
+<div id="directories" class="section level3" number="2.2.3">
+<h3>
+<span class="header-section-number">2.2.3</span> Directories<a class="anchor" aria-label="anchor" href="#directories"><i class="fas fa-link"></i></a>
+</h3>
+<p>Defines paths for:
+- <code>datadir</code>: Data input
+- <code>outputdir</code>: Output files</p>
+<hr>
+</div>
+</div>
+<div id="data-inputs" class="section level2" number="2.3">
+<h2>
+<span class="header-section-number">2.3</span> 2. Data Inputs<a class="anchor" aria-label="anchor" href="#data-inputs"><i class="fas fa-link"></i></a>
+</h2>
+<div id="country-metadata" class="section level3" number="2.3.1">
+<h3>
+<span class="header-section-number">2.3.1</span> Country Metadata<a class="anchor" aria-label="anchor" href="#country-metadata"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<code>Dim_countries.csv</code>: Contains country codes and valid year ranges.</li>
+<li>
+<code>Dim_Countries_Hierarchy_All.csv</code>: Contains hierarchical grouping for aggregations.</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="functions" class="section level2" number="2.4">
+<h2>
+<span class="header-section-number">2.4</span> 3. Functions<a class="anchor" aria-label="anchor" href="#functions"><i class="fas fa-link"></i></a>
+</h2>
+<div id="get_unsd_gdp_data" class="section level3" number="2.4.1">
+<h3>
+<span class="header-section-number">2.4.1</span> <code>get_unsd_gdp_data()</code><a class="anchor" aria-label="anchor" href="#get_unsd_gdp_data"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Downloads GDP data from UN API (both constant and current prices).</li>
+<li>Merges, reshapes, and formats the dataset.</li>
+</ul>
+</div>
+<div id="compute_missing_valuesdf" class="section level3" number="2.4.2">
+<h3>
+<span class="header-section-number">2.4.2</span> <code>compute_missing_values(df)</code><a class="anchor" aria-label="anchor" href="#compute_missing_valuesdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR).</li>
+<li>Aggregates GDP for reconstructed economies.</li>
+</ul>
+</div>
+<div id="delete_data_out_of_valid_rangedf" class="section level3" number="2.4.3">
+<h3>
+<span class="header-section-number">2.4.3</span> <code>delete_data_out_of_valid_range(df)</code><a class="anchor" aria-label="anchor" href="#delete_data_out_of_valid_rangedf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Filters out data points falling outside the valid year range for each country.</li>
+</ul>
+</div>
+<div id="expand_hierarchydf" class="section level3" number="2.4.4">
+<h3>
+<span class="header-section-number">2.4.4</span> <code>expand_hierarchy(df)</code><a class="anchor" aria-label="anchor" href="#expand_hierarchydf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Recursively expands hierarchical groupings (e.g., Americas, Europe).</li>
+<li>Ensures all members of each group are captured for aggregation.</li>
+</ul>
+</div>
+<div id="compute_aggregate_valuesdf" class="section level3" number="2.4.5">
+<h3>
+<span class="header-section-number">2.4.5</span> <code>compute_aggregate_values(df)</code><a class="anchor" aria-label="anchor" href="#compute_aggregate_valuesdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Computes GDP aggregates for groups using hierarchical mappings.</li>
+</ul>
+</div>
+<div id="add_economy_labelsdf" class="section level3" number="2.4.6">
+<h3>
+<span class="header-section-number">2.4.6</span> <code>add_economy_labels(df)</code><a class="anchor" aria-label="anchor" href="#add_economy_labelsdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Joins human-readable economy labels.</li>
+</ul>
+</div>
+<div id="add_notesdf" class="section level3" number="2.4.7">
+<h3>
+<span class="header-section-number">2.4.7</span> <code>add_notes(df)</code><a class="anchor" aria-label="anchor" href="#add_notesdf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Adds a placeholder “Note” column.</li>
+</ul>
+</div>
+<div id="export_to_csvdf-filename" class="section level3" number="2.4.8">
+<h3>
+<span class="header-section-number">2.4.8</span> <code>export_to_csv(df, filename)</code><a class="anchor" aria-label="anchor" href="#export_to_csvdf-filename"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Saves the final dataset to a CSV file.</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="data-processing-pipeline" class="section level2" number="2.5">
+<h2>
+<span class="header-section-number">2.5</span> 4. Data Processing Pipeline<a class="anchor" aria-label="anchor" href="#data-processing-pipeline"><i class="fas fa-link"></i></a>
+</h2>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">input_data</span> <span class="op">=</span> <span class="fu">get_unsd_gdp_data</span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="va">dfgdp</span> <span class="op">=</span> <span class="va">input_data</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu">compute_missing_values</span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu">delete_data_out_of_valid_range</span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu">add_economy_labels</span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu">compute_aggregate_values</span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu">add_notes</span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu">export_to_csv</span><span class="op">(</span><span class="st">"gdp_update.csv"</span><span class="op">)</span></span></code></pre></div>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="index.html"><span class="header-section-number">1</span> About</a></div>
+<div class="next"><a href="special-cases.html"><span class="header-section-number">3</span> Special cases</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#gdp-data-processing-script-documentation"><span class="header-section-number">2</span> GDP Data Processing Script Documentation</a></li>
+<li><a class="nav-link" href="#overview"><span class="header-section-number">2.1</span> Overview</a></li>
+<li>
+<a class="nav-link" href="#setup"><span class="header-section-number">2.2</span> 1. Setup</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#libraries"><span class="header-section-number">2.2.1</span> Libraries</a></li>
+<li><a class="nav-link" href="#working-directory"><span class="header-section-number">2.2.2</span> Working Directory</a></li>
+<li><a class="nav-link" href="#directories"><span class="header-section-number">2.2.3</span> Directories</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#data-inputs"><span class="header-section-number">2.3</span> 2. Data Inputs</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#country-metadata"><span class="header-section-number">2.3.1</span> Country Metadata</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#functions"><span class="header-section-number">2.4</span> 3. Functions</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#get_unsd_gdp_data"><span class="header-section-number">2.4.1</span> get_unsd_gdp_data()</a></li>
+<li><a class="nav-link" href="#compute_missing_valuesdf"><span class="header-section-number">2.4.2</span> compute_missing_values(df)</a></li>
+<li><a class="nav-link" href="#delete_data_out_of_valid_rangedf"><span class="header-section-number">2.4.3</span> delete_data_out_of_valid_range(df)</a></li>
+<li><a class="nav-link" href="#expand_hierarchydf"><span class="header-section-number">2.4.4</span> expand_hierarchy(df)</a></li>
+<li><a class="nav-link" href="#compute_aggregate_valuesdf"><span class="header-section-number">2.4.5</span> compute_aggregate_values(df)</a></li>
+<li><a class="nav-link" href="#add_economy_labelsdf"><span class="header-section-number">2.4.6</span> add_economy_labels(df)</a></li>
+<li><a class="nav-link" href="#add_notesdf"><span class="header-section-number">2.4.7</span> add_notes(df)</a></li>
+<li><a class="nav-link" href="#export_to_csvdf-filename"><span class="header-section-number">2.4.8</span> export_to_csv(df, filename)</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#data-processing-pipeline"><span class="header-section-number">2.5</span> 4. Data Processing Pipeline</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/pipeline.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/pipeline.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>GDP ETL Documentation</strong>" was written by Jaromír Koflák. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

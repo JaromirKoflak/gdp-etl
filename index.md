@@ -1,0 +1,37 @@
+---
+title: "GDP ETL Documentation"
+author: "Jaromír Koflák"
+# date: "2025-08-22"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::bs4_book,
+  set in the _output.yml file.
+biblio-style: apalike
+csl: chicago-fullnote-bibliography.csl
+---
+
+# About {-}
+
+This R script performs ETL (Extract, Transform, Load) operations on GDP data sourced from the UN Statistics Division. It handles preprocessing, data aggregation for regions/groups and creates comparison plots. The pipeline process can be broken down into 3 steps:
+
+1.  Data is **extracted** from [UNSD](https://unstats.un.org/unsd/amaapi/swagger/index.html) and [Taiwan NSO](https://nstatdb.dgbas.gov.tw/dgbasall/webMain.aspx?k=engmain) using their API.
+2.  Afterwards, the data is **transformed** such that is meets UNCTAD requirements.
+3.  Lastly, the data is **loaded** into a csv file which can be uploaded to [UNCTADstat Data centre](https://unctadstat.unctad.org/datacentre/).
+
+---
+
+## Gross Domestic Product {-}
+GDP at **current prices** (or **nominal** GDP) measures the value of goods and services produced in an economy using the prices of the same year, so it includes the effects of inflation. In contrast, GDP at **constant prices** (or **real** GDP) adjusts for inflation by using prices from a base year (2015), reflecting only the actual change in the quantity of goods and services produced. This makes real GDP a better measure of economic growth over time. 
+
+## Libraries {-}
+The script uses the following R packages:
+
+- `tidyverse`
+- `readxl`
+- `httr`
+- `gridExtra`

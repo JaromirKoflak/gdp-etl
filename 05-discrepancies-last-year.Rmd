@@ -1,0 +1,50 @@
+# Discrepancies in `r last_year`
+
+```{r, echo=FALSE}
+number_of_economies = 10
+```
+
+The `r number_of_economies` biggest discrepancies (by log of ratio) in the year `r last_year`.
+
+```{r, echo=FALSE, message=FALSE, cache=FALSE}
+estimate_discrepancies = unctaddf %>%
+  filter(
+    str_length(Code) < 4,
+    Year == 2024
+  ) %>% 
+  arrange(desc(abs(log(Value.new/Value.old))))
+
+estimate_discrepancies %>% 
+  filter(Variable == "GDP_at_current_prices") %>% 
+  transmute(
+    Code = Code,
+    Label = Economy_Label.old,
+    Old_Value = format(Value.old, digits = 3, scientific = TRUE),
+    New_Value = format(Value.new, digits = 3, scientific = TRUE),
+    Diff = format(Value.new - Value.old, digits = 3, scientific = TRUE),
+    Ratio = format(Value.new / Value.old, digits = 3)
+  ) %>% 
+  head(number_of_economies) %>% 
+  knitr::kable(
+    booktabs = TRUE,
+    align = "clccrc"
+  )
+
+estimate_discrepancies %>% 
+  head(number_of_economies) %>% 
+  distinct(Economy_Label.new) %>% 
+  pull() %>% 
+  map(plot_by_economy) %>% 
+  compact() %>% 
+  map(ggplotly, dynamicTicks = TRUE) %>% 
+  map(layout, title = list(
+                font = list(
+                  size = 22)),
+              legend = list(
+                orientation = "h",
+                title = ""),
+              margin = list(
+                b=110
+              )) %>% 
+  htmltools::tagList() 
+```

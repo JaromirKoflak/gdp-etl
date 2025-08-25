@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 6 Missing values | GDP ETL Documentation</title>
+<meta name="author" content="Jaromír Koflák">
+<meta name="description" content="A list of economies with values missing in the new dataset: Code Label Year Variable Old_Value 004 Afghanistan 2024 GDP_at_current_prices 18095462302 660 Anguilla 2024 GDP_at_current_prices...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Chapter 6 Missing values | GDP ETL Documentation">
+<meta property="og:type" content="book">
+<meta property="og:description" content="A list of economies with values missing in the new dataset: Code Label Year Variable Old_Value 004 Afghanistan 2024 GDP_at_current_prices 18095462302 660 Anguilla 2024 GDP_at_current_prices...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 6 Missing values | GDP ETL Documentation">
+<meta name="twitter:description" content="A list of economies with values missing in the new dataset: Code Label Year Variable Old_Value 004 Afghanistan 2024 GDP_at_current_prices 18095462302 660 Anguilla 2024 GDP_at_current_prices...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link href="libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="libs/plotly-binding-4.11.0/plotly.js"></script><script src="libs/typedarray-0.1/typedarray.min.js"></script><link href="libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="libs/crosstalk-1.2.1/js/crosstalk.min.js"></script><link href="libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="libs/plotly-main-2.11.1/plotly-latest.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">GDP ETL Documentation</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="usage.html"><span class="header-section-number">1</span> Usage</a></li>
+<li><a class="" href="pipeline-explanation.html"><span class="header-section-number">2</span> Pipeline Explanation</a></li>
+<li><a class="" href="special-cases.html"><span class="header-section-number">3</span> Special Cases</a></li>
+<li><a class="" href="discrepancy-plots.html"><span class="header-section-number">4</span> Discrepancy Plots</a></li>
+<li><a class="" href="missing-values.html"><span class="header-section-number">5</span> Missing values</a></li>
+<li><a class="active" href="missing-values-1.html"><span class="header-section-number">6</span> Missing values</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="missing-values-1" class="section level1" number="6">
+<h1>
+<span class="header-section-number">6</span> Missing values<a class="anchor" aria-label="anchor" href="#missing-values-1"><i class="fas fa-link"></i></a>
+</h1>
+<p>A list of economies with values missing in the new dataset:</p>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="6%">
+<col width="33%">
+<col width="6%">
+<col width="36%">
+<col width="16%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">Code</th>
+<th align="left">Label</th>
+<th align="right">Year</th>
+<th align="left">Variable</th>
+<th align="right">Old_Value</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">004</td>
+<td align="left">Afghanistan</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">18095462302</td>
+</tr>
+<tr class="even">
+<td align="left">660</td>
+<td align="left">Anguilla</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">452730462</td>
+</tr>
+<tr class="odd">
+<td align="left">060</td>
+<td align="left">Bermuda</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">8871535083</td>
+</tr>
+<tr class="even">
+<td align="left">092</td>
+<td align="left">British Virgin Islands</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">1597709761</td>
+</tr>
+<tr class="odd">
+<td align="left">136</td>
+<td align="left">Cayman Islands</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">7519326366</td>
+</tr>
+<tr class="even">
+<td align="left">184</td>
+<td align="left">Cook Islands</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">409076633</td>
+</tr>
+<tr class="odd">
+<td align="left">192</td>
+<td align="left">Cuba</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">259781195384</td>
+</tr>
+<tr class="even">
+<td align="left">531</td>
+<td align="left">Curacao</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_constant_prices_2015</td>
+<td align="right">2792284735</td>
+</tr>
+<tr class="odd">
+<td align="left">531</td>
+<td align="left">Curacao</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">3522165499</td>
+</tr>
+<tr class="even">
+<td align="left">232</td>
+<td align="left">Eritrea</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">2534601287</td>
+</tr>
+<tr class="odd">
+<td align="left">258</td>
+<td align="left">French Polynesia</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">6562614844</td>
+</tr>
+<tr class="even">
+<td align="left">304</td>
+<td align="left">Greenland</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">3165150527</td>
+</tr>
+<tr class="odd">
+<td align="left">438</td>
+<td align="left">Liechtenstein</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">8395043757</td>
+</tr>
+<tr class="even">
+<td align="left">492</td>
+<td align="left">Monaco</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">10433916754</td>
+</tr>
+<tr class="odd">
+<td align="left">500</td>
+<td align="left">Montserrat</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">84537466</td>
+</tr>
+<tr class="even">
+<td align="left">540</td>
+<td align="left">New Caledonia</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">10129037714</td>
+</tr>
+<tr class="odd">
+<td align="left">534</td>
+<td align="left">Sint Maarten (Dutch part)</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_constant_prices_2015</td>
+<td align="right">1281173026</td>
+</tr>
+<tr class="even">
+<td align="left">534</td>
+<td align="left">Sint Maarten (Dutch part)</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">1789962648</td>
+</tr>
+<tr class="odd">
+<td align="left">275</td>
+<td align="left">State of Palestine</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">19949255805</td>
+</tr>
+<tr class="even">
+<td align="left">760</td>
+<td align="left">Syrian Arab Republic</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">25040603888</td>
+</tr>
+<tr class="odd">
+<td align="left">796</td>
+<td align="left">Turks and Caicos Islands</td>
+<td align="right">2024</td>
+<td align="left">GDP_at_current_prices</td>
+<td align="right">1516293459</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="missing-values.html"><span class="header-section-number">5</span> Missing values</a></div>
+<div class="empty"></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#missing-values-1"><span class="header-section-number">6</span> Missing values</a></li></ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/05-missing-values.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/05-missing-values.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>GDP ETL Documentation</strong>" was written by Jaromír Koflák. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

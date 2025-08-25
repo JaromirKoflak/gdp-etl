@@ -1,0 +1,101 @@
+# GDP Deflator
+
+A short report of GDP deflators used for estimating nominal GDP for the year `r last_year`.
+
+`Deflator_DSIB` shows GDP deflators sourced from UNCTAD DSIB, which are used for estimating the nominal GDP for `r last_year`. \
+`Deflator_UNSD` is computed separately using data from this ETL script.
+
+The following table shows the largest discrepancies in the year `r last_year-1`.
+
+```{r, echo=FALSE}
+read_usis <- function(series, source, measure) {
+  paste0(
+    "https://usis.unctad.unctad.org/UsisDWDataService/",
+    "Series", series, "Source", source, "Measure", measure,
+    "FrequencyA/GetLastVersion()/Data?$format=csv"
+  ) %>% 
+    read_csv(show_col_types = F) %>% 
+    return 
+}
+
+gdp_current <- read_usis("5100", "4805", "0100")
+
+gdp_constant <- read_usis("5100", "4805", "0940")
+
+gdp_deflators <- read_usis("5105", "0101", "6700") 
+
+exchange_rates <- read_usis("5201", "0101", "0200")
+
+deflator_USD <- gdp_deflators %>%
+  left_join(
+    exchange_rates %>%
+      select(Year, Country_Code, Value),
+    by = join_by(Country_Code, Year),
+    suffix = c("", ".exg")
+  ) %>%
+  select(Country_Code, Country_Label, Year, Value, Value.exg) %>%
+  arrange(Country_Code, Year) %>%
+  mutate(Deflator_exg = Value / Value.exg) %>%
+  group_by(Country_Label) %>%
+  mutate(Deflator2015 = ifelse(length(Deflator_exg[Year==2015]) == 1,
+                               Deflator_exg[Year==2015],
+                               NA)
+  ) %>%
+  ungroup %>%
+  mutate(Deflator_USD = 100 * Deflator_exg / Deflator2015)
+
+
+df_deflator = dfgdp %>% 
+  pivot_wider(
+    names_from = "Variable", 
+    values_from = "Value") %>% 
+  left_join(
+    deflator_USD %>% 
+      # group_by(Country_Code) %>% 
+      transmute(
+        Year = Year,
+        Country_Code = Country_Code,
+        Deflator_DSIB = Deflator_USD
+      ),
+    by = join_by(Economy_Code == Country_Code,
+                 Year == Year)
+  ) %>% 
+  mutate(Deflator_UNSD = 100 * GDP_at_current_prices  / GDP_at_constant_prices_2015) %>%
+  mutate(Deflator_UNSD = replace(
+                           Deflator_UNSD,
+                           Year == 2024,
+                           NA),
+         Diff = Deflator_DSIB - Deflator_UNSD) %>% 
+  select(Economy_Code, Economy_Label, Year, Deflator_DSIB, Deflator_UNSD, Diff) 
+
+df_deflator %>% 
+  filter(Year == 2023) %>% 
+  arrange(desc(abs(Diff))) %>% 
+  select(!Diff) %>%
+  mutate(
+    Deflator_DSIB = round(Deflator_DSIB, 1),
+    Deflator_UNSD = round(Deflator_UNSD, 1)
+  ) %>% 
+  head(10) %>% 
+  knitr::kable(booktabs = TRUE)
+
+```
+
+
+The following table highlights the largest discrepancies found for each economy.
+
+```{r, echo=FALSE}
+df_deflator %>%   
+  filter(!near(Deflator_DSIB, Deflator_UNSD, tol=1))  %>%
+  group_by(Economy_Label) %>% 
+  filter(Diff %in% c(max(abs(Diff)), -max(abs(Diff)))) %>% 
+  arrange(desc(abs(Diff))) %>% 
+  select(!Diff) %>% 
+  mutate(
+    Deflator_DSIB = round(Deflator_DSIB, 1),
+    Deflator_UNSD = round(Deflator_UNSD, 1)
+  ) %>% 
+  head(10) %>% 
+  knitr::kable(booktabs = TRUE)
+```
+
