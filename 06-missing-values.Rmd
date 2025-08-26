@@ -1,7 +1,7 @@
 # Missing Values
 A list of economies with values missing in the new dataset.
 
-```{r, echo=FALSE, cache=TRUE, message=FALSE}
+```{r, echo=FALSE, message=FALSE}
 missing_values = unctaddf %>%
   filter(str_length(Code) < 4,
          is.na(Value.new) & !is.na(Value.old)) 

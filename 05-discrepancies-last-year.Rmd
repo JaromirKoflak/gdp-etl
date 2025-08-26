@@ -6,7 +6,7 @@ number_of_economies = 10
 
 The `r number_of_economies` biggest discrepancies (by log of ratio) in the year `r last_year`.
 
-```{r, echo=FALSE, message=FALSE, cache=FALSE}
+```{r, echo=FALSE, message=FALSE}
 estimate_discrepancies = unctaddf %>%
   filter(
     str_length(Code) < 4,

@@ -1,7 +1,7 @@
 # Added Values
 A list of economies with values, which were missing in the old dataset.
 
-```{r, echo=FALSE, cache=TRUE, message=FALSE}
+```{r, echo=FALSE, message=FALSE}
 added_values = unctaddf %>%
   filter(str_length(Code) < 4,
          is.na(Value.old) & !is.na(Value.new))
