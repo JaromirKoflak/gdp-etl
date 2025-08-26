@@ -20,8 +20,8 @@ setwd(dirname(current_path))
 print(getwd())
 
 # Directories
-datadir = paste(getwd(), "/GDP Bookdown/data", sep = "")
-outputdir = paste(getwd(), "/GDP Bookdown/output", sep = "")
+datadir = file.path(getwd(), "data")
+outputdir = file.path(getwd(), "output")
 
 # Valid year ranges
 dim_countries = read.csv(file.path(datadir, "Dim_countries.csv")) %>% 
