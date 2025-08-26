@@ -553,7 +553,3 @@ dfgdp = get_unsd_gdp_data() %>%
 }
 
 dfgdp = run_etl_pipeline()
-dfgdp %>% 
-  distinct(Economy_Code) %>% 
-  tail(80) %>% 
-  print(n=80)

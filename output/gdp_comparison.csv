@@ -28819,82 +28819,6 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 3905,OECD (Organisation for Economic Cooperation and Development),2023,GDP_at_current_prices,64934871679445,64934871679448,NA,NA
 3905,OECD (Organisation for Economic Cooperation and Development),2024,GDP_at_constant_prices_2015,56335558446544,56335558446543,NA,NA
 3905,OECD (Organisation for Economic Cooperation and Development),2024,GDP_at_current_prices,67765393133902,67752574077141,NA,NA
-0000,World,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-0000,World,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-0000,World,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-0000,World,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-0000,World,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-0000,World,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-0000,World,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-0000,World,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-0000,World,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-0000,World,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-0000,World,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-0000,World,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-0000,World,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-0000,World,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-0000,World,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-0000,World,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-0000,World,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-0000,World,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-0000,World,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-0000,World,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-0000,World,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-0000,World,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-0000,World,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-0000,World,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-0000,World,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-0000,World,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-0000,World,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-0000,World,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-0000,World,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-0000,World,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-0000,World,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-0000,World,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-0000,World,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-0000,World,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-0000,World,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-0000,World,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-0000,World,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-0000,World,1969,GDP_at_current_prices,NA,5017000000,NA,NA
-1400,Developing economies,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-1400,Developing economies,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-1400,Developing economies,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-1400,Developing economies,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-1400,Developing economies,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-1400,Developing economies,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-1400,Developing economies,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-1400,Developing economies,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-1400,Developing economies,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-1400,Developing economies,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-1400,Developing economies,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-1400,Developing economies,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-1400,Developing economies,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-1400,Developing economies,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-1400,Developing economies,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-1400,Developing economies,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-1400,Developing economies,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-1400,Developing economies,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-1400,Developing economies,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-1400,Developing economies,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-1400,Developing economies,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-1400,Developing economies,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-1400,Developing economies,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-1400,Developing economies,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-1400,Developing economies,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-1400,Developing economies,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-1400,Developing economies,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-1400,Developing economies,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-1400,Developing economies,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-1400,Developing economies,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-1400,Developing economies,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-1400,Developing economies,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-1400,Developing economies,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-1400,Developing economies,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-1400,Developing economies,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-1400,Developing economies,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-1400,Developing economies,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-1400,Developing economies,1969,GDP_at_current_prices,NA,5017000000,NA,NA
 1411,Developing economies: Northern Africa,1970,GDP_at_constant_prices_2015,NA,134190349238,NA,NA
 1411,Developing economies: Northern Africa,1970,GDP_at_current_prices,NA,24735519951,NA,NA
 1411,Developing economies: Northern Africa,1971,GDP_at_constant_prices_2015,NA,131978427121,NA,NA
@@ -29115,44 +29039,6 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 1412,Developing economies: Sub-Saharan Africa,2023,GDP_at_current_prices,NA,1956820401125,NA,NA
 1412,Developing economies: Sub-Saharan Africa,2024,GDP_at_constant_prices_2015,NA,2059378890828,NA,NA
 1412,Developing economies: Sub-Saharan Africa,2024,GDP_at_current_prices,NA,1473105537218747,NA,NA
-1430,Developing economies: Asia,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-1430,Developing economies: Asia,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-1430,Developing economies: Asia,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-1430,Developing economies: Asia,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-1430,Developing economies: Asia,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-1430,Developing economies: Asia,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-1430,Developing economies: Asia,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-1430,Developing economies: Asia,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-1430,Developing economies: Asia,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-1430,Developing economies: Asia,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-1430,Developing economies: Asia,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-1430,Developing economies: Asia,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-1430,Developing economies: Asia,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-1430,Developing economies: Asia,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-1430,Developing economies: Asia,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-1430,Developing economies: Asia,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-1430,Developing economies: Asia,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-1430,Developing economies: Asia,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-1430,Developing economies: Asia,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-1430,Developing economies: Asia,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-1430,Developing economies: Asia,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-1430,Developing economies: Asia,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-1430,Developing economies: Asia,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-1430,Developing economies: Asia,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-1430,Developing economies: Asia,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-1430,Developing economies: Asia,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-1430,Developing economies: Asia,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-1430,Developing economies: Asia,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-1430,Developing economies: Asia,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-1430,Developing economies: Asia,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-1430,Developing economies: Asia,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-1430,Developing economies: Asia,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-1430,Developing economies: Asia,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-1430,Developing economies: Asia,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-1430,Developing economies: Asia,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-1430,Developing economies: Asia,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-1430,Developing economies: Asia,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-1430,Developing economies: Asia,1969,GDP_at_current_prices,NA,5017000000,NA,NA
 1430,Developing economies: Asia,1970,GDP_at_constant_prices_2015,NA,1355170038898,NA,NA
 1430,Developing economies: Asia,1970,GDP_at_current_prices,NA,287682253445,NA,NA
 1430,Developing economies: Asia,1971,GDP_at_constant_prices_2015,NA,1455222152994,NA,NA
@@ -29439,44 +29325,6 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 1432,Developing economies: Southern Asia,2023,GDP_at_current_prices,NA,4850543613904,NA,NA
 1432,Developing economies: Southern Asia,2024,GDP_at_constant_prices_2015,NA,5009950615775,NA,NA
 1432,Developing economies: Southern Asia,2024,GDP_at_current_prices,NA,5327241341938,NA,NA
-1433,Developing economies: Eastern Asia,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-1433,Developing economies: Eastern Asia,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-1433,Developing economies: Eastern Asia,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-1433,Developing economies: Eastern Asia,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-1433,Developing economies: Eastern Asia,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-1433,Developing economies: Eastern Asia,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-1433,Developing economies: Eastern Asia,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-1433,Developing economies: Eastern Asia,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-1433,Developing economies: Eastern Asia,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-1433,Developing economies: Eastern Asia,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-1433,Developing economies: Eastern Asia,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-1433,Developing economies: Eastern Asia,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-1433,Developing economies: Eastern Asia,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-1433,Developing economies: Eastern Asia,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-1433,Developing economies: Eastern Asia,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-1433,Developing economies: Eastern Asia,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-1433,Developing economies: Eastern Asia,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-1433,Developing economies: Eastern Asia,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-1433,Developing economies: Eastern Asia,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-1433,Developing economies: Eastern Asia,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-1433,Developing economies: Eastern Asia,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-1433,Developing economies: Eastern Asia,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-1433,Developing economies: Eastern Asia,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-1433,Developing economies: Eastern Asia,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-1433,Developing economies: Eastern Asia,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-1433,Developing economies: Eastern Asia,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-1433,Developing economies: Eastern Asia,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-1433,Developing economies: Eastern Asia,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-1433,Developing economies: Eastern Asia,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-1433,Developing economies: Eastern Asia,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-1433,Developing economies: Eastern Asia,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-1433,Developing economies: Eastern Asia,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-1433,Developing economies: Eastern Asia,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-1433,Developing economies: Eastern Asia,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-1433,Developing economies: Eastern Asia,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-1433,Developing economies: Eastern Asia,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-1433,Developing economies: Eastern Asia,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-1433,Developing economies: Eastern Asia,1969,GDP_at_current_prices,NA,5017000000,NA,NA
 1433,Developing economies: Eastern Asia,1970,GDP_at_constant_prices_2015,NA,296397390089,NA,NA
 1433,Developing economies: Eastern Asia,1970,GDP_at_current_prices,NA,107498595404,NA,NA
 1433,Developing economies: Eastern Asia,1971,GDP_at_constant_prices_2015,NA,319208555417,NA,NA
@@ -29917,44 +29765,6 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 1450,Developing economies: Oceania,2023,GDP_at_current_prices,NA,59203020379,NA,NA
 1450,Developing economies: Oceania,2024,GDP_at_constant_prices_2015,NA,52127732489,NA,NA
 1450,Developing economies: Oceania,2024,GDP_at_current_prices,NA,43353335889,NA,NA
-1460,Developing economies: Asia and Oceania,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-1460,Developing economies: Asia and Oceania,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-1460,Developing economies: Asia and Oceania,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-1460,Developing economies: Asia and Oceania,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-1460,Developing economies: Asia and Oceania,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-1460,Developing economies: Asia and Oceania,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-1460,Developing economies: Asia and Oceania,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-1460,Developing economies: Asia and Oceania,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-1460,Developing economies: Asia and Oceania,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-1460,Developing economies: Asia and Oceania,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-1460,Developing economies: Asia and Oceania,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-1460,Developing economies: Asia and Oceania,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-1460,Developing economies: Asia and Oceania,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-1460,Developing economies: Asia and Oceania,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-1460,Developing economies: Asia and Oceania,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-1460,Developing economies: Asia and Oceania,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-1460,Developing economies: Asia and Oceania,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-1460,Developing economies: Asia and Oceania,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-1460,Developing economies: Asia and Oceania,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-1460,Developing economies: Asia and Oceania,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-1460,Developing economies: Asia and Oceania,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-1460,Developing economies: Asia and Oceania,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-1460,Developing economies: Asia and Oceania,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-1460,Developing economies: Asia and Oceania,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-1460,Developing economies: Asia and Oceania,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-1460,Developing economies: Asia and Oceania,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-1460,Developing economies: Asia and Oceania,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-1460,Developing economies: Asia and Oceania,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-1460,Developing economies: Asia and Oceania,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-1460,Developing economies: Asia and Oceania,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-1460,Developing economies: Asia and Oceania,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-1460,Developing economies: Asia and Oceania,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-1460,Developing economies: Asia and Oceania,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-1460,Developing economies: Asia and Oceania,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-1460,Developing economies: Asia and Oceania,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-1460,Developing economies: Asia and Oceania,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-1460,Developing economies: Asia and Oceania,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-1460,Developing economies: Asia and Oceania,1969,GDP_at_current_prices,NA,5017000000,NA,NA
 1530,Developed economies: Asia,1970,GDP_at_constant_prices_2015,NA,1569902666496,NA,NA
 1530,Developed economies: Asia,1970,GDP_at_current_prices,NA,232944823106,NA,NA
 1530,Developed economies: Asia,1971,GDP_at_constant_prices_2015,NA,1650459037705,NA,NA
@@ -30175,120 +29985,6 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 1550,Developed economies: Oceania,2023,GDP_at_current_prices,NA,2027803239408,NA,NA
 1550,Developed economies: Oceania,2024,GDP_at_constant_prices_2015,NA,1732750208639,NA,NA
 1550,Developed economies: Oceania,2024,GDP_at_current_prices,NA,2062432041723,NA,NA
-158,"China, Taiwan Province of",1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-158,"China, Taiwan Province of",1951,GDP_at_current_prices,NA,1197000000,NA,NA
-158,"China, Taiwan Province of",1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-158,"China, Taiwan Province of",1952,GDP_at_current_prices,NA,1677000000,NA,NA
-158,"China, Taiwan Province of",1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-158,"China, Taiwan Province of",1953,GDP_at_current_prices,NA,1481000000,NA,NA
-158,"China, Taiwan Province of",1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-158,"China, Taiwan Province of",1954,GDP_at_current_prices,NA,1628000000,NA,NA
-158,"China, Taiwan Province of",1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-158,"China, Taiwan Province of",1955,GDP_at_current_prices,NA,1940000000,NA,NA
-158,"China, Taiwan Province of",1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-158,"China, Taiwan Province of",1956,GDP_at_current_prices,NA,1399000000,NA,NA
-158,"China, Taiwan Province of",1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-158,"China, Taiwan Province of",1957,GDP_at_current_prices,NA,1636000000,NA,NA
-158,"China, Taiwan Province of",1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-158,"China, Taiwan Province of",1958,GDP_at_current_prices,NA,1836000000,NA,NA
-158,"China, Taiwan Province of",1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-158,"China, Taiwan Province of",1959,GDP_at_current_prices,NA,1444000000,NA,NA
-158,"China, Taiwan Province of",1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-158,"China, Taiwan Province of",1960,GDP_at_current_prices,NA,1743000000,NA,NA
-158,"China, Taiwan Province of",1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-158,"China, Taiwan Province of",1961,GDP_at_current_prices,NA,1778000000,NA,NA
-158,"China, Taiwan Province of",1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-158,"China, Taiwan Province of",1962,GDP_at_current_prices,NA,1960000000,NA,NA
-158,"China, Taiwan Province of",1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-158,"China, Taiwan Province of",1963,GDP_at_current_prices,NA,2218000000,NA,NA
-158,"China, Taiwan Province of",1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-158,"China, Taiwan Province of",1964,GDP_at_current_prices,NA,2592000000,NA,NA
-158,"China, Taiwan Province of",1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-158,"China, Taiwan Province of",1965,GDP_at_current_prices,NA,2869000000,NA,NA
-158,"China, Taiwan Province of",1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-158,"China, Taiwan Province of",1966,GDP_at_current_prices,NA,3207000000,NA,NA
-158,"China, Taiwan Province of",1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-158,"China, Taiwan Province of",1967,GDP_at_current_prices,NA,3709000000,NA,NA
-158,"China, Taiwan Province of",1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-158,"China, Taiwan Province of",1968,GDP_at_current_prices,NA,4325000000,NA,NA
-158,"China, Taiwan Province of",1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-158,"China, Taiwan Province of",1969,GDP_at_current_prices,NA,5017000000,NA,NA
-1600,Developing economies excluding China,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-1600,Developing economies excluding China,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-1600,Developing economies excluding China,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-1600,Developing economies excluding China,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-1600,Developing economies excluding China,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-1600,Developing economies excluding China,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-1600,Developing economies excluding China,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-1600,Developing economies excluding China,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-1600,Developing economies excluding China,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-1600,Developing economies excluding China,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-1600,Developing economies excluding China,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-1600,Developing economies excluding China,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-1600,Developing economies excluding China,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-1600,Developing economies excluding China,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-1600,Developing economies excluding China,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-1600,Developing economies excluding China,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-1600,Developing economies excluding China,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-1600,Developing economies excluding China,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-1600,Developing economies excluding China,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-1600,Developing economies excluding China,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-1600,Developing economies excluding China,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-1600,Developing economies excluding China,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-1600,Developing economies excluding China,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-1600,Developing economies excluding China,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-1600,Developing economies excluding China,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-1600,Developing economies excluding China,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-1600,Developing economies excluding China,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-1600,Developing economies excluding China,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-1600,Developing economies excluding China,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-1600,Developing economies excluding China,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-1600,Developing economies excluding China,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-1600,Developing economies excluding China,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-1600,Developing economies excluding China,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-1600,Developing economies excluding China,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-1600,Developing economies excluding China,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-1600,Developing economies excluding China,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-1600,Developing economies excluding China,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-1600,Developing economies excluding China,1969,GDP_at_current_prices,NA,5017000000,NA,NA
-1601,Developing economies excluding LDCs,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-1601,Developing economies excluding LDCs,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-1601,Developing economies excluding LDCs,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-1601,Developing economies excluding LDCs,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-1601,Developing economies excluding LDCs,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-1601,Developing economies excluding LDCs,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-1601,Developing economies excluding LDCs,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-1601,Developing economies excluding LDCs,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-1601,Developing economies excluding LDCs,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-1601,Developing economies excluding LDCs,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-1601,Developing economies excluding LDCs,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-1601,Developing economies excluding LDCs,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-1601,Developing economies excluding LDCs,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-1601,Developing economies excluding LDCs,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-1601,Developing economies excluding LDCs,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-1601,Developing economies excluding LDCs,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-1601,Developing economies excluding LDCs,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-1601,Developing economies excluding LDCs,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-1601,Developing economies excluding LDCs,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-1601,Developing economies excluding LDCs,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-1601,Developing economies excluding LDCs,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-1601,Developing economies excluding LDCs,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-1601,Developing economies excluding LDCs,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-1601,Developing economies excluding LDCs,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-1601,Developing economies excluding LDCs,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-1601,Developing economies excluding LDCs,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-1601,Developing economies excluding LDCs,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-1601,Developing economies excluding LDCs,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-1601,Developing economies excluding LDCs,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-1601,Developing economies excluding LDCs,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-1601,Developing economies excluding LDCs,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-1601,Developing economies excluding LDCs,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-1601,Developing economies excluding LDCs,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-1601,Developing economies excluding LDCs,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-1601,Developing economies excluding LDCs,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-1601,Developing economies excluding LDCs,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-1601,Developing economies excluding LDCs,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-1601,Developing economies excluding LDCs,1969,GDP_at_current_prices,NA,5017000000,NA,NA
 3380,Convention on Biological Diversity (CBD),1970,GDP_at_constant_prices_2015,NA,12815847852668,NA,NA
 3380,Convention on Biological Diversity (CBD),1970,GDP_at_current_prices,NA,2337245172866,NA,NA
 3380,Convention on Biological Diversity (CBD),1971,GDP_at_constant_prices_2015,NA,13423054398079,NA,NA
@@ -32049,44 +31745,6 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 5223,South America,2023,GDP_at_current_prices,NA,4247891302561,NA,NA
 5223,South America,2024,GDP_at_constant_prices_2015,NA,3944628960747,NA,NA
 5223,South America,2024,GDP_at_current_prices,NA,4601265772580,NA,NA
-5300,Asia,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-5300,Asia,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-5300,Asia,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-5300,Asia,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-5300,Asia,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-5300,Asia,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-5300,Asia,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-5300,Asia,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-5300,Asia,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-5300,Asia,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-5300,Asia,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-5300,Asia,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-5300,Asia,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-5300,Asia,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-5300,Asia,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-5300,Asia,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-5300,Asia,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-5300,Asia,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-5300,Asia,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-5300,Asia,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-5300,Asia,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-5300,Asia,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-5300,Asia,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-5300,Asia,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-5300,Asia,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-5300,Asia,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-5300,Asia,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-5300,Asia,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-5300,Asia,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-5300,Asia,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-5300,Asia,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-5300,Asia,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-5300,Asia,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-5300,Asia,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-5300,Asia,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-5300,Asia,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-5300,Asia,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-5300,Asia,1969,GDP_at_current_prices,NA,5017000000,NA,NA
 5310,Central Asia,1992,GDP_at_constant_prices_2015,NA,127675639349,NA,NA
 5310,Central Asia,1992,GDP_at_current_prices,NA,49764549737,NA,NA
 5310,Central Asia,1993,GDP_at_constant_prices_2015,NA,118482369723,NA,NA
@@ -32263,44 +31921,6 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 5320,Southern Asia,2023,GDP_at_current_prices,NA,4850543613904,NA,NA
 5320,Southern Asia,2024,GDP_at_constant_prices_2015,NA,5009950615775,NA,NA
 5320,Southern Asia,2024,GDP_at_current_prices,NA,5327241341938,NA,NA
-5330,Eastern Asia,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-5330,Eastern Asia,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-5330,Eastern Asia,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-5330,Eastern Asia,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-5330,Eastern Asia,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-5330,Eastern Asia,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-5330,Eastern Asia,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-5330,Eastern Asia,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-5330,Eastern Asia,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-5330,Eastern Asia,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-5330,Eastern Asia,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-5330,Eastern Asia,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-5330,Eastern Asia,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-5330,Eastern Asia,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-5330,Eastern Asia,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-5330,Eastern Asia,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-5330,Eastern Asia,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-5330,Eastern Asia,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-5330,Eastern Asia,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-5330,Eastern Asia,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-5330,Eastern Asia,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-5330,Eastern Asia,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-5330,Eastern Asia,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-5330,Eastern Asia,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-5330,Eastern Asia,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-5330,Eastern Asia,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-5330,Eastern Asia,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-5330,Eastern Asia,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-5330,Eastern Asia,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-5330,Eastern Asia,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-5330,Eastern Asia,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-5330,Eastern Asia,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-5330,Eastern Asia,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-5330,Eastern Asia,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-5330,Eastern Asia,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-5330,Eastern Asia,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-5330,Eastern Asia,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-5330,Eastern Asia,1969,GDP_at_current_prices,NA,5017000000,NA,NA
 5330,Eastern Asia,1970,GDP_at_constant_prices_2015,NA,1820375384711,NA,NA
 5330,Eastern Asia,1970,GDP_at_current_prices,NA,333807248725,NA,NA
 5330,Eastern Asia,1971,GDP_at_constant_prices_2015,NA,1918638374821,NA,NA
@@ -33291,79 +32911,3 @@ Code,Economy_Label,Year,Variable,Value.old,Value.new,CommentEN,CommentFR
 5520,Australia and New Zealand,2023,GDP_at_current_prices,NA,2027803239408,NA,NA
 5520,Australia and New Zealand,2024,GDP_at_constant_prices_2015,NA,1732750208639,NA,NA
 5520,Australia and New Zealand,2024,GDP_at_current_prices,NA,2062432041723,NA,NA
-5600,Asia and Oceania,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-5600,Asia and Oceania,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-5600,Asia and Oceania,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-5600,Asia and Oceania,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-5600,Asia and Oceania,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-5600,Asia and Oceania,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-5600,Asia and Oceania,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-5600,Asia and Oceania,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-5600,Asia and Oceania,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-5600,Asia and Oceania,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-5600,Asia and Oceania,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-5600,Asia and Oceania,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-5600,Asia and Oceania,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-5600,Asia and Oceania,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-5600,Asia and Oceania,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-5600,Asia and Oceania,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-5600,Asia and Oceania,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-5600,Asia and Oceania,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-5600,Asia and Oceania,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-5600,Asia and Oceania,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-5600,Asia and Oceania,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-5600,Asia and Oceania,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-5600,Asia and Oceania,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-5600,Asia and Oceania,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-5600,Asia and Oceania,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-5600,Asia and Oceania,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-5600,Asia and Oceania,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-5600,Asia and Oceania,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-5600,Asia and Oceania,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-5600,Asia and Oceania,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-5600,Asia and Oceania,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-5600,Asia and Oceania,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-5600,Asia and Oceania,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-5600,Asia and Oceania,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-5600,Asia and Oceania,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-5600,Asia and Oceania,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-5600,Asia and Oceania,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-5600,Asia and Oceania,1969,GDP_at_current_prices,NA,5017000000,NA,NA
-5704,Eastern and South-Eastern Asia,1951,GDP_at_constant_prices_2015,NA,4880321781,NA,NA
-5704,Eastern and South-Eastern Asia,1951,GDP_at_current_prices,NA,1197000000,NA,NA
-5704,Eastern and South-Eastern Asia,1952,GDP_at_constant_prices_2015,NA,5466136882,NA,NA
-5704,Eastern and South-Eastern Asia,1952,GDP_at_current_prices,NA,1677000000,NA,NA
-5704,Eastern and South-Eastern Asia,1953,GDP_at_constant_prices_2015,NA,5985099927,NA,NA
-5704,Eastern and South-Eastern Asia,1953,GDP_at_current_prices,NA,1481000000,NA,NA
-5704,Eastern and South-Eastern Asia,1954,GDP_at_constant_prices_2015,NA,6562121107,NA,NA
-5704,Eastern and South-Eastern Asia,1954,GDP_at_current_prices,NA,1628000000,NA,NA
-5704,Eastern and South-Eastern Asia,1955,GDP_at_constant_prices_2015,NA,7068486632,NA,NA
-5704,Eastern and South-Eastern Asia,1955,GDP_at_current_prices,NA,1940000000,NA,NA
-5704,Eastern and South-Eastern Asia,1956,GDP_at_constant_prices_2015,NA,7504713793,NA,NA
-5704,Eastern and South-Eastern Asia,1956,GDP_at_current_prices,NA,1399000000,NA,NA
-5704,Eastern and South-Eastern Asia,1957,GDP_at_constant_prices_2015,NA,8090954896,NA,NA
-5704,Eastern and South-Eastern Asia,1957,GDP_at_current_prices,NA,1636000000,NA,NA
-5704,Eastern and South-Eastern Asia,1958,GDP_at_constant_prices_2015,NA,8712097824,NA,NA
-5704,Eastern and South-Eastern Asia,1958,GDP_at_current_prices,NA,1836000000,NA,NA
-5704,Eastern and South-Eastern Asia,1959,GDP_at_constant_prices_2015,NA,9479390240,NA,NA
-5704,Eastern and South-Eastern Asia,1959,GDP_at_current_prices,NA,1444000000,NA,NA
-5704,Eastern and South-Eastern Asia,1960,GDP_at_constant_prices_2015,NA,10161816755,NA,NA
-5704,Eastern and South-Eastern Asia,1960,GDP_at_current_prices,NA,1743000000,NA,NA
-5704,Eastern and South-Eastern Asia,1961,GDP_at_constant_prices_2015,NA,10878080086,NA,NA
-5704,Eastern and South-Eastern Asia,1961,GDP_at_current_prices,NA,1778000000,NA,NA
-5704,Eastern and South-Eastern Asia,1962,GDP_at_constant_prices_2015,NA,11849184549,NA,NA
-5704,Eastern and South-Eastern Asia,1962,GDP_at_current_prices,NA,1960000000,NA,NA
-5704,Eastern and South-Eastern Asia,1963,GDP_at_constant_prices_2015,NA,13121747054,NA,NA
-5704,Eastern and South-Eastern Asia,1963,GDP_at_current_prices,NA,2218000000,NA,NA
-5704,Eastern and South-Eastern Asia,1964,GDP_at_constant_prices_2015,NA,14779142488,NA,NA
-5704,Eastern and South-Eastern Asia,1964,GDP_at_current_prices,NA,2592000000,NA,NA
-5704,Eastern and South-Eastern Asia,1965,GDP_at_constant_prices_2015,NA,16535887928,NA,NA
-5704,Eastern and South-Eastern Asia,1965,GDP_at_current_prices,NA,2869000000,NA,NA
-5704,Eastern and South-Eastern Asia,1966,GDP_at_constant_prices_2015,NA,18128287464,NA,NA
-5704,Eastern and South-Eastern Asia,1966,GDP_at_current_prices,NA,3207000000,NA,NA
-5704,Eastern and South-Eastern Asia,1967,GDP_at_constant_prices_2015,NA,20150311111,NA,NA
-5704,Eastern and South-Eastern Asia,1967,GDP_at_current_prices,NA,3709000000,NA,NA
-5704,Eastern and South-Eastern Asia,1968,GDP_at_constant_prices_2015,NA,22107399717,NA,NA
-5704,Eastern and South-Eastern Asia,1968,GDP_at_current_prices,NA,4325000000,NA,NA
-5704,Eastern and South-Eastern Asia,1969,GDP_at_constant_prices_2015,NA,24227738791,NA,NA
-5704,Eastern and South-Eastern Asia,1969,GDP_at_current_prices,NA,5017000000,NA,NA

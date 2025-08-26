@@ -1,6 +1,4 @@
 usage
-gdp_etl_pipeline.r
-gdp_etl_plots.r
 pipeline-explanation
 data-processing-etl-pipeline
 functions

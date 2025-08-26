@@ -7,7 +7,7 @@ A short report of GDP deflators used for estimating nominal GDP for the year `r 
 
 The following table shows the largest discrepancies in the year `r last_year-1`.
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE}
 read_usis <- function(series, source, measure) {
   paste0(
     "https://usis.unctad.unctad.org/UsisDWDataService/",
@@ -17,10 +17,6 @@ read_usis <- function(series, source, measure) {
     read_csv(show_col_types = F) %>% 
     return 
 }
-
-gdp_current <- read_usis("5100", "4805", "0100")
-
-gdp_constant <- read_usis("5100", "4805", "0940")
 
 gdp_deflators <- read_usis("5105", "0101", "6700") 
 
@@ -83,7 +79,7 @@ df_deflator %>%
 
 The following table highlights the largest discrepancies found for each economy.
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE}
 df_deflator %>%   
   filter(!near(Deflator_DSIB, Deflator_UNSD, tol=1))  %>%
   group_by(Economy_Label) %>% 
