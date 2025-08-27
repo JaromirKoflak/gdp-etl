@@ -13,6 +13,11 @@ description: |
   set in the _output.yml file.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
+
+output:
+  bookdown::bs4_book:
+    includes:
+      after_body: "after_body.html"
 ---
 
 ```{r, echo=FALSE}
