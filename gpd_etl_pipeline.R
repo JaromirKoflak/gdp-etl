@@ -523,9 +523,9 @@ export_to_usis_csv = function(df, filename) {
       ),
       Source = "0101",
       DataSource = case_when(
-        Year == 2024 ~ "0100",
-        Economy_Code == "158" ~ "3001",
-        .default = "4809"),
+        Year == 2024 ~ "0001", # Internal
+        Economy_Code == "158" ~ "3001", # National Statistics Office
+        .default = "4809"), # UNSD NAMAD
       Value = Value,
       DataStatus = "00",
       DataConfidentiality = "0",
