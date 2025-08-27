@@ -21,7 +21,7 @@ Files found in `datadir`:
 - `Dim_countries.csv`: Contains economy codes and valid year ranges.
 - `Dim_Countries_Hierarchy_All.csv`: Contains hierarchical grouping for aggregations.
 - `lab_all.csv`: Contains economy codes and labels.
-- `GDP growth rates.xlsx`: Contains growth rates for all economies.
+- `GDP growth rates.xlsx`: Contains growth rates for all economies. (needed only when estimating values for the last year)
 - `US.GDPTotal_20250718_104458.csv` Last release of GDP dataset at [UNCTADstat](https://unctadstat.unctad.org/datacentre/dataviewer/US.GDPTotal)
 
 ## Output Files {-}

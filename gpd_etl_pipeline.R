@@ -260,7 +260,11 @@ get_gdp_deflators = function() {
   #   return
 }
 
-estimate_last_year = function(df) {
+estimate_last_year = function(df, skip_estimation=FALSE) {
+  
+  if (skip_estimation)
+    return(df)
+  
   estimate_constant = df %>% 
     filter(Year == last_year-1,
            Variable == "GDP_at_constant_prices_2015") %>%
@@ -545,7 +549,7 @@ export_to_usis_csv = function(df, filename) {
 dfgdp = get_unsd_gdp_data() %>% 
   get_taiwan_gdp_data() %>% 
   compute_missing_values() %>%
-  estimate_last_year() %>% 
+  estimate_last_year(skip_estimation=FALSE) %>% 
   round_values() %>%
   delete_data_out_of_valid_range() %>%
   add_economy_labels() %>%

@@ -14,7 +14,7 @@ get_unsd_gdp_data() %>%
   
   # Transform
   compute_missing_values() %>%
-  estimate_last_year() %>%
+  estimate_last_year(skip_estimation=FALSE) %>%
   round_values() %>%
   delete_data_out_of_valid_range() %>%
   add_economy_labels() %>%
@@ -45,8 +45,9 @@ get_unsd_gdp_data() %>%
 - Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR)
 - Described in-depth in chapter [Special Cases][Special Cases].
 
-### `estimate_last_year()` {-}
+### `estimate_last_year(df, skip_estimation=FALSE)` {-}
 - Last year is estimated using growth rates found in `GDP growth rates.xlsx`.
+- This step is skipped, if `skip_estimation` is set to `r TRUE`
 
 ### `round_values(df)` {-}
 - Rounds values to the nearest integer using base R `round()` function.
