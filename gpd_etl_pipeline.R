@@ -222,38 +222,42 @@ compute_missing_values = function(df) {
 
 get_gdp_deflators = function() {
   
-  exchange_rates <- read_csv(
-    paste0("https://usis.unctad.unctad.org/UsisDWDataService/",
-           "Series", 5201, "Source", "0101", "Measure", "0200",
-           "FrequencyA/GetLastVersion()/Data?$format=csv"
-    ),
-    show_col_types = F)
-  
-  gdp_deflators <- read_csv(
-    paste0("https://usis.unctad.unctad.org/UsisDWDataService/",
-           "Series", 5105, "Source", "2304", "Measure", 6700,
-           "FrequencyA/GetLastVersion()/Data?$format=csv"
-    ),
-    show_col_types = F)
-  
-  gdp_deflators %>% 
-    left_join(
-      exchange_rates %>% 
-        select(Year, Country_Code, Value),
-      by = join_by(Country_Code, Year),
-      suffix = c("", ".exg")
-    ) %>% 
-    select(Country_Code, Country_Label, Year, Value, Value.exg) %>% 
-    arrange(Country_Code, Year) %>% 
-    mutate(Deflator_exg = Value / Value.exg) %>% 
-    group_by(Country_Label) %>% 
-    mutate(Deflator2015 = ifelse(length(Deflator_exg[Year==2015]) == 1,
-                                 Deflator_exg[Year==2015],
-                                 NA)
-    ) %>% 
-    ungroup %>% 
-    mutate(Deflator_USD = 100 * Deflator_exg / Deflator2015) %>% 
+  cpi <- read_usis("5301", "0101", "6510")
+
+  cpi %>%
+    select(Country_Code, Country_Label, Year, Value) %>%
+    arrange(Country_Code, Year) %>%
+    group_by(Country_Label) %>%
+    mutate(Value2015 = ifelse(length(Value[Year==2015]) == 1, # For each economy get CPI for the year 2015
+                              Value[Year==2015],
+                              NA)
+    ) %>%
+    ungroup %>%
+    mutate(CPI = 100 * Value / Value2015) %>% # CPI rebased to 2015
     return
+
+  # exchange_rates <- read_usis("5201", "0101", "0200")
+  # 
+  # gdp_deflators <- read_usis("5105", "0101", "6700") 
+  # 
+  # gdp_deflators %>% 
+  #   left_join(
+  #     exchange_rates %>% 
+  #       select(Year, Country_Code, Value),
+  #     by = join_by(Country_Code, Year),
+  #     suffix = c("", ".exg")
+  #   ) %>% 
+  #   select(Country_Code, Country_Label, Year, Value, Value.exg) %>% 
+  #   arrange(Country_Code, Year) %>% 
+  #   mutate(Deflator_exg = Value / Value.exg) %>% 
+  #   group_by(Country_Label) %>% 
+  #   mutate(Deflator2015 = ifelse(length(Deflator_exg[Year==2015]) == 1,
+  #                                Deflator_exg[Year==2015],
+  #                                NA)
+  #   ) %>% 
+  #   ungroup %>% 
+  #   mutate(Deflator_USD = 100 * Deflator_exg / Deflator2015) %>% 
+  #   return
 }
 
 estimate_last_year = function(df) {
