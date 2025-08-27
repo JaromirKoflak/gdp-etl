@@ -103,7 +103,7 @@ discrepancies %>%
     Years = shorten_years(Year)
   ) %>% 
   select(Code, Label, Variable, Years) %>% 
-  knitr::kable(booktabs = TRUE)
+  as.data.frame()
 
 discrepancies %>% 
   distinct(Economy_Label.old) %>% 

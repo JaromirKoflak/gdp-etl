@@ -25,10 +25,7 @@ estimate_discrepancies %>%
     Ratio = format(Value.new / Value.old, digits = 3)
   ) %>% 
   head(number_of_economies) %>% 
-  knitr::kable(
-    booktabs = TRUE,
-    align = "clccrc"
-  )
+  as.data.frame()
 
 estimate_discrepancies %>% 
   head(number_of_economies) %>% 

@@ -13,9 +13,9 @@ description: |
   set in the _output.yml file.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
-
 output:
   bookdown::bs4_book:
+    df_print: kable
     includes:
       after_body: "after_body.html"
 ---

@@ -1,11 +1,16 @@
 # GDP Deflator
 
+```{r, echo=FALSE}
+number_of_economies = 10
+```
+
+
 A short report of GDP deflators used for estimating nominal GDP for the year `r last_year`.
 
 `Deflator_DSIB` shows GDP deflators sourced from UNCTAD DSIB, which are used for estimating the nominal GDP for `r last_year`. \
 `Deflator_UNSD` is computed separately using data from this ETL script.
 
-The following table shows the largest discrepancies in the year `r last_year-1`.
+The following table shows the `r number_of_economies` largest discrepancies in the year `r last_year-1`.
 
 ```{r, echo=FALSE, eval=FALSE}
 read_usis <- function(series, source, measure) {
@@ -71,13 +76,12 @@ df_deflator %>%
     Deflator_DSIB = round(Deflator_DSIB, 1),
     Deflator_UNSD = round(Deflator_UNSD, 1)
   ) %>% 
-  head(10) %>% 
-  knitr::kable(booktabs = TRUE)
+  head(number_of_economies) 
 
 ```
 
 
-The following table highlights the largest discrepancies found for each economy.
+The following table highlights the `r number_of_economies` largest discrepancies found for each economy.
 
 ```{r, echo=FALSE, eval=FALSE}
 df_deflator %>%   
@@ -90,7 +94,6 @@ df_deflator %>%
     Deflator_DSIB = round(Deflator_DSIB, 1),
     Deflator_UNSD = round(Deflator_UNSD, 1)
   ) %>% 
-  head(10) %>% 
-  knitr::kable(booktabs = TRUE)
+  head(number_of_economies)
 ```
 

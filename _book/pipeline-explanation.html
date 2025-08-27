@@ -79,7 +79,7 @@
 <span>  </span>
 <span>  <span class="co"># Transform</span></span>
 <span>  <span class="fu">compute_missing_values</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu">estimate_last_year</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">estimate_last_year</span><span class="op">(</span>skip_estimation<span class="op">=</span><span class="cn">FALSE</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu">round_values</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu">delete_data_out_of_valid_range</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu">add_economy_labels</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
@@ -128,12 +128,13 @@
 <li>Described in-depth in chapter <a href="special-cases.html#special-cases">Special Cases</a>.</li>
 </ul>
 </div>
-<div id="estimate_last_year" class="section level3 unnumbered">
+<div id="estimate_last_yeardf-skip_estimationfalse" class="section level3 unnumbered">
 <h3>
-<code>estimate_last_year()</code><a class="anchor" aria-label="anchor" href="#estimate_last_year"><i class="fas fa-link"></i></a>
+<code>estimate_last_year(df, skip_estimation=FALSE)</code><a class="anchor" aria-label="anchor" href="#estimate_last_yeardf-skip_estimationfalse"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
 <li>Last year is estimated using growth rates found in <code>GDP growth rates.xlsx</code>.</li>
+<li>This step is skipped, if <code>skip_estimation</code> is set to TRUE</li>
 </ul>
 </div>
 <div id="round_valuesdf" class="section level3 unnumbered">
@@ -208,7 +209,7 @@
 <li><a class="nav-link" href="#get_unsd_gdp_data">get_unsd_gdp_data()</a></li>
 <li><a class="nav-link" href="#get_taiwan_gdp_datadf">get_taiwan_gdp_data(df)</a></li>
 <li><a class="nav-link" href="#compute_missing_valuesdf">compute_missing_values(df)</a></li>
-<li><a class="nav-link" href="#estimate_last_year">estimate_last_year()</a></li>
+<li><a class="nav-link" href="#estimate_last_yeardf-skip_estimationfalse">estimate_last_year(df, skip_estimation=FALSE)</a></li>
 <li><a class="nav-link" href="#round_valuesdf">round_values(df)</a></li>
 <li><a class="nav-link" href="#delete_data_out_of_valid_rangedf">delete_data_out_of_valid_range(df)</a></li>
 <li><a class="nav-link" href="#compute_aggregate_valuesdf">compute_aggregate_values(df)</a></li>

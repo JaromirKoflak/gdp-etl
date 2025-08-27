@@ -13,7 +13,7 @@ missing_values %>%
     Years = shorten_years(Year)
   ) %>% 
   select(Code, Label, Variable, Years) %>% 
-  knitr::kable(booktabs = TRUE)
+  as.data.frame()
 
 missing_values %>% 
   distinct(Economy_Label.old) %>% 

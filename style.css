@@ -2,14 +2,28 @@ p.caption {
   color: #777;
   margin-top: 10px;
 }
+
 p code {
   white-space: inherit;
 }
+
 pre {
   word-break: normal;
   word-wrap: normal;
 }
+
 pre code {
   white-space: inherit;
 }
-tr:nth-child(even) { background: #f5f5f5; }
+
+tr:nth-child(even) { background: #f5f5f5; } /* color even rows in a table */
+
+/* change the width of the page - useful for paged tables
+
+container-fluid {
+    max-width: 100rem;
+}
+.container-fluid main {
+    max-width: 50rem;
+}
+*/
