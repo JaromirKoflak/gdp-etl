@@ -13,8 +13,10 @@ missing_values %>%
     Years = shorten_years(Year)
   ) %>% 
   select(Code, Label, Variable, Years) %>% 
-  as.data.frame()
+  DT::datatable()
+```
 
+```{r, echo=FALSE}
 missing_values %>% 
   distinct(Economy_Label.old) %>% 
   arrange(.[1]) %>% 

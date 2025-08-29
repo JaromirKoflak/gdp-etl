@@ -103,7 +103,7 @@ discrepancies %>%
     Years = shorten_years(Year)
   ) %>% 
   select(Code, Label, Variable, Years) %>% 
-  as.data.frame()
+  DT::datatable()
 
 discrepancies %>% 
   distinct(Economy_Label.old) %>% 

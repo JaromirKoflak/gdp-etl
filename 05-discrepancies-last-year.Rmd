@@ -1,7 +1,7 @@
 # Discrepancies in `r last_year`
 
 ```{r, echo=FALSE}
-number_of_economies = 10
+number_of_economies = 19
 ```
 
 The `r number_of_economies` biggest discrepancies (by log of ratio) in the year `r last_year`.
@@ -25,7 +25,7 @@ estimate_discrepancies %>%
     Ratio = format(Value.new / Value.old, digits = 3)
   ) %>% 
   head(number_of_economies) %>% 
-  as.data.frame()
+  DT::datatable()
 
 estimate_discrepancies %>% 
   head(number_of_economies) %>% 

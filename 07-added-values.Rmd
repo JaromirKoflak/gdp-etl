@@ -13,7 +13,7 @@ added_values %>%
     Years = shorten_years(Year)
   ) %>% 
   select(Code, Label, Variable, Years) %>% 
-  as.data.frame()
+  DT::datatable()
 
 added_values %>% 
   distinct(Economy_Label.new) %>% 
