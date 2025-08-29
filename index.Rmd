@@ -5,23 +5,22 @@ author: "Jaromír Koflák"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+url: https://bookdown.org/jaromir_koflak/GDP_ETL_Documentation/
+cover-image: images/UNCTAD_Blue.png
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::bs4_book,
-  set in the _output.yml file.
+  This is the documentation of the GDP ETL script used for automatic 
+  collection and transformation of GDP data for UNCTADstat.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 output:
   bookdown::bs4_book:
-    df_print: kable
     includes:
       after_body: "after_body.html"
 ---
 
 ```{r, echo=FALSE}
 last_year = 2024
+rmarkdown::html_document(df_print = DT::datatable)
 ```
 
 # About {-}
