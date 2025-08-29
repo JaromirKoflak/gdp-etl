@@ -54,13 +54,13 @@ get_unsd_gdp_data = function() {
   GET(url1, write_disk(tf <- tempfile(fileext = ".xlsx")))
   gdp_constant <- read_excel(tf, skip = 2) %>%
     filter(IndicatorName == "Gross Domestic Product (GDP)") %>%
-    pivot_longer(4:57, names_to = "Year", values_to = "GDP_at_constant_prices_2015")
+    pivot_longer(!c(1:3), names_to = "Year", values_to = "GDP_at_constant_prices_2015")
 
   url2 <- "https://unstats.un.org/unsd/amaapi/api/file/2"
   GET(url2, write_disk(tf <- tempfile(fileext = ".xlsx")))
   gdp_current <- read_excel(tf, skip = 2) %>%
     filter(IndicatorName == "Gross Domestic Product (GDP)") %>%
-    pivot_longer(4:57, names_to = "Year", values_to = "GDP_at_current_prices")
+    pivot_longer(!c(1:3), names_to = "Year", values_to = "GDP_at_current_prices")
   
   # gdp_constant <- read_usis("5100", "4805", "0940")
   # 
@@ -147,117 +147,129 @@ get_taiwan_gdp_data = function(df) {
 }
 
 compute_missing_values = function(df) {
-  df %>% 
+  df %>%
     # 1 United Republic of Tanzania  1970  2023
     # URT 834 <- Tanzania Mainland 835 + Zanzibar 836
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code %in% c(835, 836) & Year %in% c(1970:2023),
-                                834)) %>% 
-    
-    # 2 Czechoslovakia (Former)      1990  1992 
+                                834)) %>%
+
+    # 2 Czechoslovakia (Former)      1990  1992
     # Czechoslovakia 200 <- Czechia 203 + Slovakia 703
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code %in% c(203, 703) & Year %in% c(1991, 1992),
-                                200)) %>% 
-    
+                                200)) %>%
+
     # 3 Sudan (Former)               2011  2011
     # Former Sudan 736 <- South Sudan 728 + Sudan 729
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code %in% c(728, 729) & Year == 2011,
-                                736)) %>% 
-    
+                                736)) %>%
+
     # 4 Serbia and Montenegro        1992  1998
-    # Serbia and Montenegro 891 <- Serbia 688 + Montenegro 499 
+    # Serbia and Montenegro 891 <- Serbia 688 + Montenegro 499
     #   Serbia and Montenegro        1999  2007
     # Serbia and Montenegro 891 <- Serbia 688 + Montenegro 499 + Kosovo 412
     mutate(Economy_Code=replace(Economy_Code,
                                 (Economy_Code %in% c(688, 499) & Year %in% c(1992:1998)) |
                                   (Economy_Code %in% c(688, 499, 412) & Year %in% c(1999:2007)),
-                                891)) %>% 
-    
+                                891)) %>%
+
     # 5 Yugoslavia (Former)          1991  1991
-    # Yugoslavia 890 <- Serbia 688 + Montenegro 499 + Croatia 191 + North Macedonia 807 
+    # Yugoslavia 890 <- Serbia 688 + Montenegro 499 + Croatia 191 + North Macedonia 807
     #                   + Slovenia 705 + Bosnia and Herzegovina 070
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code %in% c(688, 499, 191, 807, 705, "070") & Year == 1991,
                                 890)) %>%
-    
-    # 6 USSR (Former)                1991  1991 
-    # USSR 810 <- Russian Federation 643 + Ukraine 804 + Belarus 112 + Uzbekistan 860 + Kazakhstan 398 
-    #           + Georgia 268 + Azerbaijan 031 + Lithuania 440 + Moldova 498 + Latvia 428 + Kyrgyzstan 417 
-    #           + Tajikistan 762 + Armenia 051 + Turkmenistan 795 + Estonia 233 
+
+    # 6 USSR (Former)                1991  1991
+    # USSR 810 <- Russian Federation 643 + Ukraine 804 + Belarus 112 + Uzbekistan 860 + Kazakhstan 398
+    #           + Georgia 268 + Azerbaijan 031 + Lithuania 440 + Moldova 498 + Latvia 428 + Kyrgyzstan 417
+    #           + Tajikistan 762 + Armenia 051 + Turkmenistan 795 + Estonia 233
     mutate(Economy_Code=replace(Economy_Code,
-                                Economy_Code %in% c(643, 804, 112, 860, 398, 268, "031", 440, 
+                                Economy_Code %in% c(643, 804, 112, 860, 398, 268, "031", 440,
                                                     498, 428, 417, 762, "051", 795, 233) &
                                   Year == 1991,
                                 810)) %>%
-    
+
     # 7 Pacific Islands, Trust Ter.  1970  1981
     # Pacific Islands, Trust Ter. 582 <- Micronesia 583 + Marshall Islands 584 + Palau 585
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code %in% c(583, 584, 585) & Year %in% c(1970:1981),
-                                582)) %>% 
-    
+                                582)) %>%
+
     # 8 Federal Republic of Germany  1970  1989
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code == 276 & Year %in% c(1970:1989),
                                 280)) %>%
-    
+
     # 9 Indonesia (..2002)           1970  2002
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code == 360 & Year %in% c(1970:2002),
                                 960)) %>%
-    
+
     # 10 Panama, excl. Canal Zone     1970  1980
     mutate(Economy_Code=replace(Economy_Code,
                                 Economy_Code == 591 & Year %in% c(1970:1980),
                                 590)) %>%
-    
+
     group_by(Economy_Code, Year, Variable) %>%
     summarise_at(vars(Value), sum, na.rm=TRUE) %>%
-    ungroup() %>% 
-    mutate(Year = as.numeric(Year)) %>% 
+    ungroup() %>%
+    mutate(Year = as.numeric(Year)) %>%
     return
 }
 
 get_gdp_deflators = function() {
   
-  cpi <- read_usis("5301", "0101", "6510")
+  missing_economies = c("004", "060", "092", "136", "184",
+                        "192", "232", "258", "275", "304",
+                        "500", "531", "534", "540", "660", 
+                        "760", "796")
 
-  cpi %>%
+  cpi_usis <- read_usis("5301", "0101", "6510")
+
+  cpi = cpi_usis %>%
     select(Country_Code, Country_Label, Year, Value) %>%
     arrange(Country_Code, Year) %>%
+    filter(Country_Code %in% missing_economies) %>%
     group_by(Country_Label) %>%
     mutate(Value2015 = ifelse(length(Value[Year==2015]) == 1, # For each economy get CPI for the year 2015
                               Value[Year==2015],
                               NA)
     ) %>%
     ungroup %>%
-    mutate(CPI = 100 * Value / Value2015) %>% # CPI rebased to 2015
-    return
+    mutate(Deflator_USD = 100 * Value / Value2015) %>% # CPI rebased to 2015
+    select(Country_Code, Year, Deflator_USD) %>% 
+    filter(Year == 2024)
 
-  # exchange_rates <- read_usis("5201", "0101", "0200")
-  # 
-  # gdp_deflators <- read_usis("5105", "0101", "6700") 
-  # 
-  # gdp_deflators %>% 
-  #   left_join(
-  #     exchange_rates %>% 
-  #       select(Year, Country_Code, Value),
-  #     by = join_by(Country_Code, Year),
-  #     suffix = c("", ".exg")
-  #   ) %>% 
-  #   select(Country_Code, Country_Label, Year, Value, Value.exg) %>% 
-  #   arrange(Country_Code, Year) %>% 
-  #   mutate(Deflator_exg = Value / Value.exg) %>% 
-  #   group_by(Country_Label) %>% 
-  #   mutate(Deflator2015 = ifelse(length(Deflator_exg[Year==2015]) == 1,
-  #                                Deflator_exg[Year==2015],
-  #                                NA)
-  #   ) %>% 
-  #   ungroup %>% 
-  #   mutate(Deflator_USD = 100 * Deflator_exg / Deflator2015) %>% 
-  #   return
+  exchange_rates <- read_usis("5201", "0101", "4001")
+
+  gdp_deflators <- read_usis("5105", "0101", "6700") %>%
+    left_join(
+      exchange_rates %>%
+        select(Year, Country_Code, Value),
+      by = join_by(Country_Code, Year),
+      suffix = c("", ".exg")
+    ) %>%
+    select(Country_Code, Country_Label, Year, Value, Value.exg) %>%
+    arrange(Country_Code, Year) %>%
+    mutate(Deflator_exg = Value / Value.exg) %>%
+    group_by(Country_Label) %>%
+    mutate(Deflator2015 = ifelse(length(Deflator_exg[Year==2015]) == 1,
+                                 Deflator_exg[Year==2015],
+                                 NA)
+    ) %>%
+    ungroup %>%
+    mutate(Deflator_USD = 100 * Deflator_exg / Deflator2015) %>%
+    select(Country_Code, Year, Deflator_USD) 
+  
+  bind_rows(
+    cpi, 
+    gdp_deflators
+  ) %>% 
+    na.omit() %>% 
+    return
 }
 
 estimate_last_year = function(df, skip_estimation=FALSE) {
@@ -285,7 +297,7 @@ estimate_last_year = function(df, skip_estimation=FALSE) {
       Year = last_year,
       Value = Value * (1+across(last_col())[[1]]/100)
     ) %>% 
-    select(!last_col())
+    select(Economy_Code, Year, Variable, Value)
   
   deflator_USD = get_gdp_deflators()
   
@@ -293,14 +305,13 @@ estimate_last_year = function(df, skip_estimation=FALSE) {
     filter(Year == last_year, 
            Variable == "GDP_at_constant_prices_2015") %>% 
     left_join(
-      deflator_USD %>% 
-        select(Country_Code, Year, Deflator_USD),
+      deflator_USD,
       by = join_by(Economy_Code == Country_Code,
                    Year == Year)
     ) %>% 
     mutate(Variable = "GDP_at_current_prices",
            Value = Value * Deflator_USD / 100) %>% 
-    select(!Deflator_USD)
+    select(Economy_Code, Year, Variable, Value)
   
   return(df %>% bind_rows(estimate_constant, estimate_current))
 }

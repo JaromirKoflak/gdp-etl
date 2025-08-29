@@ -1,7 +1,8 @@
 usage
 pipeline-explanation
 data-processing-etl-pipeline
-functions
+pipeline-functions
+helper-functions
 special-cases
 taiwan-province-of-china
 former-economies

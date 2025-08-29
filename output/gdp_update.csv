@@ -108,7 +108,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 0000,World,2023,GDP_at_constant_prices_2015,93320665678435,NA,NA
 0000,World,2023,GDP_at_current_prices,105945062054775,NA,NA
 0000,World,2024,GDP_at_constant_prices_2015,95952417039302,NA,NA
-0000,World,2024,GDP_at_current_prices,22821577956412846e5,NA,NA
+0000,World,2024,GDP_at_current_prices,1582970388728009,NA,NA
 004,Afghanistan,1970,GDP_at_constant_prices_2015,10576159440,NA,NA
 004,Afghanistan,1970,GDP_at_current_prices,1748886597,NA,NA
 004,Afghanistan,1971,GDP_at_constant_prices_2015,10546999961,NA,NA
@@ -328,7 +328,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 008,Albania,2023,GDP_at_constant_prices_2015,14812360965,NA,NA
 008,Albania,2023,GDP_at_current_prices,22977674003,NA,NA
 008,Albania,2024,GDP_at_constant_prices_2015,15305128522,NA,NA
-008,Albania,2024,GDP_at_current_prices,19389302069,NA,NA
+008,Albania,2024,GDP_at_current_prices,26563238466,NA,NA
 012,Algeria,1970,GDP_at_constant_prices_2015,34858471552,NA,NA
 012,Algeria,1970,GDP_at_current_prices,5155120658,NA,NA
 012,Algeria,1971,GDP_at_constant_prices_2015,31538996184,NA,NA
@@ -438,7 +438,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 012,Algeria,2023,GDP_at_constant_prices_2015,213772918793,NA,NA
 012,Algeria,2023,GDP_at_current_prices,247626160409,NA,NA
 012,Algeria,2024,GDP_at_constant_prices_2015,221896289707,NA,NA
-012,Algeria,2024,GDP_at_current_prices,361698162281,NA,NA
+012,Algeria,2024,GDP_at_current_prices,263641300659,NA,NA
 020,Andorra,1970,GDP_at_constant_prices_2015,896221645,NA,NA
 020,Andorra,1970,GDP_at_current_prices,99476787,NA,NA
 020,Andorra,1971,GDP_at_constant_prices_2015,937891233,NA,NA
@@ -548,7 +548,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 020,Andorra,2023,GDP_at_constant_prices_2015,3252610152,NA,NA
 020,Andorra,2023,GDP_at_current_prices,3785067332,NA,NA
 020,Andorra,2024,GDP_at_constant_prices_2015,3305104309,NA,NA
-020,Andorra,2024,GDP_at_current_prices,4033108743,NA,NA
+020,Andorra,2024,GDP_at_current_prices,3970600571,NA,NA
 024,Angola,1970,GDP_at_constant_prices_2015,26647759698,NA,NA
 024,Angola,1970,GDP_at_current_prices,3807845629,NA,NA
 024,Angola,1971,GDP_at_constant_prices_2015,28246625280,NA,NA
@@ -658,7 +658,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 024,Angola,2023,GDP_at_constant_prices_2015,110188983168,NA,NA
 024,Angola,2023,GDP_at_current_prices,90552164127,NA,NA
 024,Angola,2024,GDP_at_constant_prices_2015,113384463680,NA,NA
-024,Angola,2024,GDP_at_current_prices,732914171586,NA,NA
+024,Angola,2024,GDP_at_current_prices,90733602797,NA,NA
 028,Antigua and Barbuda,1970,GDP_at_constant_prices_2015,281237932,NA,NA
 028,Antigua and Barbuda,1970,GDP_at_current_prices,33865823,NA,NA
 028,Antigua and Barbuda,1971,GDP_at_constant_prices_2015,302265068,NA,NA
@@ -768,7 +768,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 028,Antigua and Barbuda,2023,GDP_at_constant_prices_2015,1688365039,NA,NA
 028,Antigua and Barbuda,2023,GDP_at_current_prices,2033085185,NA,NA
 028,Antigua and Barbuda,2024,GDP_at_constant_prices_2015,1789666941,NA,NA
-028,Antigua and Barbuda,2024,GDP_at_current_prices,2311218336,NA,NA
+028,Antigua and Barbuda,2024,GDP_at_current_prices,2299392305,NA,NA
 031,Azerbaijan,1992,GDP_at_constant_prices_2015,15332018325,NA,NA
 031,Azerbaijan,1992,GDP_at_current_prices,5297235903,NA,NA
 031,Azerbaijan,1993,GDP_at_constant_prices_2015,11790268336,NA,NA
@@ -834,7 +834,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 031,Azerbaijan,2023,GDP_at_constant_prices_2015,57301684013,NA,NA
 031,Azerbaijan,2023,GDP_at_current_prices,72356176471,NA,NA
 031,Azerbaijan,2024,GDP_at_constant_prices_2015,59708354741,NA,NA
-031,Azerbaijan,2024,GDP_at_current_prices,110410774116,NA,NA
+031,Azerbaijan,2024,GDP_at_current_prices,74077041420,NA,NA
 032,Argentina,1970,GDP_at_constant_prices_2015,246484664475,NA,NA
 032,Argentina,1970,GDP_at_current_prices,33984527481,NA,NA
 032,Argentina,1971,GDP_at_constant_prices_2015,255755343889,NA,NA
@@ -944,7 +944,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 032,Argentina,2023,GDP_at_constant_prices_2015,638625188738,NA,NA
 032,Argentina,2023,GDP_at_current_prices,646075278252,NA,NA
 032,Argentina,2024,GDP_at_constant_prices_2015,627640835492,NA,NA
-032,Argentina,2024,GDP_at_current_prices,61430137596818,NA,NA
+032,Argentina,2024,GDP_at_current_prices,633260722046,NA,NA
 036,Australia,1970,GDP_at_constant_prices_2015,313031561303,NA,NA
 036,Australia,1970,GDP_at_current_prices,45217767240,NA,NA
 036,Australia,1971,GDP_at_constant_prices_2015,325272512736,NA,NA
@@ -1054,7 +1054,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 036,Australia,2023,GDP_at_constant_prices_2015,1493701783074,NA,NA
 036,Australia,2023,GDP_at_current_prices,1775627733298,NA,NA
 036,Australia,2024,GDP_at_constant_prices_2015,1510132502688,NA,NA
-036,Australia,2024,GDP_at_current_prices,1946759294570,NA,NA
+036,Australia,2024,GDP_at_current_prices,1800453591862,NA,NA
 040,Austria,1970,GDP_at_constant_prices_2015,134425069110,NA,NA
 040,Austria,1970,GDP_at_current_prices,15312842880,NA,NA
 040,Austria,1971,GDP_at_constant_prices_2015,141298397174,NA,NA
@@ -1164,7 +1164,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 040,Austria,2023,GDP_at_constant_prices_2015,423156281454,NA,NA
 040,Austria,2023,GDP_at_current_prices,511685203845,NA,NA
 040,Austria,2024,GDP_at_constant_prices_2015,420490396881,NA,NA
-040,Austria,2024,GDP_at_current_prices,564371606990,NA,NA
+040,Austria,2024,GDP_at_current_prices,524020637973,NA,NA
 044,Bahamas,1970,GDP_at_constant_prices_2015,4584990538,NA,NA
 044,Bahamas,1970,GDP_at_current_prices,764262731,NA,NA
 044,Bahamas,1971,GDP_at_constant_prices_2015,4659565811,NA,NA
@@ -1274,7 +1274,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 044,Bahamas,2023,GDP_at_constant_prices_2015,12404100407,NA,NA
 044,Bahamas,2023,GDP_at_current_prices,14338472777,NA,NA
 044,Bahamas,2024,GDP_at_constant_prices_2015,12639778315,NA,NA
-044,Bahamas,2024,GDP_at_current_prices,15078578864,NA,NA
+044,Bahamas,2024,GDP_at_current_prices,14746843873,NA,NA
 048,Bahrain,1970,GDP_at_constant_prices_2015,4716414144,NA,NA
 048,Bahrain,1970,GDP_at_current_prices,422003552,NA,NA
 048,Bahrain,1971,GDP_at_constant_prices_2015,4792213657,NA,NA
@@ -1384,7 +1384,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 048,Bahrain,2023,GDP_at_constant_prices_2015,36857244274,NA,NA
 048,Bahrain,2023,GDP_at_current_prices,44662452721,NA,NA
 048,Bahrain,2024,GDP_at_constant_prices_2015,37962961602,NA,NA
-048,Bahrain,2024,GDP_at_current_prices,41452006221,NA,NA
+048,Bahrain,2024,GDP_at_current_prices,43385230174,NA,NA
 050,Bangladesh,1970,GDP_at_constant_prices_2015,32654188087,NA,NA
 050,Bangladesh,1970,GDP_at_current_prices,6195774654,NA,NA
 050,Bangladesh,1971,GDP_at_constant_prices_2015,30864907393,NA,NA
@@ -1494,7 +1494,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 050,Bangladesh,2023,GDP_at_constant_prices_2015,385910858156,NA,NA
 050,Bangladesh,2023,GDP_at_current_prices,422430956726,NA,NA
 050,Bangladesh,2024,GDP_at_constant_prices_2015,401347292482,NA,NA
-050,Bangladesh,2024,GDP_at_current_prices,708167017612,NA,NA
+050,Bangladesh,2024,GDP_at_current_prices,431079738840,NA,NA
 051,Armenia,1992,GDP_at_constant_prices_2015,2956732211,NA,NA
 051,Armenia,1992,GDP_at_current_prices,1199092236,NA,NA
 051,Armenia,1993,GDP_at_constant_prices_2015,2696219466,NA,NA
@@ -1560,7 +1560,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 051,Armenia,2023,GDP_at_constant_prices_2015,15475321838,NA,NA
 051,Armenia,2023,GDP_at_current_prices,24218587333,NA,NA
 051,Armenia,2024,GDP_at_constant_prices_2015,16403841148,NA,NA
-051,Armenia,2024,GDP_at_current_prices,20471173111,NA,NA
+051,Armenia,2024,GDP_at_current_prices,25879526733,NA,NA
 052,Barbados,1970,GDP_at_constant_prices_2015,2644725047,NA,NA
 052,Barbados,1970,GDP_at_current_prices,217984527,NA,NA
 052,Barbados,1971,GDP_at_constant_prices_2015,2748205797,NA,NA
@@ -1670,7 +1670,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 052,Barbados,2023,GDP_at_constant_prices_2015,5571685854,NA,NA
 052,Barbados,2023,GDP_at_current_prices,6720733193,NA,NA
 052,Barbados,2024,GDP_at_constant_prices_2015,5788981603,NA,NA
-052,Barbados,2024,GDP_at_current_prices,7174384922,NA,NA
+052,Barbados,2024,GDP_at_current_prices,7160436383,NA,NA
 056,Belgium,1970,GDP_at_constant_prices_2015,173629847010,NA,NA
 056,Belgium,1970,GDP_at_current_prices,26706893613,NA,NA
 056,Belgium,1971,GDP_at_constant_prices_2015,180146212103,NA,NA
@@ -1780,7 +1780,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 056,Belgium,2023,GDP_at_constant_prices_2015,527263713994,NA,NA
 056,Belgium,2023,GDP_at_current_prices,644782756683,NA,NA
 056,Belgium,2024,GDP_at_constant_prices_2015,533379973076,NA,NA
-056,Belgium,2024,GDP_at_current_prices,701517341989,NA,NA
+056,Belgium,2024,GDP_at_current_prices,665902556726,NA,NA
 060,Bermuda,1970,GDP_at_constant_prices_2015,3019675454,NA,NA
 060,Bermuda,1970,GDP_at_current_prices,265536110,NA,NA
 060,Bermuda,1971,GDP_at_constant_prices_2015,3123476799,NA,NA
@@ -2000,7 +2000,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 064,Bhutan,2023,GDP_at_constant_prices_2015,2743574955,NA,NA
 064,Bhutan,2023,GDP_at_current_prices,3019191000,NA,NA
 064,Bhutan,2024,GDP_at_constant_prices_2015,2877461412,NA,NA
-064,Bhutan,2024,GDP_at_current_prices,4253993389,NA,NA
+064,Bhutan,2024,GDP_at_current_prices,3212880038,NA,NA
 068,Bolivia (Plurinational State of),1970,GDP_at_constant_prices_2015,8040840430,NA,NA
 068,Bolivia (Plurinational State of),1970,GDP_at_current_prices,1010101010,NA,NA
 068,Bolivia (Plurinational State of),1971,GDP_at_constant_prices_2015,8447975233,NA,NA
@@ -2110,7 +2110,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 068,Bolivia (Plurinational State of),2023,GDP_at_constant_prices_2015,39500728993,NA,NA
 068,Bolivia (Plurinational State of),2023,GDP_at_current_prices,45135398009,NA,NA
 068,Bolivia (Plurinational State of),2024,GDP_at_constant_prices_2015,40290743573,NA,NA
-068,Bolivia (Plurinational State of),2024,GDP_at_current_prices,49871778488,NA,NA
+068,Bolivia (Plurinational State of),2024,GDP_at_current_prices,48386220743,NA,NA
 070,Bosnia and Herzegovina,1992,GDP_at_constant_prices_2015,2985403668,NA,NA
 070,Bosnia and Herzegovina,1992,GDP_at_current_prices,4734635595,NA,NA
 070,Bosnia and Herzegovina,1993,GDP_at_constant_prices_2015,2920281642,NA,NA
@@ -2176,7 +2176,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 070,Bosnia and Herzegovina,2023,GDP_at_constant_prices_2015,20700604638,NA,NA
 070,Bosnia and Herzegovina,2023,GDP_at_current_prices,27514785513,NA,NA
 070,Bosnia and Herzegovina,2024,GDP_at_constant_prices_2015,21218119754,NA,NA
-070,Bosnia and Herzegovina,2024,GDP_at_current_prices,26653565491,NA,NA
+070,Bosnia and Herzegovina,2024,GDP_at_current_prices,28821132934,NA,NA
 072,Botswana,1970,GDP_at_constant_prices_2015,431428643,NA,NA
 072,Botswana,1970,GDP_at_current_prices,66797331,NA,NA
 072,Botswana,1971,GDP_at_constant_prices_2015,542828296,NA,NA
@@ -2286,7 +2286,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 072,Botswana,2023,GDP_at_constant_prices_2015,17945928311,NA,NA
 072,Botswana,2023,GDP_at_current_prices,19395765129,NA,NA
 072,Botswana,2024,GDP_at_constant_prices_2015,17676739386,NA,NA
-072,Botswana,2024,GDP_at_current_prices,26248070982,NA,NA
+072,Botswana,2024,GDP_at_current_prices,19563649458,NA,NA
 076,Brazil,1970,GDP_at_constant_prices_2015,350099050729,NA,NA
 076,Brazil,1970,GDP_at_current_prices,35380570033,NA,NA
 076,Brazil,1971,GDP_at_constant_prices_2015,389800283081,NA,NA
@@ -2396,7 +2396,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 076,Brazil,2023,GDP_at_constant_prices_2015,1961080569255,NA,NA
 076,Brazil,2023,GDP_at_current_prices,2191131869718,NA,NA
 076,Brazil,2024,GDP_at_constant_prices_2015,2027757308609,NA,NA
-076,Brazil,2024,GDP_at_current_prices,3270693419366,NA,NA
+076,Brazil,2024,GDP_at_current_prices,2179070292316,NA,NA
 084,Belize,1970,GDP_at_constant_prices_2015,259165970,NA,NA
 084,Belize,1970,GDP_at_current_prices,27917782,NA,NA
 084,Belize,1971,GDP_at_constant_prices_2015,276627507,NA,NA
@@ -2506,7 +2506,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 084,Belize,2023,GDP_at_constant_prices_2015,2544572510,NA,NA
 084,Belize,2023,GDP_at_current_prices,3078603925,NA,NA
 084,Belize,2024,GDP_at_constant_prices_2015,2748138311,NA,NA
-084,Belize,2024,GDP_at_current_prices,3329319934,NA,NA
+084,Belize,2024,GDP_at_current_prices,3408358590,NA,NA
 090,Solomon Islands,1970,GDP_at_constant_prices_2015,178763629,NA,NA
 090,Solomon Islands,1970,GDP_at_current_prices,32032005,NA,NA
 090,Solomon Islands,1971,GDP_at_constant_prices_2015,187930994,NA,NA
@@ -2616,7 +2616,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 090,Solomon Islands,2023,GDP_at_constant_prices_2015,1556154717,NA,NA
 090,Solomon Islands,2023,GDP_at_current_prices,1633316907,NA,NA
 090,Solomon Islands,2024,GDP_at_constant_prices_2015,1596614740,NA,NA
-090,Solomon Islands,2024,GDP_at_current_prices,2033084263,NA,NA
+090,Solomon Islands,2024,GDP_at_current_prices,1769194564,NA,NA
 092,British Virgin Islands,1970,GDP_at_constant_prices_2015,74397299,NA,NA
 092,British Virgin Islands,1970,GDP_at_current_prices,11613756,NA,NA
 092,British Virgin Islands,1971,GDP_at_constant_prices_2015,67002700,NA,NA
@@ -2836,7 +2836,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 096,Brunei Darussalam,2023,GDP_at_constant_prices_2015,13183364596,NA,NA
 096,Brunei Darussalam,2023,GDP_at_current_prices,15128297474,NA,NA
 096,Brunei Darussalam,2024,GDP_at_constant_prices_2015,13605232263,NA,NA
-096,Brunei Darussalam,2024,GDP_at_current_prices,14497445591,NA,NA
+096,Brunei Darussalam,2024,GDP_at_current_prices,15355014538,NA,NA
 100,Bulgaria,1970,GDP_at_constant_prices_2015,15473185120,NA,NA
 100,Bulgaria,1970,GDP_at_current_prices,9000000008,NA,NA
 100,Bulgaria,1971,GDP_at_constant_prices_2015,16540301334,NA,NA
@@ -2946,7 +2946,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 100,Bulgaria,2023,GDP_at_constant_prices_2015,63245418927,NA,NA
 100,Bulgaria,2023,GDP_at_current_prices,102396859165,NA,NA
 100,Bulgaria,2024,GDP_at_constant_prices_2015,64636818143,NA,NA
-100,Bulgaria,2024,GDP_at_current_prices,88961432039,NA,NA
+100,Bulgaria,2024,GDP_at_current_prices,111545237318,NA,NA
 104,Myanmar,1970,GDP_at_constant_prices_2015,4197372644,NA,NA
 104,Myanmar,1970,GDP_at_current_prices,2692443372,NA,NA
 104,Myanmar,1971,GDP_at_constant_prices_2015,4333130795,NA,NA
@@ -3056,7 +3056,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 104,Myanmar,2023,GDP_at_constant_prices_2015,78939105830,NA,NA
 104,Myanmar,2023,GDP_at_current_prices,62083576813,NA,NA
 104,Myanmar,2024,GDP_at_constant_prices_2015,79728496888,NA,NA
-104,Myanmar,2024,GDP_at_current_prices,277341994456,NA,NA
+104,Myanmar,2024,GDP_at_current_prices,59277454930,NA,NA
 108,Burundi,1970,GDP_at_constant_prices_2015,1033921424,NA,NA
 108,Burundi,1970,GDP_at_current_prices,245436571,NA,NA
 108,Burundi,1971,GDP_at_constant_prices_2015,1067503254,NA,NA
@@ -3166,7 +3166,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 108,Burundi,2023,GDP_at_constant_prices_2015,3584357394,NA,NA
 108,Burundi,2023,GDP_at_current_prices,3960309821,NA,NA
 108,Burundi,2024,GDP_at_constant_prices_2015,3727731690,NA,NA
-108,Burundi,2024,GDP_at_current_prices,9295694720,NA,NA
+108,Burundi,2024,GDP_at_current_prices,4911042996,NA,NA
 112,Belarus,1992,GDP_at_constant_prices_2015,26271513954,NA,NA
 112,Belarus,1992,GDP_at_current_prices,18353600788,NA,NA
 112,Belarus,1993,GDP_at_constant_prices_2015,24285165846,NA,NA
@@ -3232,7 +3232,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 112,Belarus,2023,GDP_at_constant_prices_2015,59580314287,NA,NA
 112,Belarus,2023,GDP_at_current_prices,71857387068,NA,NA
 112,Belarus,2024,GDP_at_constant_prices_2015,61963526858,NA,NA
-112,Belarus,2024,GDP_at_current_prices,120280594883,NA,NA
+112,Belarus,2024,GDP_at_current_prices,70884366439,NA,NA
 116,Cambodia,1970,GDP_at_constant_prices_2015,4561346809,NA,NA
 116,Cambodia,1970,GDP_at_current_prices,767646374,NA,NA
 116,Cambodia,1971,GDP_at_constant_prices_2015,4333475532,NA,NA
@@ -3342,7 +3342,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 116,Cambodia,2023,GDP_at_constant_prices_2015,36111243337,NA,NA
 116,Cambodia,2023,GDP_at_current_prices,42824097135,NA,NA
 116,Cambodia,2024,GDP_at_constant_prices_2015,38169584207,NA,NA
-116,Cambodia,2024,GDP_at_current_prices,48595019330,NA,NA
+116,Cambodia,2024,GDP_at_current_prices,47158368355,NA,NA
 120,Cameroon,1970,GDP_at_constant_prices_2015,5983675643,NA,NA
 120,Cameroon,1970,GDP_at_current_prices,1315837125,NA,NA
 120,Cameroon,1971,GDP_at_constant_prices_2015,6154989356,NA,NA
@@ -3452,7 +3452,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 120,Cameroon,2023,GDP_at_constant_prices_2015,41616173534,NA,NA
 120,Cameroon,2023,GDP_at_current_prices,49279410969,NA,NA
 120,Cameroon,2024,GDP_at_constant_prices_2015,43197588129,NA,NA
-120,Cameroon,2024,GDP_at_current_prices,56729251210,NA,NA
+120,Cameroon,2024,GDP_at_current_prices,52942026136,NA,NA
 124,Canada,1970,GDP_at_constant_prices_2015,456949828965,NA,NA
 124,Canada,1970,GDP_at_current_prices,89208320115,NA,NA
 124,Canada,1971,GDP_at_constant_prices_2015,475313934205,NA,NA
@@ -3562,7 +3562,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 124,Canada,2023,GDP_at_constant_prices_2015,1783096313707,NA,NA
 124,Canada,2023,GDP_at_current_prices,2142470914401,NA,NA
 124,Canada,2024,GDP_at_constant_prices_2015,1809842758412,NA,NA
-124,Canada,2024,GDP_at_current_prices,2300071959441,NA,NA
+124,Canada,2024,GDP_at_current_prices,2211603621390,NA,NA
 132,Cabo Verde,1970,GDP_at_constant_prices_2015,258947873,NA,NA
 132,Cabo Verde,1970,GDP_at_current_prices,72940654,NA,NA
 132,Cabo Verde,1971,GDP_at_constant_prices_2015,272840851,NA,NA
@@ -3672,7 +3672,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 132,Cabo Verde,2023,GDP_at_constant_prices_2015,2214881726,NA,NA
 132,Cabo Verde,2023,GDP_at_current_prices,2591373779,NA,NA
 132,Cabo Verde,2024,GDP_at_constant_prices_2015,2323410931,NA,NA
-132,Cabo Verde,2024,GDP_at_current_prices,2738208070,NA,NA
+132,Cabo Verde,2024,GDP_at_current_prices,2726505142,NA,NA
 136,Cayman Islands,1970,GDP_at_constant_prices_2015,349140929,NA,NA
 136,Cayman Islands,1970,GDP_at_current_prices,31058103,NA,NA
 136,Cayman Islands,1971,GDP_at_constant_prices_2015,360217622,NA,NA
@@ -3892,7 +3892,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 140,Central African Republic,2023,GDP_at_constant_prices_2015,2052369275,NA,NA
 140,Central African Republic,2023,GDP_at_current_prices,2555492085,NA,NA
 140,Central African Republic,2024,GDP_at_constant_prices_2015,2085207183,NA,NA
-140,Central African Republic,2024,GDP_at_current_prices,2815262738,NA,NA
+140,Central African Republic,2024,GDP_at_current_prices,2829761854,NA,NA
 1400,Developing economies,1970,GDP_at_constant_prices_2015,3204442578691,NA,NA
 1400,Developing economies,1970,GDP_at_current_prices,595045781608,NA,NA
 1400,Developing economies,1971,GDP_at_constant_prices_2015,3412783211010,NA,NA
@@ -4002,7 +4002,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1400,Developing economies,2023,GDP_at_constant_prices_2015,39004509808092,NA,NA
 1400,Developing economies,2023,GDP_at_current_prices,41644219846933,NA,NA
 1400,Developing economies,2024,GDP_at_constant_prices_2015,40661095182141,NA,NA
-1400,Developing economies,2024,GDP_at_current_prices,22821577239188786e5,NA,NA
+1400,Developing economies,2024,GDP_at_current_prices,1515935810048934,NA,NA
 1410,Developing economies: Africa,1970,GDP_at_constant_prices_2015,495459471149,NA,NA
 1410,Developing economies: Africa,1970,GDP_at_current_prices,116685227426,NA,NA
 1410,Developing economies: Africa,1971,GDP_at_constant_prices_2015,519186461982,NA,NA
@@ -4112,7 +4112,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1410,Developing economies: Africa,2023,GDP_at_constant_prices_2015,2957974376349,NA,NA
 1410,Developing economies: Africa,2023,GDP_at_current_prices,2807065865460,NA,NA
 1410,Developing economies: Africa,2024,GDP_at_constant_prices_2015,3044210235229,NA,NA
-1410,Developing economies: Africa,2024,GDP_at_current_prices,277120883627246,NA,NA
+1410,Developing economies: Africa,2024,GDP_at_current_prices,1473955757352802,NA,NA
 1411,Developing economies: Northern Africa,1970,GDP_at_constant_prices_2015,134190349238,NA,NA
 1411,Developing economies: Northern Africa,1970,GDP_at_current_prices,24735519951,NA,NA
 1411,Developing economies: Northern Africa,1971,GDP_at_constant_prices_2015,131978427121,NA,NA
@@ -4222,7 +4222,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1411,Developing economies: Northern Africa,2023,GDP_at_constant_prices_2015,965182820984,NA,NA
 1411,Developing economies: Northern Africa,2023,GDP_at_current_prices,850245464335,NA,NA
 1411,Developing economies: Northern Africa,2024,GDP_at_constant_prices_2015,984831344401,NA,NA
-1411,Developing economies: Northern Africa,2024,GDP_at_current_prices,42479019631362,NA,NA
+1411,Developing economies: Northern Africa,2024,GDP_at_current_prices,847737316520,NA,NA
 1412,Developing economies: Sub-Saharan Africa,1970,GDP_at_constant_prices_2015,361269121911,NA,NA
 1412,Developing economies: Sub-Saharan Africa,1970,GDP_at_current_prices,91949707475,NA,NA
 1412,Developing economies: Sub-Saharan Africa,1971,GDP_at_constant_prices_2015,387208034861,NA,NA
@@ -4332,7 +4332,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1412,Developing economies: Sub-Saharan Africa,2023,GDP_at_constant_prices_2015,1992791555365,NA,NA
 1412,Developing economies: Sub-Saharan Africa,2023,GDP_at_current_prices,1956820401125,NA,NA
 1412,Developing economies: Sub-Saharan Africa,2024,GDP_at_constant_prices_2015,2059378890828,NA,NA
-1412,Developing economies: Sub-Saharan Africa,2024,GDP_at_current_prices,234641863995884,NA,NA
+1412,Developing economies: Sub-Saharan Africa,2024,GDP_at_current_prices,1473108020036282,NA,NA
 1420,Developing economies: Americas,1970,GDP_at_constant_prices_2015,1341490874374,NA,NA
 1420,Developing economies: Americas,1970,GDP_at_current_prices,188502324931,NA,NA
 1420,Developing economies: Americas,1971,GDP_at_constant_prices_2015,1425355426549,NA,NA
@@ -4442,7 +4442,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1420,Developing economies: Americas,2023,GDP_at_constant_prices_2015,5855127691735,NA,NA
 1420,Developing economies: Americas,2023,GDP_at_current_prices,6960209145246,NA,NA
 1420,Developing economies: Americas,2024,GDP_at_constant_prices_2015,5979403757022,NA,NA
-1420,Developing economies: Americas,2024,GDP_at_current_prices,2282157388313945e6,NA,NA
+1420,Developing economies: Americas,2024,GDP_at_current_prices,7563424018582,NA,NA
 1430,Developing economies: Asia,1970,GDP_at_constant_prices_2015,1355170038898,NA,NA
 1430,Developing economies: Asia,1970,GDP_at_current_prices,287682253445,NA,NA
 1430,Developing economies: Asia,1971,GDP_at_constant_prices_2015,1455222152994,NA,NA
@@ -4552,7 +4552,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1430,Developing economies: Asia,2023,GDP_at_constant_prices_2015,30140577272459,NA,NA
 1430,Developing economies: Asia,2023,GDP_at_current_prices,31817741815848,NA,NA
 1430,Developing economies: Asia,2024,GDP_at_constant_prices_2015,31585353457401,NA,NA
-1430,Developing economies: Asia,2024,GDP_at_current_prices,58415255887735,NA,NA
+1430,Developing economies: Asia,2024,GDP_at_current_prices,34356695965085,NA,NA
 1431,Developing economies: Central Asia,1992,GDP_at_constant_prices_2015,127675639349,NA,NA
 1431,Developing economies: Central Asia,1992,GDP_at_current_prices,49764549737,NA,NA
 1431,Developing economies: Central Asia,1993,GDP_at_constant_prices_2015,118482369723,NA,NA
@@ -4618,7 +4618,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1431,Developing economies: Central Asia,2023,GDP_at_constant_prices_2015,447064629295,NA,NA
 1431,Developing economies: Central Asia,2023,GDP_at_current_prices,441117448830,NA,NA
 1431,Developing economies: Central Asia,2024,GDP_at_constant_prices_2015,471756018808,NA,NA
-1431,Developing economies: Central Asia,2024,GDP_at_current_prices,1110701745775,NA,NA
+1431,Developing economies: Central Asia,2024,GDP_at_current_prices,537929973448,NA,NA
 1432,Developing economies: Southern Asia,1970,GDP_at_constant_prices_2015,432392491781,NA,NA
 1432,Developing economies: Southern Asia,1970,GDP_at_current_prices,98442703690,NA,NA
 1432,Developing economies: Southern Asia,1971,GDP_at_constant_prices_2015,453634084682,NA,NA
@@ -4728,7 +4728,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1432,Developing economies: Southern Asia,2023,GDP_at_constant_prices_2015,4731933014669,NA,NA
 1432,Developing economies: Southern Asia,2023,GDP_at_current_prices,4850543613904,NA,NA
 1432,Developing economies: Southern Asia,2024,GDP_at_constant_prices_2015,5009950615775,NA,NA
-1432,Developing economies: Southern Asia,2024,GDP_at_current_prices,13071144940642,NA,NA
+1432,Developing economies: Southern Asia,2024,GDP_at_current_prices,5344666901225,NA,NA
 1433,Developing economies: Eastern Asia,1970,GDP_at_constant_prices_2015,296397390089,NA,NA
 1433,Developing economies: Eastern Asia,1970,GDP_at_current_prices,107498595404,NA,NA
 1433,Developing economies: Eastern Asia,1971,GDP_at_constant_prices_2015,319208555417,NA,NA
@@ -4838,7 +4838,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1433,Developing economies: Eastern Asia,2023,GDP_at_constant_prices_2015,18263318595771,NA,NA
 1433,Developing economies: Eastern Asia,2023,GDP_at_current_prices,19014992420827,NA,NA
 1433,Developing economies: Eastern Asia,2024,GDP_at_constant_prices_2015,19170380951872,NA,NA
-1433,Developing economies: Eastern Asia,2024,GDP_at_current_prices,22097956402307,NA,NA
+1433,Developing economies: Eastern Asia,2024,GDP_at_current_prices,19520694366086,NA,NA
 1434,Developing economies: Western Asia,1970,GDP_at_constant_prices_2015,414699121074,NA,NA
 1434,Developing economies: Western Asia,1970,GDP_at_current_prices,43990821864,NA,NA
 1434,Developing economies: Western Asia,1971,GDP_at_constant_prices_2015,454921019065,NA,NA
@@ -4948,7 +4948,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1434,Developing economies: Western Asia,2023,GDP_at_constant_prices_2015,3313425358267,NA,NA
 1434,Developing economies: Western Asia,2023,GDP_at_current_prices,3719908627882,NA,NA
 1434,Developing economies: Western Asia,2024,GDP_at_constant_prices_2015,3388600470238,NA,NA
-1434,Developing economies: Western Asia,2024,GDP_at_current_prices,17474188121479,NA,NA
+1434,Developing economies: Western Asia,2024,GDP_at_current_prices,5011644628011,NA,NA
 1435,Developing economies: South-eastern Asia,1970,GDP_at_constant_prices_2015,211681035954,NA,NA
 1435,Developing economies: South-eastern Asia,1970,GDP_at_current_prices,37750132487,NA,NA
 1435,Developing economies: South-eastern Asia,1971,GDP_at_constant_prices_2015,227458493830,NA,NA
@@ -5058,7 +5058,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1435,Developing economies: South-eastern Asia,2023,GDP_at_constant_prices_2015,3384835674457,NA,NA
 1435,Developing economies: South-eastern Asia,2023,GDP_at_current_prices,3791179704405,NA,NA
 1435,Developing economies: South-eastern Asia,2024,GDP_at_constant_prices_2015,3544665400708,NA,NA
-1435,Developing economies: South-eastern Asia,2024,GDP_at_current_prices,4661264677532,NA,NA
+1435,Developing economies: South-eastern Asia,2024,GDP_at_current_prices,3941760096315,NA,NA
 144,Sri Lanka,1970,GDP_at_constant_prices_2015,9468710564,NA,NA
 144,Sri Lanka,1970,GDP_at_current_prices,2815130072,NA,NA
 144,Sri Lanka,1971,GDP_at_constant_prices_2015,9517888469,NA,NA
@@ -5168,7 +5168,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 144,Sri Lanka,2023,GDP_at_constant_prices_2015,87457721182,NA,NA
 144,Sri Lanka,2023,GDP_at_current_prices,84363706602,NA,NA
 144,Sri Lanka,2024,GDP_at_constant_prices_2015,91918064962,NA,NA
-144,Sri Lanka,2024,GDP_at_current_prices,211810813838,NA,NA
+144,Sri Lanka,2024,GDP_at_current_prices,99084521068,NA,NA
 1450,Developing economies: Oceania,1970,GDP_at_constant_prices_2015,12322194270,NA,NA
 1450,Developing economies: Oceania,1970,GDP_at_current_prices,2175975806,NA,NA
 1450,Developing economies: Oceania,1971,GDP_at_constant_prices_2015,13019169485,NA,NA
@@ -5278,7 +5278,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1450,Developing economies: Oceania,2023,GDP_at_constant_prices_2015,50830467549,NA,NA
 1450,Developing economies: Oceania,2023,GDP_at_current_prices,59203020379,NA,NA
 1450,Developing economies: Oceania,2024,GDP_at_constant_prices_2015,52127732489,NA,NA
-1450,Developing economies: Oceania,2024,GDP_at_current_prices,68794038382,NA,NA
+1450,Developing economies: Oceania,2024,GDP_at_current_prices,59932712465,NA,NA
 1460,Developing economies: Asia and Oceania,1970,GDP_at_constant_prices_2015,1367492233168,NA,NA
 1460,Developing economies: Asia and Oceania,1970,GDP_at_current_prices,289858229251,NA,NA
 1460,Developing economies: Asia and Oceania,1971,GDP_at_constant_prices_2015,1468241322479,NA,NA
@@ -5388,7 +5388,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1460,Developing economies: Asia and Oceania,2023,GDP_at_constant_prices_2015,30191407740008,NA,NA
 1460,Developing economies: Asia and Oceania,2023,GDP_at_current_prices,31876944836227,NA,NA
 1460,Developing economies: Asia and Oceania,2024,GDP_at_constant_prices_2015,31637481189890,NA,NA
-1460,Developing economies: Asia and Oceania,2024,GDP_at_current_prices,58484049926117,NA,NA
+1460,Developing economies: Asia and Oceania,2024,GDP_at_current_prices,34416628677550,NA,NA
 148,Chad,1970,GDP_at_constant_prices_2015,2015132128,NA,NA
 148,Chad,1970,GDP_at_current_prices,355301780,NA,NA
 148,Chad,1971,GDP_at_constant_prices_2015,2052985438,NA,NA
@@ -5498,7 +5498,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 148,Chad,2023,GDP_at_constant_prices_2015,16362921583,NA,NA
 148,Chad,2023,GDP_at_current_prices,17643171952,NA,NA
 148,Chad,2024,GDP_at_constant_prices_2015,16804720466,NA,NA
-148,Chad,2024,GDP_at_current_prices,20372812966,NA,NA
+148,Chad,2024,GDP_at_current_prices,19076249162,NA,NA
 1500,Developed economies,1970,GDP_at_constant_prices_2015,14885444277267,NA,NA
 1500,Developed economies,1970,GDP_at_current_prices,2832127291293,NA,NA
 1500,Developed economies,1971,GDP_at_constant_prices_2015,15463265549131,NA,NA
@@ -5608,7 +5608,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1500,Developed economies,2023,GDP_at_constant_prices_2015,54316155870343,NA,NA
 1500,Developed economies,2023,GDP_at_current_prices,64300842207842,NA,NA
 1500,Developed economies,2024,GDP_at_constant_prices_2015,55291321857161,NA,NA
-1500,Developed economies,2024,GDP_at_current_prices,71722406019742,NA,NA
+1500,Developed economies,2024,GDP_at_current_prices,67034578679075,NA,NA
 152,Chile,1970,GDP_at_constant_prices_2015,40114155659,NA,NA
 152,Chile,1970,GDP_at_current_prices,9680014665,NA,NA
 152,Chile,1971,GDP_at_constant_prices_2015,43706472336,NA,NA
@@ -5718,7 +5718,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 152,Chile,2023,GDP_at_constant_prices_2015,279730180344,NA,NA
 152,Chile,2023,GDP_at_current_prices,335533331808,NA,NA
 152,Chile,2024,GDP_at_constant_prices_2015,285884244311,NA,NA
-152,Chile,2024,GDP_at_current_prices,426476492718,NA,NA
+152,Chile,2024,GDP_at_current_prices,327542390512,NA,NA
 1520,Developed economies: Americas,1970,GDP_at_constant_prices_2015,5634410440231,NA,NA
 1520,Developed economies: Americas,1970,GDP_at_current_prices,1162852824325,NA,NA
 1520,Developed economies: Americas,1971,GDP_at_constant_prices_2015,5823331376038,NA,NA
@@ -5828,7 +5828,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1520,Developed economies: Americas,2023,GDP_at_constant_prices_2015,23855636586799,NA,NA
 1520,Developed economies: Americas,2023,GDP_at_current_prices,29874353344229,NA,NA
 1520,Developed economies: Americas,2024,GDP_at_constant_prices_2015,24500680790222,NA,NA
-1520,Developed economies: Americas,2024,GDP_at_current_prices,32330266591157,NA,NA
+1520,Developed economies: Americas,2024,GDP_at_current_prices,31407834839013,NA,NA
 1530,Developed economies: Asia,1970,GDP_at_constant_prices_2015,1569902666496,NA,NA
 1530,Developed economies: Asia,1970,GDP_at_current_prices,232944823106,NA,NA
 1530,Developed economies: Asia,1971,GDP_at_constant_prices_2015,1650459037705,NA,NA
@@ -5938,7 +5938,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1530,Developed economies: Asia,2023,GDP_at_constant_prices_2015,6930316229560,NA,NA
 1530,Developed economies: Asia,2023,GDP_at_current_prices,6591051117898,NA,NA
 1530,Developed economies: Asia,2024,GDP_at_constant_prices_2015,6975657304231,NA,NA
-1530,Developed economies: Asia,2024,GDP_at_current_prices,7913897363242,NA,NA
+1530,Developed economies: Asia,2024,GDP_at_current_prices,6477929657154,NA,NA
 1540,Developed economies: Europe,1970,GDP_at_constant_prices_2015,7308623755233,NA,NA
 1540,Developed economies: Europe,1970,GDP_at_current_prices,1384488029801,NA,NA
 1540,Developed economies: Europe,1971,GDP_at_constant_prices_2015,7602475335535,NA,NA
@@ -6048,7 +6048,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1540,Developed economies: Europe,2023,GDP_at_constant_prices_2015,21814105960270,NA,NA
 1540,Developed economies: Europe,2023,GDP_at_current_prices,25807634506307,NA,NA
 1540,Developed economies: Europe,2024,GDP_at_constant_prices_2015,22082233554069,NA,NA
-1540,Developed economies: Europe,2024,GDP_at_current_prices,29240972936994,NA,NA
+1540,Developed economies: Europe,2024,GDP_at_current_prices,27086382141185,NA,NA
 1550,Developed economies: Oceania,1970,GDP_at_constant_prices_2015,372507415307,NA,NA
 1550,Developed economies: Oceania,1970,GDP_at_current_prices,51841614061,NA,NA
 1550,Developed economies: Oceania,1971,GDP_at_constant_prices_2015,386999799853,NA,NA
@@ -6158,7 +6158,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1550,Developed economies: Oceania,2023,GDP_at_constant_prices_2015,1716097093714,NA,NA
 1550,Developed economies: Oceania,2023,GDP_at_current_prices,2027803239408,NA,NA
 1550,Developed economies: Oceania,2024,GDP_at_constant_prices_2015,1732750208639,NA,NA
-1550,Developed economies: Oceania,2024,GDP_at_current_prices,2237269128349,NA,NA
+1550,Developed economies: Oceania,2024,GDP_at_current_prices,2062432041723,NA,NA
 156,China,1970,GDP_at_constant_prices_2015,231210388355,NA,NA
 156,China,1970,GDP_at_current_prices,92602638697,NA,NA
 156,China,1971,GDP_at_constant_prices_2015,247395115540,NA,NA
@@ -6268,7 +6268,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 156,China,2023,GDP_at_constant_prices_2015,17175673316922,NA,NA
 156,China,2023,GDP_at_current_prices,17794782334078,NA,NA
 156,China,2024,GDP_at_constant_prices_2015,18034456982768,NA,NA
-156,China,2024,GDP_at_current_prices,20796073380540,NA,NA
+156,China,2024,GDP_at_current_prices,18250471993491,NA,NA
 1560,Developed economies: Asia and Oceania,1970,GDP_at_constant_prices_2015,1942410081803,NA,NA
 1560,Developed economies: Asia and Oceania,1970,GDP_at_current_prices,284786437167,NA,NA
 1560,Developed economies: Asia and Oceania,1971,GDP_at_constant_prices_2015,2037458837558,NA,NA
@@ -6378,7 +6378,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1560,Developed economies: Asia and Oceania,2023,GDP_at_constant_prices_2015,8646413323274,NA,NA
 1560,Developed economies: Asia and Oceania,2023,GDP_at_current_prices,8618854357306,NA,NA
 1560,Developed economies: Asia and Oceania,2024,GDP_at_constant_prices_2015,8708407512870,NA,NA
-1560,Developed economies: Asia and Oceania,2024,GDP_at_current_prices,10151166491591,NA,NA
+1560,Developed economies: Asia and Oceania,2024,GDP_at_current_prices,8540361698877,NA,NA
 158,"China, Taiwan Province of",1970,GDP_at_constant_prices_2015,27016081132,NA,NA
 158,"China, Taiwan Province of",1970,GDP_at_current_prices,5785000000,NA,NA
 158,"China, Taiwan Province of",1971,GDP_at_constant_prices_2015,30643223550,NA,NA
@@ -6488,7 +6488,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 158,"China, Taiwan Province of",2023,GDP_at_constant_prices_2015,687944685023,NA,NA
 158,"China, Taiwan Province of",2023,GDP_at_current_prices,757276000000,NA,NA
 158,"China, Taiwan Province of",2024,GDP_at_constant_prices_2015,717526306479,NA,NA
-158,"China, Taiwan Province of",2024,GDP_at_current_prices,818263842611,NA,NA
+158,"China, Taiwan Province of",2024,GDP_at_current_prices,782371024230,NA,NA
 1600,Developing economies excluding China,1970,GDP_at_constant_prices_2015,2973232190336,NA,NA
 1600,Developing economies excluding China,1970,GDP_at_current_prices,502443142911,NA,NA
 1600,Developing economies excluding China,1971,GDP_at_constant_prices_2015,3165388095470,NA,NA
@@ -6598,7 +6598,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1600,Developing economies excluding China,2023,GDP_at_constant_prices_2015,21828836491170,NA,NA
 1600,Developing economies excluding China,2023,GDP_at_current_prices,23849437512855,NA,NA
 1600,Developing economies excluding China,2024,GDP_at_constant_prices_2015,22626638199373,NA,NA
-1600,Developing economies excluding China,2024,GDP_at_current_prices,2282157703122805e6,NA,NA
+1600,Developing economies excluding China,2024,GDP_at_current_prices,1497685338055443,NA,NA
 1601,Developing economies excluding LDCs,1970,GDP_at_constant_prices_2015,3009784777394,NA,NA
 1601,Developing economies excluding LDCs,1970,GDP_at_current_prices,550721418747,NA,NA
 1601,Developing economies excluding LDCs,1971,GDP_at_constant_prices_2015,3214163984713,NA,NA
@@ -6708,7 +6708,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1601,Developing economies excluding LDCs,2023,GDP_at_constant_prices_2015,37640840001500,NA,NA
 1601,Developing economies excluding LDCs,2023,GDP_at_current_prices,40216527645802,NA,NA
 1601,Developing economies excluding LDCs,2024,GDP_at_constant_prices_2015,39250246210362,NA,NA
-1601,Developing economies excluding LDCs,2024,GDP_at_current_prices,22821576789946388e5,NA,NA
+1601,Developing economies excluding LDCs,2024,GDP_at_current_prices,1514454173657097,NA,NA
 1610,LDCs (Least developed countries),1970,GDP_at_constant_prices_2015,194550472265,NA,NA
 1610,LDCs (Least developed countries),1970,GDP_at_current_prices,44262587217,NA,NA
 1610,LDCs (Least developed countries),1971,GDP_at_constant_prices_2015,198509023959,NA,NA
@@ -6818,7 +6818,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1610,LDCs (Least developed countries),2023,GDP_at_constant_prices_2015,1360926231637,NA,NA
 1610,LDCs (Least developed countries),2023,GDP_at_current_prices,1424673010131,NA,NA
 1610,LDCs (Least developed countries),2024,GDP_at_constant_prices_2015,1407971510367,NA,NA
-1610,LDCs (Least developed countries),2024,GDP_at_current_prices,44919985884293,NA,NA
+1610,LDCs (Least developed countries),2024,GDP_at_current_prices,1478423511799,NA,NA
 1612,LDCs: Asia,1970,GDP_at_constant_prices_2015,61976358497,NA,NA
 1612,LDCs: Asia,1970,GDP_at_current_prices,13116513355,NA,NA
 1612,LDCs: Asia,1971,GDP_at_constant_prices_2015,60186137802,NA,NA
@@ -6928,7 +6928,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1612,LDCs: Asia,2023,GDP_at_constant_prices_2015,590633157120,NA,NA
 1612,LDCs: Asia,2023,GDP_at_current_prices,608005107974,NA,NA
 1612,LDCs: Asia,2024,GDP_at_constant_prices_2015,610801097655,NA,NA
-1612,LDCs: Asia,2024,GDP_at_current_prices,1288448498810,NA,NA
+1612,LDCs: Asia,2024,GDP_at_current_prices,627061787794,NA,NA
 1614,LDCs: Africa,1970,GDP_at_constant_prices_2015,128085100806,NA,NA
 1614,LDCs: Africa,1970,GDP_at_current_prices,30614548959,NA,NA
 1614,LDCs: Africa,1971,GDP_at_constant_prices_2015,133574536017,NA,NA
@@ -7038,7 +7038,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1614,LDCs: Africa,2023,GDP_at_constant_prices_2015,751687898986,NA,NA
 1614,LDCs: Africa,2023,GDP_at_current_prices,791309412858,NA,NA
 1614,LDCs: Africa,2024,GDP_at_constant_prices_2015,779012906296,NA,NA
-1614,LDCs: Africa,2024,GDP_at_current_prices,43555113232475,NA,NA
+1614,LDCs: Africa,2024,GDP_at_current_prices,819044116971,NA,NA
 1615,LDCs: Islands and Haiti,1970,GDP_at_constant_prices_2015,4489012962,NA,NA
 1615,LDCs: Islands and Haiti,1970,GDP_at_current_prices,531524903,NA,NA
 1615,LDCs: Islands and Haiti,1971,GDP_at_constant_prices_2015,4748350140,NA,NA
@@ -7148,7 +7148,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1615,LDCs: Islands and Haiti,2023,GDP_at_constant_prices_2015,18605175531,NA,NA
 1615,LDCs: Islands and Haiti,2023,GDP_at_current_prices,25358489299,NA,NA
 1615,LDCs: Islands and Haiti,2024,GDP_at_constant_prices_2015,18157506416,NA,NA
-1615,LDCs: Islands and Haiti,2024,GDP_at_current_prices,76424153008,NA,NA
+1615,LDCs: Islands and Haiti,2024,GDP_at_current_prices,32317607034,NA,NA
 1620,LLDCs (Landlocked developing countries),1970,GDP_at_constant_prices_2015,66259010136,NA,NA
 1620,LLDCs (Landlocked developing countries),1970,GDP_at_current_prices,16118726179,NA,NA
 1620,LLDCs (Landlocked developing countries),1971,GDP_at_constant_prices_2015,68553820772,NA,NA
@@ -7258,7 +7258,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1620,LLDCs (Landlocked developing countries),2023,GDP_at_constant_prices_2015,1047270873723,NA,NA
 1620,LLDCs (Landlocked developing countries),2023,GDP_at_current_prices,1161008976961,NA,NA
 1620,LLDCs (Landlocked developing countries),2024,GDP_at_constant_prices_2015,1095931521393,NA,NA
-1620,LLDCs (Landlocked developing countries),2024,GDP_at_current_prices,231029085511963,NA,NA
+1620,LLDCs (Landlocked developing countries),2024,GDP_at_current_prices,1472542681188107,NA,NA
 1640,SIDS (Small island developing States) (UN-OHRLLS),1970,GDP_at_constant_prices_2015,130130431386,NA,NA
 1640,SIDS (Small island developing States) (UN-OHRLLS),1970,GDP_at_current_prices,23201976864,NA,NA
 1640,SIDS (Small island developing States) (UN-OHRLLS),1971,GDP_at_constant_prices_2015,138880986787,NA,NA
@@ -7368,7 +7368,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1640,SIDS (Small island developing States) (UN-OHRLLS),2023,GDP_at_constant_prices_2015,871633020924,NA,NA
 1640,SIDS (Small island developing States) (UN-OHRLLS),2023,GDP_at_current_prices,1178930423663,NA,NA
 1640,SIDS (Small island developing States) (UN-OHRLLS),2024,GDP_at_constant_prices_2015,902462362995,NA,NA
-1640,SIDS (Small island developing States) (UN-OHRLLS),2024,GDP_at_current_prices,1478489261983,NA,NA
+1640,SIDS (Small island developing States) (UN-OHRLLS),2024,GDP_at_current_prices,1395143476473,NA,NA
 1641,SIDS: Atlantic and Indian Ocean,1970,GDP_at_constant_prices_2015,5675196968,NA,NA
 1641,SIDS: Atlantic and Indian Ocean,1970,GDP_at_current_prices,962393686,NA,NA
 1641,SIDS: Atlantic and Indian Ocean,1971,GDP_at_constant_prices_2015,5889373574,NA,NA
@@ -7478,7 +7478,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1641,SIDS: Atlantic and Indian Ocean,2023,GDP_at_constant_prices_2015,34964241023,NA,NA
 1641,SIDS: Atlantic and Indian Ocean,2023,GDP_at_current_prices,37835703131,NA,NA
 1641,SIDS: Atlantic and Indian Ocean,2024,GDP_at_constant_prices_2015,36969896405,NA,NA
-1641,SIDS: Atlantic and Indian Ocean,2024,GDP_at_current_prices,46039609144,NA,NA
+1641,SIDS: Atlantic and Indian Ocean,2024,GDP_at_current_prices,39266360814,NA,NA
 1642,SIDS: Caribbean,1970,GDP_at_constant_prices_2015,97617301781,NA,NA
 1642,SIDS: Caribbean,1970,GDP_at_current_prices,18143033223,NA,NA
 1642,SIDS: Caribbean,1971,GDP_at_constant_prices_2015,103654803301,NA,NA
@@ -7588,7 +7588,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1642,SIDS: Caribbean,2023,GDP_at_constant_prices_2015,396921523880,NA,NA
 1642,SIDS: Caribbean,2023,GDP_at_current_prices,578384158688,NA,NA
 1642,SIDS: Caribbean,2024,GDP_at_constant_prices_2015,409883241007,NA,NA
-1642,SIDS: Caribbean,2024,GDP_at_current_prices,889088082519,NA,NA
+1642,SIDS: Caribbean,2024,GDP_at_current_prices,755902946898,NA,NA
 1643,SIDS: Pacific,1970,GDP_at_constant_prices_2015,26837932637,NA,NA
 1643,SIDS: Pacific,1970,GDP_at_current_prices,4096549955,NA,NA
 1643,SIDS: Pacific,1971,GDP_at_constant_prices_2015,29336809912,NA,NA
@@ -7698,7 +7698,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 1643,SIDS: Pacific,2023,GDP_at_constant_prices_2015,439747256021,NA,NA
 1643,SIDS: Pacific,2023,GDP_at_current_prices,562710561844,NA,NA
 1643,SIDS: Pacific,2024,GDP_at_constant_prices_2015,455609225583,NA,NA
-1643,SIDS: Pacific,2024,GDP_at_current_prices,543361570320,NA,NA
+1643,SIDS: Pacific,2024,GDP_at_current_prices,599974168761,NA,NA
 170,Colombia,1970,GDP_at_constant_prices_2015,50613023120,NA,NA
 170,Colombia,1970,GDP_at_current_prices,10126381202,NA,NA
 170,Colombia,1971,GDP_at_constant_prices_2015,53629927732,NA,NA
@@ -7808,7 +7808,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 170,Colombia,2023,GDP_at_constant_prices_2015,357447863889,NA,NA
 170,Colombia,2023,GDP_at_current_prices,363540073810,NA,NA
 170,Colombia,2024,GDP_at_constant_prices_2015,363167029711,NA,NA
-170,Colombia,2024,GDP_at_current_prices,606192277524,NA,NA
+170,Colombia,2024,GDP_at_current_prices,418147593127,NA,NA
 174,Comoros,1970,GDP_at_constant_prices_2015,265750213,NA,NA
 174,Comoros,1970,GDP_at_current_prices,37476996,NA,NA
 174,Comoros,1971,GDP_at_constant_prices_2015,277127634,NA,NA
@@ -7918,7 +7918,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 174,Comoros,2023,GDP_at_constant_prices_2015,1400846122,NA,NA
 174,Comoros,2023,GDP_at_current_prices,1447894601,NA,NA
 174,Comoros,2024,GDP_at_constant_prices_2015,1451276582,NA,NA
-174,Comoros,2024,GDP_at_current_prices,1994372733,NA,NA
+174,Comoros,2024,GDP_at_current_prices,1720453776,NA,NA
 178,Congo,1970,GDP_at_constant_prices_2015,2136388370,NA,NA
 178,Congo,1970,GDP_at_current_prices,283678163,NA,NA
 178,Congo,1971,GDP_at_constant_prices_2015,2329286714,NA,NA
@@ -8028,7 +8028,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 178,Congo,2023,GDP_at_constant_prices_2015,10413706242,NA,NA
 178,Congo,2023,GDP_at_current_prices,14166665339,NA,NA
 178,Congo,2024,GDP_at_constant_prices_2015,10746944842,NA,NA
-178,Congo,2024,GDP_at_current_prices,12951885515,NA,NA
+178,Congo,2024,GDP_at_current_prices,15054657223,NA,NA
 180,Dem. Rep. of the Congo,1970,GDP_at_constant_prices_2015,25829075685,NA,NA
 180,Dem. Rep. of the Congo,1970,GDP_at_current_prices,4772455090,NA,NA
 180,Dem. Rep. of the Congo,1971,GDP_at_constant_prices_2015,27380116347,NA,NA
@@ -8138,7 +8138,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 180,Dem. Rep. of the Congo,2023,GDP_at_constant_prices_2015,56837418971,NA,NA
 180,Dem. Rep. of the Congo,2023,GDP_at_current_prices,69338271077,NA,NA
 180,Dem. Rep. of the Congo,2024,GDP_at_constant_prices_2015,59906639595,NA,NA
-180,Dem. Rep. of the Congo,2024,GDP_at_current_prices,212450090508,NA,NA
+180,Dem. Rep. of the Congo,2024,GDP_at_current_prices,71707200797,NA,NA
 184,Cook Islands,1970,GDP_at_constant_prices_2015,111409738,NA,NA
 184,Cook Islands,1970,GDP_at_current_prices,11153116,NA,NA
 184,Cook Islands,1971,GDP_at_constant_prices_2015,100219566,NA,NA
@@ -8358,7 +8358,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 188,Costa Rica,2023,GDP_at_constant_prices_2015,73105190312,NA,NA
 188,Costa Rica,2023,GDP_at_current_prices,86497941518,NA,NA
 188,Costa Rica,2024,GDP_at_constant_prices_2015,76175608305,NA,NA
-188,Costa Rica,2024,GDP_at_current_prices,89716299957,NA,NA
+188,Costa Rica,2024,GDP_at_current_prices,95239264053,NA,NA
 191,Croatia,1992,GDP_at_constant_prices_2015,31767795205,NA,NA
 191,Croatia,1992,GDP_at_current_prices,12252224020,NA,NA
 191,Croatia,1993,GDP_at_constant_prices_2015,29218188201,NA,NA
@@ -8424,7 +8424,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 191,Croatia,2023,GDP_at_constant_prices_2015,65532206454,NA,NA
 191,Croatia,2023,GDP_at_current_prices,84391371763,NA,NA
 191,Croatia,2024,GDP_at_constant_prices_2015,67891365886,NA,NA
-191,Croatia,2024,GDP_at_current_prices,89640147460,NA,NA
+191,Croatia,2024,GDP_at_current_prices,92400229907,NA,NA
 192,Cuba,1970,GDP_at_constant_prices_2015,23140632168,NA,NA
 192,Cuba,1970,GDP_at_current_prices,5692936975,NA,NA
 192,Cuba,1971,GDP_at_constant_prices_2015,25126991299,NA,NA
@@ -8644,7 +8644,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 196,Cyprus,2023,GDP_at_constant_prices_2015,29983853181,NA,NA
 196,Cyprus,2023,GDP_at_current_prices,33886958784,NA,NA
 196,Cyprus,2024,GDP_at_constant_prices_2015,31102040485,NA,NA
-196,Cyprus,2024,GDP_at_current_prices,36414640882,NA,NA
+196,Cyprus,2024,GDP_at_current_prices,36295408932,NA,NA
 200,Czechoslovakia,1970,GDP_at_constant_prices_2015,92831826777,NA,NA
 200,Czechoslovakia,1970,GDP_at_current_prices,16294289496,NA,NA
 200,Czechoslovakia,1971,GDP_at_constant_prices_2015,97514093019,NA,NA
@@ -8754,7 +8754,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 203,Czechia,2023,GDP_at_constant_prices_2015,219949654887,NA,NA
 203,Czechia,2023,GDP_at_current_prices,343207874554,NA,NA
 203,Czechia,2024,GDP_at_constant_prices_2015,222149151435,NA,NA
-203,Czechia,2024,GDP_at_current_prices,336471248882,NA,NA
+203,Czechia,2024,GDP_at_current_prices,344448217109,NA,NA
 204,Benin,1970,GDP_at_constant_prices_2015,1322475692,NA,NA
 204,Benin,1970,GDP_at_current_prices,322055483,NA,NA
 204,Benin,1971,GDP_at_constant_prices_2015,1350023668,NA,NA
@@ -8864,7 +8864,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 204,Benin,2023,GDP_at_constant_prices_2015,17831064527,NA,NA
 204,Benin,2023,GDP_at_current_prices,19673284686,NA,NA
 204,Benin,2024,GDP_at_constant_prices_2015,18936590528,NA,NA
-204,Benin,2024,GDP_at_current_prices,21092664722,NA,NA
+204,Benin,2024,GDP_at_current_prices,21183368725,NA,NA
 208,Denmark,1970,GDP_at_constant_prices_2015,129902945560,NA,NA
 208,Denmark,1970,GDP_at_current_prices,17075457719,NA,NA
 208,Denmark,1971,GDP_at_constant_prices_2015,134031029530,NA,NA
@@ -8974,7 +8974,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 208,Denmark,2023,GDP_at_constant_prices_2015,364524261929,NA,NA
 208,Denmark,2023,GDP_at_current_prices,407091920305,NA,NA
 208,Denmark,2024,GDP_at_constant_prices_2015,374730941263,NA,NA
-208,Denmark,2024,GDP_at_current_prices,446428212255,NA,NA
+208,Denmark,2024,GDP_at_current_prices,425687422970,NA,NA
 212,Dominica,1970,GDP_at_constant_prices_2015,139946054,NA,NA
 212,Dominica,1970,GDP_at_current_prices,23044578,NA,NA
 212,Dominica,1971,GDP_at_constant_prices_2015,150269943,NA,NA
@@ -9084,7 +9084,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 212,Dominica,2023,GDP_at_constant_prices_2015,551439299,NA,NA
 212,Dominica,2023,GDP_at_current_prices,650870370,NA,NA
 212,Dominica,2024,GDP_at_constant_prices_2015,576805507,NA,NA
-212,Dominica,2024,GDP_at_current_prices,684821499,NA,NA
+212,Dominica,2024,GDP_at_current_prices,687986457,NA,NA
 214,Dominican Republic,1970,GDP_at_constant_prices_2015,7636623501,NA,NA
 214,Dominican Republic,1970,GDP_at_current_prices,1859112944,NA,NA
 214,Dominican Republic,1971,GDP_at_constant_prices_2015,8466858907,NA,NA
@@ -9194,7 +9194,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 214,Dominican Republic,2023,GDP_at_constant_prices_2015,100365578028,NA,NA
 214,Dominican Republic,2023,GDP_at_current_prices,121444279314,NA,NA
 214,Dominican Republic,2024,GDP_at_constant_prices_2015,105584588085,NA,NA
-214,Dominican Republic,2024,GDP_at_current_prices,154587736930,NA,NA
+214,Dominican Republic,2024,GDP_at_current_prices,125240501295,NA,NA
 218,Ecuador,1970,GDP_at_constant_prices_2015,14021623513,NA,NA
 218,Ecuador,1970,GDP_at_current_prices,2798597887,NA,NA
 218,Ecuador,1971,GDP_at_constant_prices_2015,14590606694,NA,NA
@@ -9304,7 +9304,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 218,Ecuador,2023,GDP_at_constant_prices_2015,112162610177,NA,NA
 218,Ecuador,2023,GDP_at_current_prices,118844826792,NA,NA
 218,Ecuador,2024,GDP_at_constant_prices_2015,112162610177,NA,NA
-218,Ecuador,2024,GDP_at_current_prices,122847505991,NA,NA
+218,Ecuador,2024,GDP_at_current_prices,125433669689,NA,NA
 222,El Salvador,1970,GDP_at_constant_prices_2015,9236763580,NA,NA
 222,El Salvador,1970,GDP_at_current_prices,929895894,NA,NA
 222,El Salvador,1971,GDP_at_constant_prices_2015,9684513089,NA,NA
@@ -9414,7 +9414,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 222,El Salvador,2023,GDP_at_constant_prices_2015,28274663405,NA,NA
 222,El Salvador,2023,GDP_at_current_prices,34015615220,NA,NA
 222,El Salvador,2024,GDP_at_constant_prices_2015,28981529991,NA,NA
-222,El Salvador,2024,GDP_at_current_prices,34599346246,NA,NA
+222,El Salvador,2024,GDP_at_current_prices,35299722650,NA,NA
 226,Equatorial Guinea,1970,GDP_at_constant_prices_2015,277900435,NA,NA
 226,Equatorial Guinea,1970,GDP_at_current_prices,20972338,NA,NA
 226,Equatorial Guinea,1971,GDP_at_constant_prices_2015,289809220,NA,NA
@@ -9524,7 +9524,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 226,Equatorial Guinea,2023,GDP_at_constant_prices_2015,9440987170,NA,NA
 226,Equatorial Guinea,2023,GDP_at_current_prices,12116922989,NA,NA
 226,Equatorial Guinea,2024,GDP_at_constant_prices_2015,9082229657,NA,NA
-226,Equatorial Guinea,2024,GDP_at_current_prices,11050272943,NA,NA
+226,Equatorial Guinea,2024,GDP_at_current_prices,11825741833,NA,NA
 230,Ethiopia (...1991),1970,GDP_at_constant_prices_2015,8835303187,NA,NA
 230,Ethiopia (...1991),1970,GDP_at_current_prices,2559075270,NA,NA
 230,Ethiopia (...1991),1971,GDP_at_constant_prices_2015,9231322600,NA,NA
@@ -9634,7 +9634,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 231,Ethiopia,2023,GDP_at_constant_prices_2015,108235341635,NA,NA
 231,Ethiopia,2023,GDP_at_current_prices,159746451415,NA,NA
 231,Ethiopia,2024,GDP_at_constant_prices_2015,114729462133,NA,NA
-231,Ethiopia,2024,GDP_at_current_prices,578421996013,NA,NA
+231,Ethiopia,2024,GDP_at_current_prices,133418738157,NA,NA
 232,Eritrea,1992,GDP_at_constant_prices_2015,912644047,NA,NA
 232,Eritrea,1992,GDP_at_current_prices,437102374,NA,NA
 232,Eritrea,1993,GDP_at_constant_prices_2015,1030211655,NA,NA
@@ -9766,7 +9766,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 233,Estonia,2023,GDP_at_constant_prices_2015,27574844402,NA,NA
 233,Estonia,2023,GDP_at_current_prices,41291245222,NA,NA
 233,Estonia,2024,GDP_at_constant_prices_2015,27299095958,NA,NA
-233,Estonia,2024,GDP_at_current_prices,42342535776,NA,NA
+233,Estonia,2024,GDP_at_current_prices,42475596051,NA,NA
 242,Fiji,1970,GDP_at_constant_prices_2015,1357216154,NA,NA
 242,Fiji,1970,GDP_at_current_prices,220819602,NA,NA
 242,Fiji,1971,GDP_at_constant_prices_2015,1445555667,NA,NA
@@ -9876,7 +9876,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 242,Fiji,2023,GDP_at_constant_prices_2015,5301662206,NA,NA
 242,Fiji,2023,GDP_at_current_prices,5442046565,NA,NA
 242,Fiji,2024,GDP_at_constant_prices_2015,5476617059,NA,NA
-242,Fiji,2024,GDP_at_current_prices,6774830884,NA,NA
+242,Fiji,2024,GDP_at_current_prices,5928712829,NA,NA
 246,Finland,1970,GDP_at_constant_prices_2015,78977063655,NA,NA
 246,Finland,1970,GDP_at_current_prices,11358782483,NA,NA
 246,Finland,1971,GDP_at_constant_prices_2015,80838488993,NA,NA
@@ -9986,7 +9986,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 246,Finland,2023,GDP_at_constant_prices_2015,254562199573,NA,NA
 246,Finland,2023,GDP_at_current_prices,295532341255,NA,NA
 246,Finland,2024,GDP_at_constant_prices_2015,253900337855,NA,NA
-246,Finland,2024,GDP_at_current_prices,304243696844,NA,NA
+246,Finland,2024,GDP_at_current_prices,300002602291,NA,NA
 250,France,1970,GDP_at_constant_prices_2015,885341755942,NA,NA
 250,France,1970,GDP_at_current_prices,146921610578,NA,NA
 250,France,1971,GDP_at_constant_prices_2015,932540771543,NA,NA
@@ -10096,7 +10096,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 250,France,2023,GDP_at_constant_prices_2015,2671234714487,NA,NA
 250,France,2023,GDP_at_current_prices,3051831611385,NA,NA
 250,France,2024,GDP_at_constant_prices_2015,2703289531060,NA,NA
-250,France,2024,GDP_at_current_prices,3332952321891,NA,NA
+250,France,2024,GDP_at_current_prices,3163319912410,NA,NA
 258,French Polynesia,1970,GDP_at_constant_prices_2015,1453083743,NA,NA
 258,French Polynesia,1970,GDP_at_current_prices,262818819,NA,NA
 258,French Polynesia,1971,GDP_at_constant_prices_2015,1627488792,NA,NA
@@ -10316,7 +10316,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 262,Djibouti,2023,GDP_at_constant_prices_2015,3572222742,NA,NA
 262,Djibouti,2023,GDP_at_current_prices,3999527349,NA,NA
 262,Djibouti,2024,GDP_at_constant_prices_2015,3765122770,NA,NA
-262,Djibouti,2024,GDP_at_current_prices,4501443766,NA,NA
+262,Djibouti,2024,GDP_at_current_prices,4164800009,NA,NA
 266,Gabon,1970,GDP_at_constant_prices_2015,3448549463,NA,NA
 266,Gabon,1970,GDP_at_current_prices,409868981,NA,NA
 266,Gabon,1971,GDP_at_constant_prices_2015,3802327723,NA,NA
@@ -10426,7 +10426,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 266,Gabon,2023,GDP_at_constant_prices_2015,16254806302,NA,NA
 266,Gabon,2023,GDP_at_current_prices,20055731425,NA,NA
 266,Gabon,2024,GDP_at_constant_prices_2015,16677431265,NA,NA
-266,Gabon,2024,GDP_at_current_prices,20990253411,NA,NA
+266,Gabon,2024,GDP_at_current_prices,20674125268,NA,NA
 268,Georgia,1992,GDP_at_constant_prices_2015,7369900482,NA,NA
 268,Georgia,1992,GDP_at_current_prices,4098293361,NA,NA
 268,Georgia,1993,GDP_at_constant_prices_2015,5211207071,NA,NA
@@ -10492,7 +10492,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 268,Georgia,2023,GDP_at_constant_prices_2015,22887920832,NA,NA
 268,Georgia,2023,GDP_at_current_prices,30535520619,NA,NA
 268,Georgia,2024,GDP_at_constant_prices_2015,25016497470,NA,NA
-268,Georgia,2024,GDP_at_current_prices,38961506717,NA,NA
+268,Georgia,2024,GDP_at_current_prices,33623929195,NA,NA
 270,Gambia,1970,GDP_at_constant_prices_2015,359591894,NA,NA
 270,Gambia,1970,GDP_at_current_prices,160123458,NA,NA
 270,Gambia,1971,GDP_at_constant_prices_2015,359355006,NA,NA
@@ -10602,7 +10602,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 270,Gambia,2023,GDP_at_constant_prices_2015,1963596334,NA,NA
 270,Gambia,2023,GDP_at_current_prices,2401157157,NA,NA
 270,Gambia,2024,GDP_at_constant_prices_2015,2071594132,NA,NA
-270,Gambia,2024,GDP_at_current_prices,4532383571,NA,NA
+270,Gambia,2024,GDP_at_current_prices,2521030220,NA,NA
 2711,BRICS,1970,GDP_at_constant_prices_2015,1809412157717,NA,NA
 2711,BRICS,1970,GDP_at_current_prices,673100602743,NA,NA
 2711,BRICS,1971,GDP_at_constant_prices_2015,1936136710047,NA,NA
@@ -10712,7 +10712,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 2711,BRICS,2023,GDP_at_constant_prices_2015,27035482236952,NA,NA
 2711,BRICS,2023,GDP_at_current_prices,28726126679380,NA,NA
 2711,BRICS,2024,GDP_at_constant_prices_2015,28365957038718,NA,NA
-2711,BRICS,2024,GDP_at_current_prices,42855356613021,NA,NA
+2711,BRICS,2024,GDP_at_current_prices,29703703361281,NA,NA
 275,State of Palestine,1970,GDP_at_constant_prices_2015,1017269381,NA,NA
 275,State of Palestine,1970,GDP_at_current_prices,177351765,NA,NA
 275,State of Palestine,1971,GDP_at_constant_prices_2015,1158612789,NA,NA
@@ -10892,7 +10892,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 276,Germany,2023,GDP_at_constant_prices_2015,3692366831840,NA,NA
 276,Germany,2023,GDP_at_current_prices,4525703903628,NA,NA
 276,Germany,2024,GDP_at_constant_prices_2015,3684982098176,NA,NA
-276,Germany,2024,GDP_at_current_prices,4754007227225,NA,NA
+276,Germany,2024,GDP_at_current_prices,4659318469945,NA,NA
 280,Federal Republic of Germany,1970,GDP_at_constant_prices_2015,1411212669066,NA,NA
 280,Federal Republic of Germany,1970,GDP_at_current_prices,216625955433,NA,NA
 280,Federal Republic of Germany,1971,GDP_at_constant_prices_2015,1455421725513,NA,NA
@@ -11042,7 +11042,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 288,Ghana,2023,GDP_at_constant_prices_2015,70508830355,NA,NA
 288,Ghana,2023,GDP_at_current_prices,76370394410,NA,NA
 288,Ghana,2024,GDP_at_constant_prices_2015,72765112926,NA,NA
-288,Ghana,2024,GDP_at_current_prices,308488153746,NA,NA
+288,Ghana,2024,GDP_at_current_prices,80904403678,NA,NA
 296,Kiribati,1970,GDP_at_constant_prices_2015,150909503,NA,NA
 296,Kiribati,1970,GDP_at_current_prices,20195540,NA,NA
 296,Kiribati,1971,GDP_at_constant_prices_2015,138276080,NA,NA
@@ -11152,7 +11152,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 296,Kiribati,2023,GDP_at_constant_prices_2015,260926302,NA,NA
 296,Kiribati,2023,GDP_at_current_prices,288610720,NA,NA
 296,Kiribati,2024,GDP_at_constant_prices_2015,274755396,NA,NA
-296,Kiribati,2024,GDP_at_current_prices,342550564,NA,NA
+296,Kiribati,2024,GDP_at_current_prices,307361915,NA,NA
 300,Greece,1970,GDP_at_constant_prices_2015,93789528053,NA,NA
 300,Greece,1970,GDP_at_current_prices,12951066971,NA,NA
 300,Greece,1971,GDP_at_constant_prices_2015,101143730558,NA,NA
@@ -11262,7 +11262,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 300,Greece,2023,GDP_at_constant_prices_2015,219965719527,NA,NA
 300,Greece,2023,GDP_at_current_prices,243498333238,NA,NA
 300,Greece,2024,GDP_at_constant_prices_2015,224584999637,NA,NA
-300,Greece,2024,GDP_at_current_prices,267940321438,NA,NA
+300,Greece,2024,GDP_at_current_prices,256579004474,NA,NA
 304,Greenland,1970,GDP_at_constant_prices_2015,747850045,NA,NA
 304,Greenland,1970,GDP_at_current_prices,75968100,NA,NA
 304,Greenland,1971,GDP_at_constant_prices_2015,845525525,NA,NA
@@ -11482,7 +11482,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 308,Grenada,2023,GDP_at_constant_prices_2015,1138924380,NA,NA
 308,Grenada,2023,GDP_at_current_prices,1316733333,NA,NA
 308,Grenada,2024,GDP_at_constant_prices_2015,1186759204,NA,NA
-308,Grenada,2024,GDP_at_current_prices,1324911691,NA,NA
+308,Grenada,2024,GDP_at_current_prices,1384211714,NA,NA
 320,Guatemala,1970,GDP_at_constant_prices_2015,13084305598,NA,NA
 320,Guatemala,1970,GDP_at_current_prices,1670434427,NA,NA
 320,Guatemala,1971,GDP_at_constant_prices_2015,13814901342,NA,NA
@@ -11592,7 +11592,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 320,Guatemala,2023,GDP_at_constant_prices_2015,81031695000,NA,NA
 320,Guatemala,2023,GDP_at_current_prices,104450555094,NA,NA
 320,Guatemala,2024,GDP_at_constant_prices_2015,83867804325,NA,NA
-320,Guatemala,2024,GDP_at_current_prices,123678760562,NA,NA
+320,Guatemala,2024,GDP_at_current_prices,112373520548,NA,NA
 324,Guinea,1970,GDP_at_constant_prices_2015,1921040422,NA,NA
 324,Guinea,1970,GDP_at_current_prices,765403950,NA,NA
 324,Guinea,1971,GDP_at_constant_prices_2015,2024119963,NA,NA
@@ -11702,7 +11702,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 324,Guinea,2023,GDP_at_constant_prices_2015,14670548915,NA,NA
 324,Guinea,2023,GDP_at_current_prices,23006144247,NA,NA
 324,Guinea,2024,GDP_at_constant_prices_2015,15286711970,NA,NA
-324,Guinea,2024,GDP_at_current_prices,34736739817,NA,NA
+324,Guinea,2024,GDP_at_current_prices,25189427491,NA,NA
 328,Guyana,1970,GDP_at_constant_prices_2015,1280402456,NA,NA
 328,Guyana,1970,GDP_at_current_prices,427060636,NA,NA
 328,Guyana,1971,GDP_at_constant_prices_2015,1316500434,NA,NA
@@ -11812,7 +11812,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 328,Guyana,2023,GDP_at_constant_prices_2015,18978778234,NA,NA
 328,Guyana,2023,GDP_at_current_prices,16682905128,NA,NA
 328,Guyana,2024,GDP_at_constant_prices_2015,26854971202,NA,NA
-328,Guyana,2024,GDP_at_current_prices,34036073940,NA,NA
+328,Guyana,2024,GDP_at_current_prices,24166360170,NA,NA
 332,Haiti,1970,GDP_at_constant_prices_2015,3882508294,NA,NA
 332,Haiti,1970,GDP_at_current_prices,439235188,NA,NA
 332,Haiti,1971,GDP_at_constant_prices_2015,4134109604,NA,NA
@@ -11922,7 +11922,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 332,Haiti,2023,GDP_at_constant_prices_2015,13570904530,NA,NA
 332,Haiti,2023,GDP_at_current_prices,19841215946,NA,NA
 332,Haiti,2024,GDP_at_constant_prices_2015,13163777394,NA,NA
-332,Haiti,2024,GDP_at_current_prices,69933358303,NA,NA
+332,Haiti,2024,GDP_at_current_prices,26587867775,NA,NA
 3380,Convention on Biological Diversity (CBD),1970,GDP_at_constant_prices_2015,12815847852668,NA,NA
 3380,Convention on Biological Diversity (CBD),1970,GDP_at_current_prices,2337245172866,NA,NA
 3380,Convention on Biological Diversity (CBD),1971,GDP_at_constant_prices_2015,13423054398079,NA,NA
@@ -12032,7 +12032,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3380,Convention on Biological Diversity (CBD),2023,GDP_at_constant_prices_2015,70055304860068,NA,NA
 3380,Convention on Biological Diversity (CBD),2023,GDP_at_current_prices,76865714065541,NA,NA
 3380,Convention on Biological Diversity (CBD),2024,GDP_at_constant_prices_2015,72021869384893,NA,NA
-3380,Convention on Biological Diversity (CBD),2024,GDP_at_current_prices,22821577641794318e5,NA,NA
+3380,Convention on Biological Diversity (CBD),2024,GDP_at_current_prices,1552361679215871,NA,NA
 3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),1970,GDP_at_constant_prices_2015,18008661998067,NA,NA
 3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),1970,GDP_at_current_prices,3410021711034,NA,NA
 3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),1971,GDP_at_constant_prices_2015,18787116340557,NA,NA
@@ -12142,7 +12142,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),2023,GDP_at_constant_prices_2015,92106332473572,NA,NA
 3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),2023,GDP_at_current_prices,104582407661758,NA,NA
 3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),2024,GDP_at_constant_prices_2015,94694321646544,NA,NA
-3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),2024,GDP_at_current_prices,2282157792843174e6,NA,NA
+3381,CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora),2024,GDP_at_current_prices,1581519932553772,NA,NA
 3382,Nagoya Protocol on Access and Benefit Sharing,1970,GDP_at_constant_prices_2015,10639725856488,NA,NA
 3382,Nagoya Protocol on Access and Benefit Sharing,1970,GDP_at_current_prices,1637183026340,NA,NA
 3382,Nagoya Protocol on Access and Benefit Sharing,1971,GDP_at_constant_prices_2015,11126725308919,NA,NA
@@ -12252,7 +12252,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3382,Nagoya Protocol on Access and Benefit Sharing,2023,GDP_at_constant_prices_2015,59645819218843,NA,NA
 3382,Nagoya Protocol on Access and Benefit Sharing,2023,GDP_at_current_prices,65306557840019,NA,NA
 3382,Nagoya Protocol on Access and Benefit Sharing,2024,GDP_at_constant_prices_2015,61357547108466,NA,NA
-3382,Nagoya Protocol on Access and Benefit Sharing,2024,GDP_at_current_prices,22821577311164697e5,NA,NA
+3382,Nagoya Protocol on Access and Benefit Sharing,2024,GDP_at_current_prices,1540268617498411,NA,NA
 3383,LMMC (Like-Minded Megadiverse Countries),1970,GDP_at_constant_prices_2015,1778076987278,NA,NA
 3383,LMMC (Like-Minded Megadiverse Countries),1970,GDP_at_current_prices,337080786336,NA,NA
 3383,LMMC (Like-Minded Megadiverse Countries),1971,GDP_at_constant_prices_2015,1898757813383,NA,NA
@@ -12362,7 +12362,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3383,LMMC (Like-Minded Megadiverse Countries),2023,GDP_at_constant_prices_2015,27920685650616,NA,NA
 3383,LMMC (Like-Minded Megadiverse Countries),2023,GDP_at_current_prices,29821295257379,NA,NA
 3383,LMMC (Like-Minded Megadiverse Countries),2024,GDP_at_constant_prices_2015,29255193634444,NA,NA
-3383,LMMC (Like-Minded Megadiverse Countries),2024,GDP_at_current_prices,2282157361307566e6,NA,NA
+3383,LMMC (Like-Minded Megadiverse Countries),2024,GDP_at_current_prices,31177872033881,NA,NA
 3384,BioTrade countries,1970,GDP_at_constant_prices_2015,13979089554382,NA,NA
 3384,BioTrade countries,1970,GDP_at_current_prices,2470922963243,NA,NA
 3384,BioTrade countries,1971,GDP_at_constant_prices_2015,14559364230822,NA,NA
@@ -12472,7 +12472,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3384,BioTrade countries,2023,GDP_at_constant_prices_2015,76192875210363,NA,NA
 3384,BioTrade countries,2023,GDP_at_current_prices,87022702346420,NA,NA
 3384,BioTrade countries,2024,GDP_at_constant_prices_2015,78490590798199,NA,NA
-3384,BioTrade countries,2024,GDP_at_current_prices,443061976803737,NA,NA
+3384,BioTrade countries,2024,GDP_at_current_prices,1561954555540355,NA,NA
 340,Honduras,1970,GDP_at_constant_prices_2015,3962626013,NA,NA
 340,Honduras,1970,GDP_at_current_prices,824353574,NA,NA
 340,Honduras,1971,GDP_at_constant_prices_2015,4120933169,NA,NA
@@ -12582,7 +12582,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 340,Honduras,2023,GDP_at_constant_prices_2015,26904251294,NA,NA
 340,Honduras,2023,GDP_at_current_prices,34400510099,NA,NA
 340,Honduras,2024,GDP_at_constant_prices_2015,27872804341,NA,NA
-340,Honduras,2024,GDP_at_current_prices,42643677650,NA,NA
+340,Honduras,2024,GDP_at_current_prices,36963055283,NA,NA
 3412,European Union (2020 …),1970,GDP_at_constant_prices_2015,5061123663815,NA,NA
 3412,European Union (2020 …),1970,GDP_at_current_prices,765276888259,NA,NA
 3412,European Union (2020 …),1971,GDP_at_constant_prices_2015,5256395228783,NA,NA
@@ -12692,7 +12692,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3412,European Union (2020 …),2023,GDP_at_constant_prices_2015,15528944618568,NA,NA
 3412,European Union (2020 …),2023,GDP_at_current_prices,18590858282330,NA,NA
 3412,European Union (2020 …),2024,GDP_at_constant_prices_2015,15670492039957,NA,NA
-3412,European Union (2020 …),2024,GDP_at_current_prices,20115686923773,NA,NA
+3412,European Union (2020 …),2024,GDP_at_current_prices,19389823607634,NA,NA
 344,"China, Hong Kong SAR",1970,GDP_at_constant_prices_2015,26852732475,NA,NA
 344,"China, Hong Kong SAR",1970,GDP_at_current_prices,3812493809,NA,NA
 344,"China, Hong Kong SAR",1971,GDP_at_constant_prices_2015,28811112311,NA,NA
@@ -12802,7 +12802,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 344,"China, Hong Kong SAR",2023,GDP_at_constant_prices_2015,328370191790,NA,NA
 344,"China, Hong Kong SAR",2023,GDP_at_current_prices,380812218615,NA,NA
 344,"China, Hong Kong SAR",2024,GDP_at_constant_prices_2015,336907816776,NA,NA
-344,"China, Hong Kong SAR",2024,GDP_at_current_prices,397521372564,NA,NA
+344,"China, Hong Kong SAR",2024,GDP_at_current_prices,407588409177,NA,NA
 348,Hungary,1970,GDP_at_constant_prices_2015,50384799241,NA,NA
 348,Hungary,1970,GDP_at_current_prices,6388906324,NA,NA
 348,Hungary,1971,GDP_at_constant_prices_2015,53508656794,NA,NA
@@ -12912,7 +12912,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 348,Hungary,2023,GDP_at_constant_prices_2015,156882420897,NA,NA
 348,Hungary,2023,GDP_at_current_prices,212656686476,NA,NA
 348,Hungary,2024,GDP_at_constant_prices_2015,157666833001,NA,NA
-348,Hungary,2024,GDP_at_current_prices,260404265237,NA,NA
+348,Hungary,2024,GDP_at_current_prices,222412671201,NA,NA
 352,Iceland,1970,GDP_at_constant_prices_2015,3724799703,NA,NA
 352,Iceland,1970,GDP_at_current_prices,526704545,NA,NA
 352,Iceland,1971,GDP_at_constant_prices_2015,4211289745,NA,NA
@@ -13022,7 +13022,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 352,Iceland,2023,GDP_at_constant_prices_2015,23245527336,NA,NA
 352,Iceland,2023,GDP_at_current_prices,31325116556,NA,NA
 352,Iceland,2024,GDP_at_constant_prices_2015,23489605373,NA,NA
-352,Iceland,2024,GDP_at_current_prices,34436443234,NA,NA
+352,Iceland,2024,GDP_at_current_prices,33520537054,NA,NA
 356,India,1970,GDP_at_constant_prices_2015,205664799730,NA,NA
 356,India,1970,GDP_at_current_prices,62422483000,NA,NA
 356,India,1971,GDP_at_constant_prices_2015,209043729214,NA,NA
@@ -13132,7 +13132,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 356,India,2023,GDP_at_constant_prices_2015,3281972259092,NA,NA
 356,India,2023,GDP_at_current_prices,3575777914184,NA,NA
 356,India,2024,GDP_at_constant_prices_2015,3508428344970,NA,NA
-356,India,2024,GDP_at_current_prices,5422175368780,NA,NA
+356,India,2024,GDP_at_current_prices,3908676413254,NA,NA
 360,Indonesia,2003,GDP_at_constant_prices_2015,448277224165,NA,NA
 360,Indonesia,2003,GDP_at_current_prices,249968413218,NA,NA
 360,Indonesia,2004,GDP_at_constant_prices_2015,470829486237,NA,NA
@@ -13176,7 +13176,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 360,Indonesia,2023,GDP_at_constant_prices_2015,1178924195857,NA,NA
 360,Indonesia,2023,GDP_at_current_prices,1371171152331,NA,NA
 360,Indonesia,2024,GDP_at_constant_prices_2015,1237870405650,NA,NA
-360,Indonesia,2024,GDP_at_current_prices,1617692171143,NA,NA
+360,Indonesia,2024,GDP_at_current_prices,1395879630093,NA,NA
 364,Iran (Islamic Republic of),1970,GDP_at_constant_prices_2015,140097267343,NA,NA
 364,Iran (Islamic Republic of),1970,GDP_at_current_prices,10976245143,NA,NA
 364,Iran (Islamic Republic of),1971,GDP_at_constant_prices_2015,159292810700,NA,NA
@@ -13286,7 +13286,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 364,Iran (Islamic Republic of),2023,GDP_at_constant_prices_2015,523590284544,NA,NA
 364,Iran (Islamic Republic of),2023,GDP_at_current_prices,401596284917,NA,NA
 364,Iran (Islamic Republic of),2024,GDP_at_constant_prices_2015,543331443416,NA,NA
-364,Iran (Islamic Republic of),2024,GDP_at_current_prices,5590752044843,NA,NA
+364,Iran (Islamic Republic of),2024,GDP_at_current_prices,451793668090,NA,NA
 368,Iraq,1970,GDP_at_constant_prices_2015,26363731414,NA,NA
 368,Iraq,1970,GDP_at_current_prices,3288272719,NA,NA
 368,Iraq,1971,GDP_at_constant_prices_2015,28193444833,NA,NA
@@ -13396,7 +13396,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 368,Iraq,2023,GDP_at_constant_prices_2015,188284536732,NA,NA
 368,Iraq,2023,GDP_at_current_prices,232107245886,NA,NA
 368,Iraq,2024,GDP_at_constant_prices_2015,192426796540,NA,NA
-368,Iraq,2024,GDP_at_current_prices,232475013079,NA,NA
+368,Iraq,2024,GDP_at_current_prices,250460782833,NA,NA
 372,Ireland,1970,GDP_at_constant_prices_2015,36398889176,NA,NA
 372,Ireland,1970,GDP_at_current_prices,4396344441,NA,NA
 372,Ireland,1971,GDP_at_constant_prices_2015,37661889795,NA,NA
@@ -13506,7 +13506,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 372,Ireland,2023,GDP_at_constant_prices_2015,486429696748,NA,NA
 372,Ireland,2023,GDP_at_current_prices,551394889340,NA,NA
 372,Ireland,2024,GDP_at_constant_prices_2015,480592540387,NA,NA
-372,Ireland,2024,GDP_at_current_prices,573804891919,NA,NA
+372,Ireland,2024,GDP_at_current_prices,563289142664,NA,NA
 376,Israel,1970,GDP_at_constant_prices_2015,42186904014,NA,NA
 376,Israel,1970,GDP_at_current_prices,6020096053,NA,NA
 376,Israel,1971,GDP_at_constant_prices_2015,46806821821,NA,NA
@@ -13616,7 +13616,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 376,Israel,2023,GDP_at_constant_prices_2015,418095492303,NA,NA
 376,Israel,2023,GDP_at_current_prices,513611100816,NA,NA
 376,Israel,2024,GDP_at_constant_prices_2015,420185969764,NA,NA
-376,Israel,2024,GDP_at_current_prices,481775993946,NA,NA
+376,Israel,2024,GDP_at_current_prices,544018416577,NA,NA
 380,Italy,1970,GDP_at_constant_prices_2015,851095738477,NA,NA
 380,Italy,1970,GDP_at_current_prices,113661753468,NA,NA
 380,Italy,1971,GDP_at_constant_prices_2015,866569577729,NA,NA
@@ -13726,7 +13726,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 380,Italy,2023,GDP_at_constant_prices_2015,2010974774663,NA,NA
 380,Italy,2023,GDP_at_current_prices,2300941152992,NA,NA
 380,Italy,2024,GDP_at_constant_prices_2015,2025051598085,NA,NA
-380,Italy,2024,GDP_at_current_prices,2475985661640,NA,NA
+380,Italy,2024,GDP_at_current_prices,2369681236281,NA,NA
 384,Cote d'Ivoire,1970,GDP_at_constant_prices_2015,9126756859,NA,NA
 384,Cote d'Ivoire,1970,GDP_at_current_prices,1500930867,NA,NA
 384,Cote d'Ivoire,1971,GDP_at_constant_prices_2015,9989928915,NA,NA
@@ -13836,7 +13836,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 384,Cote d'Ivoire,2023,GDP_at_constant_prices_2015,71993582361,NA,NA
 384,Cote d'Ivoire,2023,GDP_at_current_prices,78788828907,NA,NA
 384,Cote d'Ivoire,2024,GDP_at_constant_prices_2015,76745158796,NA,NA
-384,Cote d'Ivoire,2024,GDP_at_current_prices,95496521580,NA,NA
+384,Cote d'Ivoire,2024,GDP_at_current_prices,87491046310,NA,NA
 388,Jamaica,1970,GDP_at_constant_prices_2015,9552355736,NA,NA
 388,Jamaica,1970,GDP_at_current_prices,1735587594,NA,NA
 388,Jamaica,1971,GDP_at_constant_prices_2015,9840471094,NA,NA
@@ -13946,7 +13946,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 388,Jamaica,2023,GDP_at_constant_prices_2015,15132139873,NA,NA
 388,Jamaica,2023,GDP_at_current_prices,19423356578,NA,NA
 388,Jamaica,2024,GDP_at_constant_prices_2015,15283461272,NA,NA
-388,Jamaica,2024,GDP_at_current_prices,24313229465,NA,NA
+388,Jamaica,2024,GDP_at_current_prices,20500587853,NA,NA
 3905,OECD (Organisation for Economic Cooperation and Development),1970,GDP_at_constant_prices_2015,14587734260164,NA,NA
 3905,OECD (Organisation for Economic Cooperation and Development),1970,GDP_at_current_prices,2452064940986,NA,NA
 3905,OECD (Organisation for Economic Cooperation and Development),1971,GDP_at_constant_prices_2015,15142385103541,NA,NA
@@ -14056,7 +14056,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3905,OECD (Organisation for Economic Cooperation and Development),2023,GDP_at_constant_prices_2015,55367873018402,NA,NA
 3905,OECD (Organisation for Economic Cooperation and Development),2023,GDP_at_current_prices,64934871679448,NA,NA
 3905,OECD (Organisation for Economic Cooperation and Development),2024,GDP_at_constant_prices_2015,56335558446543,NA,NA
-3905,OECD (Organisation for Economic Cooperation and Development),2024,GDP_at_current_prices,82757891601088,NA,NA
+3905,OECD (Organisation for Economic Cooperation and Development),2024,GDP_at_current_prices,67752574077141,NA,NA
 3916,G20 (Group of Twenty),1970,GDP_at_constant_prices_2015,12668302287297,NA,NA
 3916,G20 (Group of Twenty),1970,GDP_at_current_prices,2590119228719,NA,NA
 3916,G20 (Group of Twenty),1971,GDP_at_constant_prices_2015,13194944307501,NA,NA
@@ -14166,7 +14166,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3916,G20 (Group of Twenty),2023,GDP_at_constant_prices_2015,72934724962220,NA,NA
 3916,G20 (Group of Twenty),2023,GDP_at_current_prices,82886456854480,NA,NA
 3916,G20 (Group of Twenty),2024,GDP_at_constant_prices_2015,75040581775121,NA,NA
-3916,G20 (Group of Twenty),2024,GDP_at_current_prices,167182544099452,NA,NA
+3916,G20 (Group of Twenty),2024,GDP_at_current_prices,86107428399580,NA,NA
 3919,G-77 (Group of 77),1970,GDP_at_constant_prices_2015,2701597616062,NA,NA
 3919,G-77 (Group of 77),1970,GDP_at_current_prices,506493007123,NA,NA
 3919,G-77 (Group of 77),1971,GDP_at_constant_prices_2015,2883004716468,NA,NA
@@ -14276,7 +14276,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 3919,G-77 (Group of 77),2023,GDP_at_constant_prices_2015,34817754781985,NA,NA
 3919,G-77 (Group of 77),2023,GDP_at_current_prices,36970058649502,NA,NA
 3919,G-77 (Group of 77),2024,GDP_at_constant_prices_2015,36348307167515,NA,NA
-3919,G-77 (Group of 77),2024,GDP_at_current_prices,22821577076533305e5,NA,NA
+3919,G-77 (Group of 77),2024,GDP_at_current_prices,1510877114744519,NA,NA
 392,Japan,1970,GDP_at_constant_prices_2015,1459462598521,NA,NA
 392,Japan,1970,GDP_at_current_prices,217223652503,NA,NA
 392,Japan,1971,GDP_at_constant_prices_2015,1528042629884,NA,NA
@@ -14386,7 +14386,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 392,Japan,2023,GDP_at_constant_prices_2015,4605911988189,NA,NA
 392,Japan,2023,GDP_at_current_prices,4204494802432,NA,NA
 392,Japan,2024,GDP_at_constant_prices_2015,4610517900177,NA,NA
-392,Japan,2024,GDP_at_current_prices,5092068078220,NA,NA
+392,Japan,2024,GDP_at_current_prices,4028404323385,NA,NA
 398,Kazakhstan,1992,GDP_at_constant_prices_2015,79370566641,NA,NA
 398,Kazakhstan,1992,GDP_at_current_prices,26453925815,NA,NA
 398,Kazakhstan,1993,GDP_at_constant_prices_2015,72038589300,NA,NA
@@ -14452,7 +14452,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 398,Kazakhstan,2023,GDP_at_constant_prices_2015,237224312353,NA,NA
 398,Kazakhstan,2023,GDP_at_current_prices,264292737277,NA,NA
 398,Kazakhstan,2024,GDP_at_constant_prices_2015,247899406408,NA,NA
-398,Kazakhstan,2024,GDP_at_current_prices,562037984765,NA,NA
+398,Kazakhstan,2024,GDP_at_current_prices,293133713458,NA,NA
 400,Jordan,1970,GDP_at_constant_prices_2015,5081813091,NA,NA
 400,Jordan,1970,GDP_at_current_prices,611658057,NA,NA
 400,Jordan,1971,GDP_at_constant_prices_2015,5128915375,NA,NA
@@ -14562,7 +14562,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 400,Jordan,2023,GDP_at_constant_prices_2015,45064396375,NA,NA
 400,Jordan,2023,GDP_at_current_prices,50813642349,NA,NA
 400,Jordan,2024,GDP_at_constant_prices_2015,46055813095,NA,NA
-400,Jordan,2024,GDP_at_current_prices,53858380269,NA,NA
+400,Jordan,2024,GDP_at_current_prices,52949993355,NA,NA
 404,Kenya,1970,GDP_at_constant_prices_2015,11482814587,NA,NA
 404,Kenya,1970,GDP_at_current_prices,2758997133,NA,NA
 404,Kenya,1971,GDP_at_constant_prices_2015,12229307314,NA,NA
@@ -14672,7 +14672,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 404,Kenya,2023,GDP_at_constant_prices_2015,100109927037,NA,NA
 404,Kenya,2023,GDP_at_current_prices,108038588277,NA,NA
 404,Kenya,2024,GDP_at_constant_prices_2015,105015313462,NA,NA
-404,Kenya,2024,GDP_at_current_prices,179750872869,NA,NA
+404,Kenya,2024,GDP_at_current_prices,122443415785,NA,NA
 408,Dem. People's Rep. of Korea,1970,GDP_at_constant_prices_2015,7611140552,NA,NA
 408,Dem. People's Rep. of Korea,1970,GDP_at_current_prices,4927332597,NA,NA
 408,Dem. People's Rep. of Korea,1971,GDP_at_constant_prices_2015,8402699169,NA,NA
@@ -14892,7 +14892,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 410,"Korea, Republic of",2023,GDP_at_constant_prices_2015,1876324895887,NA,NA
 410,"Korea, Republic of",2023,GDP_at_current_prices,1839058255866,NA,NA
 410,"Korea, Republic of",2024,GDP_at_constant_prices_2015,1913851393805,NA,NA
-410,"Korea, Republic of",2024,GDP_at_current_prices,2303638650194,NA,NA
+410,"Korea, Republic of",2024,GDP_at_current_prices,1869211508260,NA,NA
 412,Kosovo,2008,GDP_at_constant_prices_2015,4580656210,NA,NA
 412,Kosovo,2008,GDP_at_current_prices,5202943075,NA,NA
 412,Kosovo,2009,GDP_at_constant_prices_2015,4811286929,NA,NA
@@ -14926,7 +14926,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 412,Kosovo,2023,GDP_at_constant_prices_2015,8586259945,NA,NA
 412,Kosovo,2023,GDP_at_current_prices,10466753840,NA,NA
 412,Kosovo,2024,GDP_at_constant_prices_2015,8955469123,NA,NA
-412,Kosovo,2024,GDP_at_current_prices,11651508699,NA,NA
+412,Kosovo,2024,GDP_at_current_prices,11141401127,NA,NA
 414,Kuwait,1970,GDP_at_constant_prices_2015,56065584257,NA,NA
 414,Kuwait,1970,GDP_at_current_prices,2872798856,NA,NA
 414,Kuwait,1971,GDP_at_constant_prices_2015,60014665140,NA,NA
@@ -15036,7 +15036,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 414,Kuwait,2023,GDP_at_constant_prices_2015,117235356761,NA,NA
 414,Kuwait,2023,GDP_at_current_prices,163704691686,NA,NA
 414,Kuwait,2024,GDP_at_constant_prices_2015,114421708199,NA,NA
-414,Kuwait,2024,GDP_at_current_prices,NA,NA,NA
+414,Kuwait,2024,GDP_at_current_prices,159224101263,NA,NA
 417,Kyrgyzstan,1992,GDP_at_constant_prices_2015,4191494024,NA,NA
 417,Kyrgyzstan,1992,GDP_at_current_prices,2187267109,NA,NA
 417,Kyrgyzstan,1993,GDP_at_constant_prices_2015,3543517206,NA,NA
@@ -15102,7 +15102,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 417,Kyrgyzstan,2023,GDP_at_constant_prices_2015,9481459362,NA,NA
 417,Kyrgyzstan,2023,GDP_at_current_prices,13987627975,NA,NA
 417,Kyrgyzstan,2024,GDP_at_constant_prices_2015,10334790705,NA,NA
-417,Kyrgyzstan,2024,GDP_at_current_prices,17336855376,NA,NA
+417,Kyrgyzstan,2024,GDP_at_current_prices,18024492364,NA,NA
 418,Lao People's Dem. Rep.,1970,GDP_at_constant_prices_2015,1050323751,NA,NA
 418,Lao People's Dem. Rep.,1970,GDP_at_current_prices,119095550,NA,NA
 418,Lao People's Dem. Rep.,1971,GDP_at_constant_prices_2015,1102721190,NA,NA
@@ -15212,7 +15212,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 418,Lao People's Dem. Rep.,2023,GDP_at_constant_prices_2015,21504313259,NA,NA
 418,Lao People's Dem. Rep.,2023,GDP_at_current_prices,15008048669,NA,NA
 418,Lao People's Dem. Rep.,2024,GDP_at_constant_prices_2015,22364485790,NA,NA
-418,Lao People's Dem. Rep.,2024,GDP_at_current_prices,52331681104,NA,NA
+418,Lao People's Dem. Rep.,2024,GDP_at_current_prices,18415509167,NA,NA
 422,Lebanon,1970,GDP_at_constant_prices_2015,21504659723,NA,NA
 422,Lebanon,1970,GDP_at_current_prices,1989537972,NA,NA
 422,Lebanon,1971,GDP_at_constant_prices_2015,23488956430,NA,NA
@@ -15322,7 +15322,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 422,Lebanon,2023,GDP_at_constant_prices_2015,36112070954,NA,NA
 422,Lebanon,2023,GDP_at_current_prices,27463501309,NA,NA
 422,Lebanon,2024,GDP_at_constant_prices_2015,34667588115,NA,NA
-422,Lebanon,2024,GDP_at_current_prices,2337230612138,NA,NA
+422,Lebanon,2024,GDP_at_current_prices,29421877034,NA,NA
 426,Lesotho,1970,GDP_at_constant_prices_2015,321333115,NA,NA
 426,Lesotho,1970,GDP_at_current_prices,79430815,NA,NA
 426,Lesotho,1971,GDP_at_constant_prices_2015,291342025,NA,NA
@@ -15432,7 +15432,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 426,Lesotho,2023,GDP_at_constant_prices_2015,2252257798,NA,NA
 426,Lesotho,2023,GDP_at_current_prices,2117962429,NA,NA
 426,Lesotho,2024,GDP_at_constant_prices_2015,2295050696,NA,NA
-426,Lesotho,2024,GDP_at_current_prices,3829168233,NA,NA
+426,Lesotho,2024,GDP_at_current_prices,2395408451,NA,NA
 428,Latvia,1992,GDP_at_constant_prices_2015,13496547917,NA,NA
 428,Latvia,1992,GDP_at_current_prices,5717329303,NA,NA
 428,Latvia,1993,GDP_at_constant_prices_2015,11489789653,NA,NA
@@ -15498,7 +15498,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 428,Latvia,2023,GDP_at_constant_prices_2015,31360656919,NA,NA
 428,Latvia,2023,GDP_at_current_prices,42247850065,NA,NA
 428,Latvia,2024,GDP_at_constant_prices_2015,31266574948,NA,NA
-428,Latvia,2024,GDP_at_current_prices,45434427363,NA,NA
+428,Latvia,2024,GDP_at_current_prices,43088270093,NA,NA
 430,Liberia,1970,GDP_at_constant_prices_2015,1503845984,NA,NA
 430,Liberia,1970,GDP_at_current_prices,316498842,NA,NA
 430,Liberia,1971,GDP_at_constant_prices_2015,1579901718,NA,NA
@@ -15608,7 +15608,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 430,Liberia,2023,GDP_at_constant_prices_2015,3487709009,NA,NA
 430,Liberia,2023,GDP_at_current_prices,5039237004,NA,NA
 430,Liberia,2024,GDP_at_constant_prices_2015,3676045295,NA,NA
-430,Liberia,2024,GDP_at_current_prices,11406367330,NA,NA
+430,Liberia,2024,GDP_at_current_prices,4918608769,NA,NA
 434,Libya,1970,GDP_at_constant_prices_2015,30180397176,NA,NA
 434,Libya,1970,GDP_at_current_prices,3978874521,NA,NA
 434,Libya,1971,GDP_at_constant_prices_2015,28587619162,NA,NA
@@ -15718,7 +15718,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 434,Libya,2023,GDP_at_constant_prices_2015,37762794922,NA,NA
 434,Libya,2023,GDP_at_current_prices,44029921588,NA,NA
 434,Libya,2024,GDP_at_constant_prices_2015,36025706355,NA,NA
-434,Libya,2024,GDP_at_current_prices,72013531817,NA,NA
+434,Libya,2024,GDP_at_current_prices,27484084047,NA,NA
 438,Liechtenstein,1970,GDP_at_constant_prices_2015,1636938503,NA,NA
 438,Liechtenstein,1970,GDP_at_current_prices,110617915,NA,NA
 438,Liechtenstein,1971,GDP_at_constant_prices_2015,1664262676,NA,NA
@@ -15828,7 +15828,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 438,Liechtenstein,2023,GDP_at_constant_prices_2015,7031412095,NA,NA
 438,Liechtenstein,2023,GDP_at_current_prices,7965156089,NA,NA
 438,Liechtenstein,2024,GDP_at_constant_prices_2015,7172040337,NA,NA
-438,Liechtenstein,2024,GDP_at_current_prices,7708058027,NA,NA
+438,Liechtenstein,2024,GDP_at_current_prices,8280860404,NA,NA
 440,Lithuania,1992,GDP_at_constant_prices_2015,22887184858,NA,NA
 440,Lithuania,1992,GDP_at_current_prices,8092925401,NA,NA
 440,Lithuania,1993,GDP_at_constant_prices_2015,19173312868,NA,NA
@@ -15894,7 +15894,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 440,Lithuania,2023,GDP_at_constant_prices_2015,53657150713,NA,NA
 440,Lithuania,2023,GDP_at_current_prices,79789877416,NA,NA
 440,Lithuania,2024,GDP_at_constant_prices_2015,55112285148,NA,NA
-440,Lithuania,2024,GDP_at_current_prices,83106019267,NA,NA
+440,Lithuania,2024,GDP_at_current_prices,84873714917,NA,NA
 442,Luxembourg,1970,GDP_at_constant_prices_2015,12045251394,NA,NA
 442,Luxembourg,1970,GDP_at_current_prices,1457806532,NA,NA
 442,Luxembourg,1971,GDP_at_constant_prices_2015,12366526385,NA,NA
@@ -16004,7 +16004,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 442,Luxembourg,2023,GDP_at_constant_prices_2015,70870003857,NA,NA
 442,Luxembourg,2023,GDP_at_current_prices,85755006124,NA,NA
 442,Luxembourg,2024,GDP_at_constant_prices_2015,71082613868,NA,NA
-442,Luxembourg,2024,GDP_at_current_prices,88697407794,NA,NA
+442,Luxembourg,2024,GDP_at_current_prices,94134324530,NA,NA
 446,"China, Macao SAR",1970,GDP_at_constant_prices_2015,2393683516,NA,NA
 446,"China, Macao SAR",1970,GDP_at_current_prices,169026522,NA,NA
 446,"China, Macao SAR",1971,GDP_at_constant_prices_2015,2581487869,NA,NA
@@ -16114,7 +16114,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 446,"China, Macao SAR",2023,GDP_at_constant_prices_2015,40458077847,NA,NA
 446,"China, Macao SAR",2023,GDP_at_current_prices,45803067467,NA,NA
 446,"China, Macao SAR",2024,GDP_at_constant_prices_2015,49767630640,NA,NA
-446,"China, Macao SAR",2024,GDP_at_current_prices,56553386483,NA,NA
+446,"China, Macao SAR",2024,GDP_at_current_prices,56733206489,NA,NA
 450,Madagascar,1970,GDP_at_constant_prices_2015,5523023787,NA,NA
 450,Madagascar,1970,GDP_at_current_prices,1052455079,NA,NA
 450,Madagascar,1971,GDP_at_constant_prices_2015,5757763371,NA,NA
@@ -16224,7 +16224,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 450,Madagascar,2023,GDP_at_constant_prices_2015,13908224363,NA,NA
 450,Madagascar,2023,GDP_at_current_prices,15869945477,NA,NA
 450,Madagascar,2024,GDP_at_constant_prices_2015,14492369786,NA,NA
-450,Madagascar,2024,GDP_at_current_prices,26995862013,NA,NA
+450,Madagascar,2024,GDP_at_current_prices,17420536624,NA,NA
 454,Malawi,1970,GDP_at_constant_prices_2015,1132706720,NA,NA
 454,Malawi,1970,GDP_at_current_prices,579154348,NA,NA
 454,Malawi,1971,GDP_at_constant_prices_2015,1295595961,NA,NA
@@ -16334,7 +16334,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 454,Malawi,2023,GDP_at_constant_prices_2015,11689297861,NA,NA
 454,Malawi,2023,GDP_at_current_prices,12626675361,NA,NA
 454,Malawi,2024,GDP_at_constant_prices_2015,11911394520,NA,NA
-454,Malawi,2024,GDP_at_current_prices,47205868778,NA,NA
+454,Malawi,2024,GDP_at_current_prices,11961030132,NA,NA
 458,Malaysia,1970,GDP_at_constant_prices_2015,17060933412,NA,NA
 458,Malaysia,1970,GDP_at_current_prices,3864145665,NA,NA
 458,Malaysia,1971,GDP_at_constant_prices_2015,20973281950,NA,NA
@@ -16444,7 +16444,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 458,Malaysia,2023,GDP_at_constant_prices_2015,401112762641,NA,NA
 458,Malaysia,2023,GDP_at_current_prices,399648650456,NA,NA
 458,Malaysia,2024,GDP_at_constant_prices_2015,421569513536,NA,NA
-458,Malaysia,2024,GDP_at_current_prices,496250787546,NA,NA
+458,Malaysia,2024,GDP_at_current_prices,421530045562,NA,NA
 462,Maldives,1970,GDP_at_constant_prices_2015,194082892,NA,NA
 462,Maldives,1970,GDP_at_current_prices,42386045,NA,NA
 462,Maldives,1971,GDP_at_constant_prices_2015,204189227,NA,NA
@@ -16554,7 +16554,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 462,Maldives,2023,GDP_at_constant_prices_2015,6041332775,NA,NA
 462,Maldives,2023,GDP_at_current_prices,6590894148,NA,NA
 462,Maldives,2024,GDP_at_constant_prices_2015,6349440747,NA,NA
-462,Maldives,2024,GDP_at_current_prices,7080639246,NA,NA
+462,Maldives,2024,GDP_at_current_prices,7025716525,NA,NA
 466,Mali,1970,GDP_at_constant_prices_2015,592401764,NA,NA
 466,Mali,1970,GDP_at_current_prices,320361767,NA,NA
 466,Mali,1971,GDP_at_constant_prices_2015,607620542,NA,NA
@@ -16664,7 +16664,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 466,Mali,2023,GDP_at_constant_prices_2015,21334892307,NA,NA
 466,Mali,2023,GDP_at_current_prices,20661794590,NA,NA
 466,Mali,2024,GDP_at_constant_prices_2015,22102948430,NA,NA
-466,Mali,2024,GDP_at_current_prices,26481446009,NA,NA
+466,Mali,2024,GDP_at_current_prices,27225337853,NA,NA
 470,Malta,1970,GDP_at_constant_prices_2015,1063637702,NA,NA
 470,Malta,1970,GDP_at_current_prices,260947106,NA,NA
 470,Malta,1971,GDP_at_constant_prices_2015,1089739242,NA,NA
@@ -16774,7 +16774,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 470,Malta,2023,GDP_at_constant_prices_2015,18118678358,NA,NA
 470,Malta,2023,GDP_at_current_prices,22211636399,NA,NA
 470,Malta,2024,GDP_at_constant_prices_2015,18988374919,NA,NA
-470,Malta,2024,GDP_at_current_prices,23343797695,NA,NA
+470,Malta,2024,GDP_at_current_prices,24042346424,NA,NA
 478,Mauritania,1970,GDP_at_constant_prices_2015,1843747753,NA,NA
 478,Mauritania,1970,GDP_at_current_prices,456966944,NA,NA
 478,Mauritania,1971,GDP_at_constant_prices_2015,1856308704,NA,NA
@@ -16884,7 +16884,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 478,Mauritania,2023,GDP_at_constant_prices_2015,8187697345,NA,NA
 478,Mauritania,2023,GDP_at_current_prices,10651720374,NA,NA
 478,Mauritania,2024,GDP_at_constant_prices_2015,8728085369,NA,NA
-478,Mauritania,2024,GDP_at_current_prices,11930608688,NA,NA
+478,Mauritania,2024,GDP_at_current_prices,10795088370,NA,NA
 480,Mauritius,1970,GDP_at_constant_prices_2015,1271513802,NA,NA
 480,Mauritius,1970,GDP_at_current_prices,205522143,NA,NA
 480,Mauritius,1971,GDP_at_constant_prices_2015,1328370110,NA,NA
@@ -16994,7 +16994,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 480,Mauritius,2023,GDP_at_constant_prices_2015,14270498385,NA,NA
 480,Mauritius,2023,GDP_at_current_prices,14397127281,NA,NA
 480,Mauritius,2024,GDP_at_constant_prices_2015,15198080780,NA,NA
-480,Mauritius,2024,GDP_at_current_prices,21625381639,NA,NA
+480,Mauritius,2024,GDP_at_current_prices,15524841027,NA,NA
 484,Mexico,1970,GDP_at_constant_prices_2015,291570191068,NA,NA
 484,Mexico,1970,GDP_at_current_prices,47470239953,NA,NA
 484,Mexico,1971,GDP_at_constant_prices_2015,303732791290,NA,NA
@@ -17104,7 +17104,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 484,Mexico,2023,GDP_at_constant_prices_2015,1330290054317,NA,NA
 484,Mexico,2023,GDP_at_current_prices,1793798893182,NA,NA
 484,Mexico,2024,GDP_at_constant_prices_2015,1346253534969,NA,NA
-484,Mexico,2024,GDP_at_current_prices,2079332395018,NA,NA
+484,Mexico,2024,GDP_at_current_prices,1848072613350,NA,NA
 492,Monaco,1970,GDP_at_constant_prices_2015,1757346783,NA,NA
 492,Monaco,1970,GDP_at_current_prices,284114525,NA,NA
 492,Monaco,1971,GDP_at_constant_prices_2015,1850779918,NA,NA
@@ -17214,7 +17214,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 492,Monaco,2023,GDP_at_constant_prices_2015,8748829803,NA,NA
 492,Monaco,2023,GDP_at_current_prices,9995355319,NA,NA
 492,Monaco,2024,GDP_at_constant_prices_2015,8923806399,NA,NA
-492,Monaco,2024,GDP_at_current_prices,11002380957,NA,NA
+492,Monaco,2024,GDP_at_current_prices,10446608801,NA,NA
 496,Mongolia,1970,GDP_at_constant_prices_2015,1313364059,NA,NA
 496,Mongolia,1970,GDP_at_current_prices,202103779,NA,NA
 496,Mongolia,1971,GDP_at_constant_prices_2015,1374916978,NA,NA
@@ -17324,7 +17324,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 496,Mongolia,2023,GDP_at_constant_prices_2015,15456208861,NA,NA
 496,Mongolia,2023,GDP_at_current_prices,19872168377,NA,NA
 496,Mongolia,2024,GDP_at_constant_prices_2015,16229019304,NA,NA
-496,Mongolia,2024,GDP_at_current_prices,29544420109,NA,NA
+496,Mongolia,2024,GDP_at_current_prices,23529732699,NA,NA
 498,"Moldova, Republic of",1992,GDP_at_constant_prices_2015,6651344582,NA,NA
 498,"Moldova, Republic of",1992,GDP_at_current_prices,2950202640,NA,NA
 498,"Moldova, Republic of",1993,GDP_at_constant_prices_2015,6573584312,NA,NA
@@ -17390,7 +17390,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 498,"Moldova, Republic of",2023,GDP_at_constant_prices_2015,9223017547,NA,NA
 498,"Moldova, Republic of",2023,GDP_at_current_prices,16541911816,NA,NA
 498,"Moldova, Republic of",2024,GDP_at_constant_prices_2015,9296801687,NA,NA
-498,"Moldova, Republic of",2024,GDP_at_current_prices,19069688253,NA,NA
+498,"Moldova, Republic of",2024,GDP_at_current_prices,18627660671,NA,NA
 499,Montenegro,2008,GDP_at_constant_prices_2015,3828797576,NA,NA
 499,Montenegro,2008,GDP_at_current_prices,4564242510,NA,NA
 499,Montenegro,2009,GDP_at_constant_prices_2015,3606915165,NA,NA
@@ -17424,7 +17424,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 499,Montenegro,2023,GDP_at_constant_prices_2015,5177943497,NA,NA
 499,Montenegro,2023,GDP_at_current_prices,7529538433,NA,NA
 499,Montenegro,2024,GDP_at_constant_prices_2015,5343637689,NA,NA
-499,Montenegro,2024,GDP_at_current_prices,7279802307,NA,NA
+499,Montenegro,2024,GDP_at_current_prices,8033359802,NA,NA
 500,Montserrat,1970,GDP_at_constant_prices_2015,64637457,NA,NA
 500,Montserrat,1970,GDP_at_current_prices,7791209,NA,NA
 500,Montserrat,1971,GDP_at_constant_prices_2015,66147337,NA,NA
@@ -17644,7 +17644,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 504,Morocco,2023,GDP_at_constant_prices_2015,130320710988,NA,NA
 504,Morocco,2023,GDP_at_current_prices,144437514125,NA,NA
 504,Morocco,2024,GDP_at_constant_prices_2015,133839370185,NA,NA
-504,Morocco,2024,GDP_at_current_prices,162607300317,NA,NA
+504,Morocco,2024,GDP_at_current_prices,154617303272,NA,NA
 508,Mozambique,1970,GDP_at_constant_prices_2015,1958390914,NA,NA
 508,Mozambique,1970,GDP_at_current_prices,4027052622,NA,NA
 508,Mozambique,1971,GDP_at_constant_prices_2015,2104956996,NA,NA
@@ -17754,7 +17754,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 508,Mozambique,2023,GDP_at_constant_prices_2015,20523330206,NA,NA
 508,Mozambique,2023,GDP_at_current_prices,20954221178,NA,NA
 508,Mozambique,2024,GDP_at_constant_prices_2015,21364786744,NA,NA
-508,Mozambique,2024,GDP_at_current_prices,41876637575,NA,NA
+508,Mozambique,2024,GDP_at_current_prices,22430621969,NA,NA
 5100,Africa,1970,GDP_at_constant_prices_2015,495459471149,NA,NA
 5100,Africa,1970,GDP_at_current_prices,116685227426,NA,NA
 5100,Africa,1971,GDP_at_constant_prices_2015,519186461982,NA,NA
@@ -17864,7 +17864,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5100,Africa,2023,GDP_at_constant_prices_2015,2957974376349,NA,NA
 5100,Africa,2023,GDP_at_current_prices,2807065865460,NA,NA
 5100,Africa,2024,GDP_at_constant_prices_2015,3044210235229,NA,NA
-5100,Africa,2024,GDP_at_current_prices,277120883627246,NA,NA
+5100,Africa,2024,GDP_at_current_prices,1473955757352802,NA,NA
 5110,Northern Africa,1970,GDP_at_constant_prices_2015,134190349238,NA,NA
 5110,Northern Africa,1970,GDP_at_current_prices,24735519951,NA,NA
 5110,Northern Africa,1971,GDP_at_constant_prices_2015,131978427121,NA,NA
@@ -17974,7 +17974,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5110,Northern Africa,2023,GDP_at_constant_prices_2015,965182820984,NA,NA
 5110,Northern Africa,2023,GDP_at_current_prices,850245464335,NA,NA
 5110,Northern Africa,2024,GDP_at_constant_prices_2015,984831344401,NA,NA
-5110,Northern Africa,2024,GDP_at_current_prices,42479019631362,NA,NA
+5110,Northern Africa,2024,GDP_at_current_prices,847737316520,NA,NA
 512,Oman,1970,GDP_at_constant_prices_2015,4104044566,NA,NA
 512,Oman,1970,GDP_at_current_prices,268409418,NA,NA
 512,Oman,1971,GDP_at_constant_prices_2015,4145856934,NA,NA
@@ -18084,7 +18084,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 512,Oman,2023,GDP_at_constant_prices_2015,89947810821,NA,NA
 512,Oman,2023,GDP_at_current_prices,105895708713,NA,NA
 512,Oman,2024,GDP_at_constant_prices_2015,90937236740,NA,NA
-512,Oman,2024,GDP_at_current_prices,99277711843,NA,NA
+512,Oman,2024,GDP_at_current_prices,106339279866,NA,NA
 5120,Sub-Saharan Africa,1970,GDP_at_constant_prices_2015,361269121911,NA,NA
 5120,Sub-Saharan Africa,1970,GDP_at_current_prices,91949707475,NA,NA
 5120,Sub-Saharan Africa,1971,GDP_at_constant_prices_2015,387208034861,NA,NA
@@ -18194,7 +18194,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5120,Sub-Saharan Africa,2023,GDP_at_constant_prices_2015,1992791555365,NA,NA
 5120,Sub-Saharan Africa,2023,GDP_at_current_prices,1956820401125,NA,NA
 5120,Sub-Saharan Africa,2024,GDP_at_constant_prices_2015,2059378890828,NA,NA
-5120,Sub-Saharan Africa,2024,GDP_at_current_prices,234641863995884,NA,NA
+5120,Sub-Saharan Africa,2024,GDP_at_current_prices,1473108020036282,NA,NA
 5121,Eastern Africa,1970,GDP_at_constant_prices_2015,55517774196,NA,NA
 5121,Eastern Africa,1970,GDP_at_current_prices,19746356525,NA,NA
 5121,Eastern Africa,1971,GDP_at_constant_prices_2015,58342536616,NA,NA
@@ -18304,7 +18304,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5121,Eastern Africa,2023,GDP_at_constant_prices_2015,481837119850,NA,NA
 5121,Eastern Africa,2023,GDP_at_current_prices,564958089442,NA,NA
 5121,Eastern Africa,2024,GDP_at_constant_prices_2015,505747732791,NA,NA
-5121,Eastern Africa,2024,GDP_at_current_prices,229755801236640,NA,NA
+5121,Eastern Africa,2024,GDP_at_current_prices,1471835405866188,NA,NA
 5122,Middle Africa,1970,GDP_at_constant_prices_2015,67851145091,NA,NA
 5122,Middle Africa,1970,GDP_at_current_prices,11277312241,NA,NA
 5122,Middle Africa,1971,GDP_at_constant_prices_2015,71729997393,NA,NA
@@ -18414,7 +18414,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5122,Middle Africa,2023,GDP_at_constant_prices_2015,263550184934,NA,NA
 5122,Middle Africa,2023,GDP_at_current_prices,276391898611,NA,NA
 5122,Middle Africa,2024,GDP_at_constant_prices_2015,272276465517,NA,NA
-5122,Middle Africa,2024,GDP_at_current_prices,1071258090016,NA,NA
+5122,Middle Africa,2024,GDP_at_current_prices,285800348081,NA,NA
 5123,Southern Africa,1970,GDP_at_constant_prices_2015,109176618706,NA,NA
 5123,Southern Africa,1970,GDP_at_current_prices,19562515158,NA,NA
 5123,Southern Africa,1971,GDP_at_constant_prices_2015,113918741331,NA,NA
@@ -18524,7 +18524,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5123,Southern Africa,2023,GDP_at_constant_prices_2015,399286884053,NA,NA
 5123,Southern Africa,2023,GDP_at_current_prices,416219880682,NA,NA
 5123,Southern Africa,2024,GDP_at_constant_prices_2015,401807239015,NA,NA
-5123,Southern Africa,2024,GDP_at_current_prices,623545079376,NA,NA
+5123,Southern Africa,2024,GDP_at_current_prices,439816137550,NA,NA
 5124,Western Africa,1970,GDP_at_constant_prices_2015,128723583918,NA,NA
 5124,Western Africa,1970,GDP_at_current_prices,41363523551,NA,NA
 5124,Western Africa,1971,GDP_at_constant_prices_2015,143216759521,NA,NA
@@ -18634,7 +18634,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5124,Western Africa,2023,GDP_at_constant_prices_2015,848117366528,NA,NA
 5124,Western Africa,2023,GDP_at_current_prices,699250532390,NA,NA
 5124,Western Africa,2024,GDP_at_constant_prices_2015,879547453505,NA,NA
-5124,Western Africa,2024,GDP_at_current_prices,3191259589852,NA,NA
+5124,Western Africa,2024,GDP_at_current_prices,546997684463,NA,NA
 516,Namibia,1970,GDP_at_constant_prices_2015,2450139248,NA,NA
 516,Namibia,1970,GDP_at_current_prices,605128249,NA,NA
 516,Namibia,1971,GDP_at_constant_prices_2015,2578640905,NA,NA
@@ -18744,7 +18744,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 516,Namibia,2023,GDP_at_constant_prices_2015,11749736226,NA,NA
 516,Namibia,2023,GDP_at_current_prices,12351024844,NA,NA
 516,Namibia,2024,GDP_at_constant_prices_2015,12137477521,NA,NA
-516,Namibia,2024,GDP_at_current_prices,18441381733,NA,NA
+516,Namibia,2024,GDP_at_current_prices,13273170268,NA,NA
 520,Nauru,1970,GDP_at_constant_prices_2015,230254989,NA,NA
 520,Nauru,1970,GDP_at_current_prices,15348249,NA,NA
 520,Nauru,1971,GDP_at_constant_prices_2015,236928670,NA,NA
@@ -18854,7 +18854,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 520,Nauru,2023,GDP_at_constant_prices_2015,124072048,NA,NA
 520,Nauru,2023,GDP_at_current_prices,175886764,NA,NA
 520,Nauru,2024,GDP_at_constant_prices_2015,126305345,NA,NA
-520,Nauru,2024,GDP_at_current_prices,182758893,NA,NA
+520,Nauru,2024,GDP_at_current_prices,220365479,NA,NA
 5200,Americas,1970,GDP_at_constant_prices_2015,6975901314605,NA,NA
 5200,Americas,1970,GDP_at_current_prices,1351355149256,NA,NA
 5200,Americas,1971,GDP_at_constant_prices_2015,7248686802587,NA,NA
@@ -18964,7 +18964,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5200,Americas,2023,GDP_at_constant_prices_2015,29710764278534,NA,NA
 5200,Americas,2023,GDP_at_current_prices,36834562489475,NA,NA
 5200,Americas,2024,GDP_at_constant_prices_2015,30480084547244,NA,NA
-5200,Americas,2024,GDP_at_current_prices,22821574206442116e5,NA,NA
+5200,Americas,2024,GDP_at_current_prices,38971258857595,NA,NA
 5210,Northern America,1970,GDP_at_constant_prices_2015,5634410440231,NA,NA
 5210,Northern America,1970,GDP_at_current_prices,1162852824325,NA,NA
 5210,Northern America,1971,GDP_at_constant_prices_2015,5823331376038,NA,NA
@@ -19074,7 +19074,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5210,Northern America,2023,GDP_at_constant_prices_2015,23855636586799,NA,NA
 5210,Northern America,2023,GDP_at_current_prices,29874353344229,NA,NA
 5210,Northern America,2024,GDP_at_constant_prices_2015,24500680790222,NA,NA
-5210,Northern America,2024,GDP_at_current_prices,32330266591157,NA,NA
+5210,Northern America,2024,GDP_at_current_prices,31407834839013,NA,NA
 5220,Latin America and the Caribbean,1970,GDP_at_constant_prices_2015,1341490874374,NA,NA
 5220,Latin America and the Caribbean,1970,GDP_at_current_prices,188502324931,NA,NA
 5220,Latin America and the Caribbean,1971,GDP_at_constant_prices_2015,1425355426549,NA,NA
@@ -19184,7 +19184,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5220,Latin America and the Caribbean,2023,GDP_at_constant_prices_2015,5855127691735,NA,NA
 5220,Latin America and the Caribbean,2023,GDP_at_current_prices,6960209145246,NA,NA
 5220,Latin America and the Caribbean,2024,GDP_at_constant_prices_2015,5979403757022,NA,NA
-5220,Latin America and the Caribbean,2024,GDP_at_current_prices,2282157388313945e6,NA,NA
+5220,Latin America and the Caribbean,2024,GDP_at_current_prices,7563424018582,NA,NA
 5221,Caribbean,1970,GDP_at_constant_prices_2015,94294940406,NA,NA
 5221,Caribbean,1970,GDP_at_current_prices,17331692471,NA,NA
 5221,Caribbean,1971,GDP_at_constant_prices_2015,100164755995,NA,NA
@@ -19294,7 +19294,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5221,Caribbean,2023,GDP_at_constant_prices_2015,370889338592,NA,NA
 5221,Caribbean,2023,GDP_at_current_prices,554864115742,NA,NA
 5221,Caribbean,2024,GDP_at_constant_prices_2015,375640540748,NA,NA
-5221,Caribbean,2024,GDP_at_current_prices,795068052114,NA,NA
+5221,Caribbean,2024,GDP_at_current_prices,723911643978,NA,NA
 5222,Central America,1970,GDP_at_constant_prices_2015,338381417086,NA,NA
 5222,Central America,1970,GDP_at_current_prices,54485746846,NA,NA
 5222,Central America,1971,GDP_at_constant_prices_2015,353331744557,NA,NA
@@ -19404,7 +19404,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5222,Central America,2023,GDP_at_constant_prices_2015,1633004571022,NA,NA
 5222,Central America,2023,GDP_at_current_prices,2157453726943,NA,NA
 5222,Central America,2024,GDP_at_constant_prices_2015,1659134255527,NA,NA
-5222,Central America,2024,GDP_at_current_prices,2482186637336,NA,NA
+5222,Central America,2024,GDP_at_current_prices,2238246602024,NA,NA
 5223,South America,1970,GDP_at_constant_prices_2015,908814516882,NA,NA
 5223,South America,1970,GDP_at_current_prices,116684885614,NA,NA
 5223,South America,1971,GDP_at_constant_prices_2015,971858925997,NA,NA
@@ -19514,7 +19514,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5223,South America,2023,GDP_at_constant_prices_2015,3851233782121,NA,NA
 5223,South America,2023,GDP_at_current_prices,4247891302561,NA,NA
 5223,South America,2024,GDP_at_constant_prices_2015,3944628960747,NA,NA
-5223,South America,2024,GDP_at_current_prices,22821573850366904e5,NA,NA
+5223,South America,2024,GDP_at_current_prices,4601265772580,NA,NA
 524,Nepal,1970,GDP_at_constant_prices_2015,3571794621,NA,NA
 524,Nepal,1970,GDP_at_current_prices,1040760767,NA,NA
 524,Nepal,1971,GDP_at_constant_prices_2015,3529159724,NA,NA
@@ -19624,7 +19624,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 524,Nepal,2023,GDP_at_constant_prices_2015,32775265288,NA,NA
 524,Nepal,2023,GDP_at_current_prices,40483740483,NA,NA
 524,Nepal,2024,GDP_at_constant_prices_2015,33987950104,NA,NA
-524,Nepal,2024,GDP_at_current_prices,56493110556,NA,NA
+524,Nepal,2024,GDP_at_current_prices,43453921076,NA,NA
 528,Netherlands (Kingdom of the),1970,GDP_at_constant_prices_2015,276200101698,NA,NA
 528,Netherlands (Kingdom of the),1970,GDP_at_current_prices,38221247875,NA,NA
 528,Netherlands (Kingdom of the),1971,GDP_at_constant_prices_2015,288161716489,NA,NA
@@ -19734,7 +19734,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 528,Netherlands (Kingdom of the),2023,GDP_at_constant_prices_2015,917196718878,NA,NA
 528,Netherlands (Kingdom of the),2023,GDP_at_current_prices,1154361305398,NA,NA
 528,Netherlands (Kingdom of the),2024,GDP_at_constant_prices_2015,924809451645,NA,NA
-528,Netherlands (Kingdom of the),2024,GDP_at_current_prices,1220096988275,NA,NA
+528,Netherlands (Kingdom of the),2024,GDP_at_current_prices,1225172319479,NA,NA
 530,Netherlands Antilles,1970,GDP_at_constant_prices_2015,1463090658,NA,NA
 530,Netherlands Antilles,1970,GDP_at_current_prices,224218560,NA,NA
 530,Netherlands Antilles,1971,GDP_at_constant_prices_2015,1557529072,NA,NA
@@ -19926,7 +19926,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5300,Asia,2023,GDP_at_constant_prices_2015,37070893502019,NA,NA
 5300,Asia,2023,GDP_at_current_prices,38408792933746,NA,NA
 5300,Asia,2024,GDP_at_constant_prices_2015,38561010761632,NA,NA
-5300,Asia,2024,GDP_at_current_prices,66329153250977,NA,NA
+5300,Asia,2024,GDP_at_current_prices,40834625622239,NA,NA
 531,Curacao,2011,GDP_at_constant_prices_2015,3094765327,NA,NA
 531,Curacao,2011,GDP_at_current_prices,2930092237,NA,NA
 531,Curacao,2012,GDP_at_constant_prices_2015,3083966132,NA,NA
@@ -20020,7 +20020,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5310,Central Asia,2023,GDP_at_constant_prices_2015,447064629295,NA,NA
 5310,Central Asia,2023,GDP_at_current_prices,441117448830,NA,NA
 5310,Central Asia,2024,GDP_at_constant_prices_2015,471756018808,NA,NA
-5310,Central Asia,2024,GDP_at_current_prices,1110701745775,NA,NA
+5310,Central Asia,2024,GDP_at_current_prices,537929973448,NA,NA
 5320,Southern Asia,1970,GDP_at_constant_prices_2015,432392491781,NA,NA
 5320,Southern Asia,1970,GDP_at_current_prices,98442703690,NA,NA
 5320,Southern Asia,1971,GDP_at_constant_prices_2015,453634084682,NA,NA
@@ -20130,7 +20130,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5320,Southern Asia,2023,GDP_at_constant_prices_2015,4731933014669,NA,NA
 5320,Southern Asia,2023,GDP_at_current_prices,4850543613904,NA,NA
 5320,Southern Asia,2024,GDP_at_constant_prices_2015,5009950615775,NA,NA
-5320,Southern Asia,2024,GDP_at_current_prices,13071144940642,NA,NA
+5320,Southern Asia,2024,GDP_at_current_prices,5344666901225,NA,NA
 533,Aruba,1970,GDP_at_constant_prices_2015,270576673,NA,NA
 533,Aruba,1970,GDP_at_current_prices,197623955,NA,NA
 533,Aruba,1971,GDP_at_constant_prices_2015,295167976,NA,NA
@@ -20240,7 +20240,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 533,Aruba,2023,GDP_at_constant_prices_2015,3347287205,NA,NA
 533,Aruba,2023,GDP_at_current_prices,3648573136,NA,NA
 533,Aruba,2024,GDP_at_constant_prices_2015,3481178693,NA,NA
-533,Aruba,2024,GDP_at_current_prices,4054968338,NA,NA
+533,Aruba,2024,GDP_at_current_prices,3859447073,NA,NA
 5330,Eastern Asia,1970,GDP_at_constant_prices_2015,1820375384711,NA,NA
 5330,Eastern Asia,1970,GDP_at_current_prices,333807248725,NA,NA
 5330,Eastern Asia,1971,GDP_at_constant_prices_2015,1918638374821,NA,NA
@@ -20350,7 +20350,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5330,Eastern Asia,2023,GDP_at_constant_prices_2015,24745555479847,NA,NA
 5330,Eastern Asia,2023,GDP_at_current_prices,25058545479125,NA,NA
 5330,Eastern Asia,2024,GDP_at_constant_prices_2015,25694750245854,NA,NA
-5330,Eastern Asia,2024,GDP_at_current_prices,29493663130721,NA,NA
+5330,Eastern Asia,2024,GDP_at_current_prices,25418310197731,NA,NA
 534,Sint Maarten (Dutch part),2011,GDP_at_constant_prices_2015,1030286373,NA,NA
 534,Sint Maarten (Dutch part),2011,GDP_at_current_prices,936062989,NA,NA
 534,Sint Maarten (Dutch part),2012,GDP_at_constant_prices_2015,1129867729,NA,NA
@@ -20488,7 +20488,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5340,Western Asia,2023,GDP_at_constant_prices_2015,3761504703751,NA,NA
 5340,Western Asia,2023,GDP_at_current_prices,4267406687482,NA,NA
 5340,Western Asia,2024,GDP_at_constant_prices_2015,3839888480487,NA,NA
-5340,Western Asia,2024,GDP_at_current_prices,17992378756307,NA,NA
+5340,Western Asia,2024,GDP_at_current_prices,5591958453520,NA,NA
 5350,South-eastern Asia,1970,GDP_at_constant_prices_2015,211681035954,NA,NA
 5350,South-eastern Asia,1970,GDP_at_current_prices,37750132487,NA,NA
 5350,South-eastern Asia,1971,GDP_at_constant_prices_2015,227458493830,NA,NA
@@ -20598,7 +20598,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5350,South-eastern Asia,2023,GDP_at_constant_prices_2015,3384835674457,NA,NA
 5350,South-eastern Asia,2023,GDP_at_current_prices,3791179704405,NA,NA
 5350,South-eastern Asia,2024,GDP_at_constant_prices_2015,3544665400708,NA,NA
-5350,South-eastern Asia,2024,GDP_at_current_prices,4661264677532,NA,NA
+5350,South-eastern Asia,2024,GDP_at_current_prices,3941760096315,NA,NA
 540,New Caledonia,1970,GDP_at_constant_prices_2015,2405902698,NA,NA
 540,New Caledonia,1970,GDP_at_current_prices,378313611,NA,NA
 540,New Caledonia,1971,GDP_at_constant_prices_2015,2574297017,NA,NA
@@ -20818,7 +20818,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5400,Europe,2023,GDP_at_constant_prices_2015,21814105960270,NA,NA
 5400,Europe,2023,GDP_at_current_prices,25807634506307,NA,NA
 5400,Europe,2024,GDP_at_constant_prices_2015,22082233554069,NA,NA
-5400,Europe,2024,GDP_at_current_prices,29240972936994,NA,NA
+5400,Europe,2024,GDP_at_current_prices,27086382141185,NA,NA
 5410,Eastern Europe,1970,GDP_at_constant_prices_2015,964878727233,NA,NA
 5410,Eastern Europe,1970,GDP_at_current_prices,506014099453,NA,NA
 5410,Eastern Europe,1971,GDP_at_constant_prices_2015,1021722476146,NA,NA
@@ -20928,7 +20928,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5410,Eastern Europe,2023,GDP_at_constant_prices_2015,3107051928728,NA,NA
 5410,Eastern Europe,2023,GDP_at_current_prices,4226722321454,NA,NA
 5410,Eastern Europe,2024,GDP_at_constant_prices_2015,3200176210166,NA,NA
-5410,Eastern Europe,2024,GDP_at_current_prices,5296980091992,NA,NA
+5410,Eastern Europe,2024,GDP_at_current_prices,4548314002920,NA,NA
 5420,Northern Europe,1970,GDP_at_constant_prices_2015,1624164854098,NA,NA
 5420,Northern Europe,1970,GDP_at_current_prices,214891369471,NA,NA
 5420,Northern Europe,1971,GDP_at_constant_prices_2015,1677276912758,NA,NA
@@ -21038,7 +21038,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5420,Northern Europe,2023,GDP_at_constant_prices_2015,5485140235363,NA,NA
 5420,Northern Europe,2023,GDP_at_current_prices,5899799060340,NA,NA
 5420,Northern Europe,2024,GDP_at_constant_prices_2015,5537774243527,NA,NA
-5420,Northern Europe,2024,GDP_at_current_prices,7244915475278,NA,NA
+5420,Northern Europe,2024,GDP_at_current_prices,6223785444280,NA,NA
 5430,Southern Europe,1970,GDP_at_constant_prices_2015,1489630832954,NA,NA
 5430,Southern Europe,1970,GDP_at_current_prices,192943118946,NA,NA
 5430,Southern Europe,1971,GDP_at_constant_prices_2015,1542725427246,NA,NA
@@ -21148,7 +21148,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5430,Southern Europe,2023,GDP_at_constant_prices_2015,4103362906835,NA,NA
 5430,Southern Europe,2023,GDP_at_current_prices,4794608004397,NA,NA
 5430,Southern Europe,2024,GDP_at_constant_prices_2015,4176659887871,NA,NA
-5430,Southern Europe,2024,GDP_at_current_prices,5144432583365,NA,NA
+5430,Southern Europe,2024,GDP_at_current_prices,5024760367561,NA,NA
 5440,Western Europe,1970,GDP_at_constant_prices_2015,3229949340948,NA,NA
 5440,Western Europe,1970,GDP_at_current_prices,470639441931,NA,NA
 5440,Western Europe,1971,GDP_at_constant_prices_2015,3360750519385,NA,NA
@@ -21258,7 +21258,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5440,Western Europe,2023,GDP_at_constant_prices_2015,9118550889344,NA,NA
 5440,Western Europe,2023,GDP_at_current_prices,10886505120116,NA,NA
 5440,Western Europe,2024,GDP_at_constant_prices_2015,9167623212505,NA,NA
-5440,Western Europe,2024,GDP_at_current_prices,11554644786359,NA,NA
+5440,Western Europe,2024,GDP_at_current_prices,11289522326424,NA,NA
 548,Vanuatu,1970,GDP_at_constant_prices_2015,118341069,NA,NA
 548,Vanuatu,1970,GDP_at_current_prices,38009945,NA,NA
 548,Vanuatu,1971,GDP_at_constant_prices_2015,121440478,NA,NA
@@ -21368,7 +21368,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 548,Vanuatu,2023,GDP_at_constant_prices_2015,849561320,NA,NA
 548,Vanuatu,2023,GDP_at_current_prices,1118846740,NA,NA
 548,Vanuatu,2024,GDP_at_constant_prices_2015,860605618,NA,NA
-548,Vanuatu,2024,GDP_at_current_prices,1253529244,NA,NA
+548,Vanuatu,2024,GDP_at_current_prices,1131152632,NA,NA
 5500,Oceania,1970,GDP_at_constant_prices_2015,384829609577,NA,NA
 5500,Oceania,1970,GDP_at_current_prices,54017589867,NA,NA
 5500,Oceania,1971,GDP_at_constant_prices_2015,400018969338,NA,NA
@@ -21478,7 +21478,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5500,Oceania,2023,GDP_at_constant_prices_2015,1766927561263,NA,NA
 5500,Oceania,2023,GDP_at_current_prices,2087006259787,NA,NA
 5500,Oceania,2024,GDP_at_constant_prices_2015,1784877941128,NA,NA
-5500,Oceania,2024,GDP_at_current_prices,2306063166731,NA,NA
+5500,Oceania,2024,GDP_at_current_prices,2122364754188,NA,NA
 5510,Oceania excluding Australia and New Zealand,1970,GDP_at_constant_prices_2015,12322194270,NA,NA
 5510,Oceania excluding Australia and New Zealand,1970,GDP_at_current_prices,2175975806,NA,NA
 5510,Oceania excluding Australia and New Zealand,1971,GDP_at_constant_prices_2015,13019169485,NA,NA
@@ -21588,7 +21588,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5510,Oceania excluding Australia and New Zealand,2023,GDP_at_constant_prices_2015,50830467549,NA,NA
 5510,Oceania excluding Australia and New Zealand,2023,GDP_at_current_prices,59203020379,NA,NA
 5510,Oceania excluding Australia and New Zealand,2024,GDP_at_constant_prices_2015,52127732489,NA,NA
-5510,Oceania excluding Australia and New Zealand,2024,GDP_at_current_prices,68794038382,NA,NA
+5510,Oceania excluding Australia and New Zealand,2024,GDP_at_current_prices,59932712465,NA,NA
 5520,Australia and New Zealand,1970,GDP_at_constant_prices_2015,372507415307,NA,NA
 5520,Australia and New Zealand,1970,GDP_at_current_prices,51841614061,NA,NA
 5520,Australia and New Zealand,1971,GDP_at_constant_prices_2015,386999799853,NA,NA
@@ -21698,7 +21698,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5520,Australia and New Zealand,2023,GDP_at_constant_prices_2015,1716097093714,NA,NA
 5520,Australia and New Zealand,2023,GDP_at_current_prices,2027803239408,NA,NA
 5520,Australia and New Zealand,2024,GDP_at_constant_prices_2015,1732750208639,NA,NA
-5520,Australia and New Zealand,2024,GDP_at_current_prices,2237269128349,NA,NA
+5520,Australia and New Zealand,2024,GDP_at_current_prices,2062432041723,NA,NA
 554,New Zealand,1970,GDP_at_constant_prices_2015,59475854004,NA,NA
 554,New Zealand,1970,GDP_at_current_prices,6623846821,NA,NA
 554,New Zealand,1971,GDP_at_constant_prices_2015,61727287117,NA,NA
@@ -21808,7 +21808,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 554,New Zealand,2023,GDP_at_constant_prices_2015,222395310640,NA,NA
 554,New Zealand,2023,GDP_at_current_prices,252175506110,NA,NA
 554,New Zealand,2024,GDP_at_constant_prices_2015,222617705951,NA,NA
-554,New Zealand,2024,GDP_at_current_prices,290509833779,NA,NA
+554,New Zealand,2024,GDP_at_current_prices,261978449861,NA,NA
 558,Nicaragua,1970,GDP_at_constant_prices_2015,5758729299,NA,NA
 558,Nicaragua,1970,GDP_at_current_prices,1140274489,NA,NA
 558,Nicaragua,1971,GDP_at_constant_prices_2015,6042572933,NA,NA
@@ -21918,7 +21918,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 558,Nicaragua,2023,GDP_at_constant_prices_2015,15399356979,NA,NA
 558,Nicaragua,2023,GDP_at_current_prices,17829207905,NA,NA
 558,Nicaragua,2024,GDP_at_constant_prices_2015,15969133187,NA,NA
-558,Nicaragua,2024,GDP_at_current_prices,25892014169,NA,NA
+558,Nicaragua,2024,GDP_at_current_prices,19852949227,NA,NA
 5600,Asia and Oceania,1970,GDP_at_constant_prices_2015,3309902314971,NA,NA
 5600,Asia and Oceania,1970,GDP_at_current_prices,574644666418,NA,NA
 5600,Asia and Oceania,1971,GDP_at_constant_prices_2015,3505700160037,NA,NA
@@ -22028,7 +22028,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5600,Asia and Oceania,2023,GDP_at_constant_prices_2015,38837821063282,NA,NA
 5600,Asia and Oceania,2023,GDP_at_current_prices,40495799193533,NA,NA
 5600,Asia and Oceania,2024,GDP_at_constant_prices_2015,40345888702760,NA,NA
-5600,Asia and Oceania,2024,GDP_at_current_prices,68635216417708,NA,NA
+5600,Asia and Oceania,2024,GDP_at_current_prices,42956990376427,NA,NA
 562,Niger,1970,GDP_at_constant_prices_2015,3605294458,NA,NA
 562,Niger,1970,GDP_at_current_prices,580985639,NA,NA
 562,Niger,1971,GDP_at_constant_prices_2015,3810050691,NA,NA
@@ -22138,7 +22138,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 562,Niger,2023,GDP_at_constant_prices_2015,14705444104,NA,NA
 562,Niger,2023,GDP_at_current_prices,16819170421,NA,NA
 562,Niger,2024,GDP_at_constant_prices_2015,15955406853,NA,NA
-562,Niger,2024,GDP_at_current_prices,20204819348,NA,NA
+562,Niger,2024,GDP_at_current_prices,19574010738,NA,NA
 566,Nigeria,1970,GDP_at_constant_prices_2015,87998824228,NA,NA
 566,Nigeria,1970,GDP_at_current_prices,29387650369,NA,NA
 566,Nigeria,1971,GDP_at_constant_prices_2015,100527684600,NA,NA
@@ -22248,7 +22248,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 566,Nigeria,2023,GDP_at_constant_prices_2015,558379826200,NA,NA
 566,Nigeria,2023,GDP_at_current_prices,374983861069,NA,NA
 566,Nigeria,2024,GDP_at_constant_prices_2015,575131220986,NA,NA
-566,Nigeria,2024,GDP_at_current_prices,2530896225405,NA,NA
+566,Nigeria,2024,GDP_at_current_prices,188925173170,NA,NA
 5702,Northern America and Europe,1970,GDP_at_constant_prices_2015,12943034195464,NA,NA
 5702,Northern America and Europe,1970,GDP_at_current_prices,2547340854126,NA,NA
 5702,Northern America and Europe,1971,GDP_at_constant_prices_2015,13425806711573,NA,NA
@@ -22358,7 +22358,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5702,Northern America and Europe,2023,GDP_at_constant_prices_2015,45669742547069,NA,NA
 5702,Northern America and Europe,2023,GDP_at_current_prices,55681987850536,NA,NA
 5702,Northern America and Europe,2024,GDP_at_constant_prices_2015,46582914344291,NA,NA
-5702,Northern America and Europe,2024,GDP_at_current_prices,61571239528151,NA,NA
+5702,Northern America and Europe,2024,GDP_at_current_prices,58494216980198,NA,NA
 5703,Central and Southern Asia,1970,GDP_at_constant_prices_2015,432392491781,NA,NA
 5703,Central and Southern Asia,1970,GDP_at_current_prices,98442703690,NA,NA
 5703,Central and Southern Asia,1971,GDP_at_constant_prices_2015,453634084682,NA,NA
@@ -22468,7 +22468,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5703,Central and Southern Asia,2023,GDP_at_constant_prices_2015,5178997643964,NA,NA
 5703,Central and Southern Asia,2023,GDP_at_current_prices,5291661062734,NA,NA
 5703,Central and Southern Asia,2024,GDP_at_constant_prices_2015,5481706634583,NA,NA
-5703,Central and Southern Asia,2024,GDP_at_current_prices,14181846686417,NA,NA
+5703,Central and Southern Asia,2024,GDP_at_current_prices,5882596874673,NA,NA
 5704,Eastern and South-Eastern Asia,1970,GDP_at_constant_prices_2015,2032056420665,NA,NA
 5704,Eastern and South-Eastern Asia,1970,GDP_at_current_prices,371557381212,NA,NA
 5704,Eastern and South-Eastern Asia,1971,GDP_at_constant_prices_2015,2146096868651,NA,NA
@@ -22578,7 +22578,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5704,Eastern and South-Eastern Asia,2023,GDP_at_constant_prices_2015,28130391154304,NA,NA
 5704,Eastern and South-Eastern Asia,2023,GDP_at_current_prices,28849725183530,NA,NA
 5704,Eastern and South-Eastern Asia,2024,GDP_at_constant_prices_2015,29239415646562,NA,NA
-5704,Eastern and South-Eastern Asia,2024,GDP_at_current_prices,34154927808253,NA,NA
+5704,Eastern and South-Eastern Asia,2024,GDP_at_current_prices,29360070294046,NA,NA
 5705,Western Asia and Northern Africa,1970,GDP_at_constant_prices_2015,594814142186,NA,NA
 5705,Western Asia and Northern Africa,1970,GDP_at_current_prices,75362511600,NA,NA
 5705,Western Asia and Northern Africa,1971,GDP_at_constant_prices_2015,637928664487,NA,NA
@@ -22688,7 +22688,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5705,Western Asia and Northern Africa,2023,GDP_at_constant_prices_2015,4726687524735,NA,NA
 5705,Western Asia and Northern Africa,2023,GDP_at_current_prices,5117652151817,NA,NA
 5705,Western Asia and Northern Africa,2024,GDP_at_constant_prices_2015,4824719824888,NA,NA
-5705,Western Asia and Northern Africa,2024,GDP_at_current_prices,60471398387669,NA,NA
+5705,Western Asia and Northern Africa,2024,GDP_at_current_prices,6439695770040,NA,NA
 5706,"Europe, Northern America, Australia and New Zealand",1970,GDP_at_constant_prices_2015,13315541610771,NA,NA
 5706,"Europe, Northern America, Australia and New Zealand",1970,GDP_at_current_prices,2599182468187,NA,NA
 5706,"Europe, Northern America, Australia and New Zealand",1971,GDP_at_constant_prices_2015,13812806511426,NA,NA
@@ -22798,7 +22798,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 5706,"Europe, Northern America, Australia and New Zealand",2023,GDP_at_constant_prices_2015,47385839640783,NA,NA
 5706,"Europe, Northern America, Australia and New Zealand",2023,GDP_at_current_prices,57709791089944,NA,NA
 5706,"Europe, Northern America, Australia and New Zealand",2024,GDP_at_constant_prices_2015,48315664552930,NA,NA
-5706,"Europe, Northern America, Australia and New Zealand",2024,GDP_at_current_prices,63808508656500,NA,NA
+5706,"Europe, Northern America, Australia and New Zealand",2024,GDP_at_current_prices,60556649021921,NA,NA
 578,Norway,1970,GDP_at_constant_prices_2015,103621742275,NA,NA
 578,Norway,1970,GDP_at_current_prices,12814194863,NA,NA
 578,Norway,1971,GDP_at_constant_prices_2015,109500837036,NA,NA
@@ -22908,7 +22908,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 578,Norway,2023,GDP_at_constant_prices_2015,435564038442,NA,NA
 578,Norway,2023,GDP_at_current_prices,485310823604,NA,NA
 578,Norway,2024,GDP_at_constant_prices_2015,444712867758,NA,NA
-578,Norway,2024,GDP_at_current_prices,594286972911,NA,NA
+578,Norway,2024,GDP_at_current_prices,484087720703,NA,NA
 582,"Pacific Islands, Trust Territory",1970,GDP_at_constant_prices_2015,276108575,Micronesia 583 + Marshall Islands 584 + Palau 585,Micronésie (États fédérés de) 583 + Îles Marshall 584 + Palaos 585
 582,"Pacific Islands, Trust Territory",1970,GDP_at_current_prices,38905677,Micronesia 583 + Marshall Islands 584 + Palau 585,Micronésie (États fédérés de) 583 + Îles Marshall 584 + Palaos 585
 582,"Pacific Islands, Trust Territory",1971,GDP_at_constant_prices_2015,279639965,Micronesia 583 + Marshall Islands 584 + Palau 585,Micronésie (États fédérés de) 583 + Îles Marshall 584 + Palaos 585
@@ -23018,7 +23018,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 583,Micronesia (Federated States of),2023,GDP_at_constant_prices_2015,336344332,NA,NA
 583,Micronesia (Federated States of),2023,GDP_at_current_prices,460000000,NA,NA
 583,Micronesia (Federated States of),2024,GDP_at_constant_prices_2015,340044120,NA,NA
-583,Micronesia (Federated States of),2024,GDP_at_current_prices,420898943,NA,NA
+583,Micronesia (Federated States of),2024,GDP_at_current_prices,481812246,NA,NA
 584,Marshall Islands,1982,GDP_at_constant_prices_2015,79934987,NA,NA
 584,Marshall Islands,1982,GDP_at_current_prices,35244447,NA,NA
 584,Marshall Islands,1983,GDP_at_constant_prices_2015,92331228,NA,NA
@@ -23104,7 +23104,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 584,Marshall Islands,2023,GDP_at_constant_prices_2015,210269355,NA,NA
 584,Marshall Islands,2023,GDP_at_current_prices,269925100,NA,NA
 584,Marshall Islands,2024,GDP_at_constant_prices_2015,215526089,NA,NA
-584,Marshall Islands,2024,GDP_at_current_prices,252722440,NA,NA
+584,Marshall Islands,2024,GDP_at_current_prices,276813088,NA,NA
 585,Palau,1982,GDP_at_constant_prices_2015,130212607,NA,NA
 585,Palau,1982,GDP_at_current_prices,29067928,NA,NA
 585,Palau,1983,GDP_at_constant_prices_2015,132728327,NA,NA
@@ -23190,7 +23190,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 585,Palau,2023,GDP_at_constant_prices_2015,223435956,NA,NA
 585,Palau,2023,GDP_at_current_prices,281849063,NA,NA
 585,Palau,2024,GDP_at_constant_prices_2015,250248271,NA,NA
-585,Palau,2024,GDP_at_current_prices,339329553,NA,NA
+585,Palau,2024,GDP_at_current_prices,308778317,NA,NA
 586,Pakistan,1970,GDP_at_constant_prices_2015,30058160072,NA,NA
 586,Pakistan,1970,GDP_at_current_prices,13139261768,NA,NA
 586,Pakistan,1971,GDP_at_constant_prices_2015,30524197656,NA,NA
@@ -23300,7 +23300,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 586,Pakistan,2023,GDP_at_constant_prices_2015,394957654042,NA,NA
 586,Pakistan,2023,GDP_at_current_prices,299864177346,NA,NA
 586,Pakistan,2024,GDP_at_constant_prices_2015,405226553047,NA,NA
-586,Pakistan,2024,GDP_at_current_prices,1052986393091,NA,NA
+586,Pakistan,2024,GDP_at_current_prices,382914483047,NA,NA
 590,"Panama, excluding Canal Zone",1970,GDP_at_constant_prices_2015,5929886112,NA,NA
 590,"Panama, excluding Canal Zone",1970,GDP_at_current_prices,1165333385,NA,NA
 590,"Panama, excluding Canal Zone",1971,GDP_at_constant_prices_2015,6499360564,NA,NA
@@ -23410,7 +23410,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 591,Panama,2023,GDP_at_constant_prices_2015,75454787205,NA,NA
 591,Panama,2023,GDP_at_current_prices,83382400000,NA,NA
 591,Panama,2024,GDP_at_constant_prices_2015,77265702098,NA,NA
-591,Panama,2024,GDP_at_current_prices,82994823800,NA,NA
+591,Panama,2024,GDP_at_current_prices,87037118323,NA,NA
 598,Papua New Guinea,1970,GDP_at_constant_prices_2015,5567670231,NA,NA
 598,Papua New Guinea,1970,GDP_at_current_prices,1097370106,NA,NA
 598,Papua New Guinea,1971,GDP_at_constant_prices_2015,5787215562,NA,NA
@@ -23520,7 +23520,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 598,Papua New Guinea,2023,GDP_at_constant_prices_2015,25646287382,NA,NA
 598,Papua New Guinea,2023,GDP_at_current_prices,31020195652,NA,NA
 598,Papua New Guinea,2024,GDP_at_constant_prices_2015,26672138877,NA,NA
-598,Papua New Guinea,2024,GDP_at_current_prices,38612441726,NA,NA
+598,Papua New Guinea,2024,GDP_at_current_prices,31231420965,NA,NA
 600,Paraguay,1970,GDP_at_constant_prices_2015,4778953944,NA,NA
 600,Paraguay,1970,GDP_at_current_prices,680195559,NA,NA
 600,Paraguay,1971,GDP_at_constant_prices_2015,5051351358,NA,NA
@@ -23630,7 +23630,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 600,Paraguay,2023,GDP_at_constant_prices_2015,44019530600,NA,NA
 600,Paraguay,2023,GDP_at_current_prices,42955196096,NA,NA
 600,Paraguay,2024,GDP_at_constant_prices_2015,45868350885,NA,NA
-600,Paraguay,2024,GDP_at_current_prices,67209489548,NA,NA
+600,Paraguay,2024,GDP_at_current_prices,44043619714,NA,NA
 604,Peru,1970,GDP_at_constant_prices_2015,45964788612,NA,NA
 604,Peru,1970,GDP_at_current_prices,5839793282,NA,NA
 604,Peru,1971,GDP_at_constant_prices_2015,48074820586,NA,NA
@@ -23740,7 +23740,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 604,Peru,2023,GDP_at_constant_prices_2015,221775217440,NA,NA
 604,Peru,2023,GDP_at_current_prices,267603233674,NA,NA
 604,Peru,2024,GDP_at_constant_prices_2015,228206698746,NA,NA
-604,Peru,2024,GDP_at_current_prices,312418409311,NA,NA
+604,Peru,2024,GDP_at_current_prices,282459478123,NA,NA
 608,Philippines,1970,GDP_at_constant_prices_2015,50739152671,NA,NA
 608,Philippines,1970,GDP_at_current_prices,7559115518,NA,NA
 608,Philippines,1971,GDP_at_constant_prices_2015,53473489879,NA,NA
@@ -23850,7 +23850,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 608,Philippines,2023,GDP_at_constant_prices_2015,430342487625,NA,NA
 608,Philippines,2023,GDP_at_current_prices,437146370976,NA,NA
 608,Philippines,2024,GDP_at_constant_prices_2015,454872009419,NA,NA
-608,Philippines,2024,GDP_at_current_prices,629057613676,NA,NA
+608,Philippines,2024,GDP_at_current_prices,461771869782,NA,NA
 616,Poland,1970,GDP_at_constant_prices_2015,114929721023,NA,NA
 616,Poland,1970,GDP_at_current_prices,28276836750,NA,NA
 616,Poland,1971,GDP_at_constant_prices_2015,123451899065,NA,NA
@@ -23960,7 +23960,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 616,Poland,2023,GDP_at_constant_prices_2015,638035034306,NA,NA
 616,Poland,2023,GDP_at_current_prices,809200697804,NA,NA
 616,Poland,2024,GDP_at_constant_prices_2015,656538050301,NA,NA
-616,Poland,2024,GDP_at_current_prices,993718873586,NA,NA
+616,Poland,2024,GDP_at_current_prices,909010571181,NA,NA
 620,Portugal,1970,GDP_at_constant_prices_2015,66576853901,NA,NA
 620,Portugal,1970,GDP_at_current_prices,8107987175,NA,NA
 620,Portugal,1971,GDP_at_constant_prices_2015,70991999252,NA,NA
@@ -24070,7 +24070,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 620,Portugal,2023,GDP_at_constant_prices_2015,235813117102,NA,NA
 620,Portugal,2023,GDP_at_current_prices,289114289664,NA,NA
 620,Portugal,2024,GDP_at_constant_prices_2015,239638271652,NA,NA
-620,Portugal,2024,GDP_at_current_prices,292725337971,NA,NA
+620,Portugal,2024,GDP_at_current_prices,307404426979,NA,NA
 624,Guinea-Bissau,1970,GDP_at_constant_prices_2015,396935349,NA,NA
 624,Guinea-Bissau,1970,GDP_at_current_prices,280871185,NA,NA
 624,Guinea-Bissau,1971,GDP_at_constant_prices_2015,381411337,NA,NA
@@ -24180,7 +24180,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 624,Guinea-Bissau,2023,GDP_at_constant_prices_2015,1517410560,NA,NA
 624,Guinea-Bissau,2023,GDP_at_current_prices,1841421709,NA,NA
 624,Guinea-Bissau,2024,GDP_at_constant_prices_2015,1578106983,NA,NA
-624,Guinea-Bissau,2024,GDP_at_current_prices,2046702266,NA,NA
+624,Guinea-Bissau,2024,GDP_at_current_prices,2012537501,NA,NA
 626,Timor-Leste,2003,GDP_at_constant_prices_2015,883577482,NA,NA
 626,Timor-Leste,2003,GDP_at_current_prices,490397951,NA,NA
 626,Timor-Leste,2004,GDP_at_constant_prices_2015,887111793,NA,NA
@@ -24224,7 +24224,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 626,Timor-Leste,2023,GDP_at_constant_prices_2015,1769697024,NA,NA
 626,Timor-Leste,2023,GDP_at_current_prices,2079916909,NA,NA
 626,Timor-Leste,2024,GDP_at_constant_prices_2015,1622812171,NA,NA
-626,Timor-Leste,2024,GDP_at_current_prices,2048329479,NA,NA
+626,Timor-Leste,2024,GDP_at_current_prices,1867353737,NA,NA
 630,Puerto Rico,1970,GDP_at_constant_prices_2015,32411741987,NA,NA
 630,Puerto Rico,1970,GDP_at_current_prices,5105645474,NA,NA
 630,Puerto Rico,1971,GDP_at_constant_prices_2015,34474894640,NA,NA
@@ -24334,7 +24334,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 630,Puerto Rico,2023,GDP_at_constant_prices_2015,96564521010,NA,NA
 630,Puerto Rico,2023,GDP_at_current_prices,117902300000,NA,NA
 630,Puerto Rico,2024,GDP_at_constant_prices_2015,99461456641,NA,NA
-630,Puerto Rico,2024,GDP_at_current_prices,116156904014,NA,NA
+630,Puerto Rico,2024,GDP_at_current_prices,123374223284,NA,NA
 634,Qatar,1970,GDP_at_constant_prices_2015,9060525703,NA,NA
 634,Qatar,1970,GDP_at_current_prices,538935598,NA,NA
 634,Qatar,1971,GDP_at_constant_prices_2015,9967289675,NA,NA
@@ -24444,7 +24444,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 634,Qatar,2023,GDP_at_constant_prices_2015,172936988063,NA,NA
 634,Qatar,2023,GDP_at_current_prices,213002809330,NA,NA
 634,Qatar,2024,GDP_at_constant_prices_2015,176222790836,NA,NA
-634,Qatar,2024,GDP_at_current_prices,196903000044,NA,NA
+634,Qatar,2024,GDP_at_current_prices,220051086744,NA,NA
 642,Romania,1970,GDP_at_constant_prices_2015,44187243602,NA,NA
 642,Romania,1970,GDP_at_current_prices,12641605706,NA,NA
 642,Romania,1971,GDP_at_constant_prices_2015,49931585270,NA,NA
@@ -24554,7 +24554,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 642,Romania,2023,GDP_at_constant_prices_2015,236318534585,NA,NA
 642,Romania,2023,GDP_at_current_prices,350776495450,NA,NA
 642,Romania,2024,GDP_at_constant_prices_2015,238681719931,NA,NA
-642,Romania,2024,GDP_at_current_prices,369995213155,NA,NA
+642,Romania,2024,GDP_at_current_prices,384608326479,NA,NA
 643,Russian Federation,1992,GDP_at_constant_prices_2015,946099482880,NA,NA
 643,Russian Federation,1992,GDP_at_current_prices,493038447624,NA,NA
 643,Russian Federation,1993,GDP_at_constant_prices_2015,863788825335,NA,NA
@@ -24620,7 +24620,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 643,Russian Federation,2023,GDP_at_constant_prices_2015,1543254359179,NA,NA
 643,Russian Federation,2023,GDP_at_current_prices,2008419051492,NA,NA
 643,Russian Federation,2024,GDP_at_constant_prices_2015,1603441279187,NA,NA
-643,Russian Federation,2024,GDP_at_current_prices,2754888496185,NA,NA
+643,Russian Federation,2024,GDP_at_current_prices,2154523721147,NA,NA
 646,Rwanda,1970,GDP_at_constant_prices_2015,1062664277,NA,NA
 646,Rwanda,1970,GDP_at_current_prices,227807455,NA,NA
 646,Rwanda,1971,GDP_at_constant_prices_2015,1075490355,NA,NA
@@ -24730,7 +24730,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 646,Rwanda,2023,GDP_at_constant_prices_2015,14013867753,NA,NA
 646,Rwanda,2023,GDP_at_current_prices,14097938461,NA,NA
 646,Rwanda,2024,GDP_at_constant_prices_2015,15177018777,NA,NA
-646,Rwanda,2024,GDP_at_current_prices,25801903090,NA,NA
+646,Rwanda,2024,GDP_at_current_prices,14172181850,NA,NA
 659,Saint Kitts and Nevis,1970,GDP_at_constant_prices_2015,136943181,NA,NA
 659,Saint Kitts and Nevis,1970,GDP_at_current_prices,24845242,NA,NA
 659,Saint Kitts and Nevis,1971,GDP_at_constant_prices_2015,145721590,NA,NA
@@ -24840,7 +24840,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 659,Saint Kitts and Nevis,2023,GDP_at_constant_prices_2015,1005755969,NA,NA
 659,Saint Kitts and Nevis,2023,GDP_at_current_prices,1057896296,NA,NA
 659,Saint Kitts and Nevis,2024,GDP_at_constant_prices_2015,1040957428,NA,NA
-659,Saint Kitts and Nevis,2024,GDP_at_current_prices,1103243232,NA,NA
+659,Saint Kitts and Nevis,2024,GDP_at_current_prices,1119955175,NA,NA
 660,Anguilla,1970,GDP_at_constant_prices_2015,41315963,NA,NA
 660,Anguilla,1970,GDP_at_current_prices,3902380,NA,NA
 660,Anguilla,1971,GDP_at_constant_prices_2015,40283658,NA,NA
@@ -25060,7 +25060,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 662,Saint Lucia,2023,GDP_at_constant_prices_2015,2051031218,NA,NA
 662,Saint Lucia,2023,GDP_at_current_prices,2430166667,NA,NA
 662,Saint Lucia,2024,GDP_at_constant_prices_2015,2133072466,NA,NA
-662,Saint Lucia,2024,GDP_at_current_prices,2366218326,NA,NA
+662,Saint Lucia,2024,GDP_at_current_prices,2518492918,NA,NA
 670,Saint Vincent and the Grenadines,1970,GDP_at_constant_prices_2015,189498913,NA,NA
 670,Saint Vincent and the Grenadines,1970,GDP_at_current_prices,21188008,NA,NA
 670,Saint Vincent and the Grenadines,1971,GDP_at_constant_prices_2015,195123337,NA,NA
@@ -25170,7 +25170,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 670,Saint Vincent and the Grenadines,2023,GDP_at_constant_prices_2015,923117537,NA,NA
 670,Saint Vincent and the Grenadines,2023,GDP_at_current_prices,1090995203,NA,NA
 670,Saint Vincent and the Grenadines,2024,GDP_at_constant_prices_2015,964657826,NA,NA
-670,Saint Vincent and the Grenadines,2024,GDP_at_current_prices,1173648637,NA,NA
+670,Saint Vincent and the Grenadines,2024,GDP_at_current_prices,1145407950,NA,NA
 674,San Marino,1970,GDP_at_constant_prices_2015,556085696,NA,NA
 674,San Marino,1970,GDP_at_current_prices,79820212,NA,NA
 674,San Marino,1971,GDP_at_constant_prices_2015,566195935,NA,NA
@@ -25280,7 +25280,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 674,San Marino,2023,GDP_at_constant_prices_2015,1734976936,NA,NA
 674,San Marino,2023,GDP_at_current_prices,1987453376,NA,NA
 674,San Marino,2024,GDP_at_constant_prices_2015,1747173824,NA,NA
-674,San Marino,2024,GDP_at_current_prices,2069563574,NA,NA
+674,San Marino,2024,GDP_at_current_prices,2057021701,NA,NA
 678,Sao Tome and Principe,1970,GDP_at_constant_prices_2015,84596612,NA,NA
 678,Sao Tome and Principe,1970,GDP_at_current_prices,35388800,NA,NA
 678,Sao Tome and Principe,1971,GDP_at_constant_prices_2015,89143959,NA,NA
@@ -25390,7 +25390,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 678,Sao Tome and Principe,2023,GDP_at_constant_prices_2015,382818689,NA,NA
 678,Sao Tome and Principe,2023,GDP_at_current_prices,684068648,NA,NA
 678,Sao Tome and Principe,2024,GDP_at_constant_prices_2015,391240700,NA,NA
-678,Sao Tome and Principe,2024,GDP_at_current_prices,984089139,NA,NA
+678,Sao Tome and Principe,2024,GDP_at_current_prices,956983011,NA,NA
 682,Saudi Arabia,1970,GDP_at_constant_prices_2015,130795658270,NA,NA
 682,Saudi Arabia,1970,GDP_at_current_prices,5377268844,NA,NA
 682,Saudi Arabia,1971,GDP_at_constant_prices_2015,150714724332,NA,NA
@@ -25500,7 +25500,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 682,Saudi Arabia,2023,GDP_at_constant_prices_2015,776114925455,NA,NA
 682,Saudi Arabia,2023,GDP_at_current_prices,1067582986280,NA,NA
 682,Saudi Arabia,2024,GDP_at_constant_prices_2015,786204419486,NA,NA
-682,Saudi Arabia,2024,GDP_at_current_prices,907448064394,NA,NA
+682,Saudi Arabia,2024,GDP_at_current_prices,1085296797504,NA,NA
 686,Senegal,1970,GDP_at_constant_prices_2015,4820452116,NA,NA
 686,Senegal,1970,GDP_at_current_prices,1231806812,NA,NA
 686,Senegal,1971,GDP_at_constant_prices_2015,4814514136,NA,NA
@@ -25610,7 +25610,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 686,Senegal,2023,GDP_at_constant_prices_2015,26387730303,NA,NA
 686,Senegal,2023,GDP_at_current_prices,30408127074,NA,NA
 686,Senegal,2024,GDP_at_constant_prices_2015,27970994121,NA,NA
-686,Senegal,2024,GDP_at_current_prices,35653047475,NA,NA
+686,Senegal,2024,GDP_at_current_prices,32523064351,NA,NA
 688,Serbia,2008,GDP_at_constant_prices_2015,38742714198,NA,NA
 688,Serbia,2008,GDP_at_current_prices,52188835942,NA,NA
 688,Serbia,2009,GDP_at_constant_prices_2015,37684359011,NA,NA
@@ -25644,7 +25644,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 688,Serbia,2023,GDP_at_constant_prices_2015,51200118659,NA,NA
 688,Serbia,2023,GDP_at_current_prices,75187122530,NA,NA
 688,Serbia,2024,GDP_at_constant_prices_2015,53207163310,NA,NA
-688,Serbia,2024,GDP_at_current_prices,80241654540,NA,NA
+688,Serbia,2024,GDP_at_current_prices,83905368774,NA,NA
 690,Seychelles,1970,GDP_at_constant_prices_2015,183694773,NA,NA
 690,Seychelles,1970,GDP_at_current_prices,22271753,NA,NA
 690,Seychelles,1971,GDP_at_constant_prices_2015,212813657,NA,NA
@@ -25754,7 +25754,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 690,Seychelles,2023,GDP_at_constant_prices_2015,1993158747,NA,NA
 690,Seychelles,2023,GDP_at_current_prices,2141222965,NA,NA
 690,Seychelles,2024,GDP_at_constant_prices_2015,2035015081,NA,NA
-690,Seychelles,2024,GDP_at_current_prices,2472699604,NA,NA
+690,Seychelles,2024,GDP_at_current_prices,2201807385,NA,NA
 694,Sierra Leone,1970,GDP_at_constant_prices_2015,2032295705,NA,NA
 694,Sierra Leone,1970,GDP_at_current_prices,455419382,NA,NA
 694,Sierra Leone,1971,GDP_at_constant_prices_2015,2041032485,NA,NA
@@ -25864,7 +25864,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 694,Sierra Leone,2023,GDP_at_constant_prices_2015,9318583576,NA,NA
 694,Sierra Leone,2023,GDP_at_current_prices,6411869504,NA,NA
 694,Sierra Leone,2024,GDP_at_constant_prices_2015,9654052584,NA,NA
-694,Sierra Leone,2024,GDP_at_current_prices,51634026762,NA,NA
+694,Sierra Leone,2024,GDP_at_current_prices,7449226787,NA,NA
 702,Singapore,1970,GDP_at_constant_prices_2015,14515738367,NA,NA
 702,Singapore,1970,GDP_at_current_prices,1920574149,NA,NA
 702,Singapore,1971,GDP_at_constant_prices_2015,16317640427,NA,NA
@@ -25974,7 +25974,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 702,Singapore,2023,GDP_at_constant_prices_2015,387147091448,NA,NA
 702,Singapore,2023,GDP_at_current_prices,501427624556,NA,NA
 702,Singapore,2024,GDP_at_constant_prices_2015,401858680923,NA,NA
-702,Singapore,2024,GDP_at_current_prices,472519202459,NA,NA
+702,Singapore,2024,GDP_at_current_prices,538174102559,NA,NA
 703,Slovakia,1993,GDP_at_constant_prices_2015,36994071827,NA,NA
 703,Slovakia,1993,GDP_at_current_prices,13991970787,NA,NA
 703,Slovakia,1994,GDP_at_constant_prices_2015,39289750245,NA,NA
@@ -26038,7 +26038,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 703,Slovakia,2023,GDP_at_constant_prices_2015,104403760713,NA,NA
 703,Slovakia,2023,GDP_at_current_prices,132908336234,NA,NA
 703,Slovakia,2024,GDP_at_constant_prices_2015,106596239688,NA,NA
-703,Slovakia,2024,GDP_at_current_prices,152599664710,NA,NA
+703,Slovakia,2024,GDP_at_current_prices,140872948369,NA,NA
 704,Viet Nam,1970,GDP_at_constant_prices_2015,13935057615,NA,NA
 704,Viet Nam,1970,GDP_at_current_prices,2775103464,NA,NA
 704,Viet Nam,1971,GDP_at_constant_prices_2015,14465276443,NA,NA
@@ -26148,7 +26148,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 704,Viet Nam,2023,GDP_at_constant_prices_2015,377364153342,NA,NA
 704,Viet Nam,2023,GDP_at_current_prices,429716969050,NA,NA
 704,Viet Nam,2024,GDP_at_constant_prices_2015,402647551616,NA,NA
-704,Viet Nam,2024,GDP_at_current_prices,528484258891,NA,NA
+704,Viet Nam,2024,GDP_at_current_prices,456909562026,NA,NA
 705,Slovenia,1992,GDP_at_constant_prices_2015,23430592675,NA,NA
 705,Slovenia,1992,GDP_at_current_prices,13110205250,NA,NA
 705,Slovenia,1993,GDP_at_constant_prices_2015,24096822562,NA,NA
@@ -26214,7 +26214,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 705,Slovenia,2023,GDP_at_constant_prices_2015,54514655077,NA,NA
 705,Slovenia,2023,GDP_at_current_prices,69148468417,NA,NA
 705,Slovenia,2024,GDP_at_constant_prices_2015,55332374903,NA,NA
-705,Slovenia,2024,GDP_at_current_prices,70441835423,NA,NA
+705,Slovenia,2024,GDP_at_current_prices,72467255487,NA,NA
 706,Somalia,1970,GDP_at_constant_prices_2015,1079040787,NA,NA
 706,Somalia,1970,GDP_at_current_prices,341025550,NA,NA
 706,Somalia,1971,GDP_at_constant_prices_2015,1102114615,NA,NA
@@ -26324,7 +26324,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 706,Somalia,2023,GDP_at_constant_prices_2015,9658872077,NA,NA
 706,Somalia,2023,GDP_at_current_prices,10969000000,NA,NA
 706,Somalia,2024,GDP_at_constant_prices_2015,9967955984,NA,NA
-706,Somalia,2024,GDP_at_current_prices,14746822042,NA,NA
+706,Somalia,2024,GDP_at_current_prices,12824626869,NA,NA
 710,South Africa,1970,GDP_at_constant_prices_2015,105541615292,NA,NA
 710,South Africa,1970,GDP_at_current_prices,18656436461,NA,NA
 710,South Africa,1971,GDP_at_constant_prices_2015,110057742727,NA,NA
@@ -26434,7 +26434,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 710,South Africa,2023,GDP_at_constant_prices_2015,362642721595,NA,NA
 710,South Africa,2023,GDP_at_current_prices,377781597328,NA,NA
 710,South Africa,2024,GDP_at_constant_prices_2015,364818577924,NA,NA
-710,South Africa,2024,GDP_at_current_prices,567616250204,NA,NA
+710,South Africa,2024,GDP_at_current_prices,399748200569,NA,NA
 716,Zimbabwe,1970,GDP_at_constant_prices_2015,4875317871,NA,NA
 716,Zimbabwe,1970,GDP_at_current_prices,2336518315,NA,NA
 716,Zimbabwe,1971,GDP_at_constant_prices_2015,5303303790,NA,NA
@@ -26544,7 +26544,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 716,Zimbabwe,2023,GDP_at_constant_prices_2015,23146383890,NA,NA
 716,Zimbabwe,2023,GDP_at_current_prices,30368203559,NA,NA
 716,Zimbabwe,2024,GDP_at_constant_prices_2015,23701897103,NA,NA
-716,Zimbabwe,2024,GDP_at_current_prices,227269810997930,NA,NA
+716,Zimbabwe,2024,GDP_at_current_prices,1471302076760758,NA,NA
 720,"Yemen, Democratic",1970,GDP_at_constant_prices_2015,1437655552,NA,NA
 720,"Yemen, Democratic",1970,GDP_at_current_prices,153591228,NA,NA
 720,"Yemen, Democratic",1971,GDP_at_constant_prices_2015,1264966745,NA,NA
@@ -26694,7 +26694,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 724,Spain,2023,GDP_at_constant_prices_2015,1381292228958,NA,NA
 724,Spain,2023,GDP_at_current_prices,1620090734957,NA,NA
 724,Spain,2024,GDP_at_constant_prices_2015,1424112288056,NA,NA
-724,Spain,2024,GDP_at_current_prices,1756314961491,NA,NA
+724,Spain,2024,GDP_at_current_prices,1721050628624,NA,NA
 728,South Sudan,2012,GDP_at_constant_prices_2015,3982619953,NA,NA
 728,South Sudan,2012,GDP_at_current_prices,8874498843,NA,NA
 728,South Sudan,2013,GDP_at_constant_prices_2015,5169251908,NA,NA
@@ -26720,7 +26720,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 728,South Sudan,2023,GDP_at_constant_prices_2015,6751877806,NA,NA
 728,South Sudan,2023,GDP_at_current_prices,4629151564,NA,NA
 728,South Sudan,2024,GDP_at_constant_prices_2015,6650599639,NA,NA
-728,South Sudan,2024,GDP_at_current_prices,1267350080905,NA,NA
+728,South Sudan,2024,GDP_at_current_prices,2859234978,NA,NA
 729,Sudan,2012,GDP_at_constant_prices_2015,70590223973,NA,NA
 729,Sudan,2012,GDP_at_current_prices,62286732516,NA,NA
 729,Sudan,2013,GDP_at_constant_prices_2015,75388171215,NA,NA
@@ -26746,7 +26746,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 729,Sudan,2023,GDP_at_constant_prices_2015,78057396636,NA,NA
 729,Sudan,2023,GDP_at_current_prices,34021224204,NA,NA
 729,Sudan,2024,GDP_at_constant_prices_2015,73608125027,NA,NA
-729,Sudan,2024,GDP_at_current_prices,40048944333528,NA,NA
+729,Sudan,2024,GDP_at_current_prices,53912750290,NA,NA
 736,Sudan (...2011),1970,GDP_at_constant_prices_2015,13032402824,NA,NA
 736,Sudan (...2011),1970,GDP_at_current_prices,1233693283,NA,NA
 736,Sudan (...2011),1971,GDP_at_constant_prices_2015,13325281909,NA,NA
@@ -26940,7 +26940,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 740,Suriname,2023,GDP_at_constant_prices_2015,4508834544,NA,NA
 740,Suriname,2023,GDP_at_current_prices,3758533893,NA,NA
 740,Suriname,2024,GDP_at_constant_prices_2015,4639590746,NA,NA
-740,Suriname,2024,GDP_at_current_prices,56654636531,NA,NA
+740,Suriname,2024,GDP_at_current_prices,4416584160,NA,NA
 748,Eswatini,1970,GDP_at_constant_prices_2015,432102408,NA,NA
 748,Eswatini,1970,GDP_at_current_prices,154722302,NA,NA
 748,Eswatini,1971,GDP_at_constant_prices_2015,448187378,NA,NA
@@ -27050,7 +27050,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 748,Eswatini,2023,GDP_at_constant_prices_2015,4696240123,NA,NA
 748,Eswatini,2023,GDP_at_current_prices,4573530952,NA,NA
 748,Eswatini,2024,GDP_at_constant_prices_2015,4879393488,NA,NA
-748,Eswatini,2024,GDP_at_current_prices,7410208224,NA,NA
+748,Eswatini,2024,GDP_at_current_prices,4835708804,NA,NA
 752,Sweden,1970,GDP_at_constant_prices_2015,198037469743,NA,NA
 752,Sweden,1970,GDP_at_current_prices,38037589783,NA,NA
 752,Sweden,1971,GDP_at_constant_prices_2015,199908223300,NA,NA
@@ -27160,7 +27160,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 752,Sweden,2023,GDP_at_constant_prices_2015,573717486139,NA,NA
 752,Sweden,2023,GDP_at_current_prices,584960475767,NA,NA
 752,Sweden,2024,GDP_at_constant_prices_2015,576586073570,NA,NA
-752,Sweden,2024,GDP_at_current_prices,743726844576,NA,NA
+752,Sweden,2024,GDP_at_current_prices,605720128820,NA,NA
 756,Switzerland,1970,GDP_at_constant_prices_2015,333700361442,NA,NA
 756,Switzerland,1970,GDP_at_current_prices,24998352580,NA,NA
 756,Switzerland,1971,GDP_at_constant_prices_2015,347300127584,NA,NA
@@ -27270,7 +27270,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 756,Switzerland,2023,GDP_at_constant_prices_2015,800682382936,NA,NA
 756,Switzerland,2023,GDP_at_current_prices,894424821645,NA,NA
 756,Switzerland,2024,GDP_at_constant_prices_2015,813493301063,NA,NA
-756,Switzerland,2024,GDP_at_current_prices,874291453211,NA,NA
+756,Switzerland,2024,GDP_at_current_prices,938926636156,NA,NA
 760,Syrian Arab Republic,1970,GDP_at_constant_prices_2015,5083302940,NA,NA
 760,Syrian Arab Republic,1970,GDP_at_current_prices,1755897436,NA,NA
 760,Syrian Arab Republic,1971,GDP_at_constant_prices_2015,5587361551,NA,NA
@@ -27446,7 +27446,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 762,Tajikistan,2023,GDP_at_constant_prices_2015,14625062395,NA,NA
 762,Tajikistan,2023,GDP_at_current_prices,12060599427,NA,NA
 762,Tajikistan,2024,GDP_at_constant_prices_2015,15824317511,NA,NA
-762,Tajikistan,2024,GDP_at_current_prices,27252784117,NA,NA
+762,Tajikistan,2024,GDP_at_current_prices,14263051700,NA,NA
 764,Thailand,1970,GDP_at_constant_prices_2015,34708293140,NA,NA
 764,Thailand,1970,GDP_at_current_prices,7387400693,NA,NA
 764,Thailand,1971,GDP_at_constant_prices_2015,36430622021,NA,NA
@@ -27556,7 +27556,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 764,Thailand,2023,GDP_at_constant_prices_2015,458437259498,NA,NA
 764,Thailand,2023,GDP_at_current_prices,514945000036,NA,NA
 764,Thailand,2024,GDP_at_constant_prices_2015,470356628245,NA,NA
-764,Thailand,2024,GDP_at_current_prices,522446173857,NA,NA
+764,Thailand,2024,GDP_at_current_prices,525421185566,NA,NA
 768,Togo,1970,GDP_at_constant_prices_2015,1524140514,NA,NA
 768,Togo,1970,GDP_at_current_prices,307572754,NA,NA
 768,Togo,1971,GDP_at_constant_prices_2015,1633497194,NA,NA
@@ -27666,7 +27666,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 768,Togo,2023,GDP_at_constant_prices_2015,8480574794,NA,NA
 768,Togo,2023,GDP_at_current_prices,9277529620,NA,NA
 768,Togo,2024,GDP_at_constant_prices_2015,8921564683,NA,NA
-768,Togo,2024,GDP_at_current_prices,11370941308,NA,NA
+768,Togo,2024,GDP_at_current_prices,9852994515,NA,NA
 776,Tonga,1970,GDP_at_constant_prices_2015,130306733,NA,NA
 776,Tonga,1970,GDP_at_current_prices,17097198,NA,NA
 776,Tonga,1971,GDP_at_constant_prices_2015,133375536,NA,NA
@@ -27776,7 +27776,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 776,Tonga,2023,GDP_at_constant_prices_2015,454633048,NA,NA
 776,Tonga,2023,GDP_at_current_prices,508288117,NA,NA
 776,Tonga,2024,GDP_at_constant_prices_2015,464634975,NA,NA
-776,Tonga,2024,GDP_at_current_prices,695923903,NA,NA
+776,Tonga,2024,GDP_at_current_prices,541681484,NA,NA
 780,Trinidad and Tobago,1970,GDP_at_constant_prices_2015,6886311196,NA,NA
 780,Trinidad and Tobago,1970,GDP_at_current_prices,867670043,NA,NA
 780,Trinidad and Tobago,1971,GDP_at_constant_prices_2015,6957520010,NA,NA
@@ -27886,7 +27886,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 780,Trinidad and Tobago,2023,GDP_at_constant_prices_2015,21779398692,NA,NA
 780,Trinidad and Tobago,2023,GDP_at_current_prices,25489371966,NA,NA
 780,Trinidad and Tobago,2024,GDP_at_constant_prices_2015,22214986666,NA,NA
-780,Trinidad and Tobago,2024,GDP_at_current_prices,27187499537,NA,NA
+780,Trinidad and Tobago,2024,GDP_at_current_prices,25668959903,NA,NA
 784,United Arab Emirates,1970,GDP_at_constant_prices_2015,29209709181,NA,NA
 784,United Arab Emirates,1970,GDP_at_current_prices,1067266664,NA,NA
 784,United Arab Emirates,1971,GDP_at_constant_prices_2015,33444797595,NA,NA
@@ -27996,7 +27996,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 784,United Arab Emirates,2023,GDP_at_constant_prices_2015,445641058028,NA,NA
 784,United Arab Emirates,2023,GDP_at_current_prices,514130432653,NA,NA
 784,United Arab Emirates,2024,GDP_at_constant_prices_2015,463021059291,NA,NA
-784,United Arab Emirates,2024,GDP_at_current_prices,514100338605,NA,NA
+784,United Arab Emirates,2024,GDP_at_current_prices,537718196311,NA,NA
 788,Tunisia,1970,GDP_at_constant_prices_2015,5730527134,NA,NA
 788,Tunisia,1970,GDP_at_current_prices,1580150283,NA,NA
 788,Tunisia,1971,GDP_at_constant_prices_2015,6302676089,NA,NA
@@ -28106,7 +28106,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 788,Tunisia,2023,GDP_at_constant_prices_2015,50800868800,NA,NA
 788,Tunisia,2023,GDP_at_current_prices,48541052745,NA,NA
 788,Tunisia,2024,GDP_at_constant_prices_2015,51359678357,NA,NA
-788,Tunisia,2024,GDP_at_current_prices,90813156077,NA,NA
+788,Tunisia,2024,GDP_at_current_prices,55679370399,NA,NA
 792,Turkiye,1970,GDP_at_constant_prices_2015,116331235259,NA,NA
 792,Turkiye,1970,GDP_at_current_prices,25069514942,NA,NA
 792,Turkiye,1971,GDP_at_constant_prices_2015,122808437547,NA,NA
@@ -28216,7 +28216,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 792,Turkiye,2023,GDP_at_constant_prices_2015,1255449520899,NA,NA
 792,Turkiye,2023,GDP_at_current_prices,1118252882823,NA,NA
 792,Turkiye,2024,GDP_at_constant_prices_2015,1295623905568,NA,NA
-792,Turkiye,2024,GDP_at_current_prices,11734001603077,NA,NA
+792,Turkiye,2024,GDP_at_current_prices,1323461728040,NA,NA
 795,Turkmenistan,1992,GDP_at_constant_prices_2015,13032424806,NA,NA
 795,Turkmenistan,1992,GDP_at_current_prices,2633714539,NA,NA
 795,Turkmenistan,1993,GDP_at_constant_prices_2015,13227911178,NA,NA
@@ -28282,7 +28282,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 795,Turkmenistan,2023,GDP_at_constant_prices_2015,54493843395,NA,NA
 795,Turkmenistan,2023,GDP_at_current_prices,59887334843,NA,NA
 795,Turkmenistan,2024,GDP_at_constant_prices_2015,57926955528,NA,NA
-795,Turkmenistan,2024,GDP_at_current_prices,112243482537,NA,NA
+795,Turkmenistan,2024,GDP_at_current_prices,98923378946,NA,NA
 796,Turks and Caicos Islands,1970,GDP_at_constant_prices_2015,24660711,NA,NA
 796,Turks and Caicos Islands,1970,GDP_at_current_prices,9775102,NA,NA
 796,Turks and Caicos Islands,1971,GDP_at_constant_prices_2015,27287767,NA,NA
@@ -28502,7 +28502,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 798,Tuvalu,2023,GDP_at_constant_prices_2015,46646836,NA,NA
 798,Tuvalu,2023,GDP_at_current_prices,67534216,NA,NA
 798,Tuvalu,2024,GDP_at_constant_prices_2015,48270133,NA,NA
-798,Tuvalu,2024,GDP_at_current_prices,72457666,NA,NA
+798,Tuvalu,2024,GDP_at_current_prices,65375267,NA,NA
 800,Uganda,1970,GDP_at_constant_prices_2015,4217413549,NA,NA
 800,Uganda,1970,GDP_at_current_prices,1423837336,NA,NA
 800,Uganda,1971,GDP_at_constant_prices_2015,4332959126,NA,NA
@@ -28612,7 +28612,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 800,Uganda,2023,GDP_at_constant_prices_2015,42913887261,NA,NA
 800,Uganda,2023,GDP_at_current_prices,51022547210,NA,NA
 800,Uganda,2024,GDP_at_constant_prices_2015,45445806610,NA,NA
-800,Uganda,2024,GDP_at_current_prices,64769274586,NA,NA
+800,Uganda,2024,GDP_at_current_prices,56905531687,NA,NA
 804,Ukraine,1992,GDP_at_constant_prices_2015,132232284379,NA,NA
 804,Ukraine,1992,GDP_at_current_prices,81261466720,NA,NA
 804,Ukraine,1993,GDP_at_constant_prices_2015,113426321188,NA,NA
@@ -28678,7 +28678,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 804,Ukraine,2023,GDP_at_constant_prices_2015,76159413400,NA,NA
 804,Ukraine,2023,GDP_at_current_prices,178757021395,NA,NA
 804,Ukraine,2024,GDP_at_constant_prices_2015,79205789935,NA,NA
-804,Ukraine,2024,GDP_at_current_prices,200590615062,NA,NA
+804,Ukraine,2024,GDP_at_current_prices,191380283006,NA,NA
 807,North Macedonia,1992,GDP_at_constant_prices_2015,5995158393,NA,NA
 807,North Macedonia,1992,GDP_at_current_prices,2739202118,NA,NA
 807,North Macedonia,1993,GDP_at_constant_prices_2015,5921760199,NA,NA
@@ -28744,7 +28744,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 807,North Macedonia,2023,GDP_at_constant_prices_2015,11686651904,NA,NA
 807,North Macedonia,2023,GDP_at_current_prices,15763621940,NA,NA
 807,North Macedonia,2024,GDP_at_constant_prices_2015,11978818202,NA,NA
-807,North Macedonia,2024,GDP_at_current_prices,16722014824,NA,NA
+807,North Macedonia,2024,GDP_at_current_prices,16643116010,NA,NA
 810,Union of Soviet Socialist Republics,1970,GDP_at_constant_prices_2015,647071951470,NA,NA
 810,Union of Soviet Socialist Republics,1970,GDP_at_current_prices,433412461169,NA,NA
 810,Union of Soviet Socialist Republics,1971,GDP_at_constant_prices_2015,680775940664,NA,NA
@@ -28898,7 +28898,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 818,Egypt,2023,GDP_at_constant_prices_2015,454468130845,NA,NA
 818,Egypt,2023,GDP_at_current_prices,331589591264,NA,NA
 818,Egypt,2024,GDP_at_constant_prices_2015,468102174770,NA,NA
-818,Egypt,2024,GDP_at_current_prices,1742943147342,NA,NA
+818,Egypt,2024,GDP_at_current_prices,292402507853,NA,NA
 826,United Kingdom,1970,GDP_at_constant_prices_2015,1073501943986,NA,NA
 826,United Kingdom,1970,GDP_at_current_prices,130682295637,NA,NA
 826,United Kingdom,1971,GDP_at_constant_prices_2015,1111125154359,NA,NA
@@ -29008,7 +29008,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 826,United Kingdom,2023,GDP_at_constant_prices_2015,3234504373162,NA,NA
 826,United Kingdom,2023,GDP_at_current_prices,3380854520810,NA,NA
 826,United Kingdom,2024,GDP_at_constant_prices_2015,3270083921267,NA,NA
-826,United Kingdom,2024,GDP_at_current_prices,4377105431133,NA,NA
+826,United Kingdom,2024,GDP_at_current_prices,3641040308717,NA,NA
 834,United Republic of Tanzania,1970,GDP_at_constant_prices_2015,6694479020,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
 834,United Republic of Tanzania,1970,GDP_at_current_prices,2314168968,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
 834,United Republic of Tanzania,1971,GDP_at_constant_prices_2015,6974287322,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
@@ -29118,7 +29118,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 834,United Republic of Tanzania,2023,GDP_at_constant_prices_2015,76383893842,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
 834,United Republic of Tanzania,2023,GDP_at_current_prices,80836038056,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
 834,United Republic of Tanzania,2024,GDP_at_constant_prices_2015,80737775792,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
-834,United Republic of Tanzania,2024,GDP_at_current_prices,114686765716,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
+834,United Republic of Tanzania,2024,GDP_at_current_prices,82341505271,Tanzania Mainland 835 + Zanzibar 836,Tanzanie continentale 835 + Zanzibar 836
 840,United States,1970,GDP_at_constant_prices_2015,5173693085767,NA,NA
 840,United States,1970,GDP_at_current_prices,1073303000000,NA,NA
 840,United States,1971,GDP_at_constant_prices_2015,5344048439509,NA,NA
@@ -29228,7 +29228,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 840,United States,2023,GDP_at_constant_prices_2015,22062582175902,NA,NA
 840,United States,2023,GDP_at_current_prices,27720700000000,NA,NA
 840,United States,2024,GDP_at_constant_prices_2015,22680334476828,NA,NA
-840,United States,2024,GDP_at_current_prices,30019896729613,NA,NA
+840,United States,2024,GDP_at_current_prices,29185933315520,NA,NA
 854,Burkina Faso,1970,GDP_at_constant_prices_2015,1450425698,NA,NA
 854,Burkina Faso,1970,GDP_at_current_prices,506221626,NA,NA
 854,Burkina Faso,1971,GDP_at_constant_prices_2015,1444022107,NA,NA
@@ -29338,7 +29338,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 854,Burkina Faso,2023,GDP_at_constant_prices_2015,17134994112,NA,NA
 854,Burkina Faso,2023,GDP_at_current_prices,20324617839,NA,NA
 854,Burkina Faso,2024,GDP_at_constant_prices_2015,17700448918,NA,NA
-854,Burkina Faso,2024,GDP_at_current_prices,22550733755,NA,NA
+854,Burkina Faso,2024,GDP_at_current_prices,23705860843,NA,NA
 858,Uruguay,1970,GDP_at_constant_prices_2015,17456003869,NA,NA
 858,Uruguay,1970,GDP_at_current_prices,2537645161,NA,NA
 858,Uruguay,1971,GDP_at_constant_prices_2015,17476931901,NA,NA
@@ -29448,7 +29448,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 858,Uruguay,2023,GDP_at_constant_prices_2015,62461498956,NA,NA
 858,Uruguay,2023,GDP_at_current_prices,77235750315,NA,NA
 858,Uruguay,2024,GDP_at_constant_prices_2015,64335343925,NA,NA
-858,Uruguay,2024,GDP_at_current_prices,124573964780,NA,NA
+858,Uruguay,2024,GDP_at_current_prices,80511172252,NA,NA
 860,Uzbekistan,1992,GDP_at_constant_prices_2015,26149859307,NA,NA
 860,Uzbekistan,1992,GDP_at_current_prices,16509637945,NA,NA
 860,Uzbekistan,1993,GDP_at_constant_prices_2015,25549789770,NA,NA
@@ -29514,7 +29514,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 860,Uzbekistan,2023,GDP_at_constant_prices_2015,131239951790,NA,NA
 860,Uzbekistan,2023,GDP_at_current_prices,90889149308,NA,NA
 860,Uzbekistan,2024,GDP_at_constant_prices_2015,139770548656,NA,NA
-860,Uzbekistan,2024,GDP_at_current_prices,391830638980,NA,NA
+860,Uzbekistan,2024,GDP_at_current_prices,113585336980,NA,NA
 862,Venezuela (Bolivarian Rep. of),1970,GDP_at_constant_prices_2015,128178217126,NA,NA
 862,Venezuela (Bolivarian Rep. of),1970,GDP_at_current_prices,13863636364,NA,NA
 862,Venezuela (Bolivarian Rep. of),1971,GDP_at_constant_prices_2015,132111793388,NA,NA
@@ -29624,7 +29624,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 862,Venezuela (Bolivarian Rep. of),2023,GDP_at_constant_prices_2015,110942780951,NA,NA
 862,Venezuela (Bolivarian Rep. of),2023,GDP_at_current_prices,139394905066,NA,NA
 862,Venezuela (Bolivarian Rep. of),2024,GDP_at_constant_prices_2015,117821233370,NA,NA
-862,Venezuela (Bolivarian Rep. of),2024,GDP_at_current_prices,22821573185355786e5,NA,NA
+862,Venezuela (Bolivarian Rep. of),2024,GDP_at_current_prices,433827669728,NA,NA
 882,Samoa,1970,GDP_at_constant_prices_2015,331145885,NA,NA
 882,Samoa,1970,GDP_at_current_prices,41326764,NA,NA
 882,Samoa,1971,GDP_at_constant_prices_2015,375895330,NA,NA
@@ -29734,7 +29734,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 882,Samoa,2023,GDP_at_constant_prices_2015,879309693,NA,NA
 882,Samoa,2023,GDP_at_current_prices,1032331728,NA,NA
 882,Samoa,2024,GDP_at_constant_prices_2015,925033797,NA,NA
-882,Samoa,2024,GDP_at_current_prices,1234133727,NA,NA
+882,Samoa,2024,GDP_at_current_prices,1090667103,NA,NA
 886,"Yemen, Arab Republic",1970,GDP_at_constant_prices_2015,3927517593,NA,NA
 886,"Yemen, Arab Republic",1970,GDP_at_current_prices,398314813,NA,NA
 886,"Yemen, Arab Republic",1971,GDP_at_constant_prices_2015,4210776462,NA,NA
@@ -29844,7 +29844,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 887,Yemen,2023,GDP_at_constant_prices_2015,18908306615,NA,NA
 887,Yemen,2023,GDP_at_current_prices,8757939650,NA,NA
 887,Yemen,2024,GDP_at_constant_prices_2015,18719223549,NA,NA
-887,Yemen,2024,GDP_at_current_prices,128094116465,NA,NA
+887,Yemen,2024,GDP_at_current_prices,10251236139,NA,NA
 890,"Yugoslavia, Socialist Federal Republic of Yugoslavia",1970,GDP_at_constant_prices_2015,81537347499,NA,NA
 890,"Yugoslavia, Socialist Federal Republic of Yugoslavia",1970,GDP_at_current_prices,14553599985,NA,NA
 890,"Yugoslavia, Socialist Federal Republic of Yugoslavia",1971,GDP_at_constant_prices_2015,89007552585,NA,NA
@@ -30030,7 +30030,7 @@ Economy_Code,Economy_Label,Year,Variable,Value,CommentEN,CommentFR
 894,Zambia,2023,GDP_at_constant_prices_2015,27215821322,NA,NA
 894,Zambia,2023,GDP_at_current_prices,27577956651,NA,NA
 894,Zambia,2024,GDP_at_constant_prices_2015,27841785212,NA,NA
-894,Zambia,2024,GDP_at_current_prices,82011745126,NA,NA
+894,Zambia,2024,GDP_at_current_prices,25545919380,NA,NA
 960,Indonesia (...2002),1970,GDP_at_constant_prices_2015,65940823587,NA,NA
 960,Indonesia (...2002),1970,GDP_at_current_prices,10439687780,NA,NA
 960,Indonesia (...2002),1971,GDP_at_constant_prices_2015,70559989732,NA,NA

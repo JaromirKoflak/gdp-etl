@@ -28,7 +28,7 @@ get_unsd_gdp_data() %>%
 
 ---
 
-## Functions 
+## Pipeline Functions 
 
 ### `get_unsd_gdp_data()` {-}
 - Downloads GDP data using UNSD API (both constant and current prices).
@@ -46,7 +46,11 @@ get_unsd_gdp_data() %>%
 - Described in-depth in chapter [Special Cases][Special Cases].
 
 ### `estimate_last_year(df, skip_estimation=FALSE)` {-}
-- Last year is estimated using growth rates found in `GDP growth rates.xlsx`.
+- Nominal GDP for the last year is estimated using growth rates found in `GDP growth rates.xlsx`.
+- Real GDP for the last year is estimated using GDP deflators and CPI
+  + GDP deflators are used where available, CPI otherwise
+  + GDP deflators are converted using exchange rates from national currencies to USD and rebased to the year 2015
+  + CPI is rebased to the year 2015
 - This step is skipped, if `skip_estimation` is set to `r TRUE`
 
 ### `round_values(df)` {-}
@@ -71,3 +75,8 @@ get_unsd_gdp_data() %>%
 - Saves the dataset to a CSV file used by USIS for upload to [UNCTADstat](https://unctadstat.unctad.org/datacentre/dataviewer/US.GDPTotal).
 
 ---
+
+## Helper functions
+### `read_usis(series, source, name)` {-}
+### `read_usis(series, source, name)` {-}
+
