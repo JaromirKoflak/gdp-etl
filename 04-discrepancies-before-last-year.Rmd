@@ -93,7 +93,7 @@ shorten_years <- function(years) {
 ```{r, echo=FALSE, message=FALSE}
 discrepancies = unctaddf %>% 
   filter(str_length(Code) < 4,
-         Year != 2024,
+         Year < last_year,
          !near(Value.new, Value.old, tol=2)) 
 
 discrepancies %>% 
