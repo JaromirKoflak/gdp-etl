@@ -39,6 +39,8 @@ labels = read.csv(file.path(datadir, "lab_all.csv"))
 ##################
 
 read_unsd = function(file_id) {
+  # Available files and their IDs: https://unstats.un.org/unsd/amaapi/api/File
+  
   url <- paste0("https://unstats.un.org/unsd/amaapi/api/file/", file_id)
   GET(url, write_disk(tf <- tempfile(fileext = ".xlsx")))
   
@@ -226,6 +228,8 @@ read_usis <- function(series, source, measure) {
 
 get_gdp_deflators = function(df) {
   
+  ## USIS GDP deflators
+  
   exchange_rates <- read_usis("5201", "0101", "4001")
 
   gdp_deflators <- read_usis("5105", "0101", "6700") %>%
@@ -244,9 +248,10 @@ get_gdp_deflators = function(df) {
                                  NA)
     ) %>%
     ungroup() %>%
-    mutate(Deflator_USD = 100 * Deflator_exg / Deflator2015) %>%
-    select(Country_Code, Year, Deflator_USD) 
+    mutate(Deflator = 100 * Deflator_exg / Deflator2015) %>%
+    select(Country_Code, Year, Deflator)
   
+  # Economies missing a GDP deflator
   missing_economies <- df %>% 
     anti_join(
       gdp_deflators %>% 
@@ -257,8 +262,10 @@ get_gdp_deflators = function(df) {
     filter(str_length(Economy_Code) <= 3) %>% 
     pull()
   
-  cpi_usis <- read_usis("5301", "0101", "6510")
+  ## USIS CPI
   
+  cpi_usis <- read_usis("5301", "0101", "6510")
+
   cpi = cpi_usis %>%
     select(Country_Code, Country_Label, Year, Value) %>%
     arrange(Country_Code, Year) %>%
@@ -269,8 +276,8 @@ get_gdp_deflators = function(df) {
                               NA)
     ) %>%
     ungroup %>%
-    mutate(Deflator_USD = 100 * Value / Value2015) %>% # CPI rebased to 2015
-    select(Country_Code, Year, Deflator_USD) %>% 
+    mutate(Deflator = 100 * Value / Value2015) %>% # CPI rebased to 2015
+    select(Country_Code, Year, Deflator) %>%
     filter(Year == 2024)
   
   bind_rows(
@@ -308,18 +315,18 @@ estimate_last_year = function(df, skip_estimation=FALSE) {
     ) %>% 
     select(Economy_Code, Year, Variable, Value)
   
-  deflator_USD = get_gdp_deflators(df)
+  deflators = get_gdp_deflators(df)
   
   estimate_current = estimate_constant %>%
     filter(Year == last_year, 
            Variable == "GDP_at_constant_prices_2015") %>% 
     left_join(
-      deflator_USD,
+      deflators,
       by = join_by(Economy_Code == Country_Code,
                    Year == Year)
     ) %>% 
     mutate(Variable = "GDP_at_current_prices",
-           Value = Value * Deflator_USD / 100) %>% 
+           Value = Value * Deflator / 100) %>% 
     select(Economy_Code, Year, Variable, Value)
   
   return(df %>% bind_rows(estimate_constant, estimate_current))
