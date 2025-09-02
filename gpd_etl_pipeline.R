@@ -38,27 +38,21 @@ labels = read.csv(file.path(datadir, "lab_all.csv"))
 ## ETL PIPELINE ##
 ##################
 
-read_usis <- function(series, source, measure) {
-  paste0(
-    "https://usis.unctad.unctad.org/UsisDWDataService/",
-    "Series", series, "Source", source, "Measure", measure,
-    "FrequencyA/GetLastVersion()/Data?$format=csv"
-    ) %>% 
-    read_csv(show_col_types = F) %>% 
-    return 
+read_unsd = function(file_id) {
+  url <- paste0("https://unstats.un.org/unsd/amaapi/api/file/", file_id)
+  GET(url, write_disk(tf <- tempfile(fileext = ".xlsx")))
+  
+  read_excel(tf, skip = 2) %>% 
+    return
 }
 
 get_unsd_gdp_data = function() {
   # API calls
-  url1 <- "https://unstats.un.org/unsd/amaapi/api/file/6"
-  GET(url1, write_disk(tf <- tempfile(fileext = ".xlsx")))
-  gdp_constant <- read_excel(tf, skip = 2) %>%
+  gdp_constant <- read_unsd(6) %>%
     filter(IndicatorName == "Gross Domestic Product (GDP)") %>%
     pivot_longer(!c(1:3), names_to = "Year", values_to = "GDP_at_constant_prices_2015")
 
-  url2 <- "https://unstats.un.org/unsd/amaapi/api/file/2"
-  GET(url2, write_disk(tf <- tempfile(fileext = ".xlsx")))
-  gdp_current <- read_excel(tf, skip = 2) %>%
+  gdp_current <- read_unsd(2) %>%
     filter(IndicatorName == "Gross Domestic Product (GDP)") %>%
     pivot_longer(!c(1:3), names_to = "Year", values_to = "GDP_at_current_prices")
   
@@ -220,29 +214,18 @@ compute_missing_values = function(df) {
     return
 }
 
-get_gdp_deflators = function() {
+read_usis <- function(series, source, measure) {
+  paste0(
+    "https://usis.unctad.unctad.org/UsisDWDataService/",
+    "Series", series, "Source", source, "Measure", measure,
+    "FrequencyA/GetLastVersion()/Data?$format=csv"
+    ) %>% 
+    read_csv(show_col_types = F) %>% 
+    return 
+}
+
+get_gdp_deflators = function(df) {
   
-  missing_economies = c("004", "060", "092", "136", "184",
-                        "192", "232", "258", "275", "304",
-                        "500", "531", "534", "540", "660", 
-                        "760", "796")
-
-  cpi_usis <- read_usis("5301", "0101", "6510")
-
-  cpi = cpi_usis %>%
-    select(Country_Code, Country_Label, Year, Value) %>%
-    arrange(Country_Code, Year) %>%
-    filter(Country_Code %in% missing_economies) %>%
-    group_by(Country_Label) %>%
-    mutate(Value2015 = ifelse(length(Value[Year==2015]) == 1, # For each economy get CPI for the year 2015
-                              Value[Year==2015],
-                              NA)
-    ) %>%
-    ungroup %>%
-    mutate(Deflator_USD = 100 * Value / Value2015) %>% # CPI rebased to 2015
-    select(Country_Code, Year, Deflator_USD) %>% 
-    filter(Year == 2024)
-
   exchange_rates <- read_usis("5201", "0101", "4001")
 
   gdp_deflators <- read_usis("5105", "0101", "6700") %>%
@@ -260,9 +243,35 @@ get_gdp_deflators = function() {
                                  Deflator_exg[Year==2015],
                                  NA)
     ) %>%
-    ungroup %>%
+    ungroup() %>%
     mutate(Deflator_USD = 100 * Deflator_exg / Deflator2015) %>%
     select(Country_Code, Year, Deflator_USD) 
+  
+  missing_economies <- df %>% 
+    anti_join(
+      gdp_deflators %>% 
+        filter(Year == 2024), 
+      join_by("Economy_Code" == "Country_Code")
+    ) %>% 
+    distinct(Economy_Code) %>% 
+    filter(str_length(Economy_Code) <= 3) %>% 
+    pull()
+  
+  cpi_usis <- read_usis("5301", "0101", "6510")
+  
+  cpi = cpi_usis %>%
+    select(Country_Code, Country_Label, Year, Value) %>%
+    arrange(Country_Code, Year) %>%
+    filter(Country_Code %in% missing_economies) %>%
+    group_by(Country_Label) %>%
+    mutate(Value2015 = ifelse(length(Value[Year==2015]) == 1, # For each economy get CPI for the year 2015
+                              Value[Year==2015],
+                              NA)
+    ) %>%
+    ungroup %>%
+    mutate(Deflator_USD = 100 * Value / Value2015) %>% # CPI rebased to 2015
+    select(Country_Code, Year, Deflator_USD) %>% 
+    filter(Year == 2024)
   
   bind_rows(
     cpi, 
@@ -299,7 +308,7 @@ estimate_last_year = function(df, skip_estimation=FALSE) {
     ) %>% 
     select(Economy_Code, Year, Variable, Value)
   
-  deflator_USD = get_gdp_deflators()
+  deflator_USD = get_gdp_deflators(df)
   
   estimate_current = estimate_constant %>%
     filter(Year == last_year, 
@@ -387,7 +396,7 @@ expand_hierarchy = function(df) {
     return
 }
 
-compute_aggregate_values = function(df) {
+compute_groups_of_economies = function(df) {
   groupgdp = economy_groups %>%
     expand_hierarchy %>% 
     left_join(
@@ -564,7 +573,7 @@ dfgdp = get_unsd_gdp_data() %>%
   round_values() %>%
   delete_data_out_of_valid_range() %>%
   add_economy_labels() %>%
-  compute_aggregate_values() %>% 
+  compute_groups_of_economies() %>% 
   add_comments() %>%
   export_to_generic_csv("gdp_update.csv") %>% 
   export_to_usis_csv("gdp_update_usis.csv") %>% 
