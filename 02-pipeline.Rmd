@@ -2,7 +2,6 @@
 
 This page provides comprehensive explanation for the GDP data processing R script.
 
-
 ---
 
 ## Data Processing ETL Pipeline
@@ -18,7 +17,7 @@ get_unsd_gdp_data() %>%
   round_values() %>%
   delete_data_out_of_valid_range() %>%
   add_economy_labels() %>%
-  compute_aggregate_values() %>%
+  compute_groups_of_economies() %>%
   add_comments() %>%
   
   # Load
@@ -59,7 +58,7 @@ get_unsd_gdp_data() %>%
 ### `delete_data_out_of_valid_range(df)` {-}
 - Filters out data points falling outside the valid year range for each country.
 
-### `compute_aggregate_values(df)` {-}
+### `compute_groups_of_economies(df)` {-}
 - Computes GDP aggregates for groups using hierarchical mappings.
 
 ### `add_economy_labels(df)` {-}
@@ -77,6 +76,20 @@ get_unsd_gdp_data() %>%
 ---
 
 ## Helper functions
-### `read_usis(series, source, name)` {-}
-### `read_usis(series, source, name)` {-}
+### `read_unsd(file_id)` {-}
+- API call to UNSD for collecting a file given its ID.
+- used for collecting GDP in constant and current prices.
+
+### `read_usis(series, source, measure)` {-}
+- Reads a dataset from USIS given its Series, Source and Measure codes
+- Used for collecting GDP deflators, exchange rates and CPI
+
+### `get_gdp_deflators(df)` {-}
+- Collects GDP deflators and CPI from USIS
+- CPI is used as a proxy when a GDP deflator is not available
+
+### `expand_hierarchy(df)` {-}
+- Expands the groups defined in `Dim_Countries_Hierarchy_All.csv`.
+- For example *Americas* is defined as an aggregate of *Northern America* and *Latin America and the Caribbean*. The latter is defined as a combination of the *Caribbean*, *Central America* and *South America*. These three groups are defined using individual economies. 
+- This function expands all definitions such that each group is defined only using its individual economies.
 

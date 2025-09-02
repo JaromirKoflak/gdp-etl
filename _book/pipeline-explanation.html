@@ -89,7 +89,7 @@
 <span>  <span class="fu">round_values</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu">delete_data_out_of_valid_range</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu">add_economy_labels</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu">compute_aggregate_values</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu">compute_groups_of_economies</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu">add_comments</span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  </span>
 <span>  <span class="co"># Load</span></span>
@@ -166,9 +166,9 @@
 <li>Filters out data points falling outside the valid year range for each country.</li>
 </ul>
 </div>
-<div id="compute_aggregate_valuesdf" class="section level3 unnumbered">
+<div id="compute_groups_of_economiesdf" class="section level3 unnumbered">
 <h3>
-<code>compute_aggregate_values(df)</code><a class="anchor" aria-label="anchor" href="#compute_aggregate_valuesdf"><i class="fas fa-link"></i></a>
+<code>compute_groups_of_economies(df)</code><a class="anchor" aria-label="anchor" href="#compute_groups_of_economiesdf"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
 <li>Computes GDP aggregates for groups using hierarchical mappings.</li>
@@ -212,16 +212,33 @@
 <h2>
 <span class="header-section-number">2.3</span> Helper functions<a class="anchor" aria-label="anchor" href="#helper-functions"><i class="fas fa-link"></i></a>
 </h2>
-<div id="read_usisseries-source-name" class="section level3 unnumbered">
+<div id="read_usisseries-source-measure" class="section level3 unnumbered">
 <h3>
-<code>read_usis(series, source, name)</code><a class="anchor" aria-label="anchor" href="#read_usisseries-source-name"><i class="fas fa-link"></i></a>
+<code>read_usis(series, source, measure)</code><a class="anchor" aria-label="anchor" href="#read_usisseries-source-measure"><i class="fas fa-link"></i></a>
 </h3>
+<ul>
+<li>Reads a dataset from USIS given its Series, Source and Measure codes</li>
+<li>Used for collecting GDP deflators, exchange rates and CPI</li>
+</ul>
 </div>
-<div id="read_usisseries-source-name-1" class="section level3 unnumbered">
+<div id="get_gdp_deflatorsdf" class="section level3 unnumbered">
 <h3>
-<code>read_usis(series, source, name)</code><a class="anchor" aria-label="anchor" href="#read_usisseries-source-name-1"><i class="fas fa-link"></i></a>
+<code>get_gdp_deflators(df)</code><a class="anchor" aria-label="anchor" href="#get_gdp_deflatorsdf"><i class="fas fa-link"></i></a>
 </h3>
-
+<ul>
+<li>Collects GDP deflators and CPI from USIS</li>
+<li>CPI is used as a proxy when a GDP deflator is not available</li>
+</ul>
+</div>
+<div id="expand_hierarchydf" class="section level3 unnumbered">
+<h3>
+<code>expand_hierarchy(df)</code><a class="anchor" aria-label="anchor" href="#expand_hierarchydf"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Expands the groups defined in <code>Dim_Countries_Hierarchy_All.csv</code>.</li>
+<li>For example <em>Americas</em> is defined as an aggregate of <em>Northern America</em> and <em>Latin America and the Caribbean</em>. The latter is defined as a combination of the <em>Caribbean</em>, <em>Central America</em> and <em>South America</em>. These three groups are defined using individual economies.</li>
+<li>This function expands all definitions such that each group is defined only using its individual economies.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -241,7 +258,7 @@
 <li><a class="nav-link" href="#estimate_last_yeardf-skip_estimationfalse">estimate_last_year(df, skip_estimation=FALSE)</a></li>
 <li><a class="nav-link" href="#round_valuesdf">round_values(df)</a></li>
 <li><a class="nav-link" href="#delete_data_out_of_valid_rangedf">delete_data_out_of_valid_range(df)</a></li>
-<li><a class="nav-link" href="#compute_aggregate_valuesdf">compute_aggregate_values(df)</a></li>
+<li><a class="nav-link" href="#compute_groups_of_economiesdf">compute_groups_of_economies(df)</a></li>
 <li><a class="nav-link" href="#add_economy_labelsdf">add_economy_labels(df)</a></li>
 <li><a class="nav-link" href="#add_commentsdf">add_comments(df)</a></li>
 <li><a class="nav-link" href="#export_to_generic_csvdf-filename">export_to_generic_csv(df, filename)</a></li>
@@ -250,8 +267,9 @@
 </li>
 <li>
 <a class="nav-link" href="#helper-functions"><span class="header-section-number">2.3</span> Helper functions</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#read_usisseries-source-name">read_usis(series, source, name)</a></li>
-<li><a class="nav-link" href="#read_usisseries-source-name-1">read_usis(series, source, name)</a></li>
+<li><a class="nav-link" href="#read_usisseries-source-measure">read_usis(series, source, measure)</a></li>
+<li><a class="nav-link" href="#get_gdp_deflatorsdf">get_gdp_deflators(df)</a></li>
+<li><a class="nav-link" href="#expand_hierarchydf">expand_hierarchy(df)</a></li>
 </ul>
 </li>
 </ul>
