@@ -1,13 +1,5 @@
-Welcome! 
+Hello!
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+This repo contains an R script `gdp_etl_pipeline.R` which performs ETL (Extract, Transform, Load) operations on GDP data sourced from the UN Statistics Division.
 
-This template provides a skeleton file structure that you can edit to create your book. 
-
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
-
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+The documentation and report generator: https://bookdown.org/jaromir_koflak/GDP_ETL_Documentation/
