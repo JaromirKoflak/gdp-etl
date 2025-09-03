@@ -41,16 +41,16 @@ get_unsd_gdp_data() %>%
     + GDP data in constant prices in USD are converted from TWD using the annual period-average exchange rate of the base year (2015) for all years.
 
 ### `compute_missing_values(df)` {-}
-- Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR)
+- Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR).
 - Described in-depth in chapter [Special Cases][Special Cases].
 
 ### `estimate_last_year(df)` {-}
 - Nominal GDP for the last year is estimated using growth rates found in `GDP growth rates.xlsx`.
-- Real GDP for the last year is estimated using GDP deflators and CPI
-  + GDP deflators are used where available, CPI otherwise
-  + GDP deflators are converted using exchange rates from national currencies to USD and rebased to the year 2015
-  + CPI is rebased to the year 2015
-- This function is skipped, if `enable_estimate_last_year` is set to `r FALSE`
+- Real GDP for the last year is estimated using GDP deflators and CPI.
+  + GDP deflators are used where available, CPI otherwise.
+  + GDP deflators are converted using exchange rates from national currencies to USD and rebased to the year 2015.
+  + CPI is rebased to the year 2015.
+- This function is skipped, if `enable_estimate_last_year` is set to `r FALSE`.
 
 ### `round_values(df)` {-}
 - Rounds values to the nearest integer using base R `round()` function.
@@ -81,12 +81,13 @@ get_unsd_gdp_data() %>%
 - used for collecting GDP in constant and current prices.
 
 ### `read_usis(series, source, measure)` {-}
-- Reads a dataset from USIS given its Series, Source and Measure codes
-- Used for collecting GDP deflators, exchange rates and CPI
+- Reads a dataset from USIS given its Series, Source and Measure codes.
+- Used for collecting GDP deflators, exchange rates and CPI.
 
-### `get_gdp_deflators(df)` {-}
-- Collects GDP deflators and CPI from USIS
-- CPI is used as a proxy when a GDP deflator is not available
+### `get_gdp_deflators(estimate_constant)` {-}
+- Collects GDP deflators and CPI from USIS.
+- CPI is used as a proxy when a GDP deflator is not available.
+- Economies estimated using CPI are saved to `estimated_with_cpi.csv`.
 
 ### `expand_hierarchy(df)` {-}
 - Expands the groups defined in `Dim_Countries_Hierarchy_All.csv`.

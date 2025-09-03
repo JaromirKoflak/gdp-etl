@@ -217,7 +217,7 @@ compute_missing_values = function(df) {
     return
 }
 
-read_usis <- function(series, source, measure) {
+read_usis = function(series, source, measure) {
   paste0(
     "https://usis.unctad.unctad.org/UsisDWDataService/",
     "Series", series, "Source", source, "Measure", measure,
@@ -227,7 +227,7 @@ read_usis <- function(series, source, measure) {
     return 
 }
 
-get_gdp_deflators = function(df) {
+get_gdp_deflators = function(estimate_constant) {
   
   ## USIS GDP deflators
   
@@ -253,7 +253,8 @@ get_gdp_deflators = function(df) {
     select(Country_Code, Year, Deflator)
   
   # Economies missing a GDP deflator
-  missing_economies <- df %>% 
+  missing_economies <- estimate_constant %>%
+    na.omit() %>% 
     anti_join(
       gdp_deflators %>% 
         filter(Year == last_year), 
@@ -319,7 +320,7 @@ estimate_last_year = function(df) {
     ) %>% 
     select(Economy_Code, Year, Variable, Value)
   
-  deflators = get_gdp_deflators(df)
+  deflators = get_gdp_deflators(estimate_constant)
   
   estimate_current = estimate_constant %>%
     filter(Year == last_year, 

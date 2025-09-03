@@ -8,17 +8,18 @@ if (enable_estimate_last_year) {
   economies_estimated_with_cpi = estimated_with_cpi %>% 
     left_join(labels,
               by = join_by(Country_Code == Code)) %>% 
-    pull(Label) %>% 
-    paste(collapse = ", ")
+    pull(Label) %>%  
+    paste(collapse = ", ") %>% 
+    paste0(".")
 }
 ```
 
 ```{asis, echo = enable_estimate_last_year}
-Real GDP was estimated using **CPI** for the following economies:
+Real GDP was estimated using CPI for the following economies:
 ```
 `r economies_estimated_with_cpi`
 
-Table of discrepancies arranged by the log of ratio in the year `r last_year`.
+Table of discrepancies in real GDP arranged by the log of ratio in the year `r last_year`.
 
 ```{r, echo=FALSE, message=FALSE}
 estimate_discrepancies = unctaddf %>%

@@ -130,7 +130,7 @@
 <code>compute_missing_values(df)</code><a class="anchor" aria-label="anchor" href="#compute_missing_valuesdf"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
-<li>Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR)</li>
+<li>Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR).</li>
 <li>Described in-depth in chapter <a href="special-cases.html#special-cases">Special Cases</a>.</li>
 </ul>
 </div>
@@ -140,14 +140,14 @@
 </h3>
 <ul>
 <li>Nominal GDP for the last year is estimated using growth rates found in <code>GDP growth rates.xlsx</code>.</li>
-<li>Real GDP for the last year is estimated using GDP deflators and CPI
+<li>Real GDP for the last year is estimated using GDP deflators and CPI.
 <ul>
-<li>GDP deflators are used where available, CPI otherwise</li>
-<li>GDP deflators are converted using exchange rates from national currencies to USD and rebased to the year 2015</li>
-<li>CPI is rebased to the year 2015</li>
+<li>GDP deflators are used where available, CPI otherwise.</li>
+<li>GDP deflators are converted using exchange rates from national currencies to USD and rebased to the year 2015.</li>
+<li>CPI is rebased to the year 2015.</li>
 </ul>
 </li>
-<li>This function is skipped, if <code>enable_estimate_last_year</code> is set to FALSE</li>
+<li>This function is skipped, if <code>enable_estimate_last_year</code> is set to FALSE.</li>
 </ul>
 </div>
 <div id="round_valuesdf" class="section level3 unnumbered">
@@ -226,17 +226,18 @@
 <code>read_usis(series, source, measure)</code><a class="anchor" aria-label="anchor" href="#read_usisseries-source-measure"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
-<li>Reads a dataset from USIS given its Series, Source and Measure codes</li>
-<li>Used for collecting GDP deflators, exchange rates and CPI</li>
+<li>Reads a dataset from USIS given its Series, Source and Measure codes.</li>
+<li>Used for collecting GDP deflators, exchange rates and CPI.</li>
 </ul>
 </div>
-<div id="get_gdp_deflatorsdf" class="section level3 unnumbered">
+<div id="get_gdp_deflatorsestimate_constant" class="section level3 unnumbered">
 <h3>
-<code>get_gdp_deflators(df)</code><a class="anchor" aria-label="anchor" href="#get_gdp_deflatorsdf"><i class="fas fa-link"></i></a>
+<code>get_gdp_deflators(estimate_constant)</code><a class="anchor" aria-label="anchor" href="#get_gdp_deflatorsestimate_constant"><i class="fas fa-link"></i></a>
 </h3>
 <ul>
-<li>Collects GDP deflators and CPI from USIS</li>
-<li>CPI is used as a proxy when a GDP deflator is not available</li>
+<li>Collects GDP deflators and CPI from USIS.</li>
+<li>CPI is used as a proxy when a GDP deflator is not available.</li>
+<li>Economies estimated using CPI are saved to <code>estimated_with_cpi.csv</code>.</li>
 </ul>
 </div>
 <div id="expand_hierarchydf" class="section level3 unnumbered">
@@ -278,7 +279,7 @@
 <a class="nav-link" href="#helper-functions"><span class="header-section-number">2.3</span> Helper functions</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#read_unsdfile_id">read_unsd(file_id)</a></li>
 <li><a class="nav-link" href="#read_usisseries-source-measure">read_usis(series, source, measure)</a></li>
-<li><a class="nav-link" href="#get_gdp_deflatorsdf">get_gdp_deflators(df)</a></li>
+<li><a class="nav-link" href="#get_gdp_deflatorsestimate_constant">get_gdp_deflators(estimate_constant)</a></li>
 <li><a class="nav-link" href="#expand_hierarchydf">expand_hierarchy(df)</a></li>
 </ul>
 </li>
