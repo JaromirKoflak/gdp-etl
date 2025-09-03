@@ -280,6 +280,9 @@ get_gdp_deflators = function(df) {
     select(Country_Code, Year, Deflator) %>%
     filter(Year == 2024)
   
+  # Save to csv economies which were estimated using CPI
+  write_csv(cpi, file.path(outputdir, "estimated_with_cpi.csv"))
+  
   bind_rows(
     cpi, 
     gdp_deflators

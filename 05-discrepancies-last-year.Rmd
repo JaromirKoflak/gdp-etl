@@ -2,9 +2,17 @@
 
 ```{r, echo=FALSE}
 number_of_economies = 10
+estimated_with_cpi = read_csv(file.path(outputdir, "estimated_with_cpi.csv"), show_col_types = FALSE)
+economies_estimated_with_cpi = estimated_with_cpi %>% 
+  left_join(labels,
+            by = join_by(Country_Code == Code)) %>% 
+  pull(Label) %>% 
+  paste(collapse = ", ")
 ```
 
-The discrepancies arranged by the log of ratio in the year `r last_year`.
+Real GDP was estimated using **CPI** for the following economies: `r economies_estimated_with_cpi`.
+
+Table of discrepancies arranged by the log of ratio in the year `r last_year`.
 
 ```{r, echo=FALSE, message=FALSE}
 estimate_discrepancies = unctaddf %>%
