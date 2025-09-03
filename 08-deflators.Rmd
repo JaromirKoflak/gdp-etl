@@ -20,7 +20,7 @@ read_usis <- function(series, source, measure) {
 
 gdp_deflators <- read_usis("5105", "0101", "6700") 
 
-# exchange_rates <- read_usis("5201", "0101", "0200")
+exchange_rates <- read_usis("5201", "0101", "4001")
 
 deflator_USD <- gdp_deflators %>%
   left_join(

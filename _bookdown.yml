@@ -2,6 +2,14 @@ book_filename: "GDP_ETL_Documentation"
 new_session: false
 before_chapter_script: _common.R
 delete_merged_file: true
+rmd_files: ["index.Rmd", 
+            "01-usage.Rmd", 
+            "02-pipeline.Rmd", 
+            "03-special-cases.Rmd", 
+            "04-discrepancies-before-last-year.Rmd", 
+            "05-discrepancies-last-year.Rmd", 
+            "06-missing-values.Rmd", 
+            "07-added-values.Rmd"]
 language:
   ui:
     chapter_name: "Chapter "

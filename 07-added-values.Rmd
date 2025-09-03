@@ -33,3 +33,6 @@ added_values %>%
               )) %>% 
   htmltools::tagList() 
 ```
+
+```{r,child=if (enable_estimate_last_year) "08-deflators.Rmd"}
+```

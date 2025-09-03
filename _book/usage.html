@@ -6,16 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 1 Usage | GDP ETL Documentation</title>
 <meta name="author" content="Jaromír Koflák">
-<meta name="description" content="For both R Scripts, simply open the files with RStudio and run the functions inside in the order below. R Scripts  gdp_etl_pipeline.R Contains one function which runs the entire ETL pipeline....">
+<meta name="description" content="For both R Scripts, simply open the files with RStudio, change the settings if needed and run the functions inside. R Scripts  gdp_etl_pipeline.R Contains one function which runs the entire ETL...">
 <meta name="generator" content="bookdown 0.43 with bs4_book()">
 <meta property="og:title" content="Chapter 1 Usage | GDP ETL Documentation">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://bookdown.org/jaromir_koflak/GDP_ETL_Documentation/usage.html">
 <meta property="og:image" content="https://bookdown.org/jaromir_koflak/GDP_ETL_Documentation/images/UNCTAD_Blue.png">
-<meta property="og:description" content="For both R Scripts, simply open the files with RStudio and run the functions inside in the order below. R Scripts  gdp_etl_pipeline.R Contains one function which runs the entire ETL pipeline....">
+<meta property="og:description" content="For both R Scripts, simply open the files with RStudio, change the settings if needed and run the functions inside. R Scripts  gdp_etl_pipeline.R Contains one function which runs the entire ETL...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 1 Usage | GDP ETL Documentation">
-<meta name="twitter:description" content="For both R Scripts, simply open the files with RStudio and run the functions inside in the order below. R Scripts  gdp_etl_pipeline.R Contains one function which runs the entire ETL pipeline....">
+<meta name="twitter:description" content="For both R Scripts, simply open the files with RStudio, change the settings if needed and run the functions inside. R Scripts  gdp_etl_pipeline.R Contains one function which runs the entire ETL...">
 <meta name="twitter:image" content="https://bookdown.org/jaromir_koflak/GDP_ETL_Documentation/images/UNCTAD_Blue.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -72,7 +72,7 @@
 <h1>
 <span class="header-section-number">1</span> Usage<a class="anchor" aria-label="anchor" href="#usage"><i class="fas fa-link"></i></a>
 </h1>
-<p>For both R Scripts, simply open the files with RStudio and run the functions inside in the order below.</p>
+<p>For both R Scripts, simply open the files with RStudio, change the settings if needed and run the functions inside.</p>
 <div id="r-scripts" class="section level2 unnumbered">
 <h2>R Scripts<a class="anchor" aria-label="anchor" href="#r-scripts"><i class="fas fa-link"></i></a>
 </h2>
@@ -82,6 +82,18 @@
 <li>
 <code>gdp_etl_plots.R</code> Contains one function which generates comparison plots for all individual economies and groups of economies. The plots are exported to a pdf file.</li>
 </ol>
+<hr>
+</div>
+<div id="temporal-settings" class="section level2 unnumbered">
+<h2>Temporal Settings<a class="anchor" aria-label="anchor" href="#temporal-settings"><i class="fas fa-link"></i></a>
+</h2>
+<p>These settings must be updated both in the R script <code>gdp_etl_pipeline.R</code> and in the documentation file <code>index.Rmd</code>.</p>
+<ul>
+<li>
+<code>last_year</code> Last year. Equal to the estimated year if estimation is enabled.</li>
+<li>
+<code>enable_estimate_last_year</code> Boolean variable which tells the script if the last year should be estimated using GDP deflators and CPI. Also enables Chapter 8 of this document.</li>
+</ul>
 </div>
 <div id="working-directory" class="section level2 unnumbered">
 <h2>Working Directory<a class="anchor" aria-label="anchor" href="#working-directory"><i class="fas fa-link"></i></a>
@@ -141,6 +153,7 @@
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#usage"><span class="header-section-number">1</span> Usage</a></li>
 <li><a class="nav-link" href="#r-scripts">R Scripts</a></li>
+<li><a class="nav-link" href="#temporal-settings">Temporal Settings</a></li>
 <li><a class="nav-link" href="#working-directory">Working Directory</a></li>
 <li><a class="nav-link" href="#directories">Directories</a></li>
 <li><a class="nav-link" href="#economy-metadata">Economy Metadata</a></li>

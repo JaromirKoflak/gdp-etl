@@ -12,7 +12,9 @@ library(gridExtra)
 ## SETTINGS ##
 ##############
 
-last_year = 2024  
+# Temporal settings
+last_year = 2024  # The estimated year if estimation is enabled
+enable_estimate_last_year = TRUE
 
 ### Getting the path of your current open file
 current_path = rstudioapi::getActiveDocumentContext()$path
@@ -58,10 +60,6 @@ get_unsd_gdp_data = function() {
     filter(IndicatorName == "Gross Domestic Product (GDP)") %>%
     pivot_longer(!c(1:3), names_to = "Year", values_to = "GDP_at_current_prices")
   
-  # gdp_constant <- read_usis("5100", "4805", "0940")
-  # 
-  # gdp_current <- read_usis("5100", "4805", "0100")
-  
   df <- inner_join(
       gdp_constant, 
       gdp_current,
@@ -89,7 +87,10 @@ get_taiwan_gdp_data = function(df) {
   t_1970 <- (1970 - 1951) * 100 + 4000
   t_1980 <- (1980 - 1951) * 100 + 4000
   t_1981 <- (1981 - 1951) * 100 + 4000
-  t_last <- (last_year - 1 - 1951) * 100 + 4000  # The last year is estimated using growth rates, so we only ask for data up to the penultimate year
+  
+  # If the last year estimation is enabled, we only ask for data up to the penultimate year
+  last_collected_year = last_year - enable_estimate_last_year
+  t_last <- (last_collected_year - 1951) * 100 + 4000  
   
   # 1.1 Principal Figures 
   # Used for Exchange rates
@@ -144,10 +145,10 @@ get_taiwan_gdp_data = function(df) {
 
 compute_missing_values = function(df) {
   df %>%
-    # 1 United Republic of Tanzania  1970  2023
+    # 1 United Republic of Tanzania  1970  onward 
     # URT 834 <- Tanzania Mainland 835 + Zanzibar 836
     mutate(Economy_Code=replace(Economy_Code,
-                                Economy_Code %in% c(835, 836) & Year %in% c(1970:2023),
+                                Economy_Code %in% c(835, 836) & Year >= 1970,
                                 834)) %>%
 
     # 2 Czechoslovakia (Former)      1990  1992
@@ -255,7 +256,7 @@ get_gdp_deflators = function(df) {
   missing_economies <- df %>% 
     anti_join(
       gdp_deflators %>% 
-        filter(Year == 2024), 
+        filter(Year == last_year), 
       join_by("Economy_Code" == "Country_Code")
     ) %>% 
     distinct(Economy_Code) %>% 
@@ -278,7 +279,7 @@ get_gdp_deflators = function(df) {
     ungroup %>%
     mutate(Deflator = 100 * Value / Value2015) %>% # CPI rebased to 2015
     select(Country_Code, Year, Deflator) %>%
-    filter(Year == 2024)
+    filter(Year == last_year)
   
   # Save to csv economies which were estimated using CPI
   write_csv(cpi, file.path(outputdir, "estimated_with_cpi.csv"))
@@ -291,9 +292,9 @@ get_gdp_deflators = function(df) {
     return
 }
 
-estimate_last_year = function(df, skip_estimation=FALSE) {
+estimate_last_year = function(df) {
   
-  if (skip_estimation)
+  if (!enable_estimate_last_year) # Skip estimation
     return(df)
   
   estimate_constant = df %>% 
@@ -557,7 +558,7 @@ export_to_usis_csv = function(df, filename) {
       ),
       Source = "0101",
       DataSource = case_when(
-        Year == 2024 ~ "0001", # Internal
+        Year == last_year ~ "0001", # Internal
         Economy_Code == "158" ~ "3001", # National Statistics Office
         .default = "4809"), # UNSD NAMAD
       Value = Value,
@@ -579,7 +580,7 @@ export_to_usis_csv = function(df, filename) {
 dfgdp = get_unsd_gdp_data() %>% 
   get_taiwan_gdp_data() %>% 
   compute_missing_values() %>%
-  estimate_last_year(skip_estimation=FALSE) %>% 
+  estimate_last_year() %>% 
   round_values() %>%
   delete_data_out_of_valid_range() %>%
   add_economy_labels() %>%
@@ -591,3 +592,5 @@ dfgdp = get_unsd_gdp_data() %>%
 }
 
 dfgdp = run_etl_pipeline()
+
+

@@ -20,6 +20,7 @@ output:
 
 ```{r, echo=FALSE}
 last_year = 2024
+enable_estimate_last_year = TRUE
 rmarkdown::html_document(df_print = DT::datatable)
 ```
 

@@ -13,7 +13,7 @@ get_unsd_gdp_data() %>%
   
   # Transform
   compute_missing_values() %>%
-  estimate_last_year(skip_estimation=FALSE) %>%
+  estimate_last_year() %>%
   round_values() %>%
   delete_data_out_of_valid_range() %>%
   add_economy_labels() %>%
@@ -44,13 +44,13 @@ get_unsd_gdp_data() %>%
 - Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR)
 - Described in-depth in chapter [Special Cases][Special Cases].
 
-### `estimate_last_year(df, skip_estimation=FALSE)` {-}
+### `estimate_last_year(df)` {-}
 - Nominal GDP for the last year is estimated using growth rates found in `GDP growth rates.xlsx`.
 - Real GDP for the last year is estimated using GDP deflators and CPI
   + GDP deflators are used where available, CPI otherwise
   + GDP deflators are converted using exchange rates from national currencies to USD and rebased to the year 2015
   + CPI is rebased to the year 2015
-- This step is skipped, if `skip_estimation` is set to `r TRUE`
+- This function is skipped, if `enable_estimate_last_year` is set to `r FALSE`
 
 ### `round_values(df)` {-}
 - Rounds values to the nearest integer using base R `round()` function.
