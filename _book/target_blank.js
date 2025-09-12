@@ -1,1 +1,2 @@
+// Changes all URLs to open on a new tab
 (e=>{const t=/^(https?:)?\/\//;e.querySelectorAll("a").forEach((e=>{e.title||(e.title=decodeURI(e.href)),t.test(e.getAttribute("href"))&&(e.target="_blank",0===e.childElementCount&&t.test(e.innerText)&&(e.innerText=e.innerText.replace(t,"").replace(/(.+)#.*$/,"$1")))}))})(document);

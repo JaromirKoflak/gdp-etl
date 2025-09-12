@@ -12,7 +12,7 @@ get_unsd_gdp_data() %>%
   get_taiwan_gdp_data() %>%
   
   # Transform
-  compute_missing_values() %>%
+  compute_special_cases() %>%
   estimate_last_year() %>%
   round_values() %>%
   delete_data_out_of_valid_range() %>%
@@ -40,7 +40,7 @@ get_unsd_gdp_data() %>%
     + GDP data at current prices in USD are converted from TWD using annual period-average exchange rates.
     + GDP data in constant prices in USD are converted from TWD using the annual period-average exchange rate of the base year (2015) for all years.
 
-### `compute_missing_values(df)` {-}
+### `compute_special_cases(df)` {-}
 - Handles historical and geopolitical inconsistencies by merging country records (e.g., Yugoslavia, USSR).
 - Described in-depth in chapter [Special Cases][Special Cases].
 

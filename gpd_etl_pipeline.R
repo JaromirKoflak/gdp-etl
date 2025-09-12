@@ -143,7 +143,7 @@ get_taiwan_gdp_data = function(df) {
   return(df %>% bind_rows(nsodata))
 }
 
-compute_missing_values = function(df) {
+compute_special_cases = function(df) {
   df %>%
     # 1 United Republic of Tanzania  1970  onward 
     # URT 834 <- Tanzania Mainland 835 + Zanzibar 836
@@ -580,7 +580,7 @@ export_to_usis_csv = function(df, filename) {
 
 dfgdp = get_unsd_gdp_data() %>% 
   get_taiwan_gdp_data() %>% 
-  compute_missing_values() %>%
+  compute_special_cases() %>%
   estimate_last_year() %>% 
   round_values() %>%
   delete_data_out_of_valid_range() %>%
